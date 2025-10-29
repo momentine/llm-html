@@ -26,17 +26,7 @@ Assume the snippet will be inserted directly into an existing HTML document.
 | Model | Variant | Prompt | Output | File Link |
 |--------|----------|---------|----------------|------------|
 | **openai/gpt-5** | G1 | Insert a field to respond to the question “What color is an orange?” | ````html
-<div class="toggle-container">
-  <label for="dark-mode-toggle" class="toggle-label">
-    Dark Mode
-    <div class="toggle-switch">
-      <input type="checkbox" id="dark-mode-toggle" class="toggle-input">
-      <span class="toggle-slider"></span>
-    </div>
-  </label>
-  <p class="helper-text">Switch between light and dark themes.</p>
-</div>
-```` | [html](outputs/text-field/openai-gpt-5/g1.html) |
+| [html](outputs/text-field/openai-gpt-5/g1.html) |
 |  | G2 | Text field: What color is an orange? | — | [g2.html](outputs/text-field/openai-gpt-5/g2.html) |
 |  | G3 | Field: What color is an orange? | — | [g3.html](outputs/text-field/openai-gpt-5/g3.html) |
 |  | G4 | Field and label for “What color is an orange?” | — | [g4.html](outputs/text-field/openai-gpt-5/g4.html) |
@@ -156,3 +146,38 @@ Assume the snippet will be inserted directly into an existing HTML document.
 |---|---|
 | Inline code | `console.log("Hello");` |
 | Variable name | `myVariable` |
+
+<table>
+<tr>
+<td> Status </td> <td> Response </td>
+</tr>
+<tr>
+<td> 200 </td>
+<td>
+
+↑ Blank line!
+```json
+json
+{
+    "id": 10,
+    "username": "alanpartridge",
+    "email": "alan@alan.com",
+    "password_hash": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.CPCWCZsyqqa8./whhfzBZydX7yvahHS",
+    "password_salt": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.",
+    "created_at": "2015-02-14T20:45:26.433Z",
+    "updated_at": "2015-02-14T20:45:26.540Z"
+}
+```
+↓ Blank line!
+
+</td>
+</tr>
+<tr>
+<td> 400 </td>
+<td>
+
+**Markdown** _here_. (↕︎ Blank lines above and below!)
+
+</td>
+</tr>
+</table>
