@@ -226,7 +226,7 @@ Assume the snippet will be inserted directly into an existing HTML document.
 </table>
 
 
-```html
+
 <table>
   <thead>
     <tr>
@@ -1461,7 +1461,7 @@ Assume the snippet will be inserted directly into an existing HTML document.
     </tr>
   </tbody>
 </table>
-```
+
 
 
 
