@@ -21,7 +21,7 @@ Assume the snippet will be inserted directly into an existing HTML document.
 ## Components 
 
 <details>
-  <summary>### Text Field</summary>
+  <summary><strong>Text Field</strong></summary>
 
 | Model | Variant | Prompt | Output (HTML) | File Link |
 |--------|----------|---------|----------------|------------|
