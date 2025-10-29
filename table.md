@@ -11,13 +11,13 @@ Assume the snippet will be inserted directly into an existing HTML document.
 ## Grammar variants (used across every test)
 The same component prompt is phrased in five grammatical styles to test LLM sensitivity to wording differences.
 
-| Tag    | Grammar Pattern                            | Real-World Developer Voice                                                               | Cue / Example                                                       |
-| ------ | ------------------------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| **G1** | **Imperative Command**                     | Direct instruction — typical of  AI or IDE asks                                     | Verb-first: “Insert…”, “Add…”, “Create…”                            |
-| **G2** | **Declarative Label**         | Shorthand or config-style note — like in design specs, commit logs, or JSON schema lines | Noun + colon: “Field: What color is an orange?”                     |
-| **G3** | **Object Description (Nominal Fragment)**  | Descriptive phrasing — like explaining a component to another dev                        | Noun phrase: “A field labeled ‘What color is an orange?’”           |
-| **G4** | **Conversational Build Request** | Natural chat phrasing — how devs casually talk to AI while building                      | “Make a field for ‘What color is an orange?’ with a visible label.” |
-| **G5** | **Accessibility-Hinted**                   | Adds inclusive design intent — used when emphasizing accessible output                   | “Accessible field to answer ‘What color is an orange?’”             |
+| Tag    | Grammar Pattern                           | Real-World Developer Voice                                                                                  | Example / Linguistic Cue                                                                   |
+| ------ | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| **G1** | **Imperative Command**                    | Direct, instruction-like phrasing — typical when devs talk to an AI assistant, IDE, or code generator.      | Verb-first: **“Insert…”**, **“Add…”**, **“Create a field to respond to the question…”**    |
+| **G2** | **Declarative Label**                     | Shorthand or spec-style phrasing — resembles how devs write notes, config lines, or documentation snippets. | Noun + colon: **“Field: What color is an orange?”**                                        |
+| **G3** | **Object Description (Nominal Fragment)** | Descriptive, neutral phrasing — sounds like explaining a component to a teammate or reviewing UI.           | Noun phrase: **“A field labeled ‘What color is an orange?’”**                              |
+| **G4** | **Conversational Build Request**          | Casual, co-creative phrasing — how devs naturally ask Copilot or ChatGPT to build something.                | Natural chat tone: **“Make a field for ‘What color is an orange?’ with a visible label.”** |
+| **G5** | **Accessibility-Hinted**                  | Adds inclusive design intent — explicitly mentions accessibility goals or cues.                             | Accessibility cue: **“Accessible field to answer ‘What color is an orange?’”**             |
 
 
 ## Components 
