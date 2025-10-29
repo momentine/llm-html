@@ -185,4 +185,42 @@ json
 </tr>
 </table>
 
+<table>
+  <thead>
+    <tr>
+      <th>Status</th>
+      <th>Response</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>200</td>
+      <td>
+        <details>
+          <summary><strong>View JSON</strong></summary>
+          <pre><code class="language-json">{
+  "id": 10,
+  "username": "alanpartridge",
+  "email": "alan@alan.com",
+  "password_hash": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.CPCWCZsyqqa8./whhfzBZydX7yvahHS",
+  "password_salt": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.",
+  "created_at": "2015-02-14T20:45:26.433Z",
+  "updated_at": "2015-02-14T20:45:26.540Z"
+}</code></pre>
+        </details>
+      </td>
+    </tr>
+    <tr>
+      <td>400</td>
+      <td>
+        <details>
+          <summary><strong>View notes</strong></summary>
+          <p><strong>Markdown</strong> <em>here</em>. Put any explanation, stack traces, or additional blocks inside this details element.</p>
+        </details>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
 
