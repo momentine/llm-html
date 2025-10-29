@@ -127,3 +127,15 @@ Assume the snippet will be inserted directly into an existing HTML document.
 |  | G5 | Accessible field to answer What color is an orange? | — | [g5.html](outputs/text-field/meta-llama-3.1-70b/g5.html) |
 
 </details>
+
+```html
+<div class="toggle-container">
+  <label for="dark-mode-toggle" class="toggle-label">
+    Dark Mode
+    <div class="toggle-switch">
+      <input type="checkbox" id="dark-mode-toggle" class="toggle-input">
+      <span class="toggle-slider"></span>
+    </div>
+  </label>
+  <p class="helper-text">Switch between light and dark themes.</p>
+</div>
