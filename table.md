@@ -20,7 +20,8 @@ Assume the snippet will be inserted directly into an existing HTML document.
 
 ## Components 
 
-### Text Field
+<details>
+  <summary>### Text Field</summary>
 
 | Model | Variant | Prompt | Output (HTML) | File Link |
 |--------|----------|---------|----------------|------------|
@@ -124,3 +125,5 @@ Assume the snippet will be inserted directly into an existing HTML document.
 | **meta/llama-3.1-70b** | G3 | Field: What color is an orange? | — | [g3.html](outputs/text-field/meta-llama-3.1-70b/g3.html) |
 | **meta/llama-3.1-70b** | G4 | Field and label for “What color is an orange?” | — | [g4.html](outputs/text-field/meta-llama-3.1-70b/g4.html) |
 | **meta/llama-3.1-70b** | G5 | Accessible field to answer What color is an orange? | — | [g5.html](outputs/text-field/meta-llama-3.1-70b/g5.html) |
+
+</details>
