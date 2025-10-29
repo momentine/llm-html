@@ -25,7 +25,8 @@ Assume the snippet will be inserted directly into an existing HTML document.
 
 | Model | Variant | Prompt | Output | File Link |
 |--------|----------|---------|----------------|------------|
-| **openai/gpt-5** | G1 | Insert a field to respond to the question “What color is an orange?” | `<div class="toggle-container">
+| **openai/gpt-5** | G1 | Insert a field to respond to the question “What color is an orange?” | ````html
+<div class="toggle-container">
   <label for="dark-mode-toggle" class="toggle-label">
     Dark Mode
     <div class="toggle-switch">
@@ -34,7 +35,8 @@ Assume the snippet will be inserted directly into an existing HTML document.
     </div>
   </label>
   <p class="helper-text">Switch between light and dark themes.</p>
-</div>` | [html](outputs/text-field/openai-gpt-5/g1.html) |
+</div>
+```` | [html](outputs/text-field/openai-gpt-5/g1.html) |
 |  | G2 | Text field: What color is an orange? | — | [g2.html](outputs/text-field/openai-gpt-5/g2.html) |
 |  | G3 | Field: What color is an orange? | — | [g3.html](outputs/text-field/openai-gpt-5/g3.html) |
 |  | G4 | Field and label for “What color is an orange?” | — | [g4.html](outputs/text-field/openai-gpt-5/g4.html) |
