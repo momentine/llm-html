@@ -129,98 +129,90 @@ Assume the snippet will be inserted directly into an existing HTML document.
 
 </details>
 
-```html
-<div class="toggle-container">
-  <label for="dark-mode-toggle" class="toggle-label">
-    Dark Mode
-    <div class="toggle-switch">
-      <input type="checkbox" id="dark-mode-toggle" class="toggle-input">
-      <span class="toggle-slider"></span>
-    </div>
-  </label>
-  <p class="helper-text">Switch between light and dark themes.</p>
-</div>
-```
-
-
-
-
-<table>
-<tr>
-<td> Model </td> <td> Variant </td> <td> Prompt </td> <td> Output </td> <td> HTML File </td>
-</tr>
-<tr>
-<td> **openai/gpt-5** </td>
-<td> G1 </td>
-<td>
-
-<details>
-  <summary>Code</summary>
-↑ Blank line!
-```json
-json
-{
-    "id": 10,
-    "username": "alanpartridge",
-    "email": "alan@alan.com",
-    "password_hash": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.CPCWCZsyqqa8./whhfzBZydX7yvahHS",
-    "password_salt": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.",
-    "created_at": "2015-02-14T20:45:26.433Z",
-    "updated_at": "2015-02-14T20:45:26.540Z"
-}
-```
-↓ Blank line!
-
-</details>
-
-</td>
-</tr>
-<tr>
-<td> 400 </td>
-<td>
-
-**Markdown** _here_. (↕︎ Blank lines above and below!)
-
-</td>
-</tr>
-</table>
-
 <table>
   <thead>
     <tr>
-      <th>Status</th>
-      <th>Response</th>
+      <th>Model</th>
+      <th>Variant</th>
+      <th>Prompt</th>
+      <th>Output</th>
+      <th>File Link</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>200</td>
+      <td><strong>openai/gpt-5</strong></td>
+      <td>G1</td>
+      <td>Insert a field to respond to the question “What color is an orange?”</td>
       <td>
         <details>
-          <summary><strong>View JSON</strong></summary>
-          <pre><code class="language-json">{
-  "id": 10,
-  "username": "alanpartridge",
-  "email": "alan@alan.com",
-  "password_hash": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.CPCWCZsyqqa8./whhfzBZydX7yvahHS",
-  "password_salt": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.",
-  "created_at": "2015-02-14T20:45:26.433Z",
-  "updated_at": "2015-02-14T20:45:26.540Z"
-}</code></pre>
+          <summary>View HTML code</summary>
+          <pre><code class="language-html">&lt;div class="toggle-container"&gt;
+  &lt;label for="dark-mode-toggle" class="toggle-label"&gt;
+    Dark Mode
+    &lt;div class="toggle-switch"&gt;
+      &lt;input type="checkbox" id="dark-mode-toggle" class="toggle-input"&gt;
+      &lt;span class="toggle-slider"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/label&gt;
+  &lt;p class="helper-text"&gt;Switch between light and dark themes.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
         </details>
       </td>
+      <td><a href="outputs/text-field/openai-gpt-5/g1.html">g1.html</a></td>
     </tr>
     <tr>
-      <td>400</td>
+      <td></td>
+      <td>G2</td>
+      <td>Text field: What color is an orange?</td>
       <td>
         <details>
-          <summary><strong>View notes</strong></summary>
-          <p><strong>Markdown</strong> <em>here</em>. Put any explanation, stack traces, or additional blocks inside this details element.</p>
+          <summary>View HTML code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
         </details>
       </td>
+      <td><a href="outputs/text-field/openai-gpt-5/g2.html">g2.html</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>Field: What color is an orange?</td>
+      <td>
+        <details>
+          <summary>View HTML code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="outputs/text-field/openai-gpt-5/g3.html">g3.html</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Field and label for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View HTML code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="outputs/text-field/openai-gpt-5/g4.html">g4.html</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible field to answer “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View HTML code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="outputs/text-field/openai-gpt-5/g5.html">g5.html</a></td>
     </tr>
   </tbody>
 </table>
+
 
 
 
