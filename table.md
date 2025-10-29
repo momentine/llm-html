@@ -144,66 +144,18 @@ Assume the snippet will be inserted directly into an existing HTML document.
 
 
 
-<table>
-  <thead>
-    <tr>
-      <th>Model</th>
-      <th>Variant</th>
-      <th>Prompt</th>
-      <th>Output (HTML)</th>
-      <th>File Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>openai/gpt-5</strong></td>
-      <td>G1</td>
-      <td>Insert a field to respond to the question “What color is an orange?”</td>
-      <td>
-
-```html
-<div class="toggle-container">
-  <label for="dark-mode-toggle" class="toggle-label">
-    Dark Mode
-    <div class="toggle-switch">
-      <input type="checkbox" id="dark-mode-toggle" class="toggle-input">
-      <span class="toggle-slider"></span>
-    </div>
-  </label>
-  <p class="helper-text">Switch between light and dark themes.</p>
-</div>
-```
-
-      </td>
-      <td><a href="outputs/text-field/openai-gpt-5/g1.html">html</a></td>
-    </tr>
-
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Text field: What color is an orange?</td>
-      <td>
-
-```html
-<input type="text" id="color" name="color" aria-label="What color is an orange?" />
-```
-
-      </td>
-      <td><a href="outputs/text-field/openai-gpt-5/g2.html">g2.html</a></td>
-    </tr>
-  </tbody>
-</table>
-
 
 <table>
 <tr>
-<td> Model </td> <td> Rule </td> <td> Prompt </td> <td> Output </td> <td> HTML File </td>
+<td> Model </td> <td> Variant </td> <td> Prompt </td> <td> Output </td> <td> HTML File </td>
 </tr>
 <tr>
-<td> 200 </td>
+<td> **openai/gpt-5** </td>
+<td> G1 </td>
 <td>
 
-↑ Blank line!
+<details>
+  <summary>Code</summary>
 ```json
 json
 {
@@ -216,7 +168,8 @@ json
     "updated_at": "2015-02-14T20:45:26.540Z"
 }
 ```
-↓ Blank line!
+
+</details>
 
 </td>
 </tr>
