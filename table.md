@@ -150,6 +150,7 @@ Assume the snippet will be inserted directly into an existing HTML document.
   </label>
   <p class="helper-text">Switch between light and dark themes.</p>
 </div>
+```
 
 | Feature | Code Example |
 |---|---|
