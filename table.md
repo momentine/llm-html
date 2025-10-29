@@ -209,6 +209,17 @@ Assume the snippet will be inserted directly into an existing HTML document.
         </details>
       </td>
       <td><a href="outputs/text-field/openai-gpt-5/g5.html">g5.html</a></td>
+
+     <td>test </td>
+      <td>G1</td>
+      <td>test</td>
+      <td>
+        <details>
+          <summary>View HTML code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="outputs/text-field/openai-gpt-5/g5.html">g5.html</a></td>
     </tr>
   </tbody>
 </table>
