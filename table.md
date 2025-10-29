@@ -142,42 +142,55 @@ Assume the snippet will be inserted directly into an existing HTML document.
 </div>
 ```
 
-| Feature | Code Example |
-|---|---|
-| Inline code | `console.log("Hello");` |
-| Variable name | `myVariable` |
+
 
 <table>
-<tr>
-<td> Status </td> <td> Response </td>
-</tr>
-<tr>
-<td> 200 </td>
-<td>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Variant</th>
+      <th>Prompt</th>
+      <th>Output (HTML)</th>
+      <th>File Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>openai/gpt-5</strong></td>
+      <td>G1</td>
+      <td>Insert a field to respond to the question “What color is an orange?”</td>
+      <td>
 
-↑ Blank line!
-```json
-json
-{
-    "id": 10,
-    "username": "alanpartridge",
-    "email": "alan@alan.com",
-    "password_hash": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.CPCWCZsyqqa8./whhfzBZydX7yvahHS",
-    "password_salt": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.",
-    "created_at": "2015-02-14T20:45:26.433Z",
-    "updated_at": "2015-02-14T20:45:26.540Z"
-}
+```html
+<div class="toggle-container">
+  <label for="dark-mode-toggle" class="toggle-label">
+    Dark Mode
+    <div class="toggle-switch">
+      <input type="checkbox" id="dark-mode-toggle" class="toggle-input">
+      <span class="toggle-slider"></span>
+    </div>
+  </label>
+  <p class="helper-text">Switch between light and dark themes.</p>
+</div>
 ```
-↓ Blank line!
 
-</td>
-</tr>
-<tr>
-<td> 400 </td>
-<td>
+      </td>
+      <td><a href="outputs/text-field/openai-gpt-5/g1.html">html</a></td>
+    </tr>
 
-**Markdown** _here_. (↕︎ Blank lines above and below!)
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Text field: What color is an orange?</td>
+      <td>
 
-</td>
-</tr>
+```html
+<input type="text" id="color" name="color" aria-label="What color is an orange?" />
+```
+
+      </td>
+      <td><a href="outputs/text-field/openai-gpt-5/g2.html">g2.html</a></td>
+    </tr>
+  </tbody>
 </table>
+
