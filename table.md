@@ -156,6 +156,7 @@ Assume the snippet will be inserted directly into an existing HTML document.
 
 <details>
   <summary>Code</summary>
+↑ Blank line!
 ```json
 json
 {
@@ -168,6 +169,7 @@ json
     "updated_at": "2015-02-14T20:45:26.540Z"
 }
 ```
+↓ Blank line!
 
 </details>
 
