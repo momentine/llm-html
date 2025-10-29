@@ -1,6 +1,6 @@
 # LLM Generated HTML Form Compoents Output 
-Each form component is treated as a test case.
-Each test case contains five prompt variations, each representing a distinct grammar pattern.
+Each form component functions as a test case.
+Every test case includes five prompt variants, each following a distinct grammar pattern but requesting the same underlying behavior.
 
 ## Universal Prompt 
 You are an AI coding assistant.
@@ -9,14 +9,16 @@ Do not include explanations, comments, CSS, JavaScript, or code fences.
 Assume the snippet will be inserted directly into an existing HTML document.
 
 ## Grammar variants (used across every test)
+The same component prompt is phrased in five grammatical styles to test LLM sensitivity to wording differences.
 
-| Tag    | Grammar Pattern         | Cue                                             |
-| ------ | ----------------------- | ----------------------------------------------- |
-| **G1** | Imperative              | Verb-first: “Add…”, “Insert…”, “Create…”        |
-| **G2** | Declarative Label       | Noun + colon: “Text field: …”                   |
-| **G3** | Nominal Fragment        | Noun phrase: “A text field labeled …”           |
-| **G4** | Verbose (single clause) | Same ask + short clause (“with…”, “including…”) |
-| **G5** | Accessibility-Hinted    | Same ask + “Accessible …”                       |
+| Tag    | Grammar Pattern                            | Real-World Developer Voice                                                               | Cue / Example                                                       |
+| ------ | ------------------------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| **G1** | **Imperative Command**                     | Direct instruction — typical of  AI or IDE asks                                     | Verb-first: “Insert…”, “Add…”, “Create…”                            |
+| **G2** | **Declarative Label**         | Shorthand or config-style note — like in design specs, commit logs, or JSON schema lines | Noun + colon: “Field: What color is an orange?”                     |
+| **G3** | **Object Description (Nominal Fragment)**  | Descriptive phrasing — like explaining a component to another dev                        | Noun phrase: “A field labeled ‘What color is an orange?’”           |
+| **G4** | **Conversational Build Request** | Natural chat phrasing — how devs casually talk to AI while building                      | “Make a field for ‘What color is an orange?’ with a visible label.” |
+| **G5** | **Accessibility-Hinted**                   | Adds inclusive design intent — used when emphasizing accessible output                   | “Accessible field to answer ‘What color is an orange?’”             |
+
 
 ## Components 
 
