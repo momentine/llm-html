@@ -11,14 +11,13 @@ Assume the snippet will be inserted directly into an existing HTML document.
 ## Grammar variants (used across every test)
 The same component prompt is phrased in five grammatical styles to test LLM sensitivity to wording differences.
 
-| ID     | Label                          | Structural Pattern                            | Linguistic Type                      | Function                                                                                                             |
-| ------ | ------------------------------ | --------------------------------------------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
-| **G1** | **Action Command**             | `Insert a [component] for “<label>”`          | Imperative sentence (verb-first)     | Direct instruction; tests the model’s ability to follow action-oriented tasks (zero-shot “build this” command).      |
-| **G2** | **Shorthand Specification**    | `[Component]: <label>`                        | Noun phrase / colon-separated        | Compact declarative format; tests whether the model can infer structure from minimal shorthand cues.                 |
-| **G3** | **Full Noun Phrase**           | `A [component] labeled “<label>”`             | Nominal descriptive clause           | Descriptive phrasing; checks if models correctly infer structure from object-centric sentences.                      |
-| **G4** | **Explicit Build Instruction** | `Build a [component] and label for “<label>”` | Imperative with compositional object | Combines construction + labeling intent; tests comprehension of hierarchical form logic (input–label relationships). |
-| **G5** | **Accessibility Framing**      | `Accessible [component] for “<label>”`        | Modifier + noun                      | Accessibility-anchored instruction; checks whether the model activates accessibility priors (ARIA, labeling, etc.).  |
-
+| **ID** | **Tag**                       | **Grammar Pattern**                 | **Real-World Developer Voice**                                                                                         | **Structure Template**              |
+| ------ | ----------------------------- | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| **G1** | **Action Command**            | Instructional or directive phrasing | Direct instruction style, used when developers issue explicit build commands to an AI tool or code assistant.          | *Insert a ___ for “Label”*          |
+| **G2** | **Short Specification**       | Concise, label-like statement       | Shorthand phrasing developers use in prototyping, quick notes, or configuration-style prompts.                         | *Text field: Label*                 |
+| **G3** | **Descriptive Object Phrase** | Declarative component description   | Natural descriptive phrasing resembling how developers describe an interface element to another person or review tool. | *A ___ labeled “Label”*             |
+| **G4** | **Build Instruction**         | Explicit construction phrasing      | Typical of co-creative prompting where developers ask the AI to build and wire up both the element and its label.      | *Build a ___ and label for “Label”* |
+| **G5** | **Accessibility Request**     | Accessibility-focused phrasing      | Indicates explicit intent for accessible markup or inclusive design considerations.                                    | *Accessible ___ for “Label”*        |
 
 ## Components 
 
