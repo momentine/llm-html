@@ -1,0 +1,35 @@
+<input type="checkbox" id="notifications" class="switch">
+<label for="notifications">Notifications</label>
+
+<style>
+.switch {
+  position: relative;
+  width: 60px;
+  height: 34px;
+  appearance: none;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.switch:checked {
+  background-color: #2196F3;
+}
+
+.switch::before {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  top: 4px;
+  left: 4px;
+  background-color: white;
+  transition: transform 0.3s;
+}
+
+.switch:checked::before {
+  transform: translateX(26px);
+}
+</style>

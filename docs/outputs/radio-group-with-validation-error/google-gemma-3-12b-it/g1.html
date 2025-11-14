@@ -1,0 +1,35 @@
+```html
+<form>
+  <fieldset>
+    <legend>Theme</legend>
+    <label>
+      <input type="radio" id="theme_light" name="theme" value="light">
+      Light
+    </label><br>
+    <label>
+      <input type="radio" id="theme_dark" name="theme" value="dark">
+      Dark
+    </label><br>
+    <label>
+      <input type="radio" id="theme_high_contrast" name="theme" value="high_contrast">
+      High Contrast
+    </label><br>
+  </fieldset>
+  <span id="theme_error" style="color: red; display: none;">You must choose a theme to proceed</span>
+  <button type="submit">Submit</button>
+</form>
+
+<script>
+  document.querySelector('form').addEventListener('submit', function(event) {
+    let selectedTheme = document.querySelector('input[name="theme"]:checked');
+    let errorSpan = document.getElementById('theme_error');
+
+    if (!selectedTheme) {
+      errorSpan.style.display = 'block';
+      event.preventDefault();
+    } else {
+      errorSpan.style.display = 'none';
+    }
+  });
+</script>
+```

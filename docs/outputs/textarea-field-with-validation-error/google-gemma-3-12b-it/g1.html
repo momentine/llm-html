@@ -1,0 +1,17 @@
+```html
+<form>
+  <label for="orange_color">What color is an orange?</label><br>
+  <input type="text" id="orange_color" name="orange_color" onblur="validateOrangeColor(this)"><br>
+  <span id="orange_color_error" style="color: red;"></span>
+</form>
+
+<script>
+function validateOrangeColor(input) {
+  if (input.value.toLowerCase() !== "orange") {
+    document.getElementById("orange_color_error").textContent = "That’s not right. Try again.";
+  } else {
+    document.getElementById("orange_color_error").textContent = "";
+  }
+}
+</script>
+```

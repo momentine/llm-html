@@ -1,0 +1,62 @@
+<label class="toggle-switch">
+  <input type="checkbox" role="switch" aria-describedby="note">
+  <span class="slider"></span>
+  Notifications
+</label>
+<p id="note" class="note">Turn alerts on or off.</p>
+
+<style>
+.toggle-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.toggle-switch input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: relative;
+  width: 60px;
+  height: 34px;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: .4s;
+}
+
+.slider:before {
+  content: "";
+  position: absolute;
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: .4s;
+}
+
+input[type="checkbox"]:checked + .slider {
+  background-color: #2196F3;
+}
+
+input[type="checkbox"]:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+input[type="checkbox"]:focus + .slider {
+  outline: 2px solid #2196F3;
+  outline-offset: 2px;
+}
+
+.note {
+  margin-top: 0.5rem;
+  color: #666;
+  font-size: 0.875rem;
+}
+</style>

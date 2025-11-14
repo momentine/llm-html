@@ -1,0 +1,19 @@
+```html
+<div>
+  <label for="file-upload">
+    Upload Files
+    <span aria-label="Accepted formats: PDF, DOCX, TXT, PNG, JPG, GIF, SVG">(PDF, DOCX, TXT, PNG, JPG, GIF, SVG)</span>
+  </label>
+  <input 
+    type="file" 
+    id="file-upload" 
+    name="files" 
+    multiple 
+    accept=".pdf,.docx,.txt,.png,.jpg,.jpeg,.gif,.svg"
+    aria-describedby="file-upload-instructions"
+  >
+  <div id="file-upload-instructions" class="visually-hidden">
+    You can select multiple files. Accepted file types are PDF, DOCX, TXT, PNG, JPG, GIF, and SVG.
+  </div>
+</div>
+```

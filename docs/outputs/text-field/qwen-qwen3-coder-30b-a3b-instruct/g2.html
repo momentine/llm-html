@@ -1,0 +1,16 @@
+<input type="text" id="orangeColor" name="orangeColor" placeholder="Enter the color of an orange">
+
+<script>
+document.getElementById('orangeColor').addEventListener('change', function() {
+    const answer = this.value.trim().toLowerCase();
+    const correctAnswers = ['orange', 'dark orange', 'light orange', 'burnt orange'];
+    
+    if (correctAnswers.includes(answer)) {
+        this.style.borderColor = 'green';
+        this.style.backgroundColor = '#d4edda';
+    } else {
+        this.style.borderColor = 'red';
+        this.style.backgroundColor = '#f8d7da';
+    }
+});
+</script>

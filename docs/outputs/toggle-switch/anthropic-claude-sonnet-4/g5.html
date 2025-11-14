@@ -1,0 +1,85 @@
+```html
+<div class="toggle-container">
+  <label for="notifications-toggle" class="toggle-label">
+    Notifications
+  </label>
+  <button 
+    id="notifications-toggle"
+    class="toggle-switch"
+    role="switch"
+    aria-checked="false"
+    aria-labelledby="notifications-toggle-label"
+  >
+    <span class="toggle-slider"></span>
+    <span class="sr-only">Toggle notifications</span>
+  </button>
+</div>
+
+<style>
+.toggle-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.toggle-label {
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.toggle-switch {
+  position: relative;
+  width: 48px;
+  height: 24px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-switch:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+.toggle-switch[aria-checked="true"] {
+  background-color: #007bff;
+}
+
+.toggle-slider {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.toggle-switch[aria-checked="true"] .toggle-slider {
+  transform: translateX(24px);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+</style>
+
+<script>
+document.getElementById('notifications-toggle').addEventListener('click', function() {
+  const isChecked = this.getAttribute('aria-checked') === 'true';
+  this.setAttribute('aria-checked', !isChecked);
+});
+</script>
+```

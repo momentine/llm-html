@@ -1,0 +1,16 @@
+<div>
+  <label for="credit-card-number">Credit Card Number</label>
+  <input 
+    type="text" 
+    id="credit-card-number" 
+    name="creditCardNumber" 
+    autocomplete="cc-number" 
+    inputmode="numeric" 
+    pattern="[0-9\s]{13,19}" 
+    maxlength="19" 
+    placeholder="1234 5678 9012 3456" 
+    aria-describedby="cc-number-help" 
+    required
+  >
+  <div id="cc-number-help">Enter your 13-19 digit credit card number</div>
+</div>

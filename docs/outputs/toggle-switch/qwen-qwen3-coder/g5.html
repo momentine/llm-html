@@ -1,0 +1,27 @@
+```html
+<div class="toggle-container">
+  <label for="notifications-toggle" class="toggle-label">
+    Notifications
+  </label>
+  <button
+    id="notifications-toggle"
+    role="switch"
+    aria-checked="false"
+    class="toggle-switch"
+    onclick="toggleNotifications()"
+  >
+    <span class="toggle-track">
+      <span class="toggle-thumb"></span>
+    </span>
+  </button>
+</div>
+
+<script>
+  function toggleNotifications() {
+    const toggle = document.getElementById('notifications-toggle');
+    const isChecked = toggle.getAttribute('aria-checked') === 'true';
+    toggle.setAttribute('aria-checked', !isChecked);
+    toggle.classList.toggle('checked', !isChecked);
+  }
+</script>
+```

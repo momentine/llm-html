@@ -1,0 +1,33 @@
+```html
+<div role="switch" aria-checked="false" aria-labelledby="notifications-label" tabindex="0" style="display: inline-flex; align-items: center; cursor: pointer; user-select: none;">
+  <span id="notifications-label" style="margin-right: 12px; font-size: 16px;">Notifications</span>
+  <span style="position: relative; width: 48px; height: 24px; background-color: #ccc; border-radius: 12px; transition: background-color 0.3s;">
+    <span style="position: absolute; top: 2px; left: 2px; width: 20px; height: 20px; background-color: white; border-radius: 50%; transition: transform 0.3s;"></span>
+  </span>
+</div>
+
+<script>
+  const toggle = document.querySelector('[role="switch"]');
+  const track = toggle.querySelector('span:last-child');
+  const thumb = track.querySelector('span');
+  
+  function updateToggle(checked) {
+    toggle.setAttribute('aria-checked', checked);
+    track.style.backgroundColor = checked ? '#4CAF50' : '#ccc';
+    thumb.style.transform = checked ? 'translateX(24px)' : 'translateX(0)';
+  }
+  
+  toggle.addEventListener('click', () => {
+    const isChecked = toggle.getAttribute('aria-checked') === 'true';
+    updateToggle(!isChecked);
+  });
+  
+  toggle.addEventListener('keydown', (e) => {
+    if (e.key === ' ' || e.key === 'Enter') {
+      e.preventDefault();
+      const isChecked = toggle.getAttribute('aria-checked') === 'true';
+      updateToggle(!isChecked);
+    }
+  });
+</script>
+```

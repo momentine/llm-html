@@ -1,0 +1,55 @@
+<input type="file" id="document-upload" name="document-upload" aria-label="Upload Document" aria-describedby="document-upload-help" class="visually-hidden">
+<label for="document-upload" class="upload-button">Choose File</label>
+<div id="document-upload-help" class="upload-help">Supported formats: PDF, DOC, DOCX. Maximum size: 10MB.</div>
+<div id="file-name-display" class="file-name-display" aria-live="polite"></div>
+<style>
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.upload-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.upload-button:hover {
+  background-color: #0056b3;
+}
+.upload-help {
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #6c757d;
+}
+.file-name-display {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  min-height: 20px;
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const fileInput = document.getElementById('document-upload');
+  const fileNameDisplay = document.getElementById('file-name-display');
+  
+  fileInput.addEventListener('change', function() {
+    if (fileInput.files && fileInput.files[0]) {
+      fileNameDisplay.textContent = 'Selected file: ' + fileInput.files[0].name;
+    } else {
+      fileNameDisplay.textContent = '';
+    }
+  });
+});
+</script>

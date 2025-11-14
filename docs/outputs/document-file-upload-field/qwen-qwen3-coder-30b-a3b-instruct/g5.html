@@ -1,0 +1,24 @@
+```html
+<div class="file-upload-wrapper">
+  <label for="document-upload" class="file-upload-label">
+    Upload Document
+  </label>
+  <input 
+    type="file" 
+    id="document-upload" 
+    name="document-upload" 
+    class="file-upload-input"
+    accept=".pdf,.doc,.docx,.txt"
+    aria-describedby="upload-help"
+  >
+  <div class="file-upload-button" role="button" tabindex="0">
+    Choose File
+  </div>
+  <div id="upload-help" class="file-upload-help">
+    PDF, DOC, DOCX, or TXT files up to 10MB
+  </div>
+  <div class="file-upload-preview" aria-live="polite">
+    <span class="file-upload-filename"></span>
+  </div>
+</div>
+```

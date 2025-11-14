@@ -1,0 +1,26 @@
+```html
+<div class="file-upload-wrapper" role="region" aria-labelledby="upload-heading">
+  <h2 id="upload-heading" class="sr-only">Upload a File</h2>
+  <label for="file-upload" class="file-upload-label">
+    <span class="file-upload-icon" aria-hidden="true">📁</span>
+    <span class="file-upload-text">Choose a file to upload</span>
+    <span class="file-upload-filename" id="file-upload-filename" aria-live="polite"></span>
+  </label>
+  <input 
+    type="file" 
+    id="file-upload" 
+    class="file-upload-input"
+    aria-describedby="upload-description file-size-limit"
+    accept=".pdf,.doc,.docx,.txt,.jpg,.jpeg,.png"
+  >
+  <div class="file-upload-hint" id="upload-description">
+    <p>Supported formats: PDF, DOC, DOCX, TXT, JPG, PNG</p>
+  </div>
+  <div class="file-upload-hint" id="file-size-limit">
+    <p>Maximum file size: 10MB</p>
+  </div>
+  <button type="button" class="file-upload-button" aria-describedby="file-upload">
+    Upload File
+  </button>
+</div>
+```

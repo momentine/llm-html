@@ -1,0 +1,73 @@
+<div class="toggle-container">
+  <label for="notifications-toggle" class="toggle-label">
+    <span class="toggle-text">
+      <strong>Notifications</strong>
+      <small>Turn alerts on or off</small>
+    </span>
+    <input type="checkbox" id="notifications-toggle" class="toggle-input">
+    <span class="toggle-slider"></span>
+  </label>
+</div>
+
+<style>
+.toggle-container {
+  padding: 16px;
+}
+
+.toggle-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+}
+
+.toggle-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.toggle-text strong {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.toggle-text small {
+  font-size: 14px;
+  color: #666;
+}
+
+.toggle-input {
+  display: none;
+}
+
+.toggle-slider {
+  position: relative;
+  width: 50px;
+  height: 24px;
+  background-color: #ccc;
+  border-radius: 24px;
+  transition: background-color 0.3s;
+}
+
+.toggle-slider:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s;
+}
+
+.toggle-input:checked + .toggle-slider {
+  background-color: #2196F3;
+}
+
+.toggle-input:checked + .toggle-slider:before {
+  transform: translateX(26px);
+}
+</style>

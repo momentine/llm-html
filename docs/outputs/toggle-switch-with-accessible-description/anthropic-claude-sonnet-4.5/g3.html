@@ -1,0 +1,28 @@
+<div>
+  <label style="display: flex; align-items: center; justify-content: space-between; max-width: 400px; cursor: pointer;">
+    <div>
+      <div style="font-weight: 600; margin-bottom: 4px;">Notifications</div>
+      <div style="font-size: 14px; color: #666;">Turn alerts on or off.</div>
+    </div>
+    <input type="checkbox" style="display: none;" id="notificationToggle">
+    <div style="width: 50px; height: 26px; background-color: #ccc; border-radius: 13px; position: relative; transition: background-color 0.3s;">
+      <div style="width: 22px; height: 22px; background-color: white; border-radius: 50%; position: absolute; top: 2px; left: 2px; transition: transform 0.3s;"></div>
+    </div>
+  </label>
+</div>
+
+<script>
+const toggle = document.getElementById('notificationToggle');
+const track = toggle.nextElementSibling;
+const thumb = track.querySelector('div');
+
+toggle.addEventListener('change', function() {
+  if (this.checked) {
+    track.style.backgroundColor = '#4CAF50';
+    thumb.style.transform = 'translateX(24px)';
+  } else {
+    track.style.backgroundColor = '#ccc';
+    thumb.style.transform = 'translateX(0)';
+  }
+});
+</script>

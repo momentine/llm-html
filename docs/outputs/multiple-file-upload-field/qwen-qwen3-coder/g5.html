@@ -1,0 +1,21 @@
+```html
+<div class="file-upload-container">
+  <label for="file-upload" class="file-upload-label">
+    <span class="file-upload-text">Choose Files</span>
+    <span class="file-upload-hint">or drag and drop here</span>
+  </label>
+  <input 
+    type="file" 
+    id="file-upload" 
+    name="uploaded-files" 
+    multiple 
+    accept=".pdf,.docx,.txt,.png,.jpg,.jpeg,.gif,.svg"
+    aria-describedby="file-upload-help"
+    class="file-input"
+  >
+  <div id="file-upload-help" class="file-upload-help">
+    Accepted file types: PDF, DOCX, TXT, PNG, JPG, GIF, SVG
+  </div>
+  <div id="file-list" class="file-list" aria-live="polite"></div>
+</div>
+```

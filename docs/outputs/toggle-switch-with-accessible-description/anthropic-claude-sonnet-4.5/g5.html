@@ -1,0 +1,24 @@
+```html
+<div role="group" aria-labelledby="notifications-label">
+  <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+    <span id="notifications-label" style="font-weight: 600;">Notifications</span>
+    <button
+      role="switch"
+      aria-checked="false"
+      aria-labelledby="notifications-label"
+      style="width: 3rem; height: 1.5rem; border-radius: 9999px; border: 2px solid #d1d5db; background-color: #e5e7eb; position: relative; cursor: pointer; transition: background-color 0.2s;"
+      onclick="
+        const isChecked = this.getAttribute('aria-checked') === 'true';
+        this.setAttribute('aria-checked', !isChecked);
+        this.style.backgroundColor = !isChecked ? '#3b82f6' : '#e5e7eb';
+        this.style.borderColor = !isChecked ? '#3b82f6' : '#d1d5db';
+        const thumb = this.querySelector('span');
+        thumb.style.transform = !isChecked ? 'translateX(1.5rem)' : 'translateX(0)';
+      "
+    >
+      <span style="display: block; width: 1.25rem; height: 1.25rem; background-color: white; border-radius: 9999px; transition: transform 0.2s; transform: translateX(0);"></span>
+    </button>
+  </div>
+  <p style="font-size: 0.875rem; color: #6b7280; margin: 0;">Turn alerts on or off.</p>
+</div>
+```

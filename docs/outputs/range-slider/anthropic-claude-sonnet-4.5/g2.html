@@ -1,0 +1,13 @@
+<div>
+  <label for="volume">Volume</label>
+  <input type="range" id="volume" name="volume" min="1" max="10" value="5">
+  <output for="volume">5</output>
+</div>
+
+<script>
+  const volumeSlider = document.getElementById('volume');
+  const volumeOutput = volumeSlider.nextElementSibling;
+  volumeSlider.addEventListener('input', function() {
+    volumeOutput.textContent = this.value;
+  });
+</script>

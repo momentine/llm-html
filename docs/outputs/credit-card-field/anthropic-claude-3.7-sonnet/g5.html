@@ -1,0 +1,15 @@
+<div class="form-group">
+  <label for="credit-card-number" id="credit-card-label">Credit Card Number</label>
+  <input 
+    type="text" 
+    id="credit-card-number" 
+    name="credit-card-number" 
+    autocomplete="cc-number" 
+    inputmode="numeric" 
+    pattern="[0-9\s]{13,19}" 
+    maxlength="19" 
+    placeholder="XXXX XXXX XXXX XXXX" 
+    aria-describedby="credit-card-hint" 
+    required>
+  <span id="credit-card-hint" class="hint">Enter the 16-digit number on your card (spaces allowed)</span>
+</div>
