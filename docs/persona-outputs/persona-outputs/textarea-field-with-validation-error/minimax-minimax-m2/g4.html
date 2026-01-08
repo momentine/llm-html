@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Message Validation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <form id="contactForm" novalidate>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required aria-describedby="messageError" aria-invalid="false"></textarea>
+    <div id="messageError" role="alert" aria-live="polite" hidden>Your message should be at least 20 words long. Please describe your problem in as much detail as possible.</div>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    (function () {
+      const form = document.getElementById('contactForm

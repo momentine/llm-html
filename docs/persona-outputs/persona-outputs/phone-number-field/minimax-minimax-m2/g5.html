@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Accessible Phone Number Field</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <form id="contact-form" action="#" method="post" novalidate>
+    <div>
+      <label for="phone">Phone number <span aria-hidden="true">*</span></label>
+      <input
+        id="phone"
+        name="phone"
+        type="tel"
+        inputmode="tel"
+        autocomplete="tel"
+        placeholder="+1 (555) 123-4567"
+        required
+        aria-required="true"
+        aria-describedby="phone-hint phone-error"
+        pattern="^\+?[\d\s().-]{7,}$"
+        maxlength="25"
+      />
+      <div id="phone-hint">Use numbers and optional +, space, or -(). Example: +1 555-123-4567</div>
+      <div id="phone-error" role="alert" aria-live="polite"></div>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    (function () {
+      const form = document

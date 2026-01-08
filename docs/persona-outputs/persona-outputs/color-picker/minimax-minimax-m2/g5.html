@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Accessible Color Picker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <form id="color-picker-form" onsubmit="return false">
+    <label id="color-label" for="color">Pick a color</label>
+
+    <div style="display:flex; align-items:center; gap:12px; margin-top:8px;">
+      <input
+        id="color"
+        name="color"
+        type="color"
+        value="#0d6efd"
+        aria-labelledby="color-label"
+        aria-describedby="color-help color-value"
+        style="width:48px;height:48px;padding:0;border:none;background:none;"
+      />
+
+      <div>
+        <label for="color-hex" id="color-hex-label">Hex color (RGB hex: #RRGGBB)</label>
+        <div style="display:flex; gap:8px; align-items:center; margin-top:4px;">
+          <input
+            id="color-hex"
+            name="color-hex"
+            type="text"
+            inputmode="latin"
+            autocomplete="off"
+            spellcheck="false"
+            aria-labelledby="color-hex-label"
+            aria-describedby="color-help color-value"
+            placeholder="#0d6efd"
+            value="#0d6efd"
+            pattern="^#?([0-9a-fA-F]{6})$"
+            style="width:140px; padding:8px; font-family:monospace;"
+          />
+          <div
+            id="color-preview"
+            role="img"
+            aria-label="Selected color preview"
+            title="Selected color"
+           

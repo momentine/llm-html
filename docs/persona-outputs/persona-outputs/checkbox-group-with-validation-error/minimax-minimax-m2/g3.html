@@ -1,0 +1,52 @@
+<form id="fruit-form" novalidate>
+  <fieldset>
+    <legend>What fruits do you like?</legend>
+    <label>
+      <input type="checkbox" name="fruits" value="bananas"> bananas
+    </label>
+    <label>
+      <input type="checkbox" name="fruits" value="oranges"> oranges
+    </label>
+    <label>
+      <input type="checkbox" name="fruits" value="apples"> apples
+    </label>
+    <div id="fruit-error" role="alert" aria-live="polite" style="display:none;color:#b00020;margin-top:8px;">
+      You must choose one or more fruits
+    </div>
+    <div style="margin-top:12px;">
+      <button type="submit">Submit</button>
+    </div>
+  </fieldset>
+  <script>
+    (function () {
+      const form = document.getElementById('fruit-form');
+      const errorEl = document.getElementById('fruit-error');
+      const checkboxes = form.querySelectorAll('input[name="fruits"]');
+
+      function validateFruits() {
+        const anyChecked = Array.prototype.some.call(checkboxes, function (cb) {
+          return cb.checked;
+        });
+        if (!anyChecked) {
+          errorEl.style.display = 'block';
+          return false;
+        }
+        errorEl.style.display = 'none';
+        return true;
+      }
+
+      form.addEventListener('submit', function (e) {
+        if (!validateFruits()) {
+          e.preventDefault();
+          return false;
+        }
+        e.preventDefault();
+        alert('Submitted!');
+      });
+
+      checkboxes.forEach(function (cb) {
+        cb.addEventListener('change', validateFruits);
+      });
+    })();
+  </script>
+</form>

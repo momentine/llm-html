@@ -1,0 +1,23 @@
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="4" maxlength="200" aria-describedby="messageCounter" placeholder="Enter your message..."></textarea>
+<div id="messageCounter" aria-live="polite">0/200</div>
+
+<script>
+  (function() {
+    const textarea = document.getElementById('message');
+    const counter = document.getElementById('messageCounter');
+    const MAX = 200;
+
+    function updateCount() {
+      const len = textarea.value.length;
+      counter.textContent = len + '/' + MAX;
+      if (len > MAX) {
+        textarea.value = textarea.value.slice(0, MAX);
+        counter.textContent = MAX + '/' + MAX;
+      }
+    }
+
+    textarea.addEventListener('input', updateCount);
+    updateCount();
+  })();
+</script>

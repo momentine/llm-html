@@ -1,0 +1,52 @@
+<form id="contactForm" action="#" method="post" novalidate>
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="6" required aria-describedby="messageError"></textarea>
+  <div id="messageError" class="error" role="alert" aria-live="polite" hidden>
+    Your message should be at least 20 words long. Please describe your problem in as much detail as possible.
+  </div>
+  <button type="submit">Submit</button>
+</form>
+
+<script>
+  (function () {
+    const form = document.getElementById('contactForm');
+    const textarea = document.getElementById('message');
+    const errorEl = document.getElementById('messageError');
+    const MIN_WORDS = 20;
+
+    function countWords(text) {
+      const tokens = text.trim().split(/\s+/).filter(Boolean);
+      return tokens.length;
+    }
+
+    function setValidity(isValid) {
+      if (isValid) {
+        textarea.setCustomValidity('');
+        errorEl.hidden = true;
+        textarea.setAttribute('aria-invalid', 'false');
+      } else {
+        textarea.setCustomValidity(
+          'Your message should be at least 20 words long. Please describe your problem in as much detail as possible.'
+        );
+        errorEl.hidden = false;
+        textarea.setAttribute('aria-invalid', 'true');
+      }
+    }
+
+    function validateMessage() {
+      const count = countWords(textarea.value);
+      setValidity(count >= MIN_WORDS);
+      return textarea.validity.valid;
+    }
+
+    textarea.addEventListener('input', validateMessage);
+    textarea.addEventListener('blur', validateMessage);
+
+    form.addEventListener('submit', function (e) {
+      if (!validateMessage()) {
+        e.preventDefault();
+        textarea.focus();
+      }
+    });
+  })();
+</script>

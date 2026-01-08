@@ -1,0 +1,22 @@
+```html
+<label style="display: inline-flex; align-items: center; cursor: pointer;">
+  <input type="checkbox" style="appearance: none; width: 50px; height: 26px; background-color: #ccc; border-radius: 13px; position: relative; cursor: pointer; transition: background-color 0.3s;" onchange="this.style.backgroundColor = this.checked ? '#4CAF50' : '#ccc';">
+  <style>
+    input[type="checkbox"]:checked::before {
+      transform: translateX(24px);
+    }
+    input[type="checkbox"]::before {
+      content: '';
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background-color: white;
+      top: 2px;
+      left: 2px;
+      transition: transform 0.3s;
+    }
+  </style>
+  <span style="margin-left: 10px; font-family: Arial, sans-serif; font-size: 16px;">Notifications</span>
+</label>
+```

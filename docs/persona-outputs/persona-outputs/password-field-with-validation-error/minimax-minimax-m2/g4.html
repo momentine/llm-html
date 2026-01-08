@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Password Field with Validation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <form novalidate>
+    <label for="new-password">New password</label>
+    <input id="new-password" name="new-password" type="password" minlength="8" required aria-describedby="password-error">
+    <p id="password-error" role="alert" aria-live="polite" hidden>Too short. Must be at least 8 characters.</p>
+    <button type="submit">Submit</button>
+  </form>
+  <script>
+    (function () {
+      const input = document.getElementById('new-password');
+      const error = document.getElementById('password-error');
+
+      function update() {
+        if (input.value.length === 

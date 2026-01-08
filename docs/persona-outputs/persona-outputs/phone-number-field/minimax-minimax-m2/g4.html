@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Phone number field</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <label for="phone">Phone number</label>
+  <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" placeholder="(555) 123-4567" pattern="^\+?[0-9\s\-()]{7,20}$" required aria-describedby="phone-hint">
+  <small id="phone-hint">Include country code if outside your region.</small>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Accessible Checkbox Group - Fruits</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <main>
+    <h1>What fruits do you like?</h1>
+
+    <form id="fruit-form" novalidate>
+      <fieldset id="fruit-fieldset"
+                role="group"
+                aria-labelledby="fruit-legend"
+                aria-describedby="fruit-error">
+        <legend id="fruit-legend">What fruits do you like?</legend>
+
+        <div class="options">
+          <div>
+            <input type="checkbox" id="fruit-bananas" name="fruits" value="bananas">
+            <label for="fruit-bananas">Bananas</label>
+          </div>
+          <div>
+            <input type="checkbox" id="fruit-oranges" name="fruits" value="oranges">
+            <label for="fruit-oranges">Oranges</label>
+          </div>
+          <div>
+            <input type="checkbox" id="fruit-apples" name="fruits" value="apples">
+            <label for="fruit-apples">Apples</label>
+          </div>
+        </div>
+
+        <p id="fruit-error" class="error" role="alert" aria-live="assertive" hidden>
+          You must choose one or more fruits
+        </p>
+      </fieldset>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>

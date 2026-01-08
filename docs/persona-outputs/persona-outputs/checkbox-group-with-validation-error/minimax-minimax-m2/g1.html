@@ -1,0 +1,41 @@
+<form id="fruit-form" action="#" method="post">
+  <fieldset>
+    <legend>What fruits do you like?</legend>
+    <label><input type="checkbox" name="fruits[]" value="bananas"> Bananas</label>
+    <label><input type="checkbox" name="fruits[]" value="oranges"> Oranges</label>
+    <label><input type="checkbox" name="fruits[]" value="apples"> Apples</label>
+  </fieldset>
+  <button type="submit">Submit</button>
+
+  <script>
+    (function () {
+      const form = document.getElementById('fruit-form');
+      const checkboxes = form.querySelectorAll('input[name="fruits[]"]');
+      const first = checkboxes[0];
+
+      function validateFruits() {
+        const anyChecked = Array.prototype.some.call(checkboxes, function (cb) {
+          return cb.checked;
+        });
+        if (!anyChecked) {
+          first.setCustomValidity('You must choose one or more fruits');
+        } else {
+          first.setCustomValidity('');
+        }
+      }
+
+      Array.prototype.forEach.call(checkboxes, function (cb) {
+        cb.addEventListener('change', validateFruits);
+        cb.addEventListener('invalid', validateFruits);
+      });
+
+      form.addEventListener('submit', function (e) {
+        validateFruits();
+        if (!form.checkValidity()) {
+          e.preventDefault();
+          form.reportValidity();
+        }
+      });
+    })();
+  </script>
+</form>
