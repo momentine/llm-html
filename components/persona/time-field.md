@@ -1,4 +1,5 @@
 <details>
+  
   <summary><strong>Time Field</strong></summary>
 <table>
   <thead>
@@ -12,94 +13,25 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>anthropic/claude-sonnet-4.5</strong></td>
+      <td><strong>openai/gpt-5</strong></td>
       <td>G1</td>
       <td>Insert a time field for “Meeting Time”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;meetingTime&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meetingTime&quot; name=&quot;meetingTime&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Time field: Meeting Time</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;meetingTime&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meetingTime&quot; name=&quot;meetingTime&quot;&gt;
-```</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A time field labeled “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;meetingTime&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meetingTime&quot; name=&quot;meetingTime&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a time field and label for “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;meetingTime&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meetingTime&quot; name=&quot;meetingTime&quot;&gt;
-```</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible time field for “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;div&gt;
-  &lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-  &lt;input 
-    type=&quot;time&quot; 
-    id=&quot;meeting-time&quot; 
-    name=&quot;meeting-time&quot;
-    aria-required=&quot;true&quot;
-    aria-describedby=&quot;meeting-time-description&quot;
-  &gt;
-  &lt;span id=&quot;meeting-time-description&quot;&gt;Select the time for the meeting in 24-hour format&lt;/span&gt;
+          <pre><code class="language-html">&lt;div class="toggle-container"&gt;
+  &lt;label for="dark-mode-toggle" class="toggle-label"&gt;
+    Dark Mode
+    &lt;div class="toggle-switch"&gt;
+      &lt;input type="checkbox" id="dark-mode-toggle" class="toggle-input"&gt;
+      &lt;span class="toggle-slider"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/label&gt;
+  &lt;p class="helper-text"&gt;Switch between light and dark themes.&lt;/p&gt;
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
-      <td>G1</td>
-      <td>Insert a time field for “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;time&quot; name=&quot;meeting-time&quot; id=&quot;meeting-time&quot; placeholder=&quot;Meeting Time&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -108,10 +40,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;time&quot; id=&quot;meetingTime&quot; name=&quot;meetingTime&quot;&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/time-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -120,10 +52,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot; aria-label=&quot;Meeting Time&quot;&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/time-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -132,11 +64,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/time-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -145,354 +76,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot; aria-describedby=&quot;meeting-time-help&quot;&gt;
-&lt;span id=&quot;meeting-time-help&quot; class=&quot;sr-only&quot;&gt;Use the 24-hour format, for example 13:30 for 1:30 PM&lt;/span&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/time-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemini-2.5-pro</strong></td>
-      <td>G1</td>
-      <td>Insert a time field for “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Time field: Meeting Time</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A time field labeled “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a time field and label for “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible time field for “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>minimax/minimax-m2</strong></td>
-      <td>G1</td>
-      <td>Insert a time field for “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
-  &lt;title&gt;Meeting Time Field&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;form&gt;
-    &lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-    &lt;input
-      type=&quot;time&quot;
-      id=&quot;meeting-time&quot;
-      name=&quot;meeting_time&quot;
-      required
-      min=&quot;08:00&quot;
-      max=&quot;18:00&quot;
-      step=&quot;900&quot;
-      autocomplete=&quot;off&quot;
-    &gt;
-  &lt;/form&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Time field: Meeting Time</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot; /&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
-  &lt;title&gt;Meeting Time Field&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;form id=&quot;meeting-form&quot; action=&quot;#&quot; method=&quot;post&quot;&gt;
-    &lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-    &lt;input
-      type=&quot;time&quot;
-      id=&quot;meeting-time&quot;
-      name=&quot;meeting_time&quot;
-      required
-      step=&quot;900&quot;
-      aria-describedby=&quot;meeting-time-help&quot;
-    /&gt;
-    &lt;small id=&quot;meeting-time-help&quot;&gt;Use 24-hour time. Step is 15 minutes.&lt;/small&gt;
-    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
-  &lt;/form&gt;
-
-  &lt;script&gt;
-    (function () {
-      const form = document.getElementById(&#x27;meeting-form&#x27;);
-      const timeInput = document.getElementById(&#x27;meeting-time&#x27;);
-
-      // Set a default value if none is provided
-      if (!timeInput.value) {
-        timeInput.value = &#x27;09:00&#x27;;
-      }
-
-      form.addEventListener(&#x27;submit&#x27;, function (e) {
-        e.preventDefault();
-        const data = new FormData(form);
-        const value = data.get(&#x27;meeting_time&#x27;);
-        alert(&#x27;Meeting Time: &#x27; + value);
-      });
-    })();
-  &lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A time field labeled “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot; required&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a time field and label for “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
-  &lt;title&gt;Meeting Time&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-  &lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting_time&quot; required&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible time field for “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot; /&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot; /&gt;
-  &lt;title&gt;Accessible Time Field – Meeting Time&lt;/title&gt;
-  &lt;style&gt;
-    :root { color-scheme: light dark; }
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.5; margin: 0; padding: 2rem; }
-    .field { max-width: 28rem; }
-    label { font-weight: 600; display: inline-block; margin-bottom: .25rem; }
-    .help { color: #555; font-size: .95rem; margin: .25rem 0 0; }
-    .error { color: #b00020; font-size: .95rem; margin: .25rem 0 0; min-height: 1.25em; }
-    input[type=&quot;time&quot;] { font: inherit; padding: .5rem .625rem; border: 1px solid #888; border-radius: .375rem; width: 10ch; }
-    input[type=&quot;time&quot;]:focus { outline: 3px solid transparent; box-shadow: 0 0 0 3px rgba(0, 110, 255, .35); }
-    .actions { margin-top:</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-5.1-codex</strong></td>
-      <td>G1</td>
-      <td>Insert a time field for “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Time field: Meeting Time</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A time field labeled “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a time field and label for “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible time field for “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>qwen/qwen3-coder</strong></td>
-      <td>G1</td>
-      <td>Insert a time field for “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Time field: Meeting Time</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A time field labeled “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;
-```</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a time field and label for “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;
-```</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible time field for “Meeting Time”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot; aria-describedby=&quot;time-format&quot;&gt;
-&lt;div id=&quot;time-format&quot;&gt;Use 24-hour format (e.g., 14:30) or 12-hour format with AM/PM&lt;/div&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/time-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -501,11 +88,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time:&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/time-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -514,11 +100,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/time-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -527,11 +112,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot;&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/time-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -540,11 +124,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot;&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/time-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -553,13 +136,1104 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot;&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/time-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>anthropic/claude-sonnet-4.5</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>anthropic/claude-sonnet-4</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/anthropic-claude-sonnet-4/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/anthropic-claude-sonnet-4/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/anthropic-claude-sonnet-4/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/anthropic-claude-sonnet-4/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/anthropic-claude-sonnet-4/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>qwen/qwen3-coder-30b-a3b-instruct</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/qwen-qwen3-coder-30b-a3b-instruct/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/qwen-qwen3-coder-30b-a3b-instruct/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/qwen-qwen3-coder-30b-a3b-instruct/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/qwen-qwen3-coder-30b-a3b-instruct/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/qwen-qwen3-coder-30b-a3b-instruct/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-oss-20b</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-oss-20b/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-oss-20b/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-oss-20b/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-oss-20b/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-oss-20b/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-4.1-mini</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-4.1-mini/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-4.1-mini/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-4.1-mini/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-4.1-mini/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-4.1-mini/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>z-ai/glm-4.6</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/z-ai-glm-4.6/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/z-ai-glm-4.6/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/z-ai-glm-4.6/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/z-ai-glm-4.6/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/z-ai-glm-4.6/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>x-ai/grok-4-fast</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/x-ai-grok-4-fast/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/x-ai-grok-4-fast/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/x-ai-grok-4-fast/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/x-ai-grok-4-fast/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/x-ai-grok-4-fast/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>google/gemma-3-12b-it</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/google-gemma-3-12b-it/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/google-gemma-3-12b-it/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/google-gemma-3-12b-it/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/google-gemma-3-12b-it/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/google-gemma-3-12b-it/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>google/gemini-2.5-flash</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/google-gemini-2.5-flash/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/google-gemini-2.5-flash/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/google-gemini-2.5-flash/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/google-gemini-2.5-flash/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/google-gemini-2.5-flash/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>google/gemini-2.5-pro</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-5-codex</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-5-codex/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-5-codex/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-5-codex/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-5-codex/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-5-codex/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>qwen/qwen3-coder</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>z-ai/glm-4.5-air</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/z-ai-glm-4.5-air/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/z-ai-glm-4.5-air/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/z-ai-glm-4.5-air/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/z-ai-glm-4.5-air/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/z-ai-glm-4.5-air/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>qwen/qwen3-vl-235b-a22b-instruct</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/qwen-qwen3-vl-235b-a22b-instruct/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/qwen-qwen3-vl-235b-a22b-instruct/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/qwen-qwen3-vl-235b-a22b-instruct/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/qwen-qwen3-vl-235b-a22b-instruct/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/qwen-qwen3-vl-235b-a22b-instruct/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>anthropic/claude-3.7-sonnet</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/anthropic-claude-3.7-sonnet/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/anthropic-claude-3.7-sonnet/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/anthropic-claude-3.7-sonnet/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/anthropic-claude-3.7-sonnet/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/anthropic-claude-3.7-sonnet/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>x-ai/grok-4</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/x-ai-grok-4/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/x-ai-grok-4/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/x-ai-grok-4/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/x-ai-grok-4/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/x-ai-grok-4/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-5-mini</strong></td>
+      <td>G1</td>
+      <td>Insert a time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-5-mini/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Time field: Meeting Time</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-5-mini/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A time field labeled “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-5-mini/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a time field and label for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-5-mini/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible time field for “Meeting Time”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-5-mini/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td>test </td>
+      <td>G1</td>
+      <td>test</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/time-field/openai-gpt-5/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>
-
+  
 </details>

@@ -1,5 +1,6 @@
 <details>
-  <summary><strong>Email Field with Accessible Description</strong></summary>
+  
+  <summary><strong>Email Field with Accessible Description"</strong></summary>
 <table>
   <thead>
     <tr>
@@ -12,36 +13,37 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>anthropic/claude-sonnet-4.5</strong></td>
+      <td><strong>openai/gpt-5</strong></td>
       <td>G1</td>
       <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;div&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
-  &lt;small&gt;We will never share or sell your email address&lt;/small&gt;
+          <pre><code class="language-html">&lt;div class="toggle-container"&gt;
+  &lt;label for="dark-mode-toggle" class="toggle-label"&gt;
+    Dark Mode
+    &lt;div class="toggle-switch"&gt;
+      &lt;input type="checkbox" id="dark-mode-toggle" class="toggle-input"&gt;
+      &lt;span class="toggle-slider"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/label&gt;
+  &lt;p class="helper-text"&gt;Switch between light and dark themes.&lt;/p&gt;
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Email field: Email Address with note “We will never share or sell your email address”</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;div&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
-  &lt;small&gt;We will never share or sell your email address&lt;/small&gt;
-&lt;/div&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -50,14 +52,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;div&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
-  &lt;small&gt;We will never share or sell your email address&lt;/small&gt;
-&lt;/div&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -66,12 +64,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
-&lt;small&gt;We will never share or sell your email address&lt;/small&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -80,425 +76,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;div&gt;
-  &lt;label for=&quot;email-address&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input 
-    type=&quot;email&quot; 
-    id=&quot;email-address&quot; 
-    name=&quot;email-address&quot; 
-    aria-describedby=&quot;email-note&quot;
-    required
-  /&gt;
-  &lt;small id=&quot;email-note&quot;&gt;We will never share or sell your email address&lt;/small&gt;
-&lt;/div&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
-      <td>G1</td>
-      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Email Address&quot; aria-label=&quot;Email Address&quot;&gt;
-&lt;small&gt;We will never share or sell your email address&lt;/small&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Email Address with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Email Address&quot; required&gt;
-&lt;small&gt;We will never share or sell your email address&lt;/small&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Email Address&quot; required&gt;
-&lt;small&gt;We will never share or sell your email address&lt;/small&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot;&gt;
-&lt;small&gt;We will never share or sell your email address&lt;/small&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required aria-describedby=&quot;email-note&quot;&gt;
-&lt;p id=&quot;email-note&quot;&gt;We will never share or sell your email address&lt;/p&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemini-2.5-pro</strong></td>
-      <td>G1</td>
-      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Email Address with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>minimax/minimax-m2</strong></td>
-      <td>G1</td>
-      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;form&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input id=&quot;email&quot; name=&quot;email&quot; type=&quot;email&quot; autocomplete=&quot;email&quot; required aria-describedby=&quot;email-note&quot;&gt;
-  &lt;small id=&quot;email-note&quot;&gt;We will never share or sell your email address&lt;/small&gt;
-&lt;/form&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/minimax-minimax-m2/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Email Address with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;form action=&quot;#&quot; method=&quot;post&quot;&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input
-    type=&quot;email&quot;
-    id=&quot;email&quot;
-    name=&quot;email&quot;
-    placeholder=&quot;you@example.com&quot;
-    autocomplete=&quot;email&quot;
-    required
-    aria-describedby=&quot;email-privacy-note&quot;
-  /&gt;
-  &lt;small id=&quot;email-privacy-note&quot;&gt;We will never share or sell your email address.&lt;/small&gt;
-&lt;/form&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/minimax-minimax-m2/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot; /&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
-  &lt;title&gt;Email Address&lt;/title&gt;
-  &lt;style&gt;
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.5; margin: 2rem; color: #1f2937; }
-    label { display: block; font-weight: 600; margin-bottom: .375rem; }
-    input[type=&quot;email&quot;] { width: 100%; max-width: 28rem; padding: .625rem .75rem; border: 1px solid #d1d5db; border-radius: .375rem; font-size: 1rem; }
-    input[type=&quot;email&quot;]:focus { outline: 2px solid #2563eb; outline-offset: 2px; border-color: #2563eb; }
-    .note { color: #6b7280; margin-top: .375rem; font-size: .9375rem; }
-  &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;form action=&quot;#&quot; method=&quot;post&quot;&gt;
-    &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-    &lt;input
-      id=&quot;email&quot;
-      name=&quot;email&quot;
-      type=&quot;email&quot;
-      placeholder=&quot;you@example.com&quot;
-      autocomplete=&quot;email&quot;
-      inputmode=&quot;email&quot;
-      spellcheck=&quot;false&quot;
-      aria-describedby=&quot;email-note&quot;
-      required
-    /&gt;
-    &lt;p id=&quot;email-note&quot; class=&quot;note&quot;&gt;We will never share or sell your email address.&lt;/p&gt;
-  &lt;/form&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/minimax-minimax-m2/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input
-  type=&quot;email&quot;
-  id=&quot;email&quot;
-  name=&quot;email&quot;
-  autocomplete=&quot;email&quot;
-  required
-  aria-describedby=&quot;email-note&quot;
-  placeholder=&quot;you@example.com&quot;
-/&gt;
-&lt;p id=&quot;email-note&quot;&gt;We will never share or sell your email address.&lt;/p&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/minimax-minimax-m2/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;form action=&quot;#&quot; method=&quot;post&quot;&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input
-    id=&quot;email&quot;
-    name=&quot;email&quot;
-    type=&quot;email&quot;
-    inputmode=&quot;email&quot;
-    autocomplete=&quot;email&quot;
-    spellcheck=&quot;false&quot;
-    required
-    aria-describedby=&quot;email-note&quot;
-  /&gt;
-  &lt;small id=&quot;email-note&quot;&gt;We will never share or sell your email address.&lt;/small&gt;
-&lt;/form&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/minimax-minimax-m2/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-5.1-codex</strong></td>
-      <td>G1</td>
-      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label&gt;Email Address&lt;input type=&quot;email&quot; name=&quot;email&quot; /&gt;&lt;/label&gt;
-&lt;p&gt;We will never share or sell your email address&lt;/p&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Email Address with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;form&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;you@example.com&quot; required&gt;
-  &lt;small&gt;We will never share or sell your email address&lt;/small&gt;
-&lt;/form&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label&gt;Email Address
-&lt;input type=&quot;email&quot; name=&quot;email&quot; /&gt;
-&lt;/label&gt;
-&lt;small&gt;We will never share or sell your email address&lt;/small&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email-address&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email-address&quot; name=&quot;email-address&quot;&gt;
-&lt;p&gt;We will never share or sell your email address&lt;/p&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;form aria-label=&quot;Email signup&quot;&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; aria-describedby=&quot;email-note&quot; required&gt;
-  &lt;p id=&quot;email-note&quot;&gt;We will never share or sell your email address.&lt;/p&gt;
-&lt;/form&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>qwen/qwen3-coder</strong></td>
-      <td>G1</td>
-      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Email Address&quot; required&gt;
-&lt;p&gt;We will never share or sell your email address&lt;/p&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/qwen-qwen3-coder/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Email Address with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Email Address&quot; required&gt;
-&lt;p&gt;We will never share or sell your email address&lt;/p&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/qwen-qwen3-coder/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
-&lt;p&gt;We will never share or sell your email address&lt;/p&gt;
-```</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/qwen-qwen3-coder/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
-&lt;p&gt;We will never share or sell your email address&lt;/p&gt;
-```</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/qwen-qwen3-coder/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email-address&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email-address&quot; name=&quot;email&quot; required aria-describedby=&quot;email-note&quot;&gt;
-&lt;p id=&quot;email-note&quot;&gt;We will never share or sell your email address&lt;/p&gt;
-```</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -507,26 +88,22 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot;&gt;
-&lt;p&gt;We will never share or sell your email address&lt;/p&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Email field: Email Address with note “We will never share or sell your email address”</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot;&gt;
-&lt;small&gt;We will never share or sell your email address&lt;/small&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -535,14 +112,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;form&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot;&gt;
-  &lt;p&gt;We will never share or sell your email address&lt;/p&gt;
-&lt;/form&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -551,12 +124,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot;&gt;
-&lt;p&gt;We will never share or sell your email address&lt;/p&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -565,14 +136,1104 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; aria-describedby=&quot;email-note&quot;&gt;
-&lt;p id=&quot;email-note&quot;&gt;We will never share or sell your email address&lt;/p&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-accessible-description/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>anthropic/claude-sonnet-4.5</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>anthropic/claude-sonnet-4</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/anthropic-claude-sonnet-4/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/anthropic-claude-sonnet-4/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/anthropic-claude-sonnet-4/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/anthropic-claude-sonnet-4/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/anthropic-claude-sonnet-4/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>qwen/qwen3-coder-30b-a3b-instruct</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/qwen-qwen3-coder-30b-a3b-instruct/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/qwen-qwen3-coder-30b-a3b-instruct/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/qwen-qwen3-coder-30b-a3b-instruct/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/qwen-qwen3-coder-30b-a3b-instruct/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/qwen-qwen3-coder-30b-a3b-instruct/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-oss-20b</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-oss-20b/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-oss-20b/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-oss-20b/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-oss-20b/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-oss-20b/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-4.1-mini</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-4.1-mini/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-4.1-mini/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-4.1-mini/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-4.1-mini/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-4.1-mini/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>z-ai/glm-4.6</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/z-ai-glm-4.6/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/z-ai-glm-4.6/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/z-ai-glm-4.6/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/z-ai-glm-4.6/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/z-ai-glm-4.6/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>x-ai/grok-4-fast</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/x-ai-grok-4-fast/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/x-ai-grok-4-fast/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/x-ai-grok-4-fast/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/x-ai-grok-4-fast/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/x-ai-grok-4-fast/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>google/gemma-3-12b-it</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/google-gemma-3-12b-it/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/google-gemma-3-12b-it/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/google-gemma-3-12b-it/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/google-gemma-3-12b-it/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/google-gemma-3-12b-it/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>google/gemini-2.5-flash</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/google-gemini-2.5-flash/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/google-gemini-2.5-flash/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/google-gemini-2.5-flash/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/google-gemini-2.5-flash/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/google-gemini-2.5-flash/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>google/gemini-2.5-pro</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-5-codex</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-5-codex/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-5-codex/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-5-codex/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-5-codex/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-5-codex/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>qwen/qwen3-coder</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>z-ai/glm-4.5-air</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/z-ai-glm-4.5-air/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/z-ai-glm-4.5-air/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/z-ai-glm-4.5-air/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/z-ai-glm-4.5-air/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/z-ai-glm-4.5-air/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>qwen/qwen3-vl-235b-a22b-instruct</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/qwen-qwen3-vl-235b-a22b-instruct/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/qwen-qwen3-vl-235b-a22b-instruct/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/qwen-qwen3-vl-235b-a22b-instruct/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/qwen-qwen3-vl-235b-a22b-instruct/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/qwen-qwen3-vl-235b-a22b-instruct/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>anthropic/claude-3.7-sonnet</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/anthropic-claude-3.7-sonnet/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/anthropic-claude-3.7-sonnet/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/anthropic-claude-3.7-sonnet/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/anthropic-claude-3.7-sonnet/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/anthropic-claude-3.7-sonnet/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>x-ai/grok-4</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/x-ai-grok-4/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/x-ai-grok-4/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/x-ai-grok-4/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/x-ai-grok-4/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/x-ai-grok-4/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-5-mini</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-5-mini/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field: Email Address with note “We will never share or sell your email address”/td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-5-mini/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-5-mini/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-5-mini/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with note “We will never share or sell your email address”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-5-mini/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td>test </td>
+      <td>G1</td>
+      <td>test</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-accessible-description/openai-gpt-5/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>
-
+  
 </details>

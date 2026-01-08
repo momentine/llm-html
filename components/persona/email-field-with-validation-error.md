@@ -1,4 +1,5 @@
 <details>
+  
   <summary><strong>Email Field with Validation Error</strong></summary>
 <table>
   <thead>
@@ -12,296 +13,37 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>anthropic/claude-sonnet-4.5</strong></td>
+      <td><strong>openai/gpt-5</strong></td>
       <td>G1</td>
       <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;div&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
-  &lt;span style=&quot;color: red; font-size: 14px;&quot;&gt;Your email address is invalid.&lt;/span&gt;
-&lt;/div&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Email Address with error message “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;div&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;email-error&quot;&gt;
-  &lt;span id=&quot;email-error&quot; role=&quot;alert&quot;&gt;Your email address is invalid.&lt;/span&gt;
-&lt;/div&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;email-error&quot;&gt;
-  &lt;span id=&quot;email-error&quot; role=&quot;alert&quot;&gt;Your email address is invalid.&lt;/span&gt;
-&lt;/div&gt;
-```</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;email-error&quot;&gt;
-&lt;span id=&quot;email-error&quot; role=&quot;alert&quot;&gt;Your email address is invalid.&lt;/span&gt;
-```</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;div&gt;
-  &lt;label for=&quot;email-input&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input 
-    type=&quot;email&quot; 
-    id=&quot;email-input&quot; 
-    name=&quot;email&quot; 
-    aria-invalid=&quot;true&quot; 
-    aria-describedby=&quot;email-error&quot;
-    value=&quot;&quot;
-  /&gt;
-  &lt;span id=&quot;email-error&quot; role=&quot;alert&quot;&gt;Your email address is invalid.&lt;/span&gt;
-&lt;/div&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
-      <td>G1</td>
-      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Email Address&quot; required oninvalid=&quot;this.setCustomValidity(&#x27;Your email address is invalid.&#x27;)&quot; oninput=&quot;this.setCustomValidity(&#x27;&#x27;)&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Email Address with error message “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;email&quot; placeholder=&quot;Email Address&quot; required&gt;
-&lt;div class=&quot;error&quot;&gt;Your email address is invalid.&lt;/div&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required aria-invalid=&quot;true&quot; aria-describedby=&quot;email-error&quot;&gt;
-&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;span id=&quot;email-error&quot; role=&quot;alert&quot;&gt;Your email address is invalid.&lt;/span&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
-&lt;span style=&quot;color: red; display: none;&quot;&gt;Your email address is invalid.&lt;/span&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; aria-describedby=&quot;email-error&quot; aria-invalid=&quot;true&quot;&gt;
-&lt;div id=&quot;email-error&quot; role=&quot;alert&quot;&gt;Your email address is invalid.&lt;/div&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemini-2.5-pro</strong></td>
-      <td>G1</td>
-      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Email Address with error message “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>minimax/minimax-m2</strong></td>
-      <td>G1</td>
-      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot; /&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot; /&gt;
-  &lt;title&gt;Email Field with Validation&lt;/title&gt;
-  &lt;style&gt;
-    .field { margin-bottom: 1rem; }
-    label { display:block; margin-bottom: .25rem; font-weight: 600; }
-    input[type=&quot;email&quot;] { width: 100%; padding: .5rem; font-size: 1rem; }
-    .error { color: #b00020; margin-top: .25rem; font-size: .95rem; }
-    .hidden { display: none; }
-  &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;form id=&quot;emailForm&quot; novalidate&gt;
-    &lt;div class=&quot;field&quot;&gt;
-      &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-      &lt;input
-        id=&quot;email&quot;
-        name=&quot;email&quot;
-        type=&quot;email&quot;
-        required
-        aria-describedby=&quot;emailError&quot;
-        aria-invalid=&quot;false&quot;
-      /&gt;
-      &lt;p id=&quot;emailError&quot; class=&quot;error hidden&quot; role=&quot;alert&quot; aria-live=&quot;polite&quot;&gt;&lt;/p&gt;
+          <pre><code class="language-html">&lt;div class="toggle-container"&gt;
+  &lt;label for="dark-mode-toggle" class="toggle-label"&gt;
+    Dark Mode
+    &lt;div class="toggle-switch"&gt;
+      &lt;input type="checkbox" id="dark-mode-toggle" class="toggle-input"&gt;
+      &lt;span class="toggle-slider"&gt;&lt;/span&gt;
     &lt;/div&gt;
-
-    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
-  &lt;/form&gt;
-
-  &lt;script&gt;
-    (function () {
-      const form = document.getElementById(&#x27;emailForm&#x27;);
-      const email = document.getElementById(&#x27;email&#x27;);
-      const error = document.getElementById(&#x27;emailError&#x27;);
-      const errorMessage = &#x27;Your email address is invalid.&#x27;;
-
-      function showError() {
-        error.textContent = errorMessage;
-        error.classList.remove(&#x27;hidden&#x27;);
-        email.setAttribute(&#x27;aria-invalid&#x27;, &#x27;true&#x27;);
-      }
-
-      function clearError() {
-        error.textContent = &#x27;&#x27;;
-        error.classList.add(&#x27;hidden&#x27;);
-        email.setAttribute(&#x27;aria-invalid&#x27;, &#x27;false&#x27;);
-      }
-
-      email.addEventListener(&#x27;input&#x27;, () =&gt; {
-</code></pre>
+  &lt;/label&gt;
+  &lt;p class="helper-text"&gt;Switch between light and dark themes.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/minimax-minimax-m2/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Email field: Email Address with error message “Your email address is invalid.”</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/minimax-minimax-m2/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -310,24 +52,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;title&gt;Email Validation Example&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;form&gt;
-    &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-    &lt;input id=&quot;email&quot; name=&quot;email&quot; type=&quot;email&quot; required aria-describedby=&quot;email-error&quot; aria-invalid=&quot;true&quot;&gt;
-    &lt;p id=&quot;email-error&quot; role=&quot;alert&quot; aria-live=&quot;polite&quot;&gt;Your email address is invalid.&lt;/p&gt;
-    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
-  &lt;/form&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/minimax-minimax-m2/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -336,51 +64,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;form id=&quot;emailForm&quot; novalidate&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input
-    id=&quot;email&quot;
-    name=&quot;email&quot;
-    type=&quot;email&quot;
-    required
-    aria-describedby=&quot;emailError&quot;
-    aria-invalid=&quot;false&quot;
-  /&gt;
-  &lt;p id=&quot;emailError&quot; role=&quot;alert&quot; aria-live=&quot;polite&quot;&gt;&lt;/p&gt;
-  &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
-
-  &lt;script&gt;
-    (function () {
-      const emailInput = document.getElementById(&#x27;email&#x27;);
-      const emailError = document.getElementById(&#x27;emailError&#x27;);
-      const form = document.getElementById(&#x27;emailForm&#x27;);
-
-      function updateError() {
-        if (emailInput.validity.valid) {
-          emailError.textContent = &#x27;&#x27;;
-          emailInput.setAttribute(&#x27;aria-invalid&#x27;, &#x27;false&#x27;);
-        } else {
-          emailError.textContent = &#x27;Your email address is invalid.&#x27;;
-          emailInput.setAttribute(&#x27;aria-invalid&#x27;, &#x27;true&#x27;);
-        }
-      }
-
-      emailInput.addEventListener(&#x27;input&#x27;, updateError);
-      emailInput.addEventListener(&#x27;blur&#x27;, updateError);
-
-      form.addEventListener(&#x27;submit&#x27;, function (e) {
-        updateError();
-        if (!emailInput.validity.valid) {
-          e.preventDefault();
-          emailInput.focus();
-        }
-      });
-    })();
-  &lt;/script&gt;
-&lt;/form&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/minimax-minimax-m2/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -389,187 +76,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;form action=&quot;#&quot; method=&quot;post&quot; novalidate&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input
-    id=&quot;email&quot;
-    name=&quot;email&quot;
-    type=&quot;email&quot;
-    required
-    aria-describedby=&quot;email-error&quot;
-    aria-invalid=&quot;true&quot;
-    inputmode=&quot;email&quot;
-    autocomplete=&quot;email&quot;
-    placeholder=&quot;name@example.com&quot;
-  /&gt;
-  &lt;div id=&quot;email-error&quot; role=&quot;alert&quot; aria-live=&quot;polite&quot;&gt;
-    Your email address is invalid.
-  &lt;/div&gt;
-  &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
-&lt;/form&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/minimax-minimax-m2/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-5.1-codex</strong></td>
-      <td>G1</td>
-      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;form&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input id=&quot;email&quot; name=&quot;email&quot; type=&quot;email&quot; required&gt;
-  &lt;p&gt;Your email address is invalid.&lt;/p&gt;
-&lt;/form&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Email Address with error message “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;form&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; value=&quot;invalid@example&quot; aria-invalid=&quot;true&quot;&gt;
-  &lt;p&gt;Your email address is invalid.&lt;/p&gt;
-&lt;/form&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; aria-invalid=&quot;true&quot;&gt;
-&lt;p&gt;Your email address is invalid.&lt;/p&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; aria-describedby=&quot;email-error&quot; required&gt;
-&lt;span id=&quot;email-error&quot; role=&quot;alert&quot;&gt;Your email address is invalid.&lt;/span&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;form&gt;
-&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input id=&quot;email&quot; type=&quot;email&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;email-error&quot; value=&quot;&quot;&gt;
-&lt;div id=&quot;email-error&quot; role=&quot;alert&quot;&gt;Your email address is invalid.&lt;/div&gt;
-&lt;/form&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>qwen/qwen3-coder</strong></td>
-      <td>G1</td>
-      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;form&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
-  &lt;span class=&quot;error&quot; id=&quot;email-error&quot;&gt;Your email address is invalid.&lt;/span&gt;
-&lt;/form&gt;
-```</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/qwen-qwen3-coder/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Email Address with error message “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
-  &lt;span class=&quot;error-message&quot;&gt;Your email address is invalid.&lt;/span&gt;
-&lt;/div&gt;
-```</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/qwen-qwen3-coder/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
-&lt;span class=&quot;error&quot;&gt;Your email address is invalid.&lt;/span&gt;
-```</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/qwen-qwen3-coder/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
-&lt;div class=&quot;error&quot;&gt;Your email address is invalid.&lt;/div&gt;
-```</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/qwen-qwen3-coder/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; aria-describedby=&quot;email-error&quot; required&gt;
-&lt;div id=&quot;email-error&quot; role=&quot;alert&quot; aria-live=&quot;polite&quot;&gt;Your email address is invalid.&lt;/div&gt;
-```</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -578,28 +88,22 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;form&gt;
-  &lt;label for=&quot;email&quot;&gt;Email Address:&lt;/label&gt;&lt;br&gt;
-  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;&lt;br&gt;
-  &lt;span&gt;Your email address is invalid.&lt;/span&gt;
-&lt;/form&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Email field: Email Address with error message “Your email address is invalid.”</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot;&gt;
-&lt;span class=&quot;error&quot;&gt;Your email address is invalid.&lt;/span&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -608,12 +112,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot;&gt;
-&lt;span&gt;Your email address is invalid.&lt;/span&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -622,12 +124,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot;&gt;
-&lt;div class=&quot;error&quot;&gt;Your email address is invalid.&lt;/div&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -636,14 +136,1104 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; aria-describedby=&quot;email-error&quot; aria-invalid=&quot;true&quot;&gt;
-&lt;div id=&quot;email-error&quot; role=&quot;alert&quot;&gt;Your email address is invalid.&lt;/div&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/email-field-with-validation-error/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>anthropic/claude-sonnet-4.5</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>anthropic/claude-sonnet-4</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/anthropic-claude-sonnet-4/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/anthropic-claude-sonnet-4/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/anthropic-claude-sonnet-4/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/anthropic-claude-sonnet-4/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/anthropic-claude-sonnet-4/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>qwen/qwen3-coder-30b-a3b-instruct</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/qwen-qwen3-coder-30b-a3b-instruct/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/qwen-qwen3-coder-30b-a3b-instruct/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/qwen-qwen3-coder-30b-a3b-instruct/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/qwen-qwen3-coder-30b-a3b-instruct/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/qwen-qwen3-coder-30b-a3b-instruct/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-oss-20b</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-oss-20b/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-oss-20b/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-oss-20b/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-oss-20b/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-oss-20b/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-4.1-mini</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-4.1-mini/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-4.1-mini/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-4.1-mini/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-4.1-mini/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-4.1-mini/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>z-ai/glm-4.6</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/z-ai-glm-4.6/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/z-ai-glm-4.6/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/z-ai-glm-4.6/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/z-ai-glm-4.6/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/z-ai-glm-4.6/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>x-ai/grok-4-fast</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/x-ai-grok-4-fast/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/x-ai-grok-4-fast/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/x-ai-grok-4-fast/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/x-ai-grok-4-fast/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/x-ai-grok-4-fast/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>google/gemma-3-12b-it</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/google-gemma-3-12b-it/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/google-gemma-3-12b-it/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/google-gemma-3-12b-it/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/google-gemma-3-12b-it/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/google-gemma-3-12b-it/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>google/gemini-2.5-flash</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/google-gemini-2.5-flash/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/google-gemini-2.5-flash/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/google-gemini-2.5-flash/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/google-gemini-2.5-flash/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/google-gemini-2.5-flash/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>google/gemini-2.5-pro</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-5-codex</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-5-codex/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-5-codex/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-5-codex/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-5-codex/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-5-codex/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>qwen/qwen3-coder</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>z-ai/glm-4.5-air</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/z-ai-glm-4.5-air/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/z-ai-glm-4.5-air/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/z-ai-glm-4.5-air/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/z-ai-glm-4.5-air/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/z-ai-glm-4.5-air/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>qwen/qwen3-vl-235b-a22b-instruct</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/qwen-qwen3-vl-235b-a22b-instruct/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/qwen-qwen3-vl-235b-a22b-instruct/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/qwen-qwen3-vl-235b-a22b-instruct/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/qwen-qwen3-vl-235b-a22b-instruct/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/qwen-qwen3-vl-235b-a22b-instruct/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>anthropic/claude-3.7-sonnet</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/anthropic-claude-3.7-sonnet/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/anthropic-claude-3.7-sonnet/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/anthropic-claude-3.7-sonnet/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/anthropic-claude-3.7-sonnet/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/anthropic-claude-3.7-sonnet/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>x-ai/grok-4</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/x-ai-grok-4/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/x-ai-grok-4/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/x-ai-grok-4/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/x-ai-grok-4/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/x-ai-grok-4/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-5-mini</strong></td>
+      <td>G1</td>
+      <td>Insert an email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-5-mini/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Email field with error message: “Your email address is invalid”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-5-mini/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>An email field labeled “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-5-mini/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build an email field and label for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-5-mini/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible email field for “Email Address” with a validation error “Your email address is invalid.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-5-mini/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td>test </td>
+      <td>G1</td>
+      <td>test</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/email-field-with-validation-error/openai-gpt-5/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>
-
+  
 </details>

@@ -1,4 +1,5 @@
 <details>
+  
   <summary><strong>Quantity Field</strong></summary>
 <table>
   <thead>
@@ -12,17 +13,25 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>anthropic/claude-sonnet-4.5</strong></td>
+      <td><strong>openai/gpt-5</strong></td>
       <td>G1</td>
       <td>Insert a number field for “Item Quantity”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;itemQuantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;itemQuantity&quot; name=&quot;itemQuantity&quot;&gt;</code></pre>
+          <pre><code class="language-html">&lt;div class="toggle-container"&gt;
+  &lt;label for="dark-mode-toggle" class="toggle-label"&gt;
+    Dark Mode
+    &lt;div class="toggle-switch"&gt;
+      &lt;input type="checkbox" id="dark-mode-toggle" class="toggle-input"&gt;
+      &lt;span class="toggle-slider"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/label&gt;
+  &lt;p class="helper-text"&gt;Switch between light and dark themes.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/quantity-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -31,13 +40,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;itemQuantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;itemQuantity&quot; name=&quot;itemQuantity&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/quantity-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -46,11 +52,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;itemQuantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;itemQuantity&quot; name=&quot;itemQuantity&quot;&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/quantity-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -59,13 +64,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;itemQuantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;itemQuantity&quot; name=&quot;itemQuantity&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/quantity-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -74,435 +76,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input 
-  type=&quot;number&quot; 
-  id=&quot;item-quantity&quot; 
-  name=&quot;item-quantity&quot; 
-  min=&quot;0&quot; 
-  step=&quot;1&quot; 
-  aria-required=&quot;true&quot; 
-  aria-describedby=&quot;quantity-description&quot;
-&gt;
-&lt;span id=&quot;quantity-description&quot; class=&quot;sr-only&quot;&gt;Enter the number of items you wish to purchase&lt;/span&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/quantity-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
-      <td>G1</td>
-      <td>Insert a number field for “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;number&quot; name=&quot;Item Quantity&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Number field: Item Quantity</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;number&quot; name=&quot;item_quantity&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A number field labeled “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;number&quot; name=&quot;itemQuantity&quot; id=&quot;itemQuantity&quot; min=&quot;1&quot; required&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a number field and label for “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;itemQuantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;itemQuantity&quot; name=&quot;itemQuantity&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible number field for “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;item-quantity&quot; name=&quot;quantity&quot; min=&quot;0&quot; step=&quot;1&quot; aria-label=&quot;Item Quantity&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemini-2.5-pro</strong></td>
-      <td>G1</td>
-      <td>Insert a number field for “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Number field: Item Quantity</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A number field labeled “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a number field and label for “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible number field for “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html"></code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>minimax/minimax-m2</strong></td>
-      <td>G1</td>
-      <td>Insert a number field for “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;item-quantity&quot; name=&quot;item_quantity&quot; min=&quot;1&quot; step=&quot;1&quot; required&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Number field: Item Quantity</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;form action=&quot;#&quot; method=&quot;post&quot;&gt;
-  &lt;label for=&quot;quantity&quot;&gt;Item Quantity&lt;/label&gt;
-  &lt;input
-    id=&quot;quantity&quot;
-    name=&quot;quantity&quot;
-    type=&quot;number&quot;
-    inputmode=&quot;numeric&quot;
-    min=&quot;1&quot;
-    max=&quot;999&quot;
-    step=&quot;1&quot;
-    value=&quot;1&quot;
-    required
-    aria-describedby=&quot;quantity-help&quot;
-  /&gt;
-  &lt;div id=&quot;quantity-help&quot;&gt;Enter a whole number between 1 and 999.&lt;/div&gt;
-  &lt;button type=&quot;submit&quot;&gt;Add to Cart&lt;/button&gt;
-&lt;/form&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A number field labeled “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input
-  type=&quot;number&quot;
-  id=&quot;item-quantity&quot;
-  name=&quot;quantity&quot;
-  min=&quot;1&quot;
-  step=&quot;1&quot;
-  required
-  inputmode=&quot;numeric&quot;
-  aria-describedby=&quot;quantity-help&quot;
-/&gt;
-&lt;small id=&quot;quantity-help&quot;&gt;Enter a whole number (minimum 1).&lt;/small&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a number field and label for “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot; /&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot; /&gt;
-  &lt;title&gt;Item Quantity&lt;/title&gt;
-  &lt;style&gt;
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 2rem; }
-    .field { max-width: 320px; }
-    label { display: block; font-weight: 600; margin-bottom: 0.5rem; }
-    input[type=&quot;number&quot;] { width: 100%; padding: 0.5rem; font-size: 1rem; }
-  &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;div class=&quot;field&quot;&gt;
-    &lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;
-    &lt;input
-      type=&quot;number&quot;
-      id=&quot;item-quantity&quot;
-      name=&quot;itemQuantity&quot;
-      min=&quot;1&quot;
-      step=&quot;1&quot;
-      required
-      inputmode=&quot;numeric&quot;
-      aria-describedby=&quot;quantity-help&quot;
-    /&gt;
-    &lt;small id=&quot;quantity-help&quot; style=&quot;color:#666&quot;&gt;Enter a whole number (minimum 1).&lt;/small&gt;
-  &lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible number field for “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot; /&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
-  &lt;title&gt;Accessible Number Field - Item Quantity&lt;/title&gt;
-  &lt;style&gt;
-    :root {
-      --bg: #ffffff;
-      --fg: #111827;
-      --muted: #6b7280;
-      --border: #d1d5db;
-      --focus: #2563eb;
-      --error: #b91c1c;
-      --success: #166534;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;;
-      color: var(--fg);
-      background: var(--bg);
-      line-height: 1.5;
-    }
-    .container {
-      max-width: 480px;
-      margin: 2rem auto;
-      padding: 1rem;
-    }
-    fieldset {
-      border: 0;
-      padding: 0;
-      margin: 0 0 1rem 0;
-    }
-    legend {
-      font-weight: 600;
-      margin-bottom: 0.5rem;
-    }
-    .field {
-      margin-bottom: 1rem;
-    }
-    label {
-      display</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-5.1-codex</strong></td>
-      <td>G1</td>
-      <td>Insert a number field for “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;number&quot; name=&quot;itemQuantity&quot; aria-label=&quot;Item Quantity&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Number field: Item Quantity</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;item-quantity&quot; name=&quot;item-quantity&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A number field labeled “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input id=&quot;item-quantity&quot; name=&quot;item-quantity&quot; type=&quot;number&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a number field and label for “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;itemQuantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;itemQuantity&quot; name=&quot;itemQuantity&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible number field for “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;form&gt;
-  &lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;
-  &lt;input type=&quot;number&quot; id=&quot;item-quantity&quot; name=&quot;item-quantity&quot; aria-describedby=&quot;item-quantity-help&quot; min=&quot;1&quot; step=&quot;1&quot; required&gt;
-  &lt;div id=&quot;item-quantity-help&quot;&gt;Enter the number of items you want, minimum of one.&lt;/div&gt;
-&lt;/form&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>qwen/qwen3-coder</strong></td>
-      <td>G1</td>
-      <td>Insert a number field for “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;number&quot; id=&quot;item-quantity&quot; name=&quot;item-quantity&quot; min=&quot;1&quot; value=&quot;1&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Number field: Item Quantity</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;number&quot; name=&quot;item_quantity&quot; id=&quot;item_quantity&quot; min=&quot;1&quot; step=&quot;1&quot;&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A number field labeled “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;input type=&quot;number&quot; id=&quot;item-quantity&quot; name=&quot;item-quantity&quot; min=&quot;1&quot; value=&quot;1&quot;&gt;
-&lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a number field and label for “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;item-quantity&quot; name=&quot;item-quantity&quot; min=&quot;1&quot; value=&quot;1&quot;&gt;
-```</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible number field for “Item Quantity”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;item-quantity&quot; name=&quot;item-quantity&quot; min=&quot;1&quot; step=&quot;1&quot; required&gt;
-```</code></pre>
-        </details>
-      </td>
-      <td><a href="../docs/persona-outputs/quantity-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -511,11 +88,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;quantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;quantity&quot; name=&quot;quantity&quot;&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/quantity-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -524,11 +100,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;item-quantity&quot; name=&quot;item-quantity&quot;&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/quantity-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -537,11 +112,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;quantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;quantity&quot; name=&quot;quantity&quot;&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/quantity-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -550,11 +124,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;item-quantity&quot; name=&quot;item-quantity&quot;&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/quantity-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -563,13 +136,1104 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;label for=&quot;quantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;quantity&quot; name=&quot;quantity&quot; min=&quot;1&quot;&gt;</code></pre>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
         </details>
       </td>
-      <td><a href="../docs/persona-outputs/quantity-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>anthropic/claude-sonnet-4.5</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>anthropic/claude-sonnet-4</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/anthropic-claude-sonnet-4/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/anthropic-claude-sonnet-4/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/anthropic-claude-sonnet-4/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/anthropic-claude-sonnet-4/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/anthropic-claude-sonnet-4/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>qwen/qwen3-coder-30b-a3b-instruct</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/qwen-qwen3-coder-30b-a3b-instruct/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/qwen-qwen3-coder-30b-a3b-instruct/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/qwen-qwen3-coder-30b-a3b-instruct/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/qwen-qwen3-coder-30b-a3b-instruct/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/qwen-qwen3-coder-30b-a3b-instruct/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-oss-20b</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-oss-20b/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-oss-20b/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-oss-20b/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-oss-20b/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-oss-20b/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-4.1-mini</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-4.1-mini/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-4.1-mini/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-4.1-mini/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-4.1-mini/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-4.1-mini/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>z-ai/glm-4.6</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/z-ai-glm-4.6/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/z-ai-glm-4.6/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/z-ai-glm-4.6/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/z-ai-glm-4.6/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/z-ai-glm-4.6/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>x-ai/grok-4-fast</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/x-ai-grok-4-fast/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/x-ai-grok-4-fast/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/x-ai-grok-4-fast/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/x-ai-grok-4-fast/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/x-ai-grok-4-fast/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>google/gemma-3-12b-it</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/google-gemma-3-12b-it/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/google-gemma-3-12b-it/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/google-gemma-3-12b-it/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/google-gemma-3-12b-it/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/google-gemma-3-12b-it/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>google/gemini-2.5-flash</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/google-gemini-2.5-flash/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/google-gemini-2.5-flash/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/google-gemini-2.5-flash/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/google-gemini-2.5-flash/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/google-gemini-2.5-flash/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>google/gemini-2.5-pro</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-5-codex</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-5-codex/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-5-codex/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-5-codex/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-5-codex/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-5-codex/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>qwen/qwen3-coder</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>z-ai/glm-4.5-air</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/z-ai-glm-4.5-air/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/z-ai-glm-4.5-air/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/z-ai-glm-4.5-air/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/z-ai-glm-4.5-air/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/z-ai-glm-4.5-air/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>qwen/qwen3-vl-235b-a22b-instruct</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/qwen-qwen3-vl-235b-a22b-instruct/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/qwen-qwen3-vl-235b-a22b-instruct/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/qwen-qwen3-vl-235b-a22b-instruct/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/qwen-qwen3-vl-235b-a22b-instruct/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/qwen-qwen3-vl-235b-a22b-instruct/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>anthropic/claude-3.7-sonnet</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/anthropic-claude-3.7-sonnet/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/anthropic-claude-3.7-sonnet/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/anthropic-claude-3.7-sonnet/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/anthropic-claude-3.7-sonnet/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/anthropic-claude-3.7-sonnet/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>x-ai/grok-4</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/x-ai-grok-4/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/x-ai-grok-4/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/x-ai-grok-4/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/x-ai-grok-4/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/x-ai-grok-4/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-5-mini</strong></td>
+      <td>G1</td>
+      <td>Insert a number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-5-mini/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Number field: Item Quantity</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-5-mini/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A number field labeled “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-5-mini/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a number field and label for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-5-mini/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible number field for “Item Quantity”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-5-mini/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td>test </td>
+      <td>G1</td>
+      <td>test</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://momentine.github.io/llm-html/outputs/quantity-field/openai-gpt-5/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>
-
+  
 </details>
