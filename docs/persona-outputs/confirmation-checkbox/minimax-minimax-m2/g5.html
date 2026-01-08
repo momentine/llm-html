@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Accessible Terms Checkbox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <main>
+    <h1>Create your account</h1>
+
+    <form action="/signup" method="post" novalidate>
+      <div>
+        <input
+          type="checkbox"
+          id="agree"
+          name="agree"
+          required
+          aria-describedby="agree-help terms-link"
+        >
+        <label for="agree">
+          I agree to the <a id="terms-link" href="/terms" target="_blank" rel="noopener noreferrer">Terms and Conditions</a>
+        </label>
+        <div id="agree-help">You must agree before creating an account.</div>
+      </div>
+
+      <button type="submit">Sign up</button>
+    </form>
+  </main>
+</body>
+</html>

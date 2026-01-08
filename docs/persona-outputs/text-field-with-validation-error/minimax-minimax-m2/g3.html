@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Color Question</title>
+  <style>
+    .error {
+      color: #b00020;
+      font-size: 0.95rem;
+      margin-top: 0.35rem;
+    }
+  </style>
+</head>
+<body>
+  <form id="colorForm" novalidate>
+    <label for="colorAnswer">What color is an orange?</label><br />
+    <input
+      type="text"
+      id="colorAnswer"
+      name="colorAnswer"
+      required
+      aria-describedby="colorError"
+      aria-invalid="false"
+    />
+    <p id="colorError" class="error" role="alert" aria-live="polite" hidden>
+      That’s not right. Try again.
+    </p>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    (function () {
+      const form = document.getElementById('colorForm');
+      const input = document.getElementById('colorAnswer');
+      const error = document.getElementById('colorError');
+
+      function showError() {
+        input.setAttribute('aria-invalid', 'true');
+        error.hidden = false;
+      }
+
+      function clearError() {
+        input.setAttribute('aria-invalid', 'false');
+        error.hidden = true;
+      }
+
+      input.addEventListener('input', function () {
+        if (input.value.trim().toLowerCase() === 'orange') {
+          clearError();
+        }
+      });
+
+      form.addEventListener('submit', function (e) {
+        const value = input.value.trim().toLowerCase();
+        if (value !== 'orange') {
+          e.preventDefault();
+          showError();
+          input.focus();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

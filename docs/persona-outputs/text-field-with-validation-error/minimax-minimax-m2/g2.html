@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Color Question</title>
+</head>
+<body>
+  <form id="colorForm" novalidate>
+    <label for="colorInput">What color is an orange?</label>
+    <input id="colorInput" name="color" type="text" autocomplete="off" required />
+    <button type="submit">Submit</button>
+    <p id="errorMessage" role="alert" aria-live="assertive">That's not right. Try again.</p>
+  </form>
+
+  <script>
+    (function () {
+      const form = document.getElementById('colorForm');
+      const input = document.getElementById('colorInput');
+      const error = document.getElementById('errorMessage');
+
+      function showError() {
+        error.style.display = 'block';
+        input.setAttribute('aria-invalid', 'true');
+      }
+
+      function hideError() {
+        error.style.display = 'none';
+        input.removeAttribute('aria-invalid');
+      }
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const answer = input.value.trim().toLowerCase();
+        if (answer === 'orange') {
+          hideError();
+          alert('

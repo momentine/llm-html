@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>First Name Field</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <form action="#" method="post">
+    <label for="first-name">Your first name</label>
+    <input
+      id="first-name"
+      name="first_name"
+      type="text"
+      autocomplete="given-name"
+      list="first-name-suggestions"
+      spellcheck="false"
+      inputmode="text"
+      aria-describedby="first-name-help"
+      required
+    >
+    <datalist id="first-name-suggestions">
+      <option value="John Doe">
+      <option value="John">
+      <option value="Jane">
+      <option value="Alex">
+    </datalist>
+    <div id="first-name-help">Start typing to see suggestions. Press the down arrow to select.</div>
+  </form>
+</body>
+</html>

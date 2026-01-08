@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Desired Email Address</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <label for="desired-email">Desired email address</label>
+    <input
+      id="desired-email"
+      name="desired_email"
+      type="email"
+      placeholder="you@example.com"
+      autocomplete="email"
+      required
+    />
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    document.querySelector('form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const email = document.getElementById('desired-email').value.trim();
+      if (email) {
+        alert('Submitted: ' + email);
+      }
+    });
+  </script>
+</body>
+</html>

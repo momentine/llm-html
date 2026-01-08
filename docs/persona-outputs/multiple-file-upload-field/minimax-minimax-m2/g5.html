@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Upload Files</title>
+</head>
+<body>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <div>
+      <label for="files">Upload Files</label>
+      <input
+        id="files"
+        name="files[]"
+        type="file"
+        multiple
+        accept=".pdf,.docx,.txt,.png,.jpg,.jpeg,.gif,.svg"
+        aria-describedby="files-help"
+      />
+      <div id="files-help">
+        Accepted types: PDF, DOCX, TXT, PNG, JPG, GIF, SVG. You can select multiple files.
+      </div>
+    </div>
+  </form>
+</body>
+</html>

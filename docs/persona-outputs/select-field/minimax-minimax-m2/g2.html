@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Theme Selector</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      line-height: 1.5;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    label { font-weight: 600; }
+    select {
+      margin-top: 0.5rem;
+      padding: 0.4rem 0.6rem;
+      font-size: 1rem;
+    }
+    .card {
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid rgba(0,0,0,.12);
+    }
+    /* Themes */
+    body.theme-light {
+      background: #ffffff;
+      color: #111111;
+    }
+    body.theme-light .card {
+      background: #f6f8fa;
+      border-color: #d0d7de;
+    }
+
+    body.theme-dark {
+      background: #0b0f14;
+      color: #e6edf3;
+    }
+    body.theme-dark .card {
+      background: #111827;
+      border-color: #2b3440;
+    }
+
+    body.theme-high-contrast {
+      background: #000000;
+      color: #ffff00;
+      /* Improve legibility in high contrast */
+      text-shadow: none;
+    }
+    body.theme-high-contrast .card {
+      background: #000000;
+      border: 3px solid #ffff00;
+    }
+    body.theme-high-contrast a {
+      color: #ffff00;
+    }
+    /* Focus visibility */
+    :focus-visible {
+      outline: 3px solid #3b82f6;
+      outline-offset: 2px;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { transition: none !important; animation: none !important; }
+    }
+  </style>
