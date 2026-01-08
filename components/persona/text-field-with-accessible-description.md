@@ -23,7 +23,7 @@
 &lt;small&gt;Please include the state name or abbreviation&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -39,7 +39,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -55,7 +55,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -69,7 +69,7 @@
 &lt;small&gt;Please include the state name or abbreviation&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -85,7 +85,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -98,7 +98,7 @@
 &lt;small&gt;Please include the state name or abbreviation&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -110,7 +110,7 @@
           <pre><code class="language-html">&lt;input type=&quot;text&quot; placeholder=&quot;What is your favorite U.S. city?&quot; title=&quot;Please include the state name or abbreviation&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -124,7 +124,7 @@
 &lt;small&gt;Please include the state name or abbreviation&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -137,7 +137,7 @@
 &lt;input type=&quot;text&quot; id=&quot;favorite-city&quot; name=&quot;favorite-city&quot; placeholder=&quot;Please include the state name or abbreviation&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -151,7 +151,7 @@
 &lt;div id=&quot;city-note&quot; class=&quot;visually-hidden&quot;&gt;Please include the state name or abbreviation&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>google/gemini-2.5-pro</strong></td>
@@ -163,7 +163,7 @@
           <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -175,7 +175,7 @@
           <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -187,7 +187,7 @@
           <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -199,7 +199,7 @@
           <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -211,7 +211,7 @@
           <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>minimax/minimax-m2</strong></td>
@@ -225,7 +225,7 @@
 &lt;small id=&quot;city-note&quot;&gt;Please include the state name or abbreviation.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/minimax-minimax-m2/g1.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -249,7 +249,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/minimax-minimax-m2/g2.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -275,7 +275,7 @@
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/minimax-minimax-m2/g3.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -289,7 +289,7 @@
 &lt;small id=&quot;favorite-city-note&quot;&gt;Please include the state name or abbreviation&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/minimax-minimax-m2/g4.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -312,7 +312,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/minimax-minimax-m2/g5.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>openai/gpt-5.1-codex</strong></td>
@@ -326,7 +326,7 @@
 &lt;small&gt;Please include the state name or abbreviation&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -342,7 +342,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -358,7 +358,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -372,7 +372,7 @@
 &lt;p&gt;Please include the state name or abbreviation&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -388,7 +388,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>qwen/qwen3-coder</strong></td>
@@ -400,7 +400,7 @@
           <pre><code class="language-html">&lt;input type=&quot;text&quot; name=&quot;favorite_city&quot; placeholder=&quot;What is your favorite U.S. city? (Please include the state name or abbreviation)&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -416,7 +416,7 @@
 ```</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -430,7 +430,7 @@
 &lt;small&gt;Please include the state name or abbreviation&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -446,7 +446,7 @@
 ```</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -462,7 +462,7 @@
 ```</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -476,7 +476,7 @@
 &lt;small&gt;Please include the state name or abbreviation&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -490,7 +490,7 @@
 &lt;small&gt;Please include the state name or abbreviation&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -504,7 +504,7 @@
 &lt;small&gt;Please include the state name or abbreviation&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -518,7 +518,7 @@
 &lt;p&gt;Please include the state name or abbreviation&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -530,7 +530,7 @@
           <pre><code class="language-html">&lt;label for=&quot;city&quot;&gt;What is your favorite U.S. city? &lt;small&gt;Please include the state name or abbreviation&lt;/small&gt;&lt;/label&gt;&lt;input id=&quot;city&quot; type=&quot;text&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="persona-llm-html/components/persona/persona-outputs/text-field-with-accessible-description/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="persona-llm-html/components/persona/persona-../docs/persona-outputs/text-field-with-accessible-description/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>
