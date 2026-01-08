@@ -1,5 +1,4 @@
 <details>
-  
   <summary><strong>Multiple File Upload Field</strong></summary>
 <table>
   <thead>
@@ -13,169 +12,65 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>openai/gpt-5</strong></td>
-      <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;div class="toggle-container"&gt;
-  &lt;label for="dark-mode-toggle" class="toggle-label"&gt;
-    Dark Mode
-    &lt;div class="toggle-switch"&gt;
-      &lt;input type="checkbox" id="dark-mode-toggle" class="toggle-input"&gt;
-      &lt;span class="toggle-slider"&gt;&lt;/span&gt;
-    &lt;/div&gt;
-  &lt;/label&gt;
-  &lt;p class="helper-text"&gt;Switch between light and dark themes.&lt;/p&gt;
-&lt;/div&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-5/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-5/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-5/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a multiple file upload field and label for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-5/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-5/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>x-ai/grok-code-fast-1</strong></td>
-      <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a multiple file upload field and label for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
       <td><strong>anthropic/claude-sonnet-4.5</strong></td>
       <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
+      <td>Insert a multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;fileUpload&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;fileUpload&quot; name=&quot;fileUpload&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
+      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Multiple File Upload&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;form&gt;
+        &lt;label for=&quot;fileUpload&quot;&gt;Upload Files&lt;/label&gt;
+        &lt;input type=&quot;file&quot; id=&quot;fileUpload&quot; name=&quot;fileUpload&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
+      <td>A multiple file upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;label for=&quot;fileUpload&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input 
+  type=&quot;file&quot; 
+  id=&quot;fileUpload&quot; 
+  name=&quot;fileUpload&quot; 
+  multiple 
+  accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;
+&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -184,10 +79,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;label for=&quot;fileUpload&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;fileUpload&quot; name=&quot;fileUpload&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -196,766 +94,65 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;div&gt;
+  &lt;label for=&quot;file-upload&quot;&gt;
+    Upload Files
+    &lt;span aria-label=&quot;Accepted file types: PDF, DOCX, TXT, PNG, JPG, GIF, SVG&quot;&gt;(Accepted: .pdf, .docx, .txt, .png, .jpg, .gif, .svg)&lt;/span&gt;
+  &lt;/label&gt;
+  &lt;input 
+    type=&quot;file&quot; 
+    id=&quot;file-upload&quot; 
+    name=&quot;file-upload&quot; 
+    multiple 
+    accept=&quot;.pdf,.docx,.txt,.png,.jpg,.jpeg,.gif,.svg&quot;
+    aria-describedby=&quot;file-upload-description&quot;
+  /&gt;
+  &lt;div id=&quot;file-upload-description&quot;&gt;
+    You can select multiple files. Accepted formats: PDF, DOCX, TXT, PNG, JPG, GIF, SVG
+  &lt;/div&gt;
+&lt;/div&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>anthropic/claude-sonnet-4</strong></td>
-      <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/anthropic-claude-sonnet-4/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/anthropic-claude-sonnet-4/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/anthropic-claude-sonnet-4/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a multiple file upload field and label for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/anthropic-claude-sonnet-4/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/anthropic-claude-sonnet-4/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>qwen/qwen3-coder-30b-a3b-instruct</strong></td>
-      <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/qwen-qwen3-coder-30b-a3b-instruct/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/qwen-qwen3-coder-30b-a3b-instruct/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/qwen-qwen3-coder-30b-a3b-instruct/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a multiple file upload field and label for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/qwen-qwen3-coder-30b-a3b-instruct/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/qwen-qwen3-coder-30b-a3b-instruct/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-oss-20b</strong></td>
-      <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-oss-20b/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-oss-20b/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-oss-20b/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a multiple file upload field and label for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-oss-20b/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-oss-20b/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-4.1-mini</strong></td>
-      <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-4.1-mini/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-4.1-mini/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-4.1-mini/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a multiple file upload field and label for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-4.1-mini/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-4.1-mini/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>z-ai/glm-4.6</strong></td>
-      <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/z-ai-glm-4.6/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/z-ai-glm-4.6/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/z-ai-glm-4.6/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a multiple file upload field and label for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/z-ai-glm-4.6/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/z-ai-glm-4.6/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>x-ai/grok-4-fast</strong></td>
-      <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/x-ai-grok-4-fast/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/x-ai-grok-4-fast/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/x-ai-grok-4-fast/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a multiple file upload field and label for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/x-ai-grok-4-fast/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/x-ai-grok-4-fast/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemma-3-12b-it</strong></td>
-      <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/google-gemma-3-12b-it/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/google-gemma-3-12b-it/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/google-gemma-3-12b-it/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a multiple file upload field and label for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/google-gemma-3-12b-it/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/google-gemma-3-12b-it/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemini-2.5-flash</strong></td>
-      <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/google-gemini-2.5-flash/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/google-gemini-2.5-flash/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/google-gemini-2.5-flash/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a multiple file upload field and label for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/google-gemini-2.5-flash/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/google-gemini-2.5-flash/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemini-2.5-pro</strong></td>
-      <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a multiple file upload field and label for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-5-codex</strong></td>
-      <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-5-codex/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-5-codex/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-5-codex/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a multiple file upload field and label for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-5-codex/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-5-codex/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>qwen/qwen3-coder</strong></td>
-      <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a multiple file upload field and label for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>z-ai/glm-4.5-air</strong></td>
-      <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/z-ai-glm-4.5-air/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/z-ai-glm-4.5-air/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/z-ai-glm-4.5-air/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a multiple file upload field and label for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/z-ai-glm-4.5-air/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/z-ai-glm-4.5-air/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
       <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
+      <td>Insert a multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;file&quot; name=&quot;uploadFiles&quot; accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot; multiple&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
+      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;file&quot; name=&quot;files&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
+      <td>A multiple file upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;file&quot; id=&quot;uploadFiles&quot; name=&quot;uploadFiles&quot; accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot; multiple&gt;
+&lt;label for=&quot;uploadFiles&quot;&gt;Upload Files&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -964,10 +161,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;form&gt;
+  &lt;label for=&quot;file-upload&quot;&gt;Upload Files&lt;/label&gt;
+  &lt;input type=&quot;file&quot; id=&quot;file-upload&quot; name=&quot;files&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;
+&lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -976,46 +176,46 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;file&quot; id=&quot;upload-files&quot; name=&quot;upload-files&quot; accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot; multiple aria-label=&quot;Upload files&quot; /&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>qwen/qwen3-vl-235b-a22b-instruct</strong></td>
+      <td><strong>google/gemini-2.5-pro</strong></td>
       <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
+      <td>Insert a multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/qwen-qwen3-vl-235b-a22b-instruct/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
+      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/qwen-qwen3-vl-235b-a22b-instruct/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
+      <td>A multiple file upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/qwen-qwen3-vl-235b-a22b-instruct/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1024,10 +224,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/qwen-qwen3-vl-235b-a22b-instruct/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1036,46 +236,68 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/qwen-qwen3-vl-235b-a22b-instruct/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>anthropic/claude-3.7-sonnet</strong></td>
+      <td><strong>minimax/minimax-m2</strong></td>
       <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
+      <td>Insert a multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;upload-files&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input id=&quot;upload-files&quot; name=&quot;upload_files[]&quot; type=&quot;file&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.jpeg,.gif,.svg&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/anthropic-claude-3.7-sonnet/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
+      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Multiple File Upload&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form action=&quot;/upload&quot; method=&quot;post&quot; enctype=&quot;multipart/form-data&quot;&gt;
+    &lt;label for=&quot;files&quot;&gt;Upload Files&lt;/label&gt;
+    &lt;input
+      id=&quot;files&quot;
+      name=&quot;files[]&quot;
+      type=&quot;file&quot;
+      multiple
+      accept=&quot;.pdf,.docx,.txt,.png,.jpg,.jpeg,.gif,.svg,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain,image/png,image/jpeg,image/gif,image/svg+xml&quot;
+    &gt;
+    &lt;button type=&quot;submit&quot;&gt;Upload&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/anthropic-claude-3.7-sonnet/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
+      <td>A multiple file upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;upload-files&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input id=&quot;upload-files&quot; type=&quot;file&quot; name=&quot;files[]&quot; accept=&quot;.pdf,.docx,.txt,.png,.jpg,.jpeg,.gif,.svg&quot; multiple&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/anthropic-claude-3.7-sonnet/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1084,10 +306,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;uploadFiles&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;uploadFiles&quot; name=&quot;uploadFiles&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.jpeg,.gif,.svg&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/anthropic-claude-3.7-sonnet/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1096,46 +319,78 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+  &lt;title&gt;Upload Files&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form action=&quot;/upload&quot; method=&quot;post&quot; enctype=&quot;multipart/form-data&quot;&gt;
+    &lt;div&gt;
+      &lt;label for=&quot;files&quot;&gt;Upload Files&lt;/label&gt;
+      &lt;input
+        id=&quot;files&quot;
+        name=&quot;files[]&quot;
+        type=&quot;file&quot;
+        multiple
+        accept=&quot;.pdf,.docx,.txt,.png,.jpg,.jpeg,.gif,.svg&quot;
+        aria-describedby=&quot;files-help&quot;
+      /&gt;
+      &lt;div id=&quot;files-help&quot;&gt;
+        Accepted types: PDF, DOCX, TXT, PNG, JPG, GIF, SVG. You can select multiple files.
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/anthropic-claude-3.7-sonnet/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>x-ai/grok-4</strong></td>
+      <td><strong>openai/gpt-5.1-codex</strong></td>
       <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
+      <td>Insert a multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;form&gt;
+  &lt;label for=&quot;uploadFiles&quot;&gt;Upload Files&lt;/label&gt;
+  &lt;input id=&quot;uploadFiles&quot; name=&quot;uploadFiles&quot; type=&quot;file&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;
+&lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/x-ai-grok-4/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
+      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;form&gt;
+  &lt;label&gt;Upload Files&lt;/label&gt;
+  &lt;input type=&quot;file&quot; name=&quot;files&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;
+&lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/x-ai-grok-4/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
+      <td>A multiple file upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;upload&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input id=&quot;upload&quot; type=&quot;file&quot; name=&quot;files&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/x-ai-grok-4/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1144,10 +399,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;upload-files&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input id=&quot;upload-files&quot; type=&quot;file&quot; name=&quot;files&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/x-ai-grok-4/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1156,46 +412,57 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;form&gt;
+  &lt;label for=&quot;upload-files&quot;&gt;Upload Files&lt;/label&gt;
+  &lt;p id=&quot;upload-files-instructions&quot;&gt;Select one or more files. Accepted formats: PDF, DOCX, TXT, PNG, JPG, GIF, SVG.&lt;/p&gt;
+  &lt;input id=&quot;upload-files&quot; type=&quot;file&quot; name=&quot;files&quot; multiple aria-describedby=&quot;upload-files-instructions&quot; accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;
+&lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/x-ai-grok-4/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>openai/gpt-5-mini</strong></td>
+      <td><strong>qwen/qwen3-coder</strong></td>
       <td>G1</td>
-      <td>Insert a mutlple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
+      <td>Insert a multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;input type=&quot;file&quot; name=&quot;upload_files&quot; accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot; multiple&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-5-mini/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
+      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;input type=&quot;file&quot; name=&quot;uploadFiles&quot; accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot; multiple&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-5-mini/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G3</td>
-      <td>A multiple ffile upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg/td>
+      <td>A multiple file upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;label for=&quot;file-upload&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;file-upload&quot; name=&quot;files&quot; accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot; multiple&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-5-mini/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1204,10 +471,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;label for=&quot;upload-files&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;upload-files&quot; name=&quot;upload-files&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-5-mini/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1216,24 +486,83 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;div&gt;
+  &lt;label for=&quot;file-upload&quot;&gt;Upload Files&lt;/label&gt;
+  &lt;input type=&quot;file&quot; id=&quot;file-upload&quot; name=&quot;files&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.jpeg,.gif,.svg&quot; aria-describedby=&quot;file-upload-help&quot;&gt;
+  &lt;div id=&quot;file-upload-help&quot;&gt;Accepted file types: PDF, DOCX, TXT, PNG, JPG, GIF, SVG&lt;/div&gt;
+&lt;/div&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-5-mini/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td>test </td>
+      <td><strong>x-ai/grok-code-fast-1</strong></td>
       <td>G1</td>
-      <td>test</td>
+      <td>Insert a multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;upload-files&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;upload-files&quot; name=&quot;files&quot; multiple accept=&quot;application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain,image/png,image/jpeg,image/gif,image/svg+xml&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/multiple-file-upload-field/openai-gpt-5/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Multiple file upload field: Upload Files accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;file-upload&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;file-upload&quot; name=&quot;files&quot; multiple accept=&quot;application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain,image/png,image/jpeg,image/gif,image/svg+xml&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A multiple file upload field labeled “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;upload&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;upload&quot; name=&quot;files&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a multiple file upload field and label for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;upload-files&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;upload-files&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible multiple file upload field for “Upload Files” accepting .pdf, .docx, .txt, .png, .jpg, .gif, .svg</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;upload-files&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;upload-files&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/multiple-file-upload-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>
-  
+
 </details>

@@ -1,5 +1,4 @@
 <details>
-  
   <summary><strong>Document File Upload Field</strong></summary>
 <table>
   <thead>
@@ -13,145 +12,19 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>openai/gpt-5</strong></td>
-      <td>G1</td>
-      <td>Insert a document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;div class="toggle-container"&gt;
-  &lt;label for="dark-mode-toggle" class="toggle-label"&gt;
-    Dark Mode
-    &lt;div class="toggle-switch"&gt;
-      &lt;input type="checkbox" id="dark-mode-toggle" class="toggle-input"&gt;
-      &lt;span class="toggle-slider"&gt;&lt;/span&gt;
-    &lt;/div&gt;
-  &lt;/label&gt;
-  &lt;p class="helper-text"&gt;Switch between light and dark themes.&lt;/p&gt;
-&lt;/div&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-5/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Document file upload field: Upload Document</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-5/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A document file upload field labeled “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-5/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a document file upload field and label for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-5/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-5/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>x-ai/grok-code-fast-1</strong></td>
-      <td>G1</td>
-      <td>Insert a document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Document file upload field: Upload Document</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A document file upload field labeled “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a document file upload field and label for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
       <td><strong>anthropic/claude-sonnet-4.5</strong></td>
       <td>G1</td>
       <td>Insert a document file upload field for “Upload Document”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;documentUpload&quot;&gt;Upload Document&lt;/label&gt;
+  &lt;input type=&quot;file&quot; id=&quot;documentUpload&quot; name=&quot;documentUpload&quot; accept=&quot;.doc,.docx,.pdf,.txt,.odt&quot;&gt;
+&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -160,10 +33,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;documentUpload&quot;&gt;Upload Document&lt;/label&gt;
+  &lt;input type=&quot;file&quot; id=&quot;documentUpload&quot; name=&quot;documentUpload&quot; accept=&quot;.pdf,.doc,.docx,.txt&quot;&gt;
+&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -172,10 +48,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;documentUpload&quot;&gt;Upload Document&lt;/label&gt;
+  &lt;input type=&quot;file&quot; id=&quot;documentUpload&quot; name=&quot;documentUpload&quot; accept=&quot;.pdf,.doc,.docx,.txt&quot;&gt;
+&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -184,10 +63,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document-upload&quot; accept=&quot;.pdf,.doc,.docx,.txt&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -196,730 +76,39 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;div role=&quot;region&quot; aria-labelledby=&quot;upload-heading&quot;&gt;
+  &lt;h2 id=&quot;upload-heading&quot;&gt;Upload Document&lt;/h2&gt;
+  
+  &lt;form&gt;
+    &lt;div&gt;
+      &lt;label for=&quot;document-upload&quot; id=&quot;document-upload-label&quot;&gt;
+        Choose a document to upload
+        &lt;span aria-label=&quot;required&quot; class=&quot;required&quot;&gt;*&lt;/span&gt;
+      &lt;/label&gt;
+      
+      &lt;input 
+        type=&quot;file&quot; 
+        id=&quot;document-upload&quot; 
+        name=&quot;document-upload&quot;
+        aria-labelledby=&quot;document-upload-label document-upload-description&quot;
+        aria-required=&quot;true&quot;
+        accept=&quot;.pdf,.doc,.docx,.txt&quot;
+        required
+      /&gt;
+      
+      &lt;div id=&quot;document-upload-description&quot;&gt;
+        Accepted file types: PDF, DOC, DOCX, TXT. Maximum file size: 10MB.
+      &lt;/div&gt;
+      
+      &lt;div id=&quot;upload-status&quot; role=&quot;status&quot; aria-live=&quot;polite&quot; aria-atomic=&quot;true&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;button type=&quot;submit&quot;&gt;Submit Document&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>anthropic/claude-sonnet-4</strong></td>
-      <td>G1</td>
-      <td>Insert a document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/anthropic-claude-sonnet-4/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Document file upload field: Upload Document</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/anthropic-claude-sonnet-4/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A document file upload field labeled “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/anthropic-claude-sonnet-4/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a document file upload field and label for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/anthropic-claude-sonnet-4/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/anthropic-claude-sonnet-4/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>qwen/qwen3-coder-30b-a3b-instruct</strong></td>
-      <td>G1</td>
-      <td>Insert a document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/qwen-qwen3-coder-30b-a3b-instruct/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Document file upload field: Upload Document</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/qwen-qwen3-coder-30b-a3b-instruct/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A document file upload field labeled “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/qwen-qwen3-coder-30b-a3b-instruct/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a document file upload field and label for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/qwen-qwen3-coder-30b-a3b-instruct/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/qwen-qwen3-coder-30b-a3b-instruct/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-oss-20b</strong></td>
-      <td>G1</td>
-      <td>Insert a document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-oss-20b/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Document file upload field: Upload Document</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-oss-20b/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A document file upload field labeled “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-oss-20b/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a document file upload field and label for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-oss-20b/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-oss-20b/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-4.1-mini</strong></td>
-      <td>G1</td>
-      <td>Insert a document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-4.1-mini/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Document file upload field: Upload Document</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-4.1-mini/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A document file upload field labeled “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-4.1-mini/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a document file upload field and label for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-4.1-mini/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-4.1-mini/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>z-ai/glm-4.6</strong></td>
-      <td>G1</td>
-      <td>Insert a document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/z-ai-glm-4.6/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Document file upload field: Upload Document</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/z-ai-glm-4.6/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A document file upload field labeled “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/z-ai-glm-4.6/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a document file upload field and label for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/z-ai-glm-4.6/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/z-ai-glm-4.6/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>x-ai/grok-4-fast</strong></td>
-      <td>G1</td>
-      <td>Insert a document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/x-ai-grok-4-fast/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Document file upload field: Upload Document</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/x-ai-grok-4-fast/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A document file upload field labeled “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/x-ai-grok-4-fast/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a document file upload field and label for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/x-ai-grok-4-fast/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/x-ai-grok-4-fast/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemma-3-12b-it</strong></td>
-      <td>G1</td>
-      <td>Insert a document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/google-gemma-3-12b-it/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Document file upload field: Upload Document</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/google-gemma-3-12b-it/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A document file upload field labeled “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/google-gemma-3-12b-it/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a document file upload field and label for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/google-gemma-3-12b-it/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/google-gemma-3-12b-it/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemini-2.5-flash</strong></td>
-      <td>G1</td>
-      <td>Insert a document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/google-gemini-2.5-flash/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Document file upload field: Upload Document</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/google-gemini-2.5-flash/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A document file upload field labeled “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/google-gemini-2.5-flash/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a document file upload field and label for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/google-gemini-2.5-flash/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/google-gemini-2.5-flash/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemini-2.5-pro</strong></td>
-      <td>G1</td>
-      <td>Insert a document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Document file upload field: Upload Document</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A document file upload field labeled “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a document file upload field and label for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-5-codex</strong></td>
-      <td>G1</td>
-      <td>Insert a document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-5-codex/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Document file upload field: Upload Document</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-5-codex/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A document file upload field labeled “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-5-codex/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a document file upload field and label for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-5-codex/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-5-codex/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>qwen/qwen3-coder</strong></td>
-      <td>G1</td>
-      <td>Insert a document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Document file upload field: Upload Document</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A document file upload field labeled “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a document file upload field and label for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>z-ai/glm-4.5-air</strong></td>
-      <td>G1</td>
-      <td>Insert a document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/z-ai-glm-4.5-air/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Document file upload field: Upload Document</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/z-ai-glm-4.5-air/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A document file upload field labeled “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/z-ai-glm-4.5-air/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a document file upload field and label for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/z-ai-glm-4.5-air/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible document file upload field for “Upload Document”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/z-ai-glm-4.5-air/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -928,10 +117,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;file&quot; name=&quot;document&quot; accept=&quot;.doc,.docx,.pdf,.txt&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -940,10 +129,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;file&quot; accept=&quot;.doc,.docx,.pdf,.txt&quot; id=&quot;documentUpload&quot; name=&quot;documentUpload&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -952,10 +141,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;input type=&quot;file&quot; id=&quot;document&quot; name=&quot;document&quot;&gt;
+&lt;label for=&quot;document&quot;&gt;Upload Document&lt;/label&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -964,10 +156,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;file-upload&quot;&gt;Upload Document&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;file-upload&quot; name=&quot;file-upload&quot; accept=&quot;.doc,.docx,.pdf,.txt&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -976,22 +169,24 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document-upload&quot; accept=&quot;.pdf,.doc,.docx,.txt&quot; aria-describedby=&quot;upload-help&quot;&gt;
+&lt;small id=&quot;upload-help&quot;&gt;Accepted file types: PDF, DOC, DOCX, TXT&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>qwen/qwen3-vl-235b-a22b-instruct</strong></td>
+      <td><strong>google/gemini-2.5-pro</strong></td>
       <td>G1</td>
       <td>Insert a document file upload field for “Upload Document”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/qwen-qwen3-vl-235b-a22b-instruct/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1000,10 +195,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/qwen-qwen3-vl-235b-a22b-instruct/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1012,10 +207,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/qwen-qwen3-vl-235b-a22b-instruct/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1024,10 +219,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/qwen-qwen3-vl-235b-a22b-instruct/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1036,22 +231,26 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/qwen-qwen3-vl-235b-a22b-instruct/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>anthropic/claude-3.7-sonnet</strong></td>
+      <td><strong>minimax/minimax-m2</strong></td>
       <td>G1</td>
       <td>Insert a document file upload field for “Upload Document”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;form action=&quot;/upload&quot; method=&quot;post&quot; enctype=&quot;multipart/form-data&quot;&gt;
+  &lt;label for=&quot;upload-document&quot;&gt;Upload Document&lt;/label&gt;
+  &lt;input id=&quot;upload-document&quot; name=&quot;document&quot; type=&quot;file&quot; accept=&quot;.pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.txt,.rtf,.odt,.ods,.odp,.csv&quot; required /&gt;
+  &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/anthropic-claude-3.7-sonnet/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1060,10 +259,32 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Upload Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form action=&quot;/upload&quot; method=&quot;post&quot; enctype=&quot;multipart/form-data&quot;&gt;
+    &lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;
+    &lt;input
+      id=&quot;document-upload&quot;
+      name=&quot;document&quot;
+      type=&quot;file&quot;
+      accept=&quot;.pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.txt,.rtf,.csv,.odt,.ods,.odp&quot;
+      multiple
+      required
+      aria-describedby=&quot;document-upload-help&quot;
+    /&gt;
+    &lt;p id=&quot;document-upload-help&quot;&gt;Accepted formats: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, TXT, RTF, CSV, ODT, ODP. You can select multiple files.&lt;/p&gt;
+    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/anthropic-claude-3.7-sonnet/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1072,10 +293,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;form action=&quot;/upload&quot; method=&quot;post&quot; enctype=&quot;multipart/form-data&quot;&gt;
+  &lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;
+  &lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document&quot; accept=&quot;.pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.txt,.rtf,.odt,.csv&quot; /&gt;
+&lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/anthropic-claude-3.7-sonnet/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1084,10 +308,12 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document&quot; accept=&quot;.pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.txt,.rtf,.odt,.ods,.odp&quot; aria-describedby=&quot;document-upload-help&quot; required&gt;
+&lt;small id=&quot;document-upload-help&quot;&gt;Accepted types: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, TXT, RTF, ODT, ODS, ODP&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/anthropic-claude-3.7-sonnet/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1096,22 +322,23 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/anthropic-claude-3.7-sonnet/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>x-ai/grok-4</strong></td>
+      <td><strong>openai/gpt-5.1-codex</strong></td>
       <td>G1</td>
       <td>Insert a document file upload field for “Upload Document”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;upload-document&quot;&gt;Upload Document&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;upload-document&quot; name=&quot;upload_document&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/x-ai-grok-4/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1120,10 +347,14 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;form&gt;
+  &lt;label for=&quot;documentUpload&quot;&gt;Upload Document&lt;/label&gt;
+  &lt;input type=&quot;file&quot; id=&quot;documentUpload&quot; name=&quot;document&quot; accept=&quot;.pdf,.doc,.docx,.txt&quot;/&gt;
+  &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/x-ai-grok-4/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1132,10 +363,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;upload-document&quot;&gt;Upload Document&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;upload-document&quot; name=&quot;document&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/x-ai-grok-4/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1144,10 +376,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;upload-document&quot;&gt;Upload Document&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;upload-document&quot; name=&quot;upload-document&quot; accept=&quot;.pdf,.doc,.docx,.txt&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/x-ai-grok-4/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1156,22 +389,30 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;form&gt;
+  &lt;label for=&quot;upload-document&quot;&gt;Upload Document&lt;/label&gt;
+  &lt;input type=&quot;file&quot; id=&quot;upload-document&quot; name=&quot;upload-document&quot; aria-describedby=&quot;upload-document-instructions&quot;&gt;
+  &lt;p id=&quot;upload-document-instructions&quot;&gt;Select a document file to upload. Accepted formats include PDF, DOC, and DOCX.&lt;/p&gt;
+  &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/x-ai-grok-4/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>openai/gpt-5-mini</strong></td>
+      <td><strong>qwen/qwen3-coder</strong></td>
       <td>G1</td>
       <td>Insert a document file upload field for “Upload Document”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;input type=&quot;file&quot; name=&quot;document&quot; accept=&quot;.doc,.docx,.pdf,.txt,.rtf&quot; /&gt;
+&lt;label for=&quot;document&quot;&gt;Upload Document&lt;/label&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-5-mini/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1180,10 +421,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document-upload&quot; accept=&quot;.pdf,.doc,.docx,.txt,.rtf&quot; /&gt;
+&lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-5-mini/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1192,10 +436,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document-upload&quot; accept=&quot;.pdf,.doc,.docx,.txt,.rtf&quot;&gt;
+&lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-5-mini/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1204,10 +451,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document-upload&quot; accept=&quot;.pdf,.doc,.docx,.txt,.rtf&quot;&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-5-mini/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1216,24 +466,98 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;div class=&quot;form-group&quot;&gt;
+  &lt;label for=&quot;document-upload&quot; id=&quot;document-label&quot;&gt;
+    Upload Document
+  &lt;/label&gt;
+  &lt;input 
+    type=&quot;file&quot; 
+    id=&quot;document-upload&quot; 
+    name=&quot;document-upload&quot; 
+    aria-describedby=&quot;document-help document-error&quot;
+    accept=&quot;.pdf,.doc,.docx,.txt,.rtf&quot;
+  &gt;
+  &lt;div id=&quot;document-help&quot; class=&quot;help-text&quot;&gt;
+    Accepted file types: PDF, DOC, DOCX, TXT, RTF. Maximum file size: 10MB.
+  &lt;/div&gt;
+  &lt;div id=&quot;document-error&quot; class=&quot;error-message&quot; aria-live=&quot;polite&quot; role=&quot;alert&quot;&gt;
+    &lt;!-- Error messages will be inserted here dynamically --&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-5-mini/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td>test </td>
+      <td><strong>x-ai/grok-code-fast-1</strong></td>
       <td>G1</td>
-      <td>test</td>
+      <td>Insert a document file upload field for “Upload Document”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;document&quot;&gt;Upload Document&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;document&quot; name=&quot;document&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/document-file-upload-field/openai-gpt-5/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Document file upload field: Upload Document</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;form&gt;
+  &lt;label for=&quot;document&quot;&gt;Upload Document&lt;/label&gt;
+  &lt;input type=&quot;file&quot; id=&quot;document&quot; name=&quot;document&quot;&gt;
+&lt;/form&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A document file upload field labeled “Upload Document”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;upload&quot;&gt;Upload Document&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;upload&quot; name=&quot;document&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a document file upload field and label for “Upload Document”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;document-upload&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible document file upload field for “Upload Document”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/document-file-upload-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>
-  
+
 </details>

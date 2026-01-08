@@ -1,5 +1,4 @@
 <details>
-  
   <summary><strong>Select Field with Required</strong></summary>
 <table>
   <thead>
@@ -13,157 +12,40 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>openai/gpt-5</strong></td>
-      <td>G1</td>
-      <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;div class="toggle-container"&gt;
-  &lt;label for="dark-mode-toggle" class="toggle-label"&gt;
-    Dark Mode
-    &lt;div class="toggle-switch"&gt;
-      &lt;input type="checkbox" id="dark-mode-toggle" class="toggle-input"&gt;
-      &lt;span class="toggle-slider"&gt;&lt;/span&gt;
-    &lt;/div&gt;
-  &lt;/label&gt;
-  &lt;p class="helper-text"&gt;Switch between light and dark themes.&lt;/p&gt;
-&lt;/div&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-5/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Desired email address"</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-5/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A required select field labeled “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-5/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a required select field and label for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-5/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible select field (required) for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-5/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>x-ai/grok-code-fast-1</strong></td>
-      <td>G1</td>
-      <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Select field (required): Theme with options light, dark, high contrast"/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A required select field labeled “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a required select field and label for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible select field (required) for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
       <td><strong>anthropic/claude-sonnet-4.5</strong></td>
       <td>G1</td>
       <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme &lt;span style=&quot;color: red;&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+    &lt;option value=&quot;&quot;&gt;Select a theme&lt;/option&gt;
+    &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+    &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+    &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Email field: Desired email address"</td>
+      <td>Select field (required): Theme with options light, dark, high contrast</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme &lt;span style=&quot;color: red;&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;&quot;&gt;Select a theme&lt;/option&gt;
+  &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -172,10 +54,16 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme &lt;span style=&quot;color: red;&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;&quot;&gt;Select a theme&lt;/option&gt;
+  &lt;option value=&quot;light&quot;&gt;light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;high contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -184,10 +72,18 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;label for=&quot;theme&quot;&gt;Theme &lt;span aria-label=&quot;required&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;&quot;&gt;Select a theme&lt;/option&gt;
+  &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
+&lt;/select&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -196,730 +92,16 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme &lt;span aria-label=&quot;required&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required aria-required=&quot;true&quot;&gt;
+  &lt;option value=&quot;&quot;&gt;Select a theme&lt;/option&gt;
+  &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>anthropic/claude-sonnet-4</strong></td>
-      <td>G1</td>
-      <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/anthropic-claude-sonnet-4/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Desired email address"</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/anthropic-claude-sonnet-4/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A required select field labeled “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/anthropic-claude-sonnet-4/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a required select field and label for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/anthropic-claude-sonnet-4/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible select field (required) for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/anthropic-claude-sonnet-4/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>qwen/qwen3-coder-30b-a3b-instruct</strong></td>
-      <td>G1</td>
-      <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/qwen-qwen3-coder-30b-a3b-instruct/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Desired email address"</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/qwen-qwen3-coder-30b-a3b-instruct/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A required select field labeled “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/qwen-qwen3-coder-30b-a3b-instruct/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a required select field and label for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/qwen-qwen3-coder-30b-a3b-instruct/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible select field (required) for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/qwen-qwen3-coder-30b-a3b-instruct/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-oss-20b</strong></td>
-      <td>G1</td>
-      <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-oss-20b/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Desired email address"</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-oss-20b/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A required select field labeled “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-oss-20b/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a required select field and label for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-oss-20b/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible select field (required) for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-oss-20b/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-4.1-mini</strong></td>
-      <td>G1</td>
-      <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-4.1-mini/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Desired email address"</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-4.1-mini/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A required select field labeled “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-4.1-mini/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a required select field and label for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-4.1-mini/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible select field (required) for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-4.1-mini/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>z-ai/glm-4.6</strong></td>
-      <td>G1</td>
-      <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/z-ai-glm-4.6/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Desired email address"</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/z-ai-glm-4.6/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A required select field labeled “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/z-ai-glm-4.6/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a required select field and label for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/z-ai-glm-4.6/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible select field (required) for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/z-ai-glm-4.6/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>x-ai/grok-4-fast</strong></td>
-      <td>G1</td>
-      <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/x-ai-grok-4-fast/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Desired email address"</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/x-ai-grok-4-fast/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A required select field labeled “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/x-ai-grok-4-fast/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a required select field and label for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/x-ai-grok-4-fast/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible select field (required) for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/x-ai-grok-4-fast/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemma-3-12b-it</strong></td>
-      <td>G1</td>
-      <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/google-gemma-3-12b-it/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Desired email address"</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/google-gemma-3-12b-it/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A required select field labeled “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/google-gemma-3-12b-it/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a required select field and label for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/google-gemma-3-12b-it/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible select field (required) for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/google-gemma-3-12b-it/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemini-2.5-flash</strong></td>
-      <td>G1</td>
-      <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/google-gemini-2.5-flash/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Desired email address"</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/google-gemini-2.5-flash/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A required select field labeled “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/google-gemini-2.5-flash/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a required select field and label for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/google-gemini-2.5-flash/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible select field (required) for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/google-gemini-2.5-flash/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemini-2.5-pro</strong></td>
-      <td>G1</td>
-      <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Desired email address"</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A required select field labeled “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a required select field and label for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible select field (required) for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-5-codex</strong></td>
-      <td>G1</td>
-      <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-5-codex/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Desired email address"</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-5-codex/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A required select field labeled “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-5-codex/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a required select field and label for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-5-codex/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible select field (required) for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-5-codex/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>qwen/qwen3-coder</strong></td>
-      <td>G1</td>
-      <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/qwen-qwen3-coder/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Desired email address"</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/qwen-qwen3-coder/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A required select field labeled “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/qwen-qwen3-coder/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a required select field and label for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/qwen-qwen3-coder/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible select field (required) for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/qwen-qwen3-coder/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>z-ai/glm-4.5-air</strong></td>
-      <td>G1</td>
-      <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/z-ai-glm-4.5-air/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Email field: Desired email address"</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/z-ai-glm-4.5-air/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A required select field labeled “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/z-ai-glm-4.5-air/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a required select field and label for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/z-ai-glm-4.5-air/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible select field (required) for “Theme” with options light, dark, high contrast</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/z-ai-glm-4.5-air/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -928,22 +110,32 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;select name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;&quot;&gt;Select a theme&lt;/option&gt;
+  &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+  &lt;option value=&quot;high contrast&quot;&gt;High Contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Email field: Desired email address"</td>
+      <td>Select field (required): Theme with options light, dark, high contrast</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;select required&gt;
+    &lt;option value=&quot;&quot; disabled selected&gt;Select theme&lt;/option&gt;
+    &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+    &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+    &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -952,10 +144,17 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;&quot; disabled selected&gt;Select a theme&lt;/option&gt;
+  &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
+&lt;/select&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -964,10 +163,15 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;light&quot;&gt;light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;dark&lt;/option&gt;
+  &lt;option value=&quot;high contrast&quot;&gt;high contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -976,34 +180,40 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;&quot;&gt;Select a theme&lt;/option&gt;
+  &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>qwen/qwen3-vl-235b-a22b-instruct</strong></td>
+      <td><strong>google/gemini-2.5-pro</strong></td>
       <td>G1</td>
       <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/qwen-qwen3-vl-235b-a22b-instruct/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Email field: Desired email address"</td>
+      <td>Select field (required): Theme with options light, dark, high contrast</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/qwen-qwen3-vl-235b-a22b-instruct/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1012,10 +222,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/qwen-qwen3-vl-235b-a22b-instruct/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1024,10 +234,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/qwen-qwen3-vl-235b-a22b-instruct/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1036,34 +246,45 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/qwen-qwen3-vl-235b-a22b-instruct/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>anthropic/claude-3.7-sonnet</strong></td>
+      <td><strong>minimax/minimax-m2</strong></td>
       <td>G1</td>
       <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;High contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/anthropic-claude-3.7-sonnet/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Email field: Desired email address"</td>
+      <td>Select field (required): Theme with options light, dark, high contrast</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme (required)&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;&quot; disabled selected&gt;Select a theme&lt;/option&gt;
+  &lt;option value=&quot;light&quot;&gt;light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;high contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/anthropic-claude-3.7-sonnet/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1072,10 +293,19 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;form&gt;
+  &lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+  &lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+    &lt;option value=&quot;&quot; disabled selected&gt;Select a theme&lt;/option&gt;
+    &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+    &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+    &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/anthropic-claude-3.7-sonnet/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1084,10 +314,16 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;&quot; disabled selected&gt;Select a theme&lt;/option&gt;
+  &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;High contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/anthropic-claude-3.7-sonnet/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1096,34 +332,67 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+  &lt;title&gt;Accessible Theme Select&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form&gt;
+    &lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+    &lt;select id=&quot;theme&quot; name=&quot;theme&quot; required aria-describedby=&quot;theme-hint&quot;&gt;
+      &lt;option value=&quot;&quot; disabled selected&gt;Select a theme&lt;/option&gt;
+      &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+      &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+      &lt;option value=&quot;high-contrast&quot;&gt;High contrast&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;p id=&quot;theme-hint&quot;&gt;Choose a color theme. This field is required.&lt;/p&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/anthropic-claude-3.7-sonnet/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>x-ai/grok-4</strong></td>
+      <td><strong>openai/gpt-5.1-codex</strong></td>
       <td>G1</td>
       <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;form&gt;
+  &lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+  &lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+    &lt;option value=&quot;&quot;&gt;Select a theme&lt;/option&gt;
+    &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+    &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+    &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/x-ai-grok-4/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Email field: Desired email address"</td>
+      <td>Select field (required): Theme with options light, dark, high contrast</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+    &lt;option value=&quot;&quot;&gt;Select theme&lt;/option&gt;
+    &lt;option value=&quot;light&quot;&gt;light&lt;/option&gt;
+    &lt;option value=&quot;dark&quot;&gt;dark&lt;/option&gt;
+    &lt;option value=&quot;high-contrast&quot;&gt;high contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/x-ai-grok-4/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1132,10 +401,16 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;&quot;&gt;&lt;/option&gt;
+  &lt;option value=&quot;light&quot;&gt;light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;high contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/x-ai-grok-4/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1144,10 +419,15 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/x-ai-grok-4/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1156,34 +436,52 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;&quot;&gt;Select a theme&lt;/option&gt;
+  &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;High contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/x-ai-grok-4/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>openai/gpt-5-mini</strong></td>
+      <td><strong>qwen/qwen3-coder</strong></td>
       <td>G1</td>
       <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;select name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;&quot;&gt;Select a theme&lt;/option&gt;
+  &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
+&lt;/select&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-5-mini/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Email field: Desired email address"</td>
+      <td>Select field (required): Theme with options light, dark, high contrast</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;select required&gt;
+  &lt;option value=&quot;&quot;&gt;Select a theme&lt;/option&gt;
+  &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-5-mini/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1192,10 +490,17 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
+&lt;/select&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-5-mini/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1204,10 +509,18 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;label for=&quot;theme&quot;&gt;Theme *&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;&quot;&gt;Select a theme&lt;/option&gt;
+  &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
+&lt;/select&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-5-mini/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1216,24 +529,105 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;label for=&quot;theme&quot;&gt;Theme *&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;&quot;&gt;Choose a theme&lt;/option&gt;
+  &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
+&lt;/select&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-5-mini/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td>test </td>
+      <td><strong>x-ai/grok-code-fast-1</strong></td>
       <td>G1</td>
-      <td>test</td>
+      <td>Insert a required select field for “Theme” with options light, dark, high contrast</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+&lt;select id=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;light&quot;&gt;light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;dark&lt;/option&gt;
+  &lt;option value=&quot;high contrast&quot;&gt;high contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/select-field-with-required/openai-gpt-5/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Select field (required): Theme with options light, dark, high contrast</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+&lt;select id=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;light&quot;&gt;light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;dark&lt;/option&gt;
+  &lt;option value=&quot;high contrast&quot;&gt;high contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A required select field labeled “Theme” with options light, dark, high contrast</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+&lt;select id=&quot;theme&quot; required&gt;
+&lt;option value=&quot;light&quot;&gt;light&lt;/option&gt;
+&lt;option value=&quot;dark&quot;&gt;dark&lt;/option&gt;
+&lt;option value=&quot;high contrast&quot;&gt;high contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a required select field and label for “Theme” with options light, dark, high contrast</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+&lt;option value=&quot;light&quot;&gt;light&lt;/option&gt;
+&lt;option value=&quot;dark&quot;&gt;dark&lt;/option&gt;
+&lt;option value=&quot;high-contrast&quot;&gt;high contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible select field (required) for “Theme” with options light, dark, high contrast</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+  &lt;option value=&quot;light&quot;&gt;light&lt;/option&gt;
+  &lt;option value=&quot;dark&quot;&gt;dark&lt;/option&gt;
+  &lt;option value=&quot;high-contrast&quot;&gt;high contrast&lt;/option&gt;
+&lt;/select&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/select-field-with-required/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>
-  
+
 </details>

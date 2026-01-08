@@ -1,5 +1,4 @@
 <details>
-  
   <summary><strong>Text Field with Validation Error</strong></summary>
 <table>
   <thead>
@@ -13,145 +12,22 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>openai/gpt-5</strong></td>
-      <td>G1</td>
-      <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;div class="toggle-container"&gt;
-  &lt;label for="dark-mode-toggle" class="toggle-label"&gt;
-    Dark Mode
-    &lt;div class="toggle-switch"&gt;
-      &lt;input type="checkbox" id="dark-mode-toggle" class="toggle-input"&gt;
-      &lt;span class="toggle-slider"&gt;&lt;/span&gt;
-    &lt;/div&gt;
-  &lt;/label&gt;
-  &lt;p class="helper-text"&gt;Switch between light and dark themes.&lt;/p&gt;
-&lt;/div&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-5/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Text field: “What color is an orange?” with error message “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-5/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A text field labeled “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-5/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a text field and label for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-5/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-5/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>x-ai/grok-code-fast-1</strong></td>
-      <td>G1</td>
-      <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Text field: “What color is an orange?” with error message “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A text field labeled “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a text field and label for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
       <td><strong>anthropic/claude-sonnet-4.5</strong></td>
       <td>G1</td>
       <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;div&gt;
+  &lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+  &lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;orange-color-error&quot;&gt;
+  &lt;span id=&quot;orange-color-error&quot; role=&quot;alert&quot;&gt;That&#x27;s not right. Try again.&lt;/span&gt;
+&lt;/div&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -160,10 +36,16 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;div&gt;
+  &lt;label for=&quot;colorQuestion&quot;&gt;What color is an orange?&lt;/label&gt;
+  &lt;input type=&quot;text&quot; id=&quot;colorQuestion&quot; name=&quot;colorQuestion&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;colorError&quot;&gt;
+  &lt;span id=&quot;colorError&quot; role=&quot;alert&quot;&gt;That&#x27;s not right. Try again.&lt;/span&gt;
+&lt;/div&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -172,10 +54,16 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;div&gt;
+  &lt;label for=&quot;colorQuestion&quot;&gt;What color is an orange?&lt;/label&gt;
+  &lt;input type=&quot;text&quot; id=&quot;colorQuestion&quot; name=&quot;colorQuestion&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;colorError&quot;&gt;
+  &lt;span id=&quot;colorError&quot; role=&quot;alert&quot;&gt;That&#x27;s not right. Try again.&lt;/span&gt;
+&lt;/div&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -184,10 +72,14 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;orange-color-error&quot;&gt;
+&lt;span id=&quot;orange-color-error&quot; role=&quot;alert&quot;&gt;That&#x27;s not right. Try again.&lt;/span&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -196,730 +88,32 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Text Field with Validation Error&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div&gt;
+        &lt;label for=&quot;color-question&quot;&gt;What color is an orange?&lt;/label&gt;
+        &lt;input 
+            type=&quot;text&quot; 
+            id=&quot;color-question&quot; 
+            name=&quot;color-question&quot;
+            aria-invalid=&quot;true&quot;
+            aria-describedby=&quot;color-error&quot;
+        &gt;
+        &lt;span id=&quot;color-error&quot; role=&quot;alert&quot;&gt;That&#x27;s not right. Try again.&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>anthropic/claude-sonnet-4</strong></td>
-      <td>G1</td>
-      <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/anthropic-claude-sonnet-4/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Text field: “What color is an orange?” with error message “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/anthropic-claude-sonnet-4/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A text field labeled “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/anthropic-claude-sonnet-4/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a text field and label for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/anthropic-claude-sonnet-4/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/anthropic-claude-sonnet-4/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>qwen/qwen3-coder-30b-a3b-instruct</strong></td>
-      <td>G1</td>
-      <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/qwen-qwen3-coder-30b-a3b-instruct/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Text field: “What color is an orange?” with error message “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/qwen-qwen3-coder-30b-a3b-instruct/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A text field labeled “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/qwen-qwen3-coder-30b-a3b-instruct/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a text field and label for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/qwen-qwen3-coder-30b-a3b-instruct/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/qwen-qwen3-coder-30b-a3b-instruct/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-oss-20b</strong></td>
-      <td>G1</td>
-      <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-oss-20b/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Text field: “What color is an orange?” with error message “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-oss-20b/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A text field labeled “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-oss-20b/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a text field and label for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-oss-20b/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-oss-20b/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-4.1-mini</strong></td>
-      <td>G1</td>
-      <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-4.1-mini/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Text field: “What color is an orange?” with error message “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-4.1-mini/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A text field labeled “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-4.1-mini/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a text field and label for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-4.1-mini/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-4.1-mini/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>z-ai/glm-4.6</strong></td>
-      <td>G1</td>
-      <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/z-ai-glm-4.6/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Text field: “What color is an orange?” with error message “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/z-ai-glm-4.6/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A text field labeled “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/z-ai-glm-4.6/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a text field and label for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/z-ai-glm-4.6/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/z-ai-glm-4.6/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>x-ai/grok-4-fast</strong></td>
-      <td>G1</td>
-      <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/x-ai-grok-4-fast/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Text field: “What color is an orange?” with error message “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/x-ai-grok-4-fast/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A text field labeled “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/x-ai-grok-4-fast/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a text field and label for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/x-ai-grok-4-fast/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/x-ai-grok-4-fast/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemma-3-12b-it</strong></td>
-      <td>G1</td>
-      <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/google-gemma-3-12b-it/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Text field: “What color is an orange?” with error message “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/google-gemma-3-12b-it/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A text field labeled “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/google-gemma-3-12b-it/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a text field and label for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/google-gemma-3-12b-it/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/google-gemma-3-12b-it/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemini-2.5-flash</strong></td>
-      <td>G1</td>
-      <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/google-gemini-2.5-flash/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Text field: “What color is an orange?” with error message “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/google-gemini-2.5-flash/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A text field labeled “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/google-gemini-2.5-flash/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a text field and label for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/google-gemini-2.5-flash/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/google-gemini-2.5-flash/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemini-2.5-pro</strong></td>
-      <td>G1</td>
-      <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Text field: “What color is an orange?” with error message “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A text field labeled “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a text field and label for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-5-codex</strong></td>
-      <td>G1</td>
-      <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-5-codex/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Text field: “What color is an orange?” with error message “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-5-codex/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A text field labeled “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-5-codex/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a text field and label for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-5-codex/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-5-codex/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>qwen/qwen3-coder</strong></td>
-      <td>G1</td>
-      <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/qwen-qwen3-coder/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Text field: “What color is an orange?” with error message “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/qwen-qwen3-coder/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A text field labeled “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/qwen-qwen3-coder/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a text field and label for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/qwen-qwen3-coder/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/qwen-qwen3-coder/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>z-ai/glm-4.5-air</strong></td>
-      <td>G1</td>
-      <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/z-ai-glm-4.5-air/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Text field: “What color is an orange?” with error message “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/z-ai-glm-4.5-air/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A text field labeled “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/z-ai-glm-4.5-air/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a text field and label for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/z-ai-glm-4.5-air/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/z-ai-glm-4.5-air/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -928,10 +122,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;text&quot; placeholder=&quot;What color is an orange?&quot; required pattern=&quot;orange&quot; oninvalid=&quot;this.setCustomValidity(&#x27;That’s not right. Try again.&#x27;)&quot; oninput=&quot;this.setCustomValidity(&#x27;&#x27;)&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -940,10 +134,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;text&quot; placeholder=&quot;What color is an orange?&quot; aria-describedby=&quot;error-message&quot;&gt;
+&lt;div id=&quot;error-message&quot; style=&quot;color: red; display: none;&quot;&gt;That’s not right. Try again.&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -952,10 +147,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;text&quot; id=&quot;color-question&quot; name=&quot;color-question&quot; placeholder=&quot;What color is an orange?&quot; required&gt;
+&lt;div id=&quot;error-message&quot; style=&quot;color: red; display: none;&quot;&gt;That’s not right. Try again.&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -964,10 +160,12 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;color-question&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;color-question&quot; name=&quot;color-question&quot; required&gt;
+&lt;div id=&quot;validation-error&quot; style=&quot;display:none; color:red;&quot;&gt;That’s not right. Try again.&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -976,22 +174,36 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Color Question&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;form&gt;
+        &lt;label for=&quot;color-input&quot;&gt;What color is an orange?&lt;/label&gt;
+        &lt;input type=&quot;text&quot; id=&quot;color-input&quot; name=&quot;color&quot; aria-describedby=&quot;error-message&quot; aria-invalid=&quot;true&quot;&gt;
+        &lt;div id=&quot;error-message&quot; role=&quot;alert&quot;&gt;That’s not right. Try again.&lt;/div&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>qwen/qwen3-vl-235b-a22b-instruct</strong></td>
+      <td><strong>google/gemini-2.5-pro</strong></td>
       <td>G1</td>
       <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/qwen-qwen3-vl-235b-a22b-instruct/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1000,10 +212,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/qwen-qwen3-vl-235b-a22b-instruct/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1012,10 +224,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/qwen-qwen3-vl-235b-a22b-instruct/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1024,10 +236,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/qwen-qwen3-vl-235b-a22b-instruct/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1036,22 +248,37 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/qwen-qwen3-vl-235b-a22b-instruct/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>anthropic/claude-3.7-sonnet</strong></td>
+      <td><strong>minimax/minimax-m2</strong></td>
       <td>G1</td>
       <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Color Question&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form&gt;
+    &lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;&lt;br&gt;
+    &lt;input id=&quot;orange-color&quot; name=&quot;orange-color&quot; type=&quot;text&quot; required&gt;
+    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+    &lt;div style=&quot;color: #b00020; margin-top: 4px;&quot;&gt;That’s not right. Try again.&lt;/div&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/anthropic-claude-3.7-sonnet/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1060,10 +287,46 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+  &lt;title&gt;Color Question&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form id=&quot;colorForm&quot; novalidate&gt;
+    &lt;label for=&quot;colorInput&quot;&gt;What color is an orange?&lt;/label&gt;
+    &lt;input id=&quot;colorInput&quot; name=&quot;color&quot; type=&quot;text&quot; autocomplete=&quot;off&quot; required /&gt;
+    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+    &lt;p id=&quot;errorMessage&quot; role=&quot;alert&quot; aria-live=&quot;assertive&quot;&gt;That&#x27;s not right. Try again.&lt;/p&gt;
+  &lt;/form&gt;
+
+  &lt;script&gt;
+    (function () {
+      const form = document.getElementById(&#x27;colorForm&#x27;);
+      const input = document.getElementById(&#x27;colorInput&#x27;);
+      const error = document.getElementById(&#x27;errorMessage&#x27;);
+
+      function showError() {
+        error.style.display = &#x27;block&#x27;;
+        input.setAttribute(&#x27;aria-invalid&#x27;, &#x27;true&#x27;);
+      }
+
+      function hideError() {
+        error.style.display = &#x27;none&#x27;;
+        input.removeAttribute(&#x27;aria-invalid&#x27;);
+      }
+
+      form.addEventListener(&#x27;submit&#x27;, function (e) {
+        e.preventDefault();
+        const answer = input.value.trim().toLowerCase();
+        if (answer === &#x27;orange&#x27;) {
+          hideError();
+          alert(&#x27;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/anthropic-claude-3.7-sonnet/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1072,10 +335,74 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+  &lt;title&gt;Color Question&lt;/title&gt;
+  &lt;style&gt;
+    .error {
+      color: #b00020;
+      font-size: 0.95rem;
+      margin-top: 0.35rem;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form id=&quot;colorForm&quot; novalidate&gt;
+    &lt;label for=&quot;colorAnswer&quot;&gt;What color is an orange?&lt;/label&gt;&lt;br /&gt;
+    &lt;input
+      type=&quot;text&quot;
+      id=&quot;colorAnswer&quot;
+      name=&quot;colorAnswer&quot;
+      required
+      aria-describedby=&quot;colorError&quot;
+      aria-invalid=&quot;false&quot;
+    /&gt;
+    &lt;p id=&quot;colorError&quot; class=&quot;error&quot; role=&quot;alert&quot; aria-live=&quot;polite&quot; hidden&gt;
+      That’s not right. Try again.
+    &lt;/p&gt;
+    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+  &lt;/form&gt;
+
+  &lt;script&gt;
+    (function () {
+      const form = document.getElementById(&#x27;colorForm&#x27;);
+      const input = document.getElementById(&#x27;colorAnswer&#x27;);
+      const error = document.getElementById(&#x27;colorError&#x27;);
+
+      function showError() {
+        input.setAttribute(&#x27;aria-invalid&#x27;, &#x27;true&#x27;);
+        error.hidden = false;
+      }
+
+      function clearError() {
+        input.setAttribute(&#x27;aria-invalid&#x27;, &#x27;false&#x27;);
+        error.hidden = true;
+      }
+
+      input.addEventListener(&#x27;input&#x27;, function () {
+        if (input.value.trim().toLowerCase() === &#x27;orange&#x27;) {
+          clearError();
+        }
+      });
+
+      form.addEventListener(&#x27;submit&#x27;, function (e) {
+        const value = input.value.trim().toLowerCase();
+        if (value !== &#x27;orange&#x27;) {
+          e.preventDefault();
+          showError();
+          input.focus();
+        }
+      });
+    })();
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/anthropic-claude-3.7-sonnet/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1084,10 +411,66 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+  &lt;title&gt;Orange Color Question&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form id=&quot;orangeForm&quot; novalidate&gt;
+    &lt;label id=&quot;orangeLabel&quot; for=&quot;orangeAnswer&quot;&gt;What color is an orange?&lt;/label&gt;
+    &lt;input
+      type=&quot;text&quot;
+      id=&quot;orangeAnswer&quot;
+      name=&quot;orangeAnswer&quot;
+      aria-labelledby=&quot;orangeLabel&quot;
+      aria-describedby=&quot;orangeError&quot;
+      required
+    /&gt;
+    &lt;div id=&quot;orangeError&quot; role=&quot;alert&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;
+    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+  &lt;/form&gt;
+
+  &lt;script&gt;
+    (function () {
+      const form = document.getElementById(&#x27;orangeForm&#x27;);
+      const input = document.getElementById(&#x27;orangeAnswer&#x27;);
+      const error = document.getElementById(&#x27;orangeError&#x27;);
+
+      function showError(msg) {
+        error.textContent = msg;
+        input.setCustomValidity(msg);
+        input.setAttribute(&#x27;aria-invalid&#x27;, &#x27;true&#x27;);
+      }
+
+      function clearError() {
+        error.textContent = &#x27;&#x27;;
+        input.setCustomValidity(&#x27;&#x27;);
+        input.removeAttribute(&#x27;aria-invalid&#x27;);
+      }
+
+      input.addEventListener(&#x27;input&#x27;, function () {
+        const val = input.value.trim().toLowerCase();
+        if (val === &#x27;orange&#x27;) {
+          clearError();
+        } else if (val.length &gt; 0) {
+          showError(&quot;That&#x27;s not right. Try again.&quot;);
+        } else {
+          clearError();
+        }
+      });
+
+      form.addEventListener(&#x27;submit&#x27;, function (e) {
+        const val = input.value.trim().toLowerCase();
+        if (val !== &#x27;orange&#x27;) {
+          e.preventDefault();
+          showError(&quot;That&#x27;s not right. Try again.&quot;);
+          input</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/anthropic-claude-3.7-sonnet/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1096,22 +479,72 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+  &lt;title&gt;Accessible Text Field with Validation&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.5; padding: 2rem; }
+    .field { margin-bottom: 1rem; }
+    label { display: block; font-weight: 600; margin-bottom: .25rem; }
+    input[type=&quot;text&quot;] { width: 100%; max-width: 24rem; padding: .5rem; font-size: 1rem; }
+    .error { color: #b00020; margin-top: .25rem; }
+    [aria-invalid=&quot;true&quot;] { border-color: #b00020; outline-color: #b00020; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form id=&quot;colorForm&quot; novalidate&gt;
+    &lt;div class=&quot;field&quot;&gt;
+      &lt;label for=&quot;colorAnswer&quot;&gt;What color is an orange?&lt;/label&gt;
+      &lt;input
+        id=&quot;colorAnswer&quot;
+        name=&quot;colorAnswer&quot;
+        type=&quot;text&quot;
+        inputmode=&quot;text&quot;
+        autocomplete=&quot;off&quot;
+        aria-describedby=&quot;colorHelp colorError&quot;
+        aria-invalid=&quot;false&quot;
+      /&gt;
+      &lt;div id=&quot;colorHelp&quot; class=&quot;hint&quot;&gt;Enter a color name.&lt;/div&gt;
+      &lt;p id=&quot;colorError&quot; class=&quot;error&quot; role=&quot;alert&quot; aria-live=&quot;assertive&quot; hidden&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;button type=&quot;submit&quot;&gt;Check answer&lt;/button&gt;
+  &lt;/form&gt;
+
+  &lt;script&gt;
+    (function () {
+      const form = document.getElementById(&#x27;colorForm&#x27;);
+      const input = document.getElementById(&#x27;colorAnswer&#x27;);
+      const error = document.getElementById(&#x27;colorError&#x27;);
+
+      function showError(message) {
+        error.textContent = message;
+        error.hidden = false;
+        input.setAttribute(&#x27;aria-invalid&#x27;, &#x27;true&#x27;);
+      }
+
+      function clearError() {
+        error.textContent = &#x27;&#x27;;
+        error.hidden</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/anthropic-claude-3.7-sonnet/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>x-ai/grok-4</strong></td>
+      <td><strong>openai/gpt-5.1-codex</strong></td>
       <td>G1</td>
       <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; aria-describedby=&quot;orange-error&quot; aria-invalid=&quot;true&quot;&gt;
+&lt;p id=&quot;orange-error&quot;&gt;That’s not right. Try again.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/x-ai-grok-4/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1120,10 +553,14 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label&gt;
+  What color is an orange?
+  &lt;input type=&quot;text&quot; aria-describedby=&quot;orange-error&quot;&gt;
+&lt;/label&gt;
+&lt;p id=&quot;orange-error&quot; role=&quot;alert&quot;&gt;That’s not right. Try again.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/x-ai-grok-4/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1132,10 +569,14 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;color-input&quot;&gt;What color is an orange?&lt;/label&gt;
+  &lt;input id=&quot;color-input&quot; type=&quot;text&quot;&gt;
+  &lt;p&gt;That’s not right. Try again.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/x-ai-grok-4/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1144,10 +585,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;&lt;input id=&quot;orange-color&quot; name=&quot;orange-color&quot; type=&quot;text&quot;&gt;&lt;div&gt;That’s not right. Try again.&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/x-ai-grok-4/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1156,22 +597,32 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;form&gt;
+&lt;label for=&quot;color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input id=&quot;color&quot; name=&quot;color&quot; type=&quot;text&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;color-error&quot; value=&quot;&quot;&gt;
+&lt;p id=&quot;color-error&quot; role=&quot;alert&quot;&gt;That’s not right. Try again.&lt;/p&gt;
+&lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/x-ai-grok-4/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>openai/gpt-5-mini</strong></td>
+      <td><strong>qwen/qwen3-coder</strong></td>
       <td>G1</td>
       <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;form&gt;
+  &lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+  &lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;
+  &lt;div class=&quot;error-message&quot;&gt;That&#x27;s not right. Try again.&lt;/div&gt;
+&lt;/form&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-5-mini/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1180,10 +631,14 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot;&gt;
+&lt;span class=&quot;error&quot;&gt;That&#x27;s not right. Try again.&lt;/span&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-5-mini/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1192,10 +647,12 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; aria-label=&quot;What color is an orange?&quot; aria-describedby=&quot;error-message&quot; aria-invalid=&quot;true&quot;&gt;
+&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;div id=&quot;error-message&quot; role=&quot;alert&quot;&gt;That&#x27;s not right. Try again.&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-5-mini/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1204,10 +661,14 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;
+&lt;span class=&quot;error&quot;&gt;That&#x27;s not right. Try again.&lt;/span&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-5-mini/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1216,24 +677,99 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; aria-describedby=&quot;error-message&quot; aria-invalid=&quot;true&quot; required&gt;
+&lt;div id=&quot;error-message&quot; role=&quot;alert&quot;&gt;That&#x27;s not right. Try again.&lt;/div&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-5-mini/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td>test </td>
+      <td><strong>x-ai/grok-code-fast-1</strong></td>
       <td>G1</td>
-      <td>test</td>
+      <td>Insert a text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; value=&quot;blue&quot;&gt;
+&lt;p&gt;That’s not right. Try again.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/text-field-with-validation-error/openai-gpt-5/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Text field: “What color is an orange?” with error message “That’s not right. Try again.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;form&gt;
+  &lt;label for=&quot;answer&quot;&gt;What color is an orange?&lt;/label&gt;
+  &lt;input type=&quot;text&quot; id=&quot;answer&quot; name=&quot;answer&quot;&gt;
+  &lt;div&gt;That’s not right. Try again.&lt;/div&gt;
+&lt;/form&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A text field labeled “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Color Quiz&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;form&gt;
+        &lt;label for=&quot;color&quot;&gt;What color is an orange?&lt;/label&gt;
+        &lt;input type=&quot;text&quot; id=&quot;color&quot; name=&quot;color&quot;&gt;
+        &lt;p&gt;That’s not right. Try again.&lt;/p&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a text field and label for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orangeColor&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orangeColor&quot;&gt;
+&lt;span class=&quot;error&quot;&gt;That’s not right. Try again.&lt;/span&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible text field for “What color is an orange?” with a validation error “That’s not right. Try again.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input id=&quot;orange-color&quot; type=&quot;text&quot; aria-describedby=&quot;error-msg&quot;&gt;
+&lt;div id=&quot;error-msg&quot; role=&quot;alert&quot;&gt;That’s not right. Try again.&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/text-field-with-validation-error/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>
-  
+
 </details>

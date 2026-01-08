@@ -1,5 +1,4 @@
 <details>
-  
   <summary><strong>Toggle Switch with Accessible Description</strong></summary>
 <table>
   <thead>
@@ -13,157 +12,70 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>openai/gpt-5</strong></td>
-      <td>G1</td>
-      <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;div class="toggle-container"&gt;
-  &lt;label for="dark-mode-toggle" class="toggle-label"&gt;
-    Dark Mode
-    &lt;div class="toggle-switch"&gt;
-      &lt;input type="checkbox" id="dark-mode-toggle" class="toggle-input"&gt;
-      &lt;span class="toggle-slider"&gt;&lt;/span&gt;
-    &lt;/div&gt;
-  &lt;/label&gt;
-  &lt;p class="helper-text"&gt;Switch between light and dark themes.&lt;/p&gt;
-&lt;/div&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-5/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-5/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A toggle switch labeled “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-5/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-5/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-5/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>x-ai/grok-code-fast-1</strong></td>
-      <td>G1</td>
-      <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A toggle switch labeled “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
       <td><strong>anthropic/claude-sonnet-4.5</strong></td>
       <td>G1</td>
       <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;div style=&quot;display: flex; align-items: center; justify-content: space-between; padding: 16px; border: 1px solid #e0e0e0; border-radius: 8px; max-width: 400px;&quot;&gt;
+  &lt;div&gt;
+    &lt;div style=&quot;font-weight: 600; font-size: 16px; margin-bottom: 4px;&quot;&gt;Notifications&lt;/div&gt;
+    &lt;div style=&quot;color: #666; font-size: 14px;&quot;&gt;Turn alerts on or off.&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;label style=&quot;position: relative; display: inline-block; width: 50px; height: 24px;&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; style=&quot;opacity: 0; width: 0; height: 0;&quot;&gt;
+    &lt;span style=&quot;position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: 0.4s; border-radius: 24px;&quot;&gt;
+      &lt;span style=&quot;position: absolute; content: &#x27;&#x27;; height: 18px; width: 18px; left: 3px; bottom: 3px; background-color: white; transition: 0.4s; border-radius: 50%;&quot;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/label&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+  input:checked + span {
+    background-color: #2196F3;
+  }
+  input:checked + span span {
+    transform: translateX(26px);
+  }
+&lt;/style&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
+      <td>Toggle switch: Notifications with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;div style=&quot;display: flex; align-items: center; justify-content: space-between; padding: 16px; max-width: 400px;&quot;&gt;
+  &lt;div&gt;
+    &lt;div style=&quot;font-weight: bold; margin-bottom: 4px;&quot;&gt;Notifications&lt;/div&gt;
+    &lt;div style=&quot;font-size: 14px; color: #666;&quot;&gt;Turn alerts on or off.&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;label style=&quot;position: relative; display: inline-block; width: 50px; height: 24px;&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; style=&quot;opacity: 0; width: 0; height: 0;&quot;&gt;
+    &lt;span style=&quot;position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: 0.4s; border-radius: 24px;&quot;&gt;
+      &lt;span style=&quot;position: absolute; content: &#x27;&#x27;; height: 18px; width: 18px; left: 3px; bottom: 3px; background-color: white; transition: 0.4s; border-radius: 50%;&quot;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/label&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+  input:checked + span {
+    background-color: #2196F3;
+  }
+  input:checked + span span {
+    transform: translateX(26px);
+  }
+&lt;/style&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -172,22 +84,41 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;div&gt;
+  &lt;label&gt;
+    &lt;span&gt;Notifications&lt;/span&gt;
+    &lt;input type=&quot;checkbox&quot; role=&quot;switch&quot;&gt;
+  &lt;/label&gt;
+  &lt;p&gt;Turn alerts on or off.&lt;/p&gt;
+&lt;/div&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
+      <td>Build a toggle switch and label for “Notifications” with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;div&gt;
+  &lt;label for=&quot;notifications-toggle&quot;&gt;
+    &lt;div&gt;Notifications&lt;/div&gt;
+    &lt;div&gt;Turn alerts on or off.&lt;/div&gt;
+  &lt;/label&gt;
+  &lt;label&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot; role=&quot;switch&quot;&gt;
+    &lt;span&gt;&lt;/span&gt;
+  &lt;/label&gt;
+&lt;/div&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -196,730 +127,38 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Notifications Toggle&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div role=&quot;group&quot; aria-labelledby=&quot;notifications-label&quot;&gt;
+        &lt;label id=&quot;notifications-label&quot; for=&quot;notifications-toggle&quot;&gt;
+            Notifications
+        &lt;/label&gt;
+        &lt;button 
+            type=&quot;button&quot; 
+            role=&quot;switch&quot; 
+            id=&quot;notifications-toggle&quot; 
+            aria-checked=&quot;false&quot;
+            aria-describedby=&quot;notifications-description&quot;
+            onclick=&quot;this.setAttribute(&#x27;aria-checked&#x27;, this.getAttribute(&#x27;aria-checked&#x27;) === &#x27;false&#x27; ? &#x27;true&#x27; : &#x27;false&#x27;)&quot;&gt;
+            &lt;span aria-hidden=&quot;true&quot;&gt;OFF&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;div id=&quot;notifications-description&quot;&gt;
+            Turn alerts on or off.
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>anthropic/claude-sonnet-4</strong></td>
-      <td>G1</td>
-      <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A toggle switch labeled “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>qwen/qwen3-coder-30b-a3b-instruct</strong></td>
-      <td>G1</td>
-      <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder-30b-a3b-instruct/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder-30b-a3b-instruct/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A toggle switch labeled “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder-30b-a3b-instruct/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder-30b-a3b-instruct/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder-30b-a3b-instruct/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-oss-20b</strong></td>
-      <td>G1</td>
-      <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-oss-20b/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-oss-20b/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A toggle switch labeled “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-oss-20b/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-oss-20b/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-oss-20b/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-4.1-mini</strong></td>
-      <td>G1</td>
-      <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-4.1-mini/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-4.1-mini/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A toggle switch labeled “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-4.1-mini/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-4.1-mini/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-4.1-mini/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>z-ai/glm-4.6</strong></td>
-      <td>G1</td>
-      <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/z-ai-glm-4.6/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/z-ai-glm-4.6/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A toggle switch labeled “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/z-ai-glm-4.6/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/z-ai-glm-4.6/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/z-ai-glm-4.6/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>x-ai/grok-4-fast</strong></td>
-      <td>G1</td>
-      <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/x-ai-grok-4-fast/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/x-ai-grok-4-fast/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A toggle switch labeled “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/x-ai-grok-4-fast/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/x-ai-grok-4-fast/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/x-ai-grok-4-fast/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemma-3-12b-it</strong></td>
-      <td>G1</td>
-      <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/google-gemma-3-12b-it/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/google-gemma-3-12b-it/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A toggle switch labeled “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/google-gemma-3-12b-it/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/google-gemma-3-12b-it/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/google-gemma-3-12b-it/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemini-2.5-flash</strong></td>
-      <td>G1</td>
-      <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/google-gemini-2.5-flash/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/google-gemini-2.5-flash/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A toggle switch labeled “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/google-gemini-2.5-flash/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/google-gemini-2.5-flash/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/google-gemini-2.5-flash/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>google/gemini-2.5-pro</strong></td>
-      <td>G1</td>
-      <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A toggle switch labeled “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>openai/gpt-5-codex</strong></td>
-      <td>G1</td>
-      <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-5-codex/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-5-codex/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A toggle switch labeled “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-5-codex/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-5-codex/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-5-codex/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>qwen/qwen3-coder</strong></td>
-      <td>G1</td>
-      <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A toggle switch labeled “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g5.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td><strong>z-ai/glm-4.5-air</strong></td>
-      <td>G1</td>
-      <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/z-ai-glm-4.5-air/g1.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/z-ai-glm-4.5-air/g2.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G3</td>
-      <td>A toggle switch labeled “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/z-ai-glm-4.5-air/g3.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/z-ai-glm-4.5-air/g4.html">Open HTML</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>G5</td>
-      <td>Accessible toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
-      <td>
-        <details>
-          <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
-        </details>
-      </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/z-ai-glm-4.5-air/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -928,22 +167,101 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label class=&quot;switch&quot;&gt;
+  &lt;input type=&quot;checkbox&quot;&gt;
+  &lt;span class=&quot;slider round&quot;&gt;&lt;/span&gt;
+&lt;/label&gt;
+&lt;span class=&quot;switch-label&quot;&gt;Notifications&lt;/span&gt;
+&lt;p class=&quot;note&quot;&gt;Turn alerts on or off.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
+      <td>Toggle switch: Notifications with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Notification Toggle&lt;/title&gt;
+    &lt;style&gt;
+        .toggle-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-family: Arial, sans-serif;
+        }
+        .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 34px;
+        }
+        .slider:before {
+            position: absolute;
+            content: &quot;&quot;;
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+        .toggle-label {
+            font-size: 16px;
+            color: #333;
+        }
+        .toggle-note {
+            font-size: 14px;
+            color: #666;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;toggle-container&quot;&gt;
+        &lt;label class=&quot;toggle-switch&quot;&gt;
+            &lt;input type=&quot;checkbox&quot;&gt;
+            &lt;span class=&quot;slider&quot;&gt;&lt;/span&gt;
+        &lt;/label&gt;
+        &lt;div&gt;
+            &lt;div class=&quot;toggle-label&quot;&gt;Notifications&lt;/div&gt;
+            &lt;div class=&quot;toggle-note&quot;&gt;Turn alerts on or off.&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -952,22 +270,30 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label&gt;
+  &lt;input type=&quot;checkbox&quot; role=&quot;switch&quot;&gt;
+  Notifications
+&lt;/label&gt;
+&lt;small&gt;Turn alerts on or off.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
+      <td>Build a toggle switch and label for “Notifications” with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;notifications-toggle&quot;&gt;
+  Notifications
+  &lt;span&gt;Turn alerts on or off.&lt;/span&gt;
+  &lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot; role=&quot;switch&quot;&gt;
+&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -976,34 +302,39 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;notifications-toggle&quot; class=&quot;toggle-switch&quot;&gt;
+  &lt;span class=&quot;toggle-label&quot;&gt;Notifications&lt;/span&gt;
+  &lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot; role=&quot;switch&quot; aria-checked=&quot;false&quot;&gt;
+  &lt;span class=&quot;toggle-slider&quot;&gt;&lt;/span&gt;
+&lt;/label&gt;
+&lt;p class=&quot;toggle-note&quot;&gt;Turn alerts on or off.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>qwen/qwen3-vl-235b-a22b-instruct</strong></td>
+      <td><strong>google/gemini-2.5-pro</strong></td>
       <td>G1</td>
       <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/qwen-qwen3-vl-235b-a22b-instruct/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
+      <td>Toggle switch: Notifications with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/qwen-qwen3-vl-235b-a22b-instruct/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1012,22 +343,22 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/qwen-qwen3-vl-235b-a22b-instruct/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
+      <td>Build a toggle switch and label for “Notifications” with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/qwen-qwen3-vl-235b-a22b-instruct/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1036,34 +367,123 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/qwen-qwen3-vl-235b-a22b-instruct/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>anthropic/claude-3.7-sonnet</strong></td>
+      <td><strong>minimax/minimax-m2</strong></td>
       <td>G1</td>
       <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;form action=&quot;#&quot; method=&quot;post&quot;&gt;
+  &lt;fieldset style=&quot;border:0;padding:0;margin:0;&quot;&gt;
+    &lt;legend style=&quot;position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;&quot;&gt;Notifications&lt;/legend&gt;
+
+    &lt;div role=&quot;switch&quot; aria-checked=&quot;false&quot; tabindex=&quot;0&quot; data-switch class=&quot;switch&quot; id=&quot;notifications-switch&quot; aria-describedby=&quot;notifications-note&quot;&gt;
+      &lt;span class=&quot;label&quot;&gt;Notifications&lt;/span&gt;
+      &lt;span class=&quot;note&quot; id=&quot;notifications-note&quot;&gt;Turn alerts on or off.&lt;/span&gt;
+      &lt;span class=&quot;slider&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+      &lt;input type=&quot;checkbox&quot; name=&quot;notifications&quot; value=&quot;on&quot; hidden /&gt;
+    &lt;/div&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;
+
+&lt;style&gt;
+  .switch {
+    --w: 52px;
+    --h: 28px;
+    --p: 3px;
+    --knob: 22px;
+    --accent: #2563eb;
+    --track-off: #d1d5db;
+    --track-on: #93c5fd;
+    --text: #111827;
+    --muted: #6b7280;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    user-select: none;
+    font: 14px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+  }
+  .switch .label {
+    font-weight: 600;
+  }
+  .switch .note {
+    color: var(--muted);
+  }
+  .switch .slider {
+    width: var(--w);
+    height: var(--h);
+    background: var(--track-off);
+    border-radius: var(--h);
+    position: relative;
+    transition: background .2s ease;
+    box-shadow: inset 0 0 </code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/anthropic-claude-3.7-sonnet/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
+      <td>Toggle switch: Notifications with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+  &lt;title&gt;Notifications Toggle&lt;/title&gt;
+  &lt;style&gt;
+    :root {
+      --bg-off: #e5e7eb;
+      --bg-on: #16a34a;
+      --knob: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --focus: #2563eb;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;;
+      color: var(--text);
+      padding: 24px;
+      line-height: 1.5;
+    }
+
+    .field {
+      display: grid;
+      gap: 8px;
+      max-width: 420px;
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    /* Visually hidden but accessible checkbox */
+    .visually-hidden {
+      position: absolute !important;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/anthropic-claude-3.7-sonnet/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1072,22 +492,162 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+  &lt;title&gt;Notifications Toggle&lt;/title&gt;
+  &lt;style&gt;
+    :root {
+      --bg: #f6f7f9;
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #d1d5db;
+      --track-off: #e5e7eb;
+      --track-on: #10b981;
+      --knob: #ffffff;
+      --focus: #2563eb;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;;
+      line-height: 1.4;
+    }
+    .field {
+      display: grid;
+      gap: 0.5rem;
+      width: min(520px, 92vw);
+    }
+    .label-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .label-row label {
+      font-weight: 600;
+    }
+    .note {
+      color: var(--muted);
+      font-size: 0.925rem;
+      margin: 0;
+    }
+    .switch {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      user-select: none;
+      cursor: pointer;
+    }
+    .switch input[type=&quot;checkbox&quot;] {
+      appearance: none</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/anthropic-claude-3.7-sonnet/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
+      <td>Build a toggle switch and label for “Notifications” with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot; /&gt;
+  &lt;title&gt;Notifications Toggle&lt;/title&gt;
+  &lt;style&gt;
+    :root {
+      --bg: #f3f4f6;
+      --border: #d1d5db;
+      --knob: #ffffff;
+      --on: #2563eb;
+      --text: #111827;
+      --muted: #6b7280;
+      --focus: #93c5fd;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;;
+      background: #ffffff;
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .field {
+      display: grid;
+      gap: 0.5rem;
+      max-width: 28rem;
+    }
+    .label-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    label {
+      font-weight: 600;
+    }
+    .hint {
+      color: var(--muted);
+      font-size: 0.9375rem;
+    }
+
+    /* Accessible visually-hidden utility */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    /* Switch */
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 46px;
+      height: 26px;
+      flex: 0 0 auto;
+    }
+    .switch input {
+      position: absolute;
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    .slider {
+      position: absolute;
+      inset: 0;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 9999px;
+      transition: background-color .15s ease, border-color .15s ease, box-shadow .15s ease;
+    }
+    .slider::before {
+      content: &quot;&quot;;
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      left: 3px;
+      top: 50%;
+      transform: translateY(-50%);
+      background:</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/anthropic-claude-3.7-sonnet/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1096,34 +656,47 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/anthropic-claude-3.7-sonnet/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>x-ai/grok-4</strong></td>
+      <td><strong>openai/gpt-5.1-codex</strong></td>
       <td>G1</td>
       <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;label&gt;
+      Notifications
+      &lt;input type=&quot;checkbox&quot; role=&quot;switch&quot; /&gt;
+    &lt;/label&gt;
+    &lt;p&gt;Turn alerts on or off.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/x-ai-grok-4/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
+      <td>Toggle switch: Notifications with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;notif-toggle&quot;&gt;Notifications&lt;/label&gt;
+  &lt;input type=&quot;checkbox&quot; id=&quot;notif-toggle&quot; name=&quot;notifications&quot; role=&quot;switch&quot; aria-describedby=&quot;notif-note&quot;&gt;
+  &lt;p id=&quot;notif-note&quot;&gt;Turn alerts on or off.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/x-ai-grok-4/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1132,22 +705,32 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label&gt;
+    Notifications
+    &lt;input type=&quot;checkbox&quot;&gt;
+  &lt;/label&gt;
+  &lt;p&gt;Turn alerts on or off.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/x-ai-grok-4/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
+      <td>Build a toggle switch and label for “Notifications” with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;notifications-toggle&quot;&gt;Notifications&lt;/label&gt;
+  &lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot; role=&quot;switch&quot; /&gt;
+  &lt;p&gt;Turn alerts on or off.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/x-ai-grok-4/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1156,34 +739,53 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;form&gt;
+  &lt;fieldset&gt;
+    &lt;legend&gt;Notifications&lt;/legend&gt;
+    &lt;p id=&quot;notifications-note&quot;&gt;Turn alerts on or off.&lt;/p&gt;
+    &lt;label for=&quot;notifications-toggle&quot;&gt;Enable notifications&lt;/label&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot; aria-describedby=&quot;notifications-note&quot;&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/x-ai-grok-4/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td><strong>openai/gpt-5-mini</strong></td>
+      <td><strong>qwen/qwen3-coder</strong></td>
       <td>G1</td>
       <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;div&gt;
+  &lt;label for=&quot;notifications-toggle&quot;&gt;Notifications&lt;/label&gt;
+  &lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot; /&gt;
+  &lt;span&gt;Turn alerts on or off.&lt;/span&gt;
+&lt;/div&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-5-mini/g1.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G2</td>
-      <td>Toggle switch: “Notifications” with note “Turn alerts on or off”/td>
+      <td>Toggle switch: Notifications with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G2 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;div&gt;
+  &lt;label for=&quot;notifications&quot;&gt;Notifications&lt;/label&gt;
+  &lt;input type=&quot;checkbox&quot; id=&quot;notifications&quot; /&gt;
+  &lt;span&gt;Turn alerts on or off.&lt;/span&gt;
+&lt;/div&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-5-mini/g2.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1192,22 +794,39 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G3 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;div&gt;
+  &lt;label for=&quot;notifications-toggle&quot;&gt;Notifications&lt;/label&gt;
+  &lt;div&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot;&gt;
+    &lt;label for=&quot;notifications-toggle&quot;&gt;Turn alerts on or off.&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-5-mini/g3.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
       <td>G4</td>
-      <td>Build a labeled toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
+      <td>Build a toggle switch and label for “Notifications” with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G4 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;div class=&quot;toggle-container&quot;&gt;
+  &lt;label for=&quot;notifications-toggle&quot;&gt;Notifications&lt;/label&gt;
+  &lt;div class=&quot;toggle-switch&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot;&gt;
+    &lt;span class=&quot;slider&quot;&gt;&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;p class=&quot;toggle-note&quot;&gt;Turn alerts on or off.&lt;/p&gt;
+&lt;/div&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-5-mini/g4.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -1216,24 +835,104 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G5 output here --&gt;</code></pre>
+          <pre><code class="language-html">```html
+&lt;div class=&quot;toggle-container&quot;&gt;
+  &lt;label for=&quot;notifications-toggle&quot; class=&quot;toggle-label&quot;&gt;
+    Notifications
+  &lt;/label&gt;
+  &lt;div class=&quot;toggle-description&quot;&gt;Turn alerts on or off.&lt;/div&gt;
+  &lt;button
+    id=&quot;notifications-toggle&quot;
+    role=&quot;switch&quot;
+    aria-checked=&quot;false&quot;
+    aria-labelledby=&quot;notifications-label&quot;
+    class=&quot;toggle-switch&quot;
+  &gt;
+    &lt;span class=&quot;toggle-track&quot;&gt;
+      &lt;span class=&quot;toggle-thumb&quot;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+```</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-5-mini/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
-      <td>test </td>
+      <td><strong>x-ai/grok-code-fast-1</strong></td>
       <td>G1</td>
-      <td>test</td>
+      <td>Insert a toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">&lt;!-- G1 output here --&gt;</code></pre>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;notifications&quot;&gt;Notifications&lt;/label&gt;
+  &lt;input type=&quot;checkbox&quot; id=&quot;notifications&quot; /&gt;
+  &lt;p&gt;Turn alerts on or off.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="https://momentine.github.io/llm-html/outputs/toggle-switch-with-accessible-description/openai-gpt-5/g5.html">Open HTML</a></td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Toggle switch: Notifications with note “Turn alerts on or off.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;notifications-toggle&quot;&gt;Notifications&lt;/label&gt;
+&lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot;&gt;
+&lt;p&gt;Turn alerts on or off.&lt;/p&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A toggle switch labeled “Notifications” with note “Turn alerts on or off.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;notifications&quot;&gt;
+  Notifications
+  &lt;input type=&quot;checkbox&quot; id=&quot;notifications&quot;&gt;
+&lt;/label&gt;
+&lt;p&gt;Turn alerts on or off.&lt;/p&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a toggle switch and label for “Notifications” with note “Turn alerts on or off.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;notifications-toggle&quot;&gt;Notifications&lt;/label&gt;
+&lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot;&gt;
+&lt;p&gt;Turn alerts on or off.&lt;/p&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible toggle switch for “Notifications” with note “Turn alerts on or off.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;notifications-toggle&quot;&gt;Notifications&lt;/label&gt;
+&lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot; role=&quot;switch&quot; aria-describedby=&quot;toggle-note&quot;&gt;
+&lt;span id=&quot;toggle-note&quot;&gt;Turn alerts on or off.&lt;/span&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="https://<username>.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>
-  
+
 </details>
