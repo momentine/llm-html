@@ -32,10 +32,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
-&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -432,10 +430,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
-&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -447,11 +443,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
 &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot; aria-describedby=&quot;password-requirements&quot;&gt;
-&lt;div id=&quot;password-requirements&quot;&gt;Password must be at least 8 characters long and contain both letters and numbers.&lt;/div&gt;
-```</code></pre>
+&lt;div id=&quot;password-requirements&quot;&gt;Password must be at least 8 characters long and contain both letters and numbers.&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>

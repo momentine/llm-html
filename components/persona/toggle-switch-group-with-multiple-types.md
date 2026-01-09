@@ -19,8 +19,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;h3&gt;Notification Types&lt;/h3&gt;
   &lt;div&gt;
     &lt;label&gt;
@@ -40,8 +39,7 @@
       &lt;span&gt;Push&lt;/span&gt;
     &lt;/label&gt;
   &lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-group-with-multiple-types/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
@@ -53,8 +51,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;h3&gt;Notification Types&lt;/h3&gt;
   &lt;div&gt;
     &lt;label&gt;
@@ -74,8 +71,7 @@
       Push
     &lt;/label&gt;
   &lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-group-with-multiple-types/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -87,8 +83,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;h2&gt;Notification Types&lt;/h2&gt;
   &lt;div&gt;
     &lt;label&gt;
@@ -108,8 +103,7 @@
       &lt;span&gt;Push&lt;/span&gt;
     &lt;/label&gt;
   &lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-group-with-multiple-types/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
@@ -121,8 +115,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Notification Types&lt;/legend&gt;
   &lt;div&gt;
     &lt;label&gt;
@@ -142,8 +135,7 @@
       Push
     &lt;/label&gt;
   &lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-group-with-multiple-types/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -155,8 +147,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;!DOCTYPE html&gt;
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -207,8 +198,7 @@
     
     &lt;style&gt;
         .sr-only {
-            position: absolute;
-            </code></pre>
+            position: absolute;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-group-with-multiple-types/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -465,8 +455,7 @@
     height: 18px;
     background: #fff;
     border-radius: 50%;
-    position: absolute;
-   </code></pre>
+    position: absolute;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-group-with-multiple-types/minimax-minimax-m2/g1.html">Open HTML</a></td>
@@ -595,9 +584,7 @@
     clip: rect(0 0 0 0);
     white-space: nowrap;
     clip-path: inset(50%);
-  }
-
-</code></pre>
+  }</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-group-with-multiple-types/minimax-minimax-m2/g3.html">Open HTML</a></td>
@@ -718,9 +705,7 @@
       border-radius: 12px;
       padding: 1rem 1rem 0.75rem;
       max-width: 28rem;
-    }
-
-   </code></pre>
+    }</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-group-with-multiple-types/minimax-minimax-m2/g5.html">Open HTML</a></td>
@@ -875,8 +860,7 @@ Push
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div class=&quot;toggle-group&quot;&gt;
+          <pre><code class="language-html">&lt;div class=&quot;toggle-group&quot;&gt;
   &lt;h3&gt;Notification Types&lt;/h3&gt;
   
   &lt;div class=&quot;toggle-item&quot;&gt;
@@ -896,8 +880,7 @@ Push
     &lt;input type=&quot;checkbox&quot; id=&quot;push-toggle&quot; class=&quot;toggle-switch&quot;&gt;
     &lt;label for=&quot;push-toggle&quot; class=&quot;toggle-label&quot;&gt;&lt;/label&gt;
   &lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-group-with-multiple-types/qwen-qwen3-coder/g1.html">Open HTML</a></td>
@@ -909,8 +892,7 @@ Push
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div class=&quot;toggle-group&quot;&gt;
+          <pre><code class="language-html">&lt;div class=&quot;toggle-group&quot;&gt;
   &lt;label class=&quot;toggle-item&quot;&gt;
     &lt;input type=&quot;checkbox&quot; name=&quot;notification-types&quot; value=&quot;email&quot;&gt;
     &lt;span class=&quot;toggle-label&quot;&gt;Email&lt;/span&gt;
@@ -923,8 +905,7 @@ Push
     &lt;input type=&quot;checkbox&quot; name=&quot;notification-types&quot; value=&quot;push&quot;&gt;
     &lt;span class=&quot;toggle-label&quot;&gt;Push&lt;/span&gt;
   &lt;/label&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-group-with-multiple-types/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -936,8 +917,7 @@ Push
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Notification Types&lt;/legend&gt;
   
   &lt;div&gt;
@@ -954,8 +934,7 @@ Push
     &lt;input type=&quot;checkbox&quot; id=&quot;push-toggle&quot; name=&quot;notifications&quot; value=&quot;push&quot;&gt;
     &lt;label for=&quot;push-toggle&quot;&gt;Push&lt;/label&gt;
   &lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-group-with-multiple-types/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -967,8 +946,7 @@ Push
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Notification Types&lt;/legend&gt;
   &lt;div&gt;
     &lt;input type=&quot;checkbox&quot; id=&quot;email-toggle&quot; name=&quot;notifications&quot; value=&quot;email&quot;&gt;
@@ -982,8 +960,7 @@ Push
     &lt;input type=&quot;checkbox&quot; id=&quot;push-toggle&quot; name=&quot;notifications&quot; value=&quot;push&quot;&gt;
     &lt;label for=&quot;push-toggle&quot;&gt;Push&lt;/label&gt;
   &lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-group-with-multiple-types/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -995,8 +972,7 @@ Push
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Notification Types&lt;/legend&gt;
   &lt;div&gt;
     &lt;input type=&quot;checkbox&quot; id=&quot;email-toggle&quot; name=&quot;notifications&quot; value=&quot;email&quot;&gt;
@@ -1010,8 +986,7 @@ Push
     &lt;input type=&quot;checkbox&quot; id=&quot;push-toggle&quot; name=&quot;notifications&quot; value=&quot;push&quot;&gt;
     &lt;label for=&quot;push-toggle&quot;&gt;Push&lt;/label&gt;
   &lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-group-with-multiple-types/qwen-qwen3-coder/g5.html">Open HTML</a></td>

@@ -105,9 +105,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;text&quot; pattern=&quot;[A-Za-z]{2}\d{3}&quot; placeholder=&quot;Enter two letters followed by 3 numbers&quot; title=&quot;Format: Two letters followed by three numbers&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;text&quot; pattern=&quot;[A-Za-z]{2}\d{3}&quot; placeholder=&quot;Enter two letters followed by 3 numbers&quot; title=&quot;Format: Two letters followed by three numbers&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-pattern/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
@@ -145,9 +143,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;text&quot; pattern=&quot;[A-Za-z]{2}[0-9]{3}&quot; title=&quot;Enter two letters followed by three numbers&quot; aria-label=&quot;Enter two letters followed by three numbers&quot; placeholder=&quot;AB123&quot; required&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;text&quot; pattern=&quot;[A-Za-z]{2}[0-9]{3}&quot; title=&quot;Enter two letters followed by three numbers&quot; aria-label=&quot;Enter two letters followed by three numbers&quot; placeholder=&quot;AB123&quot; required&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-pattern/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
@@ -464,10 +460,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;letter-number-input&quot;&gt;Enter two letters followed by 3 numbers&lt;/label&gt;
-&lt;input type=&quot;text&quot; id=&quot;letter-number-input&quot; name=&quot;letter-number-input&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;letter-number-input&quot;&gt;Enter two letters followed by 3 numbers&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;letter-number-input&quot; name=&quot;letter-number-input&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-pattern/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -479,10 +473,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;code&quot;&gt;Enter two letters followed by 3 numbers:&lt;/label&gt;
-&lt;input type=&quot;text&quot; id=&quot;code&quot; name=&quot;code&quot; pattern=&quot;[A-Za-z]{2}[0-9]{3}&quot; title=&quot;Enter two letters followed by 3 numbers&quot; required&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;code&quot;&gt;Enter two letters followed by 3 numbers:&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;code&quot; name=&quot;code&quot; pattern=&quot;[A-Za-z]{2}[0-9]{3}&quot; title=&quot;Enter two letters followed by 3 numbers&quot; required&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-pattern/qwen-qwen3-coder/g4.html">Open HTML</a></td>

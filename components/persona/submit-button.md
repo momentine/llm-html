@@ -31,9 +31,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -355,8 +353,7 @@
       const btn = document.getElementById(&#x27;submit-btn&#x27;);
       const feedback = document.getElementById(&#x27;feedback&#x27;);
 
-      form.addEventListener(&#x27;submit&#x27;, function (e) {
-       </code></pre>
+      form.addEventListener(&#x27;submit&#x27;, function (e) {</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button/minimax-minimax-m2/g5.html">Open HTML</a></td>
@@ -461,9 +458,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -475,10 +470,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;submit-button&quot;&gt;Submit&lt;/label&gt;
-&lt;input type=&quot;submit&quot; id=&quot;submit-button&quot; value=&quot;Submit&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;submit-button&quot;&gt;Submit&lt;/label&gt;
+&lt;input type=&quot;submit&quot; id=&quot;submit-button&quot; value=&quot;Submit&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button/qwen-qwen3-coder/g4.html">Open HTML</a></td>

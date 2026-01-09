@@ -32,9 +32,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;url&quot; name=&quot;website&quot; id=&quot;website&quot; placeholder=&quot;Website URL&quot; aria-label=&quot;Website URL&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;url&quot; name=&quot;website&quot; id=&quot;website&quot; placeholder=&quot;Website URL&quot; aria-label=&quot;Website URL&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -478,10 +476,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;website-url&quot;&gt;Website URL&lt;/label&gt;
-&lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website-url&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;website-url&quot;&gt;Website URL&lt;/label&gt;
+&lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website-url&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>

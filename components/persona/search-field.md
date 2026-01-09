@@ -31,9 +31,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;search&quot; placeholder=&quot;Search&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;search&quot; placeholder=&quot;Search&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/search-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -45,10 +43,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;search&quot; id=&quot;search&quot; name=&quot;search&quot; aria-label=&quot;Search&quot;&gt;
-&lt;label for=&quot;search&quot;&gt;Search&lt;/label&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;search&quot; id=&quot;search&quot; name=&quot;search&quot; aria-label=&quot;Search&quot;&gt;
+&lt;label for=&quot;search&quot;&gt;Search&lt;/label&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/search-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
@@ -73,8 +69,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;search-input&quot;&gt;Search&lt;/label&gt;
   &lt;input 
     type=&quot;search&quot; 
@@ -83,8 +78,7 @@
     placeholder=&quot;Search&quot; 
     aria-label=&quot;Search&quot;
   /&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/search-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -429,10 +423,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;search&quot;&gt;Search&lt;/label&gt;
-&lt;input type=&quot;search&quot; id=&quot;search&quot; name=&quot;search&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;search&quot;&gt;Search&lt;/label&gt;
+&lt;input type=&quot;search&quot; id=&quot;search&quot; name=&quot;search&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/search-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -444,14 +436,12 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;form role=&quot;search&quot;&gt;
+          <pre><code class="language-html">&lt;form role=&quot;search&quot;&gt;
   &lt;label for=&quot;search-field&quot;&gt;Search&lt;/label&gt;
   &lt;input type=&quot;search&quot; id=&quot;search-field&quot; name=&quot;search&quot; placeholder=&quot;Enter search terms&quot; aria-describedby=&quot;search-help&quot;&gt;
   &lt;button type=&quot;submit&quot;&gt;Search&lt;/button&gt;
   &lt;div id=&quot;search-help&quot;&gt;Enter keywords to search the website&lt;/div&gt;
-&lt;/form&gt;
-```</code></pre>
+&lt;/form&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/search-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>

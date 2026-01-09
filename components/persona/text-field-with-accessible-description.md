@@ -410,11 +410,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;favorite-city&quot;&gt;What is your favorite U.S. city?&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;favorite-city&quot;&gt;What is your favorite U.S. city?&lt;/label&gt;
 &lt;input type=&quot;text&quot; id=&quot;favorite-city&quot; name=&quot;favorite-city&quot;&gt;
-&lt;small&gt;Please include the state name or abbreviation&lt;/small&gt;
-```</code></pre>
+&lt;small&gt;Please include the state name or abbreviation&lt;/small&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-accessible-description/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -440,11 +438,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;favorite-city&quot;&gt;What is your favorite U.S. city?&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;favorite-city&quot;&gt;What is your favorite U.S. city?&lt;/label&gt;
 &lt;input type=&quot;text&quot; id=&quot;favorite-city&quot; name=&quot;favorite-city&quot;&gt;
-&lt;small&gt;Please include the state name or abbreviation&lt;/small&gt;
-```</code></pre>
+&lt;small&gt;Please include the state name or abbreviation&lt;/small&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-accessible-description/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -456,11 +452,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;favorite-city&quot;&gt;What is your favorite U.S. city?&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;favorite-city&quot;&gt;What is your favorite U.S. city?&lt;/label&gt;
 &lt;input type=&quot;text&quot; id=&quot;favorite-city&quot; name=&quot;favorite-city&quot; aria-describedby=&quot;city-note&quot;&gt;
-&lt;div id=&quot;city-note&quot;&gt;Please include the state name or abbreviation&lt;/div&gt;
-```</code></pre>
+&lt;div id=&quot;city-note&quot;&gt;Please include the state name or abbreviation&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-accessible-description/qwen-qwen3-coder/g5.html">Open HTML</a></td>

@@ -32,8 +32,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;!DOCTYPE html&gt;
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -46,8 +45,7 @@
         &lt;input type=&quot;file&quot; id=&quot;fileUpload&quot; name=&quot;fileUpload&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;
     &lt;/form&gt;
 &lt;/body&gt;
-&lt;/html&gt;
-```</code></pre>
+&lt;/html&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/multiple-file-upload-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -59,16 +57,14 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;fileUpload&quot;&gt;Upload Files&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;fileUpload&quot;&gt;Upload Files&lt;/label&gt;
 &lt;input 
   type=&quot;file&quot; 
   id=&quot;fileUpload&quot; 
   name=&quot;fileUpload&quot; 
   multiple 
   accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;
-&gt;
-```</code></pre>
+&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/multiple-file-upload-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
@@ -80,10 +76,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;fileUpload&quot;&gt;Upload Files&lt;/label&gt;
-&lt;input type=&quot;file&quot; id=&quot;fileUpload&quot; name=&quot;fileUpload&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;fileUpload&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;fileUpload&quot; name=&quot;fileUpload&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/multiple-file-upload-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -95,8 +89,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;file-upload&quot;&gt;
     Upload Files
     &lt;span aria-label=&quot;Accepted file types: PDF, DOCX, TXT, PNG, JPG, GIF, SVG&quot;&gt;(Accepted: .pdf, .docx, .txt, .png, .jpg, .gif, .svg)&lt;/span&gt;
@@ -112,8 +105,7 @@
   &lt;div id=&quot;file-upload-description&quot;&gt;
     You can select multiple files. Accepted formats: PDF, DOCX, TXT, PNG, JPG, GIF, SVG
   &lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/multiple-file-upload-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -429,9 +421,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;file&quot; name=&quot;upload_files&quot; accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot; multiple&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;file&quot; name=&quot;upload_files&quot; accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot; multiple&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/multiple-file-upload-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
@@ -443,9 +433,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;file&quot; name=&quot;uploadFiles&quot; accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot; multiple&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;file&quot; name=&quot;uploadFiles&quot; accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot; multiple&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/multiple-file-upload-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -457,10 +445,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;file-upload&quot;&gt;Upload Files&lt;/label&gt;
-&lt;input type=&quot;file&quot; id=&quot;file-upload&quot; name=&quot;files&quot; accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot; multiple&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;file-upload&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;file-upload&quot; name=&quot;files&quot; accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot; multiple&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/multiple-file-upload-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -472,10 +458,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;upload-files&quot;&gt;Upload Files&lt;/label&gt;
-&lt;input type=&quot;file&quot; id=&quot;upload-files&quot; name=&quot;upload-files&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;upload-files&quot;&gt;Upload Files&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;upload-files&quot; name=&quot;upload-files&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.gif,.svg&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/multiple-file-upload-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -487,13 +471,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;file-upload&quot;&gt;Upload Files&lt;/label&gt;
   &lt;input type=&quot;file&quot; id=&quot;file-upload&quot; name=&quot;files&quot; multiple accept=&quot;.pdf,.docx,.txt,.png,.jpg,.jpeg,.gif,.svg&quot; aria-describedby=&quot;file-upload-help&quot;&gt;
   &lt;div id=&quot;file-upload-help&quot;&gt;Accepted file types: PDF, DOCX, TXT, PNG, JPG, GIF, SVG&lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/multiple-file-upload-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>

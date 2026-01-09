@@ -67,11 +67,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
 &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-describedby=&quot;new-password-error&quot; aria-invalid=&quot;true&quot;&gt;
-&lt;span id=&quot;new-password-error&quot; role=&quot;alert&quot;&gt;Too short. Must be at least 8 characters.&lt;/span&gt;
-```</code></pre>
+&lt;span id=&quot;new-password-error&quot; role=&quot;alert&quot;&gt;Too short. Must be at least 8 characters.&lt;/span&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-validation-error/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -83,8 +81,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
   &lt;input 
     type=&quot;password&quot; 
@@ -97,8 +94,7 @@
   &lt;div id=&quot;new-password-error&quot; role=&quot;alert&quot; aria-live=&quot;polite&quot;&gt;
     Too short. Must be at least 8 characters.
   &lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-validation-error/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -424,7 +420,7 @@
       const error = document.getElementById(&#x27;password-error&#x27;);
 
       function update() {
-        if (input.value.length === </code></pre>
+        if (input.value.length ===</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-validation-error/minimax-minimax-m2/g4.html">Open HTML</a></td>
@@ -573,13 +569,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
   &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; required&gt;
   &lt;div class=&quot;error&quot;&gt;Too short. Must be at least 8 characters.&lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-validation-error/qwen-qwen3-coder/g1.html">Open HTML</a></td>
@@ -591,13 +585,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
   &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; required&gt;
   &lt;div class=&quot;error-message&quot;&gt;Too short. Must be at least 8 characters.&lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-validation-error/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -609,13 +601,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
   &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; required&gt;
   &lt;div class=&quot;error&quot;&gt;Too short. Must be at least 8 characters.&lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-validation-error/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -627,11 +617,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
 &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; required&gt;
-&lt;div class=&quot;error&quot;&gt;Too short. Must be at least 8 characters.&lt;/div&gt;
-```</code></pre>
+&lt;div class=&quot;error&quot;&gt;Too short. Must be at least 8 characters.&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-validation-error/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -643,11 +631,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
 &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-describedby=&quot;password-error&quot; aria-invalid=&quot;true&quot; minlength=&quot;8&quot; required&gt;
-&lt;div id=&quot;password-error&quot; role=&quot;alert&quot;&gt;Too short. Must be at least 8 characters.&lt;/div&gt;
-```</code></pre>
+&lt;div id=&quot;password-error&quot; role=&quot;alert&quot;&gt;Too short. Must be at least 8 characters.&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-validation-error/qwen-qwen3-coder/g5.html">Open HTML</a></td>

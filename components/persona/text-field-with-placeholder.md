@@ -411,10 +411,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;favorite-dinosaur&quot;&gt;Who is your favorite dinosaur?&lt;/label&gt;
-&lt;input type=&quot;text&quot; id=&quot;favorite-dinosaur&quot; name=&quot;favorite-dinosaur&quot; placeholder=&quot;Rex&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;favorite-dinosaur&quot;&gt;Who is your favorite dinosaur?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;favorite-dinosaur&quot; name=&quot;favorite-dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -426,11 +424,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;dinosaur&quot;&gt;Who is your favorite dinosaur?&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;dinosaur&quot;&gt;Who is your favorite dinosaur?&lt;/label&gt;
 &lt;input type=&quot;text&quot; id=&quot;dinosaur&quot; name=&quot;dinosaur&quot; aria-describedby=&quot;dinosaur-hint&quot;&gt;
-&lt;div id=&quot;dinosaur-hint&quot;&gt;Hint: Rex&lt;/div&gt;
-```</code></pre>
+&lt;div id=&quot;dinosaur-hint&quot;&gt;Hint: Rex&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/qwen-qwen3-coder/g5.html">Open HTML</a></td>

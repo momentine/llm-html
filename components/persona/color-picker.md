@@ -32,10 +32,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;color&quot; id=&quot;colorPicker&quot; name=&quot;colorPicker&quot; value=&quot;#000000&quot;&gt;
-&lt;label for=&quot;colorPicker&quot;&gt;Pick a color&lt;/label&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;color&quot; id=&quot;colorPicker&quot; name=&quot;colorPicker&quot; value=&quot;#000000&quot;&gt;
+&lt;label for=&quot;colorPicker&quot;&gt;Pick a color&lt;/label&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/color-picker/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -60,10 +58,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;colorPicker&quot;&gt;Pick a color&lt;/label&gt;
-&lt;input type=&quot;color&quot; id=&quot;colorPicker&quot; name=&quot;colorPicker&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;colorPicker&quot;&gt;Pick a color&lt;/label&gt;
+&lt;input type=&quot;color&quot; id=&quot;colorPicker&quot; name=&quot;colorPicker&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/color-picker/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -75,8 +71,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;!DOCTYPE html&gt;
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -87,8 +82,7 @@
     &lt;label for=&quot;colorPicker&quot;&gt;Pick a color:&lt;/label&gt;
     &lt;input type=&quot;color&quot; id=&quot;colorPicker&quot; name=&quot;colorPicker&quot; value=&quot;#000000&quot; aria-label=&quot;Pick a color&quot;&gt;
 &lt;/body&gt;
-&lt;/html&gt;
-```</code></pre>
+&lt;/html&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/color-picker/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -149,8 +143,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;!DOCTYPE html&gt;
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -165,8 +158,7 @@
         &lt;input type=&quot;color&quot; id=&quot;color-picker&quot; name=&quot;color-picker&quot; value=&quot;#000000&quot;&gt;
     &lt;/form&gt;
 &lt;/body&gt;
-&lt;/html&gt;
-```</code></pre>
+&lt;/html&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/color-picker/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
@@ -425,8 +417,7 @@
             id=&quot;color-preview&quot;
             role=&quot;img&quot;
             aria-label=&quot;Selected color preview&quot;
-            title=&quot;Selected color&quot;
-           </code></pre>
+            title=&quot;Selected color&quot;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/color-picker/minimax-minimax-m2/g5.html">Open HTML</a></td>
@@ -529,10 +520,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;colorPicker&quot;&gt;Pick a color&lt;/label&gt;
-&lt;input type=&quot;color&quot; id=&quot;colorPicker&quot; name=&quot;colorPicker&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;colorPicker&quot;&gt;Pick a color&lt;/label&gt;
+&lt;input type=&quot;color&quot; id=&quot;colorPicker&quot; name=&quot;colorPicker&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/color-picker/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -544,10 +533,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;colorPicker&quot;&gt;Pick a color&lt;/label&gt;
-&lt;input type=&quot;color&quot; id=&quot;colorPicker&quot; name=&quot;colorPicker&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;colorPicker&quot;&gt;Pick a color&lt;/label&gt;
+&lt;input type=&quot;color&quot; id=&quot;colorPicker&quot; name=&quot;colorPicker&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/color-picker/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -559,10 +546,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;color-picker&quot;&gt;Pick a color&lt;/label&gt;
-&lt;input type=&quot;color&quot; id=&quot;color-picker&quot; name=&quot;color-picker&quot; value=&quot;#000000&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;color-picker&quot;&gt;Pick a color&lt;/label&gt;
+&lt;input type=&quot;color&quot; id=&quot;color-picker&quot; name=&quot;color-picker&quot; value=&quot;#000000&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/color-picker/qwen-qwen3-coder/g5.html">Open HTML</a></td>

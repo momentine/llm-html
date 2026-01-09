@@ -449,10 +449,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;new-password&quot;&gt;New Password:&lt;/label&gt;
-&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New Password:&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-autocomplete-suggestion/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -464,9 +462,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot; aria-label=&quot;New password&quot; required&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot; aria-label=&quot;New password&quot; required&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-autocomplete-suggestion/qwen-qwen3-coder/g5.html">Open HTML</a></td>

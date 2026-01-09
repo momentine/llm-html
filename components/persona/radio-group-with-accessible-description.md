@@ -19,8 +19,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;label&gt;
     &lt;input type=&quot;radio&quot; name=&quot;theme&quot; value=&quot;light&quot; checked&gt;
@@ -35,8 +34,7 @@
     high contrast
   &lt;/label&gt;
   &lt;p&gt;&lt;small&gt;You can change this later&lt;/small&gt;&lt;/p&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-accessible-description/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
@@ -48,8 +46,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;div&gt;
     &lt;input type=&quot;radio&quot; id=&quot;light&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
@@ -64,8 +61,7 @@
     &lt;label for=&quot;high-contrast&quot;&gt;high contrast&lt;/label&gt;
   &lt;/div&gt;
   &lt;p&gt;You can change this later&lt;/p&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-accessible-description/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -77,8 +73,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;label&gt;
     &lt;input type=&quot;radio&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
@@ -93,8 +88,7 @@
     high contrast
   &lt;/label&gt;
   &lt;p&gt;You can change this later&lt;/p&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-accessible-description/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
@@ -106,8 +100,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;label&gt;
     &lt;input type=&quot;radio&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
@@ -122,8 +115,7 @@
     high contrast
   &lt;/label&gt;
   &lt;p&gt;You can change this later&lt;/p&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-accessible-description/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -135,8 +127,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;div role=&quot;radiogroup&quot; aria-labelledby=&quot;theme-label&quot; aria-describedby=&quot;theme-note&quot;&gt;
     &lt;div&gt;
@@ -153,8 +144,7 @@
     &lt;/div&gt;
   &lt;/div&gt;
   &lt;p id=&quot;theme-note&quot;&gt;You can change this later&lt;/p&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-accessible-description/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -633,8 +623,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;input type=&quot;radio&quot; id=&quot;light&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
   &lt;label for=&quot;light&quot;&gt;Light&lt;/label&gt;&lt;br&gt;
@@ -646,8 +635,7 @@
   &lt;label for=&quot;high-contrast&quot;&gt;High Contrast&lt;/label&gt;
   
   &lt;p&gt;&lt;small&gt;You can change this later&lt;/small&gt;&lt;/p&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-accessible-description/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -680,8 +668,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;input type=&quot;radio&quot; id=&quot;theme-light&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
   &lt;label for=&quot;theme-light&quot;&gt;Light&lt;/label&gt;
@@ -690,8 +677,7 @@
   &lt;input type=&quot;radio&quot; id=&quot;theme-high-contrast&quot; name=&quot;theme&quot; value=&quot;high-contrast&quot;&gt;
   &lt;label for=&quot;theme-high-contrast&quot;&gt;High Contrast&lt;/label&gt;
   &lt;p&gt;You can change this later&lt;/p&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-accessible-description/qwen-qwen3-coder/g4.html">Open HTML</a></td>

@@ -32,10 +32,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;phone&quot;&gt;Phone number&lt;/label&gt;
-&lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot; placeholder=&quot;Phone number&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;phone&quot;&gt;Phone number&lt;/label&gt;
+&lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot; placeholder=&quot;Phone number&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -462,11 +460,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;phone-number&quot;&gt;Phone number&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;phone-number&quot;&gt;Phone number&lt;/label&gt;
 &lt;input type=&quot;tel&quot; id=&quot;phone-number&quot; name=&quot;phone-number&quot; autocomplete=&quot;tel&quot; aria-describedby=&quot;phone-format&quot;&gt;
-&lt;div id=&quot;phone-format&quot;&gt;Format: (123) 456-7890&lt;/div&gt;
-```</code></pre>
+&lt;div id=&quot;phone-format&quot;&gt;Format: (123) 456-7890&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>

@@ -448,10 +448,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
-&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -463,10 +461,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
-&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/qwen-qwen3-coder/g5.html">Open HTML</a></td>

@@ -19,10 +19,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;birthdate&quot;&gt;Birthdate&lt;/label&gt;
-&lt;input type=&quot;date&quot; id=&quot;birthdate&quot; name=&quot;birthdate&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;birthdate&quot;&gt;Birthdate&lt;/label&gt;
+&lt;input type=&quot;date&quot; id=&quot;birthdate&quot; name=&quot;birthdate&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/date-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
@@ -34,10 +32,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;birthdate&quot;&gt;Birthdate&lt;/label&gt;
-&lt;input type=&quot;date&quot; id=&quot;birthdate&quot; name=&quot;birthdate&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;birthdate&quot;&gt;Birthdate&lt;/label&gt;
+&lt;input type=&quot;date&quot; id=&quot;birthdate&quot; name=&quot;birthdate&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/date-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -62,10 +58,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;birthdate&quot;&gt;Birthdate&lt;/label&gt;
-&lt;input type=&quot;date&quot; id=&quot;birthdate&quot; name=&quot;birthdate&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;birthdate&quot;&gt;Birthdate&lt;/label&gt;
+&lt;input type=&quot;date&quot; id=&quot;birthdate&quot; name=&quot;birthdate&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/date-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -77,8 +71,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;birthdate&quot;&gt;Birthdate&lt;/label&gt;
   &lt;input 
     type=&quot;date&quot; 
@@ -89,8 +82,7 @@
     required
   &gt;
   &lt;span id=&quot;birthdate-hint&quot;&gt;Enter your date of birth in the format MM/DD/YYYY&lt;/span&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/date-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -441,10 +433,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;birthdate&quot;&gt;Birthdate&lt;/label&gt;
-&lt;input type=&quot;date&quot; id=&quot;birthdate&quot; name=&quot;birthdate&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;birthdate&quot;&gt;Birthdate&lt;/label&gt;
+&lt;input type=&quot;date&quot; id=&quot;birthdate&quot; name=&quot;birthdate&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/date-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -456,10 +446,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;birthdate&quot;&gt;Birthdate&lt;/label&gt;
-&lt;input type=&quot;date&quot; id=&quot;birthdate&quot; name=&quot;birthdate&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;birthdate&quot;&gt;Birthdate&lt;/label&gt;
+&lt;input type=&quot;date&quot; id=&quot;birthdate&quot; name=&quot;birthdate&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/date-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -471,11 +459,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;birthdate&quot;&gt;Birthdate&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;birthdate&quot;&gt;Birthdate&lt;/label&gt;
 &lt;input type=&quot;date&quot; id=&quot;birthdate&quot; name=&quot;birthdate&quot; required aria-describedby=&quot;birthdate-help&quot;&gt;
-&lt;div id=&quot;birthdate-help&quot;&gt;Please enter your date of birth in YYYY-MM-DD format&lt;/div&gt;
-```</code></pre>
+&lt;div id=&quot;birthdate-help&quot;&gt;Please enter your date of birth in YYYY-MM-DD format&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/date-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>

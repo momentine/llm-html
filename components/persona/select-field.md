@@ -70,14 +70,12 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
 &lt;select id=&quot;theme&quot; name=&quot;theme&quot;&gt;
   &lt;option value=&quot;light&quot;&gt;light&lt;/option&gt;
   &lt;option value=&quot;dark&quot;&gt;dark&lt;/option&gt;
   &lt;option value=&quot;high-contrast&quot;&gt;high contrast&lt;/option&gt;
-&lt;/select&gt;
-```</code></pre>
+&lt;/select&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/select-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -89,14 +87,12 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;theme-select&quot;&gt;Theme&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;theme-select&quot;&gt;Theme&lt;/label&gt;
 &lt;select id=&quot;theme-select&quot; name=&quot;theme&quot;&gt;
   &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
   &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
   &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
-&lt;/select&gt;
-```</code></pre>
+&lt;/select&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/select-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -340,8 +336,7 @@
     @media (prefers-reduced-motion: reduce) {
       * { transition: none !important; animation: none !important; }
     }
-  &lt;/style&gt;
-</code></pre>
+  &lt;/style&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/select-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
@@ -573,14 +568,12 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
 &lt;select id=&quot;theme&quot; name=&quot;theme&quot;&gt;
   &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
   &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
   &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
-&lt;/select&gt;
-```</code></pre>
+&lt;/select&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/select-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -592,14 +585,12 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
 &lt;select id=&quot;theme&quot; name=&quot;theme&quot;&gt;
   &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
   &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
   &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
-&lt;/select&gt;
-```</code></pre>
+&lt;/select&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/select-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -611,14 +602,12 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;theme-select&quot;&gt;Theme&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;theme-select&quot;&gt;Theme&lt;/label&gt;
 &lt;select id=&quot;theme-select&quot; name=&quot;theme&quot;&gt;
   &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
   &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
   &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
-&lt;/select&gt;
-```</code></pre>
+&lt;/select&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/select-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>

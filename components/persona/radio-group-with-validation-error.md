@@ -19,8 +19,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;div&gt;
     &lt;label&gt;
@@ -43,8 +42,7 @@
   &lt;div&gt;
     &lt;span style=&quot;color: red; display: none;&quot;&gt;You must choose a theme to proceed&lt;/span&gt;
   &lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-validation-error/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
@@ -56,8 +54,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
 &lt;legend&gt;Theme&lt;/legend&gt;
 &lt;div role=&quot;radiogroup&quot; aria-required=&quot;true&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;theme-error&quot;&gt;
 &lt;label&gt;
@@ -74,8 +71,7 @@ high contrast
 &lt;/label&gt;
 &lt;/div&gt;
 &lt;div id=&quot;theme-error&quot; role=&quot;alert&quot;&gt;You must choose a theme to proceed&lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-validation-error/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -87,8 +83,7 @@ high contrast
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;div&gt;
     &lt;input type=&quot;radio&quot; id=&quot;light&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
@@ -105,8 +100,7 @@ high contrast
   &lt;div role=&quot;alert&quot; aria-live=&quot;polite&quot;&gt;
     &lt;span style=&quot;color: red;&quot;&gt;You must choose a theme to proceed&lt;/span&gt;
   &lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-validation-error/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
@@ -118,8 +112,7 @@ high contrast
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;div&gt;
     &lt;input type=&quot;radio&quot; id=&quot;light&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
@@ -136,8 +129,7 @@ high contrast
   &lt;div role=&quot;alert&quot; aria-live=&quot;polite&quot;&gt;
     &lt;span&gt;You must choose a theme to proceed&lt;/span&gt;
   &lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-validation-error/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -149,8 +141,7 @@ high contrast
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset role=&quot;radiogroup&quot; aria-required=&quot;true&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;theme-error&quot;&gt;
+          <pre><code class="language-html">&lt;fieldset role=&quot;radiogroup&quot; aria-required=&quot;true&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;theme-error&quot;&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;div role=&quot;alert&quot; id=&quot;theme-error&quot; aria-live=&quot;polite&quot;&gt;You must choose a theme to proceed&lt;/div&gt;
   &lt;div&gt;
@@ -165,8 +156,7 @@ high contrast
     &lt;input type=&quot;radio&quot; id=&quot;theme-high-contrast&quot; name=&quot;theme&quot; value=&quot;high-contrast&quot;&gt;
     &lt;label for=&quot;theme-high-contrast&quot;&gt;High Contrast&lt;/label&gt;
   &lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-validation-error/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -600,8 +590,7 @@ high contrast
     radios.forEach(r =&gt; r.addEventListener(&#x27;change&#x27;, updateError));
 
     form.addEventListener(&#x27;submit&#x27;, function (e) {
-      const checked = radios.some(r =&gt; r.checked);
-     </code></pre>
+      const checked = radios.some(r =&gt; r.checked);</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-validation-error/minimax-minimax-m2/g4.html">Open HTML</a></td>
@@ -782,8 +771,7 @@ high contrast
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;input type=&quot;radio&quot; id=&quot;theme-light&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
   &lt;label for=&quot;theme-light&quot;&gt;Light&lt;/label&gt;
@@ -795,8 +783,7 @@ high contrast
   &lt;label for=&quot;theme-high-contrast&quot;&gt;High Contrast&lt;/label&gt;
   
   &lt;div class=&quot;error&quot;&gt;You must choose a theme to proceed&lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-validation-error/qwen-qwen3-coder/g1.html">Open HTML</a></td>
@@ -808,8 +795,7 @@ high contrast
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Choose a theme:&lt;/legend&gt;
   
   &lt;input type=&quot;radio&quot; id=&quot;light&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
@@ -822,8 +808,7 @@ high contrast
   &lt;label for=&quot;high-contrast&quot;&gt;High Contrast&lt;/label&gt;
   
   &lt;div class=&quot;error-message&quot;&gt;You must choose a theme to proceed&lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-validation-error/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -835,8 +820,7 @@ high contrast
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;input type=&quot;radio&quot; id=&quot;light&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
   &lt;label for=&quot;light&quot;&gt;Light&lt;/label&gt;
@@ -845,8 +829,7 @@ high contrast
   &lt;input type=&quot;radio&quot; id=&quot;high-contrast&quot; name=&quot;theme&quot; value=&quot;high-contrast&quot;&gt;
   &lt;label for=&quot;high-contrast&quot;&gt;High Contrast&lt;/label&gt;
   &lt;div class=&quot;error&quot;&gt;You must choose a theme to proceed&lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-validation-error/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -881,8 +864,7 @@ high contrast
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset role=&quot;radiogroup&quot; aria-required=&quot;true&quot;&gt;
+          <pre><code class="language-html">&lt;fieldset role=&quot;radiogroup&quot; aria-required=&quot;true&quot;&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;input type=&quot;radio&quot; id=&quot;theme-light&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
   &lt;label for=&quot;theme-light&quot;&gt;Light&lt;/label&gt;
@@ -893,8 +875,7 @@ high contrast
 &lt;/fieldset&gt;
 &lt;div role=&quot;alert&quot; aria-live=&quot;polite&quot; style=&quot;color: #d32f2f; margin-top: 8px;&quot;&gt;
   You must choose a theme to proceed
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group-with-validation-error/qwen-qwen3-coder/g5.html">Open HTML</a></td>

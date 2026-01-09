@@ -19,15 +19,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;button type=&quot;submit&quot;&gt;
+          <pre><code class="language-html">&lt;button type=&quot;submit&quot;&gt;
   &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;16&quot; height=&quot;16&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
     &lt;path d=&quot;M22 2L11 13&quot;&gt;&lt;/path&gt;
     &lt;path d=&quot;M22 2L15 22L11 13L2 9L22 2Z&quot;&gt;&lt;/path&gt;
   &lt;/svg&gt;
   Submit
-&lt;/button&gt;
-```</code></pre>
+&lt;/button&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
@@ -108,15 +106,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;button type=&quot;submit&quot;&gt;
+          <pre><code class="language-html">&lt;button type=&quot;submit&quot;&gt;
   &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;16&quot; height=&quot;16&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 16 16&quot;&gt;
     &lt;path d=&quot;M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5z&quot;/&gt;
     &lt;path d=&quot;M4 0h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H4z&quot;/&gt;
   &lt;/svg&gt;
   Submit
-&lt;/button&gt;
-```</code></pre>
+&lt;/button&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
@@ -438,14 +434,12 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;button type=&quot;submit&quot;&gt;
+          <pre><code class="language-html">&lt;button type=&quot;submit&quot;&gt;
   &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;16&quot; height=&quot;16&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 16 16&quot;&gt;
     &lt;path d=&quot;M15.5 14h-1.5v-4.5c0-.8-.7-1.5-1.5-1.5h-1V6.9l-5.1 5.1c-.3.3-.7.3-1 0L0 6.9V14H.5C.2 14 0 14.2 0 14.5s.2.5.5.5h15c.3 0 .5-.2.5-.5s-.2-.5-.5-.5zM8 8.9l3.6-3.6c.3-.3.8-.3 1 0 .3.3.3.8 0 1.1L8.6 10.4c-.3.3-.7.3-1 0L3.4 6.4c-.3-.3-.3-.8 0-1.1.3-.3.8-.3 1 0L8 8.9z&quot;/&gt;
   &lt;/svg&gt;
   Submit
-&lt;/button&gt;
-```</code></pre>
+&lt;/button&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/qwen-qwen3-coder/g1.html">Open HTML</a></td>
@@ -457,14 +451,12 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;button type=&quot;submit&quot;&gt;
+          <pre><code class="language-html">&lt;button type=&quot;submit&quot;&gt;
   &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;16&quot; height=&quot;16&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 16 16&quot;&gt;
     &lt;path d=&quot;M15.5 14h-1.5v-4.5c0-.8-.7-1.5-1.5-1.5h-1V6.5c0-.8-.7-1.5-1.5-1.5H9V3.5c0-.8-.7-1.5-1.5-1.5H6V.5C6 .2 5.8 0 5.5 0h-3C2.2 0 2 .2 2 .5V2H.5C.2 2 0 2.2 0 2.5v3C0 5.8.2 6 .5 6H2v1.5c0 .8.7 1.5 1.5 1.5H4.5V10.5c0 .8.7 1.5 1.5 1.5h1.5V14H5.5c-.8 0-1.5.7-1.5 1.5v1c0 .3.2.5.5.5h5c.3 0 .5-.2.5-.5v-1c0-.8-.7-1.5-1.5-1.5z&quot;/&gt;
   &lt;/svg&gt;
   Submit
-&lt;/button&gt;
-```</code></pre>
+&lt;/button&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -476,14 +468,12 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;button type=&quot;submit&quot;&gt;
+          <pre><code class="language-html">&lt;button type=&quot;submit&quot;&gt;
   &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;16&quot; height=&quot;16&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 16 16&quot;&gt;
     &lt;path d=&quot;M15.5 14h-1.5v-5H13v5h-1.5v-5H10.5v5h-1.5v-5H7.5v5H6v-5H4.5v5H3V9.5H1.5V14H0V2h1.5v2.5h1.5V1h1.5v3.5h1.5V1h1.5v3.5h1.5V1h1.5v3.5h1.5V1h1.5v8.5h1.5V2h1.5v12h-1.5z&quot;/&gt;
   &lt;/svg&gt;
   Submit
-&lt;/button&gt;
-```</code></pre>
+&lt;/button&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -495,15 +485,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;button type=&quot;submit&quot;&gt;
+          <pre><code class="language-html">&lt;button type=&quot;submit&quot;&gt;
   &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;16&quot; height=&quot;16&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
     &lt;path d=&quot;M22 2L11 13&quot;&gt;&lt;/path&gt;
     &lt;path d=&quot;M22 2l-7 20-4-9-9-4 20-7z&quot;&gt;&lt;/path&gt;
   &lt;/svg&gt;
   Submit
-&lt;/button&gt;
-```</code></pre>
+&lt;/button&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -515,14 +503,12 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;button type=&quot;submit&quot; aria-label=&quot;Submit form&quot;&gt;
+          <pre><code class="language-html">&lt;button type=&quot;submit&quot; aria-label=&quot;Submit form&quot;&gt;
   &lt;svg width=&quot;16&quot; height=&quot;16&quot; viewBox=&quot;0 0 16 16&quot; fill=&quot;currentColor&quot; aria-hidden=&quot;true&quot;&gt;
     &lt;path d=&quot;M15.854 1.146a.5.5 0 0 0-.708 0L8 8.293 2.854 3.146a.5.5 0 1 0-.708.708l5.5 5.5a.5.5 0 0 0 .708 0l5.5-5.5a.5.5 0 0 0 0-.708z&quot;/&gt;
   &lt;/svg&gt;
   &lt;span&gt;Submit&lt;/span&gt;
-&lt;/button&gt;
-```</code></pre>
+&lt;/button&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/qwen-qwen3-coder/g5.html">Open HTML</a></td>

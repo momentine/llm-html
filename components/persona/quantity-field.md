@@ -32,10 +32,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;itemQuantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;itemQuantity&quot; name=&quot;itemQuantity&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;itemQuantity&quot;&gt;Item Quantity&lt;/label&gt;
+&lt;input type=&quot;number&quot; id=&quot;itemQuantity&quot; name=&quot;itemQuantity&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/quantity-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -60,10 +58,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;itemQuantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;itemQuantity&quot; name=&quot;itemQuantity&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;itemQuantity&quot;&gt;Item Quantity&lt;/label&gt;
+&lt;input type=&quot;number&quot; id=&quot;itemQuantity&quot; name=&quot;itemQuantity&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/quantity-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -482,10 +478,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;item-quantity&quot; name=&quot;item-quantity&quot; min=&quot;1&quot; value=&quot;1&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;
+&lt;input type=&quot;number&quot; id=&quot;item-quantity&quot; name=&quot;item-quantity&quot; min=&quot;1&quot; value=&quot;1&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/quantity-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -497,10 +491,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;
-&lt;input type=&quot;number&quot; id=&quot;item-quantity&quot; name=&quot;item-quantity&quot; min=&quot;1&quot; step=&quot;1&quot; required&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;item-quantity&quot;&gt;Item Quantity&lt;/label&gt;
+&lt;input type=&quot;number&quot; id=&quot;item-quantity&quot; name=&quot;item-quantity&quot; min=&quot;1&quot; step=&quot;1&quot; required&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/quantity-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>

@@ -52,8 +52,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   &lt;div&gt;
     &lt;label&gt;
@@ -74,8 +73,7 @@
     &lt;/label&gt;
   &lt;/div&gt;
   &lt;div style=&quot;color: red;&quot;&gt;You must choose one or more fruits&lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-validation-error/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -87,8 +85,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   &lt;div&gt;
     &lt;label&gt;
@@ -109,8 +106,7 @@
     &lt;/label&gt;
   &lt;/div&gt;
   &lt;div style=&quot;color: red;&quot;&gt;You must choose one or more fruits&lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-validation-error/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
@@ -122,8 +118,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   
   &lt;div&gt;
@@ -144,8 +139,7 @@
   &lt;div role=&quot;alert&quot;&gt;
     &lt;span style=&quot;color: red;&quot;&gt;You must choose one or more fruits&lt;/span&gt;
   &lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-validation-error/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -157,8 +151,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   &lt;div role=&quot;group&quot; aria-labelledby=&quot;fruits-label&quot; aria-describedby=&quot;fruits-error&quot;&gt;
     &lt;div&gt;
@@ -177,8 +170,7 @@
   &lt;div id=&quot;fruits-error&quot; role=&quot;alert&quot; aria-live=&quot;polite&quot;&gt;
     &lt;span style=&quot;color: #d32f2f;&quot;&gt;You must choose one or more fruits&lt;/span&gt;
   &lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-validation-error/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -217,8 +209,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;fieldset&gt;
     &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
     &lt;div&gt;
@@ -235,8 +226,7 @@
     &lt;/div&gt;
     &lt;div id=&quot;error-message&quot; style=&quot;color: red; display: none;&quot;&gt;You must choose one or more fruits&lt;/div&gt;
   &lt;/fieldset&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-validation-error/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
@@ -478,8 +468,7 @@
 
     form.addEventListener(&#x27;submit&#x27;, function (e) {
       if (!atLeastOneChecked()) {
-        e.preventDefault();
-       </code></pre>
+        e.preventDefault();</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-validation-error/minimax-minimax-m2/g2.html">Open HTML</a></td>
@@ -762,8 +751,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;form&gt;
+          <pre><code class="language-html">&lt;form&gt;
   &lt;fieldset&gt;
     &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
     &lt;input type=&quot;checkbox&quot; id=&quot;bananas&quot; name=&quot;fruits&quot; value=&quot;bananas&quot;&gt;
@@ -774,8 +762,7 @@
     &lt;label for=&quot;apples&quot;&gt;Apples&lt;/label&gt;&lt;br&gt;
   &lt;/fieldset&gt;
   &lt;span class=&quot;error&quot;&gt;You must choose one or more fruits&lt;/span&gt;
-&lt;/form&gt;
-```</code></pre>
+&lt;/form&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-validation-error/qwen-qwen3-coder/g1.html">Open HTML</a></td>
@@ -787,8 +774,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   &lt;input type=&quot;checkbox&quot; id=&quot;bananas&quot; name=&quot;fruits&quot; value=&quot;bananas&quot;&gt;
   &lt;label for=&quot;bananas&quot;&gt;Bananas&lt;/label&gt;&lt;br&gt;
@@ -797,8 +783,7 @@
   &lt;input type=&quot;checkbox&quot; id=&quot;apples&quot; name=&quot;fruits&quot; value=&quot;apples&quot;&gt;
   &lt;label for=&quot;apples&quot;&gt;Apples&lt;/label&gt;&lt;br&gt;
   &lt;span class=&quot;error&quot;&gt;You must choose one or more fruits&lt;/span&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-validation-error/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -810,8 +795,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   &lt;input type=&quot;checkbox&quot; id=&quot;bananas&quot; name=&quot;fruits&quot; value=&quot;bananas&quot;&gt;
   &lt;label for=&quot;bananas&quot;&gt;Bananas&lt;/label&gt;&lt;br&gt;
@@ -820,8 +804,7 @@
   &lt;input type=&quot;checkbox&quot; id=&quot;apples&quot; name=&quot;fruits&quot; value=&quot;apples&quot;&gt;
   &lt;label for=&quot;apples&quot;&gt;Apples&lt;/label&gt;&lt;br&gt;
   &lt;span class=&quot;error&quot;&gt;You must choose one or more fruits&lt;/span&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-validation-error/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -833,8 +816,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;form&gt;
+          <pre><code class="language-html">&lt;form&gt;
   &lt;fieldset&gt;
     &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
     &lt;input type=&quot;checkbox&quot; id=&quot;bananas&quot; name=&quot;fruits&quot; value=&quot;bananas&quot;&gt;
@@ -845,8 +827,7 @@
     &lt;label for=&quot;apples&quot;&gt;Apples&lt;/label&gt;&lt;br&gt;
   &lt;/fieldset&gt;
   &lt;div class=&quot;error&quot;&gt;You must choose one or more fruits&lt;/div&gt;
-&lt;/form&gt;
-```</code></pre>
+&lt;/form&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-validation-error/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -858,8 +839,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   &lt;div&gt;
     &lt;input type=&quot;checkbox&quot; id=&quot;bananas&quot; name=&quot;fruits&quot; value=&quot;bananas&quot;&gt;
@@ -876,8 +856,7 @@
   &lt;div role=&quot;alert&quot; aria-live=&quot;polite&quot; style=&quot;color: #d32f2f; margin-top: 8px;&quot;&gt;
     You must choose one or more fruits
   &lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-validation-error/qwen-qwen3-coder/g5.html">Open HTML</a></td>

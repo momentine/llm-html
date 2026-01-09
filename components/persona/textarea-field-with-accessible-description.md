@@ -63,11 +63,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
 &lt;textarea id=&quot;message&quot; name=&quot;message&quot; rows=&quot;5&quot;&gt;&lt;/textarea&gt;
-&lt;small&gt;Please describe your problem in as much detail as possible.&lt;/small&gt;
-```</code></pre>
+&lt;small&gt;Please describe your problem in as much detail as possible.&lt;/small&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-field-with-accessible-description/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -79,8 +77,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
   &lt;textarea 
     id=&quot;message&quot; 
@@ -90,8 +87,7 @@
     required
   &gt;&lt;/textarea&gt;
   &lt;div id=&quot;message-note&quot;&gt;Please describe your problem in as much detail as possible.&lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-field-with-accessible-description/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -439,10 +435,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
-&lt;textarea id=&quot;message&quot; name=&quot;message&quot; rows=&quot;4&quot; cols=&quot;50&quot; placeholder=&quot;Please describe your problem in as much detail as possible.&quot;&gt;&lt;/textarea&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot; rows=&quot;4&quot; cols=&quot;50&quot; placeholder=&quot;Please describe your problem in as much detail as possible.&quot;&gt;&lt;/textarea&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-field-with-accessible-description/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -466,11 +460,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
 &lt;textarea id=&quot;message&quot; name=&quot;message&quot;&gt;&lt;/textarea&gt;
-&lt;p&gt;Please describe your problem in as much detail as possible.&lt;/p&gt;
-```</code></pre>
+&lt;p&gt;Please describe your problem in as much detail as possible.&lt;/p&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-field-with-accessible-description/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -482,11 +474,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
 &lt;textarea id=&quot;message&quot; name=&quot;message&quot; rows=&quot;5&quot; cols=&quot;40&quot; aria-describedby=&quot;message-note&quot;&gt;&lt;/textarea&gt;
-&lt;div id=&quot;message-note&quot;&gt;Please describe your problem in as much detail as possible.&lt;/div&gt;
-```</code></pre>
+&lt;div id=&quot;message-note&quot;&gt;Please describe your problem in as much detail as possible.&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-field-with-accessible-description/qwen-qwen3-coder/g5.html">Open HTML</a></td>

@@ -51,13 +51,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
   &lt;textarea id=&quot;message&quot; name=&quot;message&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;message-error&quot;&gt;&lt;/textarea&gt;
   &lt;div id=&quot;message-error&quot; role=&quot;alert&quot;&gt;Your message should be at least 20 words long. Please describe your problem in as much detail as possible.&lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-field-with-validation-error/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
@@ -69,11 +67,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
 &lt;textarea id=&quot;message&quot; name=&quot;message&quot; rows=&quot;6&quot; aria-describedby=&quot;message-error&quot; aria-invalid=&quot;true&quot;&gt;&lt;/textarea&gt;
-&lt;span id=&quot;message-error&quot; role=&quot;alert&quot;&gt;Your message should be at least 20 words long. Please describe your problem in as much detail as possible.&lt;/span&gt;
-```</code></pre>
+&lt;span id=&quot;message-error&quot; role=&quot;alert&quot;&gt;Your message should be at least 20 words long. Please describe your problem in as much detail as possible.&lt;/span&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-field-with-validation-error/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -85,8 +81,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
   &lt;textarea 
     id=&quot;message&quot; 
@@ -99,8 +94,7 @@
   &lt;div id=&quot;message-error&quot; role=&quot;alert&quot; aria-live=&quot;polite&quot;&gt;
     Your message should be at least 20 words long. Please describe your problem in as much detail as possible.
   &lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-field-with-validation-error/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -443,7 +437,7 @@
     }
     textarea {
       width: 100%;
-      min-height: </code></pre>
+      min-height:</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-field-with-validation-error/minimax-minimax-m2/g5.html">Open HTML</a></td>
@@ -529,11 +523,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;message&quot;&gt;Message:&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message:&lt;/label&gt;
 &lt;textarea id=&quot;message&quot; name=&quot;message&quot; required&gt;&lt;/textarea&gt;
-&lt;div class=&quot;error-message&quot;&gt;Your message should be at least 20 words long. Please describe your problem in as much detail as possible.&lt;/div&gt;
-```</code></pre>
+&lt;div class=&quot;error-message&quot;&gt;Your message should be at least 20 words long. Please describe your problem in as much detail as possible.&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-field-with-validation-error/qwen-qwen3-coder/g1.html">Open HTML</a></td>
@@ -545,11 +537,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
 &lt;textarea id=&quot;message&quot; name=&quot;message&quot; required&gt;&lt;/textarea&gt;
-&lt;div class=&quot;error-message&quot;&gt;Your message should be at least 20 words long. Please describe your problem in as much detail as possible.&lt;/div&gt;
-```</code></pre>
+&lt;div class=&quot;error-message&quot;&gt;Your message should be at least 20 words long. Please describe your problem in as much detail as possible.&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-field-with-validation-error/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -561,13 +551,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
   &lt;textarea id=&quot;message&quot; name=&quot;message&quot; required&gt;&lt;/textarea&gt;
   &lt;div class=&quot;error-message&quot;&gt;Your message should be at least 20 words long. Please describe your problem in as much detail as possible.&lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-field-with-validation-error/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -579,11 +567,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
 &lt;textarea id=&quot;message&quot; name=&quot;message&quot; required&gt;&lt;/textarea&gt;
-&lt;div class=&quot;error-message&quot;&gt;Your message should be at least 20 words long. Please describe your problem in as much detail as possible.&lt;/div&gt;
-```</code></pre>
+&lt;div class=&quot;error-message&quot;&gt;Your message should be at least 20 words long. Please describe your problem in as much detail as possible.&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-field-with-validation-error/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -595,13 +581,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
 &lt;textarea id=&quot;message&quot; name=&quot;message&quot; aria-describedby=&quot;message-error&quot; required&gt;&lt;/textarea&gt;
 &lt;div id=&quot;message-error&quot; role=&quot;alert&quot; aria-live=&quot;polite&quot;&gt;
   Your message should be at least 20 words long. Please describe your problem in as much detail as possible.
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-field-with-validation-error/qwen-qwen3-coder/g5.html">Open HTML</a></td>

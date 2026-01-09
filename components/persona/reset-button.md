@@ -19,9 +19,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;button type=&quot;reset&quot;&gt;Reset&lt;/button&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;button type=&quot;reset&quot;&gt;Reset&lt;/button&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/reset-button/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
@@ -33,9 +31,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;button type=&quot;reset&quot;&gt;Reset&lt;/button&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;button type=&quot;reset&quot;&gt;Reset&lt;/button&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/reset-button/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -59,10 +55,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;resetButton&quot;&gt;Reset&lt;/label&gt;
-&lt;button type=&quot;reset&quot; id=&quot;resetButton&quot;&gt;Reset&lt;/button&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;resetButton&quot;&gt;Reset&lt;/label&gt;
+&lt;button type=&quot;reset&quot; id=&quot;resetButton&quot;&gt;Reset&lt;/button&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/reset-button/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -74,9 +68,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;button type=&quot;reset&quot; aria-label=&quot;Reset form to default values&quot;&gt;Reset&lt;/button&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;button type=&quot;reset&quot; aria-label=&quot;Reset form to default values&quot;&gt;Reset&lt;/button&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/reset-button/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -428,9 +420,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;button type=&quot;reset&quot;&gt;Reset&lt;/button&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;button type=&quot;reset&quot;&gt;Reset&lt;/button&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/reset-button/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -442,9 +432,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;button type=&quot;reset&quot;&gt;Reset&lt;/button&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;button type=&quot;reset&quot;&gt;Reset&lt;/button&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/reset-button/qwen-qwen3-coder/g4.html">Open HTML</a></td>

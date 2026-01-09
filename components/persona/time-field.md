@@ -32,10 +32,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;meetingTime&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meetingTime&quot; name=&quot;meetingTime&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;meetingTime&quot;&gt;Meeting Time&lt;/label&gt;
+&lt;input type=&quot;time&quot; id=&quot;meetingTime&quot; name=&quot;meetingTime&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -60,10 +58,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;meetingTime&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meetingTime&quot; name=&quot;meetingTime&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;meetingTime&quot;&gt;Meeting Time&lt;/label&gt;
+&lt;input type=&quot;time&quot; id=&quot;meetingTime&quot; name=&quot;meetingTime&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -458,10 +454,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
+&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -473,10 +467,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
-&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;
+&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>

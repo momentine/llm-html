@@ -34,8 +34,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;!DOCTYPE html&gt;
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -46,8 +45,7 @@
     &lt;label for=&quot;volume&quot;&gt;Volume&lt;/label&gt;
     &lt;input type=&quot;range&quot; id=&quot;volume&quot; name=&quot;volume&quot; min=&quot;1&quot; max=&quot;10&quot; value=&quot;5&quot;&gt;
 &lt;/body&gt;
-&lt;/html&gt;
-```</code></pre>
+&lt;/html&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/range-slider/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -89,8 +87,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;!DOCTYPE html&gt;
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -123,8 +120,7 @@
         });
     &lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;
-```</code></pre>
+&lt;/html&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/range-slider/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -420,10 +416,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;volume&quot;&gt;Volume&lt;/label&gt;
-&lt;input type=&quot;range&quot; id=&quot;volume&quot; name=&quot;volume&quot; min=&quot;1&quot; max=&quot;10&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;volume&quot;&gt;Volume&lt;/label&gt;
+&lt;input type=&quot;range&quot; id=&quot;volume&quot; name=&quot;volume&quot; min=&quot;1&quot; max=&quot;10&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/range-slider/qwen-qwen3-coder/g1.html">Open HTML</a></td>
@@ -435,10 +429,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;volume&quot;&gt;Volume (range input 1–10)&lt;/label&gt;
-&lt;input type=&quot;range&quot; id=&quot;volume&quot; name=&quot;volume&quot; min=&quot;1&quot; max=&quot;10&quot; value=&quot;5&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;volume&quot;&gt;Volume (range input 1–10)&lt;/label&gt;
+&lt;input type=&quot;range&quot; id=&quot;volume&quot; name=&quot;volume&quot; min=&quot;1&quot; max=&quot;10&quot; value=&quot;5&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/range-slider/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -463,10 +455,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;volume&quot;&gt;Volume&lt;/label&gt;
-&lt;input type=&quot;range&quot; id=&quot;volume&quot; name=&quot;volume&quot; min=&quot;1&quot; max=&quot;10&quot; value=&quot;5&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;volume&quot;&gt;Volume&lt;/label&gt;
+&lt;input type=&quot;range&quot; id=&quot;volume&quot; name=&quot;volume&quot; min=&quot;1&quot; max=&quot;10&quot; value=&quot;5&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/range-slider/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -478,10 +468,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;volume-slider&quot;&gt;Volume (1-10)&lt;/label&gt;
-&lt;input type=&quot;range&quot; id=&quot;volume-slider&quot; name=&quot;volume&quot; min=&quot;1&quot; max=&quot;10&quot; value=&quot;5&quot; aria-valuemin=&quot;1&quot; aria-valuemax=&quot;10&quot; aria-valuenow=&quot;5&quot; aria-label=&quot;Volume level&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;volume-slider&quot;&gt;Volume (1-10)&lt;/label&gt;
+&lt;input type=&quot;range&quot; id=&quot;volume-slider&quot; name=&quot;volume&quot; min=&quot;1&quot; max=&quot;10&quot; value=&quot;5&quot; aria-valuemin=&quot;1&quot; aria-valuemax=&quot;10&quot; aria-valuenow=&quot;5&quot; aria-label=&quot;Volume level&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/range-slider/qwen-qwen3-coder/g5.html">Open HTML</a></td>

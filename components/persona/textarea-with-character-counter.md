@@ -19,8 +19,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
   &lt;textarea id=&quot;message&quot; name=&quot;message&quot; maxlength=&quot;200&quot; rows=&quot;5&quot; oninput=&quot;updateCounter()&quot;&gt;&lt;/textarea&gt;
   &lt;div id=&quot;counter&quot;&gt;0 / 200 characters&lt;/div&gt;
@@ -33,8 +32,7 @@ function updateCounter() {
   const currentLength = textarea.value.length;
   counter.textContent = currentLength + &#x27; / 200 characters&#x27;;
 }
-&lt;/script&gt;
-```</code></pre>
+&lt;/script&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
@@ -46,8 +44,7 @@ function updateCounter() {
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
   &lt;textarea id=&quot;message&quot; name=&quot;message&quot; maxlength=&quot;200&quot; rows=&quot;5&quot;&gt;&lt;/textarea&gt;
   &lt;div&gt;
@@ -62,8 +59,7 @@ function updateCounter() {
   textarea.addEventListener(&#x27;input&#x27;, function() {
     charCount.textContent = this.value.length;
   });
-&lt;/script&gt;
-```</code></pre>
+&lt;/script&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -91,11 +87,9 @@ function updateCounter() {
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
 &lt;textarea id=&quot;message&quot; name=&quot;message&quot; maxlength=&quot;200&quot; rows=&quot;5&quot; cols=&quot;50&quot; oninput=&quot;document.getElementById(&#x27;charCount&#x27;).textContent = this.value.length&quot;&gt;&lt;/textarea&gt;
-&lt;div&gt;&lt;span id=&quot;charCount&quot;&gt;0&lt;/span&gt;/200 characters&lt;/div&gt;
-```</code></pre>
+&lt;div&gt;&lt;span id=&quot;charCount&quot;&gt;0&lt;/span&gt;/200 characters&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -419,8 +413,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
       name=&quot;message&quot;
       rows=&quot;6&quot;
       maxlength=&quot;200&quot;
-      aria-describedby=&quot;messageCounter&quot;
-     </code></pre>
+      aria-describedby=&quot;messageCounter&quot;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/minimax-minimax-m2/g3.html">Open HTML</a></td>
@@ -573,15 +566,13 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;message&quot;&gt;Message:&lt;/label&gt;
   &lt;textarea id=&quot;message&quot; name=&quot;message&quot; maxlength=&quot;200&quot; rows=&quot;4&quot; cols=&quot;50&quot;&gt;&lt;/textarea&gt;
   &lt;div&gt;
     &lt;span id=&quot;charCount&quot;&gt;0&lt;/span&gt;/200 characters
   &lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/qwen-qwen3-coder/g1.html">Open HTML</a></td>
@@ -593,13 +584,11 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;message&quot;&gt;Message:&lt;/label&gt;
   &lt;textarea id=&quot;message&quot; name=&quot;message&quot; maxlength=&quot;200&quot; rows=&quot;4&quot; cols=&quot;50&quot;&gt;&lt;/textarea&gt;
   &lt;div id=&quot;charCounter&quot;&gt;0/200&lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -611,15 +600,13 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
   &lt;textarea id=&quot;message&quot; maxlength=&quot;200&quot; rows=&quot;4&quot; cols=&quot;50&quot;&gt;&lt;/textarea&gt;
   &lt;div&gt;
     &lt;span id=&quot;char-count&quot;&gt;0&lt;/span&gt;/200 characters
   &lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -631,13 +618,11 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
   &lt;textarea id=&quot;message&quot; name=&quot;message&quot; maxlength=&quot;200&quot; rows=&quot;4&quot; cols=&quot;50&quot;&gt;&lt;/textarea&gt;
   &lt;div id=&quot;char-count&quot;&gt;0 / 200&lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -649,8 +634,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
   &lt;textarea 
     id=&quot;message&quot; 
@@ -663,8 +647,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
   &lt;div id=&quot;message-count&quot; aria-live=&quot;polite&quot;&gt;
     &lt;span id=&quot;current-count&quot;&gt;0&lt;/span&gt;/200 characters
   &lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/qwen-qwen3-coder/g5.html">Open HTML</a></td>

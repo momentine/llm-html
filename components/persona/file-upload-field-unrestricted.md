@@ -61,10 +61,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;fileUpload&quot;&gt;Upload a File&lt;/label&gt;
-&lt;input type=&quot;file&quot; id=&quot;fileUpload&quot; name=&quot;fileUpload&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;fileUpload&quot;&gt;Upload a File&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;fileUpload&quot; name=&quot;fileUpload&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -417,10 +415,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;file&quot; name=&quot;file&quot; id=&quot;file&quot;&gt;
-&lt;label for=&quot;file&quot;&gt;Upload a File&lt;/label&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;file&quot; name=&quot;file&quot; id=&quot;file&quot;&gt;
+&lt;label for=&quot;file&quot;&gt;Upload a File&lt;/label&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -432,10 +428,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;fileUpload&quot;&gt;Upload a File&lt;/label&gt;
-&lt;input type=&quot;file&quot; id=&quot;fileUpload&quot; name=&quot;fileUpload&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;fileUpload&quot;&gt;Upload a File&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;fileUpload&quot; name=&quot;fileUpload&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -447,10 +441,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;file-upload&quot;&gt;Upload a File&lt;/label&gt;
-&lt;input type=&quot;file&quot; id=&quot;file-upload&quot; name=&quot;file-upload&quot; accept=&quot;*/*&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;file-upload&quot;&gt;Upload a File&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;file-upload&quot; name=&quot;file-upload&quot; accept=&quot;*/*&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/qwen-qwen3-coder/g5.html">Open HTML</a></td>

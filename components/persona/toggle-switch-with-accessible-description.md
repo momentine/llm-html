@@ -19,8 +19,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div style=&quot;display: flex; align-items: center; justify-content: space-between; padding: 16px; border: 1px solid #e0e0e0; border-radius: 8px; max-width: 400px;&quot;&gt;
+          <pre><code class="language-html">&lt;div style=&quot;display: flex; align-items: center; justify-content: space-between; padding: 16px; border: 1px solid #e0e0e0; border-radius: 8px; max-width: 400px;&quot;&gt;
   &lt;div&gt;
     &lt;div style=&quot;font-weight: 600; font-size: 16px; margin-bottom: 4px;&quot;&gt;Notifications&lt;/div&gt;
     &lt;div style=&quot;color: #666; font-size: 14px;&quot;&gt;Turn alerts on or off.&lt;/div&gt;
@@ -40,8 +39,7 @@
   input:checked + span span {
     transform: translateX(26px);
   }
-&lt;/style&gt;
-```</code></pre>
+&lt;/style&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
@@ -85,15 +83,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label&gt;
     &lt;span&gt;Notifications&lt;/span&gt;
     &lt;input type=&quot;checkbox&quot; role=&quot;switch&quot;&gt;
   &lt;/label&gt;
   &lt;p&gt;Turn alerts on or off.&lt;/p&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
@@ -105,8 +101,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;notifications-toggle&quot;&gt;
     &lt;div&gt;Notifications&lt;/div&gt;
     &lt;div&gt;Turn alerts on or off.&lt;/div&gt;
@@ -115,8 +110,7 @@
     &lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot; role=&quot;switch&quot;&gt;
     &lt;span&gt;&lt;/span&gt;
   &lt;/label&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -128,8 +122,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;!DOCTYPE html&gt;
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -155,8 +148,7 @@
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;
-```</code></pre>
+&lt;/html&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -426,7 +418,7 @@
     border-radius: var(--h);
     position: relative;
     transition: background .2s ease;
-    box-shadow: inset 0 0 </code></pre>
+    box-shadow: inset 0 0</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/minimax-minimax-m2/g1.html">Open HTML</a></td>
@@ -759,13 +751,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;notifications-toggle&quot;&gt;Notifications&lt;/label&gt;
   &lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot; /&gt;
   &lt;span&gt;Turn alerts on or off.&lt;/span&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g1.html">Open HTML</a></td>
@@ -777,13 +767,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;notifications&quot;&gt;Notifications&lt;/label&gt;
   &lt;input type=&quot;checkbox&quot; id=&quot;notifications&quot; /&gt;
   &lt;span&gt;Turn alerts on or off.&lt;/span&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -795,15 +783,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;notifications-toggle&quot;&gt;Notifications&lt;/label&gt;
   &lt;div&gt;
     &lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot;&gt;
     &lt;label for=&quot;notifications-toggle&quot;&gt;Turn alerts on or off.&lt;/label&gt;
   &lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -815,16 +801,14 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div class=&quot;toggle-container&quot;&gt;
+          <pre><code class="language-html">&lt;div class=&quot;toggle-container&quot;&gt;
   &lt;label for=&quot;notifications-toggle&quot;&gt;Notifications&lt;/label&gt;
   &lt;div class=&quot;toggle-switch&quot;&gt;
     &lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot;&gt;
     &lt;span class=&quot;slider&quot;&gt;&lt;/span&gt;
   &lt;/div&gt;
   &lt;p class=&quot;toggle-note&quot;&gt;Turn alerts on or off.&lt;/p&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -836,8 +820,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div class=&quot;toggle-container&quot;&gt;
+          <pre><code class="language-html">&lt;div class=&quot;toggle-container&quot;&gt;
   &lt;label for=&quot;notifications-toggle&quot; class=&quot;toggle-label&quot;&gt;
     Notifications
   &lt;/label&gt;
@@ -853,8 +836,7 @@
       &lt;span class=&quot;toggle-thumb&quot;&gt;&lt;/span&gt;
     &lt;/span&gt;
   &lt;/button&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g5.html">Open HTML</a></td>

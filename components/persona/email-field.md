@@ -448,10 +448,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;desired-email&quot;&gt;Desired email address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;desired-email&quot; name=&quot;desired-email&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;desired-email&quot;&gt;Desired email address&lt;/label&gt;
+&lt;input type=&quot;email&quot; id=&quot;desired-email&quot; name=&quot;desired-email&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -463,10 +461,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;desired-email&quot;&gt;Desired email address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;desired-email&quot; name=&quot;desired-email&quot; required&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;desired-email&quot;&gt;Desired email address&lt;/label&gt;
+&lt;input type=&quot;email&quot; id=&quot;desired-email&quot; name=&quot;desired-email&quot; required&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>

@@ -19,8 +19,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   &lt;label&gt;
     &lt;input type=&quot;checkbox&quot; name=&quot;fruits&quot; value=&quot;bananas&quot;&gt;
@@ -34,8 +33,7 @@
     &lt;input type=&quot;checkbox&quot; name=&quot;fruits&quot; value=&quot;apples&quot;&gt;
     apples
   &lt;/label&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
@@ -73,8 +71,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   &lt;label&gt;
     &lt;input type=&quot;checkbox&quot; name=&quot;fruits&quot; value=&quot;bananas&quot;&gt;
@@ -88,8 +85,7 @@
     &lt;input type=&quot;checkbox&quot; name=&quot;fruits&quot; value=&quot;apples&quot;&gt;
     apples
   &lt;/label&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
@@ -101,8 +97,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   
   &lt;div&gt;
@@ -119,8 +114,7 @@
     &lt;input type=&quot;checkbox&quot; id=&quot;apples&quot; name=&quot;fruits&quot; value=&quot;apples&quot;&gt;
     &lt;label for=&quot;apples&quot;&gt;Apples&lt;/label&gt;
   &lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -132,8 +126,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   &lt;div&gt;
     &lt;input type=&quot;checkbox&quot; id=&quot;bananas&quot; name=&quot;fruits&quot; value=&quot;bananas&quot;&gt;
@@ -147,8 +140,7 @@
     &lt;input type=&quot;checkbox&quot; id=&quot;apples&quot; name=&quot;fruits&quot; value=&quot;apples&quot;&gt;
     &lt;label for=&quot;apples&quot;&gt;Apples&lt;/label&gt;
   &lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -651,8 +643,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   &lt;input type=&quot;checkbox&quot; id=&quot;bananas&quot; name=&quot;fruits&quot; value=&quot;bananas&quot;&gt;
   &lt;label for=&quot;bananas&quot;&gt;Bananas&lt;/label&gt;&lt;br&gt;
@@ -660,8 +651,7 @@
   &lt;label for=&quot;oranges&quot;&gt;Oranges&lt;/label&gt;&lt;br&gt;
   &lt;input type=&quot;checkbox&quot; id=&quot;apples&quot; name=&quot;fruits&quot; value=&quot;apples&quot;&gt;
   &lt;label for=&quot;apples&quot;&gt;Apples&lt;/label&gt;&lt;br&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group/qwen-qwen3-coder/g4.html">Open HTML</a></td>

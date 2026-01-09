@@ -51,13 +51,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
   &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;email-error&quot;&gt;
   &lt;span id=&quot;email-error&quot; role=&quot;alert&quot;&gt;Your email address is invalid.&lt;/span&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-validation-error/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
@@ -69,11 +67,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
 &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;email-error&quot;&gt;
-&lt;span id=&quot;email-error&quot; role=&quot;alert&quot;&gt;Your email address is invalid.&lt;/span&gt;
-```</code></pre>
+&lt;span id=&quot;email-error&quot; role=&quot;alert&quot;&gt;Your email address is invalid.&lt;/span&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-validation-error/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -286,8 +282,7 @@
         email.setAttribute(&#x27;aria-invalid&#x27;, &#x27;false&#x27;);
       }
 
-      email.addEventListener(&#x27;input&#x27;, () =&gt; {
-</code></pre>
+      email.addEventListener(&#x27;input&#x27;, () =&gt; {</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-validation-error/minimax-minimax-m2/g1.html">Open HTML</a></td>
@@ -495,13 +490,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;form&gt;
+          <pre><code class="language-html">&lt;form&gt;
   &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
   &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
   &lt;span class=&quot;error&quot; id=&quot;email-error&quot;&gt;Your email address is invalid.&lt;/span&gt;
-&lt;/form&gt;
-```</code></pre>
+&lt;/form&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-validation-error/qwen-qwen3-coder/g1.html">Open HTML</a></td>
@@ -513,13 +506,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
   &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
   &lt;span class=&quot;error-message&quot;&gt;Your email address is invalid.&lt;/span&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-validation-error/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -531,11 +522,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
 &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
-&lt;span class=&quot;error&quot;&gt;Your email address is invalid.&lt;/span&gt;
-```</code></pre>
+&lt;span class=&quot;error&quot;&gt;Your email address is invalid.&lt;/span&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-validation-error/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -547,11 +536,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
 &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
-&lt;div class=&quot;error&quot;&gt;Your email address is invalid.&lt;/div&gt;
-```</code></pre>
+&lt;div class=&quot;error&quot;&gt;Your email address is invalid.&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-validation-error/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -563,11 +550,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
 &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; aria-describedby=&quot;email-error&quot; required&gt;
-&lt;div id=&quot;email-error&quot; role=&quot;alert&quot; aria-live=&quot;polite&quot;&gt;Your email address is invalid.&lt;/div&gt;
-```</code></pre>
+&lt;div id=&quot;email-error&quot; role=&quot;alert&quot; aria-live=&quot;polite&quot;&gt;Your email address is invalid.&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-validation-error/qwen-qwen3-coder/g5.html">Open HTML</a></td>

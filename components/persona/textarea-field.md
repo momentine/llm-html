@@ -32,9 +32,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;textarea name=&quot;message&quot; id=&quot;message&quot; placeholder=&quot;Message&quot;&gt;&lt;/textarea&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;textarea name=&quot;message&quot; id=&quot;message&quot; placeholder=&quot;Message&quot;&gt;&lt;/textarea&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -483,10 +481,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
-&lt;textarea id=&quot;message&quot; name=&quot;message&quot;&gt;&lt;/textarea&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot;&gt;&lt;/textarea&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>

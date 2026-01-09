@@ -19,8 +19,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   &lt;label&gt;
     &lt;input type=&quot;checkbox&quot; name=&quot;fruits&quot; value=&quot;bananas&quot;&gt;
@@ -35,8 +34,7 @@
     apples
   &lt;/label&gt;
   &lt;p&gt;&lt;small&gt;You can change this later&lt;/small&gt;&lt;/p&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-accessible-description/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
@@ -75,8 +73,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   &lt;div&gt;
     &lt;label&gt;
@@ -97,8 +94,7 @@
     &lt;/label&gt;
   &lt;/div&gt;
   &lt;p&gt;You can change this later&lt;/p&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-accessible-description/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
@@ -110,8 +106,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   &lt;div&gt;
     &lt;input type=&quot;checkbox&quot; id=&quot;bananas&quot; name=&quot;fruits&quot; value=&quot;bananas&quot;&gt;
@@ -126,8 +121,7 @@
     &lt;label for=&quot;apples&quot;&gt;Apples&lt;/label&gt;
   &lt;/div&gt;
   &lt;p&gt;&lt;small&gt;You can change this later&lt;/small&gt;&lt;/p&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-accessible-description/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -139,8 +133,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   &lt;div&gt;
     &lt;input type=&quot;checkbox&quot; id=&quot;bananas&quot; name=&quot;fruits&quot; value=&quot;bananas&quot;&gt;
@@ -155,8 +148,7 @@
     &lt;label for=&quot;apples&quot;&gt;Apples&lt;/label&gt;
   &lt;/div&gt;
   &lt;p&gt;&lt;small&gt;You can change this later&lt;/small&gt;&lt;/p&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-accessible-description/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -195,15 +187,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;p&gt;What fruits do you like?&lt;/p&gt;
   &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;fruits&quot; value=&quot;bananas&quot;&gt; Bananas&lt;/label&gt;
   &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;fruits&quot; value=&quot;oranges&quot;&gt; Oranges&lt;/label&gt;
   &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;fruits&quot; value=&quot;apples&quot;&gt; Apples&lt;/label&gt;
   &lt;p&gt;You can change this later&lt;/p&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-accessible-description/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
@@ -402,8 +392,7 @@
 
         &lt;div&gt;
           &lt;input type=&quot;checkbox&quot; id=&quot;apples&quot; name=&quot;fruits[]&quot; value=&quot;apples&quot; /&gt;
-          &lt;label for=&quot;apples&quot;&gt;Apples&lt;/label&gt;
-</code></pre>
+          &lt;label for=&quot;apples&quot;&gt;Apples&lt;/label&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-accessible-description/minimax-minimax-m2/g2.html">Open HTML</a></td>
@@ -648,8 +637,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   &lt;input type=&quot;checkbox&quot; id=&quot;bananas&quot; name=&quot;fruits&quot; value=&quot;bananas&quot;&gt;
   &lt;label for=&quot;bananas&quot;&gt;Bananas&lt;/label&gt;&lt;br&gt;
@@ -658,8 +646,7 @@
   &lt;input type=&quot;checkbox&quot; id=&quot;apples&quot; name=&quot;fruits&quot; value=&quot;apples&quot;&gt;
   &lt;label for=&quot;apples&quot;&gt;Apples&lt;/label&gt;&lt;br&gt;
   &lt;small&gt;You can change this later&lt;/small&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-accessible-description/qwen-qwen3-coder/g1.html">Open HTML</a></td>
@@ -694,8 +681,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like?&lt;/legend&gt;
   &lt;input type=&quot;checkbox&quot; id=&quot;bananas&quot; name=&quot;fruits&quot; value=&quot;bananas&quot;&gt;
   &lt;label for=&quot;bananas&quot;&gt;Bananas&lt;/label&gt;&lt;br&gt;
@@ -704,8 +690,7 @@
   &lt;input type=&quot;checkbox&quot; id=&quot;apples&quot; name=&quot;fruits&quot; value=&quot;apples&quot;&gt;
   &lt;label for=&quot;apples&quot;&gt;Apples&lt;/label&gt;&lt;br&gt;
   &lt;small&gt;You can change this later&lt;/small&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-accessible-description/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -740,8 +725,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;What fruits do you like? &lt;span&gt;You can change this later&lt;/span&gt;&lt;/legend&gt;
   &lt;input type=&quot;checkbox&quot; id=&quot;bananas&quot; name=&quot;fruits&quot; value=&quot;bananas&quot;&gt;
   &lt;label for=&quot;bananas&quot;&gt;Bananas&lt;/label&gt;
@@ -749,8 +733,7 @@
   &lt;label for=&quot;oranges&quot;&gt;Oranges&lt;/label&gt;
   &lt;input type=&quot;checkbox&quot; id=&quot;apples&quot; name=&quot;fruits&quot; value=&quot;apples&quot;&gt;
   &lt;label for=&quot;apples&quot;&gt;Apples&lt;/label&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/checkbox-group-with-accessible-description/qwen-qwen3-coder/g5.html">Open HTML</a></td>

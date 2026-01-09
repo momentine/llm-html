@@ -19,8 +19,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;!DOCTYPE html&gt;
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -33,8 +32,7 @@
         &lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot; role=&quot;switch&quot;&gt;
     &lt;/label&gt;
 &lt;/body&gt;
-&lt;/html&gt;
-```</code></pre>
+&lt;/html&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
@@ -46,8 +44,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label style=&quot;display: inline-flex; align-items: center; cursor: pointer;&quot;&gt;
+          <pre><code class="language-html">&lt;label style=&quot;display: inline-flex; align-items: center; cursor: pointer;&quot;&gt;
   &lt;input type=&quot;checkbox&quot; style=&quot;appearance: none; width: 50px; height: 26px; background-color: #ccc; border-radius: 13px; position: relative; cursor: pointer; transition: background-color 0.3s;&quot; onchange=&quot;this.style.backgroundColor = this.checked ? &#x27;#4CAF50&#x27; : &#x27;#ccc&#x27;;&quot;&gt;
   &lt;style&gt;
     input[type=&quot;checkbox&quot;]:checked::before {
@@ -66,8 +63,7 @@
     }
   &lt;/style&gt;
   &lt;span style=&quot;margin-left: 10px; font-family: Arial, sans-serif; font-size: 16px;&quot;&gt;Notifications&lt;/span&gt;
-&lt;/label&gt;
-```</code></pre>
+&lt;/label&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -79,12 +75,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label&gt;
+          <pre><code class="language-html">&lt;label&gt;
   &lt;input type=&quot;checkbox&quot; /&gt;
   &lt;span&gt;Notifications&lt;/span&gt;
-&lt;/label&gt;
-```</code></pre>
+&lt;/label&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
@@ -96,8 +90,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;notifications-toggle&quot;&gt;Notifications&lt;/label&gt;
   &lt;label style=&quot;position: relative; display: inline-block; width: 50px; height: 24px;&quot;&gt;
     &lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot; style=&quot;opacity: 0; width: 0; height: 0;&quot;&gt;
@@ -115,8 +108,7 @@
   input:checked + span span {
     transform: translateX(26px);
   }
-&lt;/style&gt;
-```</code></pre>
+&lt;/style&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -128,8 +120,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div role=&quot;region&quot; aria-labelledby=&quot;notifications-label&quot;&gt;
+          <pre><code class="language-html">&lt;div role=&quot;region&quot; aria-labelledby=&quot;notifications-label&quot;&gt;
   &lt;label id=&quot;notifications-label&quot; for=&quot;notifications-toggle&quot;&gt;
     &lt;span&gt;Notifications&lt;/span&gt;
   &lt;/label&gt;
@@ -142,8 +133,7 @@
   &gt;
     &lt;span aria-hidden=&quot;true&quot;&gt;OFF&lt;/span&gt;
   &lt;/button&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -532,8 +522,7 @@
       position: absolute !important;
       width: 1px !important;
       height: 1px !important;
-      padding: 0 !important;
-</code></pre>
+      padding: 0 !important;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch/minimax-minimax-m2/g5.html">Open HTML</a></td>
@@ -655,15 +644,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div class=&quot;toggle-container&quot;&gt;
+          <pre><code class="language-html">&lt;div class=&quot;toggle-container&quot;&gt;
   &lt;span class=&quot;toggle-label&quot;&gt;Notifications&lt;/span&gt;
   &lt;label class=&quot;toggle-switch&quot;&gt;
     &lt;input type=&quot;checkbox&quot;&gt;
     &lt;span class=&quot;slider&quot;&gt;&lt;/span&gt;
   &lt;/label&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -675,8 +662,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div class=&quot;toggle-container&quot;&gt;
+          <pre><code class="language-html">&lt;div class=&quot;toggle-container&quot;&gt;
   &lt;label for=&quot;notifications-toggle&quot; class=&quot;toggle-label&quot;&gt;
     Notifications
   &lt;/label&gt;
@@ -692,8 +678,7 @@
       &lt;span class=&quot;toggle-thumb&quot;&gt;&lt;/span&gt;
     &lt;/span&gt;
   &lt;/button&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch/qwen-qwen3-coder/g5.html">Open HTML</a></td>

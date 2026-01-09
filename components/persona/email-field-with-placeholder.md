@@ -70,10 +70,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email-address&quot;&gt;Desired email address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email-address&quot; name=&quot;email-address&quot; placeholder=&quot;yourname@ourdomain.tld&quot; required aria-required=&quot;true&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;email-address&quot;&gt;Desired email address&lt;/label&gt;
+&lt;input type=&quot;email&quot; id=&quot;email-address&quot; name=&quot;email-address&quot; placeholder=&quot;yourname@ourdomain.tld&quot; required aria-required=&quot;true&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-placeholder/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -405,10 +403,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Desired email address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;yourname@ourdomain.tld&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Desired email address&lt;/label&gt;
+&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;yourname@ourdomain.tld&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-placeholder/qwen-qwen3-coder/g4.html">Open HTML</a></td>

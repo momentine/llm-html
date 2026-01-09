@@ -125,9 +125,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;text&quot; placeholder=&quot;Credit Card Number&quot; maxlength=&quot;19&quot; pattern=&quot;[0-9\s]{13,19}&quot; title=&quot;Enter your credit card number&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;text&quot; placeholder=&quot;Credit Card Number&quot; maxlength=&quot;19&quot; pattern=&quot;[0-9\s]{13,19}&quot; title=&quot;Enter your credit card number&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
@@ -360,8 +358,7 @@
         inputmode=&quot;numeric&quot;
         autocomplete=&quot;cc-number&quot;
         placeholder=&quot;1234 5678 9012 3456&quot;
-        aria-describedby=&quot;cc-number-hint&quot;
-       </code></pre>
+        aria-describedby=&quot;cc-number-hint&quot;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
@@ -532,8 +529,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div class=&quot;form-group&quot;&gt;
+          <pre><code class="language-html">&lt;div class=&quot;form-group&quot;&gt;
   &lt;label for=&quot;credit-card-number&quot;&gt;Credit Card Number&lt;/label&gt;
   &lt;input 
     type=&quot;text&quot; 
@@ -548,8 +544,7 @@
     aria-describedby=&quot;credit-card-help&quot;
   &gt;
   &lt;div id=&quot;credit-card-help&quot; class=&quot;sr-only&quot;&gt;Enter your credit card number as it appears on your card&lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>

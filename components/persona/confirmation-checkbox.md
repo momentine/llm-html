@@ -34,12 +34,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label&gt;
+          <pre><code class="language-html">&lt;label&gt;
   &lt;input type=&quot;checkbox&quot; name=&quot;terms&quot; value=&quot;agree&quot;&gt;
   I agree to the Terms and Conditions
-&lt;/label&gt;
-```</code></pre>
+&lt;/label&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/confirmation-checkbox/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -79,12 +77,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;input type=&quot;checkbox&quot; id=&quot;terms-checkbox&quot; name=&quot;terms&quot; required aria-required=&quot;true&quot;&gt;
   &lt;label for=&quot;terms-checkbox&quot;&gt;I agree to the &lt;a href=&quot;/terms&quot;&gt;Terms and Conditions&lt;/a&gt;&lt;/label&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/confirmation-checkbox/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -122,10 +118,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;checkbox&quot; id=&quot;terms&quot;&gt;
-&lt;label for=&quot;terms&quot;&gt;I agree to the Terms and Conditions&lt;/label&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;checkbox&quot; id=&quot;terms&quot;&gt;
+&lt;label for=&quot;terms&quot;&gt;I agree to the Terms and Conditions&lt;/label&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/confirmation-checkbox/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
@@ -471,10 +465,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;checkbox&quot; id=&quot;terms&quot; name=&quot;terms&quot; required&gt;
-&lt;label for=&quot;terms&quot;&gt;I agree to the Terms and Conditions&lt;/label&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;checkbox&quot; id=&quot;terms&quot; name=&quot;terms&quot; required&gt;
+&lt;label for=&quot;terms&quot;&gt;I agree to the Terms and Conditions&lt;/label&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/confirmation-checkbox/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -486,12 +478,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;input type=&quot;checkbox&quot; id=&quot;terms-checkbox&quot; name=&quot;terms&quot; required&gt;
   &lt;label for=&quot;terms-checkbox&quot;&gt;I agree to the &lt;a href=&quot;/terms&quot; target=&quot;_blank&quot;&gt;Terms and Conditions&lt;/a&gt;&lt;/label&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/confirmation-checkbox/qwen-qwen3-coder/g5.html">Open HTML</a></td>

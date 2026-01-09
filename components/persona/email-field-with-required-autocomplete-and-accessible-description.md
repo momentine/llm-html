@@ -470,11 +470,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
 &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required autocomplete=&quot;email&quot;&gt;
-&lt;p&gt;We will never share or sell your email address&lt;/p&gt;
-```</code></pre>
+&lt;p&gt;We will never share or sell your email address&lt;/p&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-required-autocomplete-and-accessible-description/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -486,11 +484,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
 &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required autocomplete=&quot;email&quot;&gt;
-&lt;p&gt;We will never share or sell your email address&lt;/p&gt;
-```</code></pre>
+&lt;p&gt;We will never share or sell your email address&lt;/p&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-required-autocomplete-and-accessible-description/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -502,11 +498,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Email Address &lt;span aria-label=&quot;required&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email Address &lt;span aria-label=&quot;required&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
 &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required autocomplete=&quot;email&quot; aria-describedby=&quot;email-note&quot;&gt;
-&lt;div id=&quot;email-note&quot;&gt;We will never share or sell your email address&lt;/div&gt;
-```</code></pre>
+&lt;div id=&quot;email-note&quot;&gt;We will never share or sell your email address&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-required-autocomplete-and-accessible-description/qwen-qwen3-coder/g5.html">Open HTML</a></td>

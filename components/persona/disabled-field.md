@@ -31,9 +31,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;text&quot; placeholder=&quot;Promo Code&quot; disabled&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;text&quot; placeholder=&quot;Promo Code&quot; disabled&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/disabled-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -57,10 +55,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;promoCode&quot;&gt;Promo Code&lt;/label&gt;
-&lt;input type=&quot;text&quot; id=&quot;promoCode&quot; name=&quot;promoCode&quot; disabled&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;promoCode&quot;&gt;Promo Code&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;promoCode&quot; name=&quot;promoCode&quot; disabled&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/disabled-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -72,8 +68,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;promo-code&quot;&gt;Promo Code&lt;/label&gt;
   &lt;input 
     type=&quot;text&quot; 
@@ -83,8 +78,7 @@
     aria-disabled=&quot;true&quot;
     value=&quot;&quot;
   /&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/disabled-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -96,7 +90,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html"> type=&quot;text&quot; id=&quot;promo-code&quot; name=&quot;promo-code&quot; placeholder=&quot;Promo Code&quot; disabled&gt;</code></pre>
+          <pre><code class="language-html">type=&quot;text&quot; id=&quot;promo-code&quot; name=&quot;promo-code&quot; placeholder=&quot;Promo Code&quot; disabled&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/disabled-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
@@ -403,10 +397,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;promo-code&quot;&gt;Promo Code&lt;/label&gt;
-&lt;input type=&quot;text&quot; id=&quot;promo-code&quot; name=&quot;promo-code&quot; disabled&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;promo-code&quot;&gt;Promo Code&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;promo-code&quot; name=&quot;promo-code&quot; disabled&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/disabled-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -418,10 +410,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;promo-code&quot;&gt;Promo Code&lt;/label&gt;
-&lt;input type=&quot;text&quot; id=&quot;promo-code&quot; name=&quot;promo-code&quot; disabled&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;promo-code&quot;&gt;Promo Code&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;promo-code&quot; name=&quot;promo-code&quot; disabled&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/disabled-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>

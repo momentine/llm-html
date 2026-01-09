@@ -142,10 +142,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;file&quot; id=&quot;document&quot; name=&quot;document&quot;&gt;
-&lt;label for=&quot;document&quot;&gt;Upload Document&lt;/label&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;file&quot; id=&quot;document&quot; name=&quot;document&quot;&gt;
+&lt;label for=&quot;document&quot;&gt;Upload Document&lt;/label&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
@@ -407,10 +405,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;file&quot; name=&quot;document&quot; accept=&quot;.doc,.docx,.pdf,.txt,.rtf&quot; /&gt;
-&lt;label for=&quot;document&quot;&gt;Upload Document&lt;/label&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;file&quot; name=&quot;document&quot; accept=&quot;.doc,.docx,.pdf,.txt,.rtf&quot; /&gt;
+&lt;label for=&quot;document&quot;&gt;Upload Document&lt;/label&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
@@ -422,10 +418,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document-upload&quot; accept=&quot;.pdf,.doc,.docx,.txt,.rtf&quot; /&gt;
-&lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document-upload&quot; accept=&quot;.pdf,.doc,.docx,.txt,.rtf&quot; /&gt;
+&lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -437,10 +431,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document-upload&quot; accept=&quot;.pdf,.doc,.docx,.txt,.rtf&quot;&gt;
-&lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document-upload&quot; accept=&quot;.pdf,.doc,.docx,.txt,.rtf&quot;&gt;
+&lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -452,10 +444,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;
-&lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document-upload&quot; accept=&quot;.pdf,.doc,.docx,.txt,.rtf&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document-upload&quot; accept=&quot;.pdf,.doc,.docx,.txt,.rtf&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -467,8 +457,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div class=&quot;form-group&quot;&gt;
+          <pre><code class="language-html">&lt;div class=&quot;form-group&quot;&gt;
   &lt;label for=&quot;document-upload&quot; id=&quot;document-label&quot;&gt;
     Upload Document
   &lt;/label&gt;
@@ -485,8 +474,7 @@
   &lt;div id=&quot;document-error&quot; class=&quot;error-message&quot; aria-live=&quot;polite&quot; role=&quot;alert&quot;&gt;
     &lt;!-- Error messages will be inserted here dynamically --&gt;
   &lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>

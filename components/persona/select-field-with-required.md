@@ -73,15 +73,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;theme&quot;&gt;Theme &lt;span aria-label=&quot;required&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme &lt;span aria-label=&quot;required&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
 &lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
   &lt;option value=&quot;&quot;&gt;Select a theme&lt;/option&gt;
   &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
   &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
   &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
-&lt;/select&gt;
-```</code></pre>
+&lt;/select&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/select-field-with-required/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -145,14 +143,12 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
+          <pre><code class="language-html">&lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
   &lt;option value=&quot;&quot; disabled selected&gt;Select a theme&lt;/option&gt;
   &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
   &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
   &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
-&lt;/select&gt;
-```</code></pre>
+&lt;/select&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/select-field-with-required/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
@@ -455,14 +451,12 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;select name=&quot;theme&quot; required&gt;
+          <pre><code class="language-html">&lt;select name=&quot;theme&quot; required&gt;
   &lt;option value=&quot;&quot;&gt;Select a theme&lt;/option&gt;
   &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
   &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
   &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
-&lt;/select&gt;
-```</code></pre>
+&lt;/select&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/select-field-with-required/qwen-qwen3-coder/g1.html">Open HTML</a></td>
@@ -491,14 +485,12 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme&lt;/label&gt;
 &lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
   &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
   &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
   &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
-&lt;/select&gt;
-```</code></pre>
+&lt;/select&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/select-field-with-required/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -510,15 +502,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;theme&quot;&gt;Theme *&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme *&lt;/label&gt;
 &lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
   &lt;option value=&quot;&quot;&gt;Select a theme&lt;/option&gt;
   &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
   &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
   &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
-&lt;/select&gt;
-```</code></pre>
+&lt;/select&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/select-field-with-required/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -530,15 +520,13 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;theme&quot;&gt;Theme *&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;theme&quot;&gt;Theme *&lt;/label&gt;
 &lt;select id=&quot;theme&quot; name=&quot;theme&quot; required&gt;
   &lt;option value=&quot;&quot;&gt;Choose a theme&lt;/option&gt;
   &lt;option value=&quot;light&quot;&gt;Light&lt;/option&gt;
   &lt;option value=&quot;dark&quot;&gt;Dark&lt;/option&gt;
   &lt;option value=&quot;high-contrast&quot;&gt;High Contrast&lt;/option&gt;
-&lt;/select&gt;
-```</code></pre>
+&lt;/select&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/select-field-with-required/qwen-qwen3-coder/g5.html">Open HTML</a></td>

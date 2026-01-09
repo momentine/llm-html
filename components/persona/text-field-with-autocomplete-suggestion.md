@@ -64,13 +64,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;firstName&quot;&gt;Your first name&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;firstName&quot;&gt;Your first name&lt;/label&gt;
 &lt;input type=&quot;text&quot; id=&quot;firstName&quot; name=&quot;firstName&quot; list=&quot;firstNameSuggestions&quot;&gt;
 &lt;datalist id=&quot;firstNameSuggestions&quot;&gt;
   &lt;option value=&quot;John Doe&quot;&gt;
-&lt;/datalist&gt;
-```</code></pre>
+&lt;/datalist&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-autocomplete-suggestion/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -479,10 +477,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;first-name&quot;&gt;Your first name&lt;/label&gt;
-&lt;input type=&quot;text&quot; id=&quot;first-name&quot; name=&quot;first-name&quot; autocomplete=&quot;given-name&quot; placeholder=&quot;John Doe&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;first-name&quot;&gt;Your first name&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;first-name&quot; name=&quot;first-name&quot; autocomplete=&quot;given-name&quot; placeholder=&quot;John Doe&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-autocomplete-suggestion/qwen-qwen3-coder/g4.html">Open HTML</a></td>

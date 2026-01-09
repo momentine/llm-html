@@ -33,11 +33,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
 &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; required&gt;
-&lt;small&gt;Must include 1 number and 1 symbol.&lt;/small&gt;
-```</code></pre>
+&lt;small&gt;Must include 1 number and 1 symbol.&lt;/small&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -77,8 +75,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
   &lt;input 
     type=&quot;password&quot; 
@@ -88,8 +85,7 @@
     required
   &gt;
   &lt;div id=&quot;new-password-requirements&quot;&gt;Must include 1 number and 1 symbol.&lt;/div&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -101,10 +97,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;password&quot; placeholder=&quot;New password&quot; required&gt;
-&lt;small&gt;Must include 1 number and 1 symbol.&lt;/small&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;password&quot; placeholder=&quot;New password&quot; required&gt;
+&lt;small&gt;Must include 1 number and 1 symbol.&lt;/small&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
@@ -116,10 +110,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;password&quot; placeholder=&quot;New password&quot; aria-describedby=&quot;password-note&quot;&gt;
-&lt;span id=&quot;password-note&quot;&gt;Must include 1 number and 1 symbol.&lt;/span&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;password&quot; placeholder=&quot;New password&quot; aria-describedby=&quot;password-note&quot;&gt;
+&lt;span id=&quot;password-note&quot;&gt;Must include 1 number and 1 symbol.&lt;/span&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
@@ -131,13 +123,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;form&gt;
+          <pre><code class="language-html">&lt;form&gt;
   &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
   &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-describedby=&quot;password-note&quot;&gt;
   &lt;small id=&quot;password-note&quot;&gt;Must include 1 number and 1 symbol.&lt;/small&gt;
-&lt;/form&gt;
-```</code></pre>
+&lt;/form&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
@@ -433,13 +423,11 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
   &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot;&gt;
   &lt;small&gt;Must include 1 number and 1 symbol.&lt;/small&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -451,11 +439,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
 &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; required&gt;
-&lt;small&gt;Must include 1 number and 1 symbol.&lt;/small&gt;
-```</code></pre>
+&lt;small&gt;Must include 1 number and 1 symbol.&lt;/small&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -467,11 +453,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
 &lt;input type=&quot;password&quot; id=&quot;new-password&quot; aria-describedby=&quot;password-requirements&quot; required&gt;
-&lt;div id=&quot;password-requirements&quot;&gt;Must include 1 number and 1 symbol.&lt;/div&gt;
-```</code></pre>
+&lt;div id=&quot;password-requirements&quot;&gt;Must include 1 number and 1 symbol.&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/qwen-qwen3-coder/g5.html">Open HTML</a></td>

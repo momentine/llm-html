@@ -34,9 +34,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;file&quot; id=&quot;photoUpload&quot; name=&quot;photoUpload&quot; accept=&quot;image/*&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;file&quot; id=&quot;photoUpload&quot; name=&quot;photoUpload&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -63,10 +61,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;photoUpload&quot;&gt;Upload Photo&lt;/label&gt;
-&lt;input type=&quot;file&quot; id=&quot;photoUpload&quot; name=&quot;photoUpload&quot; accept=&quot;image/*&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;photoUpload&quot;&gt;Upload Photo&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;photoUpload&quot; name=&quot;photoUpload&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -323,8 +319,7 @@
           <pre><code class="language-html">&lt;form action=&quot;#&quot; method=&quot;post&quot; enctype=&quot;multipart/form-data&quot;&gt;
   &lt;div&gt;
     &lt;label id=&quot;photo-label&quot; for=&quot;photo-upload&quot;&gt;Upload Photo&lt;/label&gt;
-    &lt;input
-     </code></pre>
+    &lt;input</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
@@ -420,10 +415,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;file&quot; id=&quot;upload-photo&quot; name=&quot;upload-photo&quot; accept=&quot;image/*&quot;&gt;
-&lt;label for=&quot;upload-photo&quot;&gt;Upload Photo&lt;/label&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;file&quot; id=&quot;upload-photo&quot; name=&quot;upload-photo&quot; accept=&quot;image/*&quot;&gt;
+&lt;label for=&quot;upload-photo&quot;&gt;Upload Photo&lt;/label&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -435,10 +428,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;photo-upload&quot;&gt;Upload Photo&lt;/label&gt;
-&lt;input type=&quot;file&quot; id=&quot;photo-upload&quot; name=&quot;photo-upload&quot; accept=&quot;image/*&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;photo-upload&quot;&gt;Upload Photo&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;photo-upload&quot; name=&quot;photo-upload&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -450,10 +441,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;upload-photo&quot;&gt;Upload Photo&lt;/label&gt;
-&lt;input type=&quot;file&quot; id=&quot;upload-photo&quot; name=&quot;upload-photo&quot; accept=&quot;image/*&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;upload-photo&quot;&gt;Upload Photo&lt;/label&gt;
+&lt;input type=&quot;file&quot; id=&quot;upload-photo&quot; name=&quot;upload-photo&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -465,11 +454,9 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;photo-upload&quot;&gt;Upload Photo&lt;/label&gt;
+          <pre><code class="language-html">&lt;label for=&quot;photo-upload&quot;&gt;Upload Photo&lt;/label&gt;
 &lt;input type=&quot;file&quot; id=&quot;photo-upload&quot; name=&quot;photo&quot; accept=&quot;image/*&quot; aria-describedby=&quot;photo-upload-help&quot;&gt;
-&lt;div id=&quot;photo-upload-help&quot;&gt;Select an image file to upload (JPG, PNG, GIF)&lt;/div&gt;
-```</code></pre>
+&lt;div id=&quot;photo-upload-help&quot;&gt;Select an image file to upload (JPG, PNG, GIF)&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>

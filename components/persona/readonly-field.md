@@ -19,10 +19,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;userId&quot;&gt;User ID&lt;/label&gt;
-&lt;input type=&quot;text&quot; id=&quot;userId&quot; name=&quot;userId&quot; readonly&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;userId&quot;&gt;User ID&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;userId&quot; name=&quot;userId&quot; readonly&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
@@ -34,12 +32,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;userId&quot;&gt;User ID&lt;/label&gt;
   &lt;input type=&quot;text&quot; id=&quot;userId&quot; name=&quot;userId&quot; readonly&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -66,10 +62,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;userId&quot;&gt;User ID&lt;/label&gt;
-&lt;input type=&quot;text&quot; id=&quot;userId&quot; name=&quot;userId&quot; readonly&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;userId&quot;&gt;User ID&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;userId&quot; name=&quot;userId&quot; readonly&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -81,12 +75,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;userId&quot;&gt;User ID&lt;/label&gt;
   &lt;input type=&quot;text&quot; id=&quot;userId&quot; name=&quot;userId&quot; value=&quot;&quot; readonly aria-readonly=&quot;true&quot;&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -450,12 +442,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;user-id&quot;&gt;User ID&lt;/label&gt;
   &lt;input type=&quot;text&quot; id=&quot;user-id&quot; name=&quot;user-id&quot; readonly&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -467,12 +457,10 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;div&gt;
+          <pre><code class="language-html">&lt;div&gt;
   &lt;label for=&quot;user-id&quot;&gt;User ID&lt;/label&gt;
   &lt;input type=&quot;text&quot; id=&quot;user-id&quot; name=&quot;user-id&quot; readonly&gt;
-&lt;/div&gt;
-```</code></pre>
+&lt;/div&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>

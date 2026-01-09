@@ -19,8 +19,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;label&gt;
     &lt;input type=&quot;radio&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
@@ -34,8 +33,7 @@
     &lt;input type=&quot;radio&quot; name=&quot;theme&quot; value=&quot;high-contrast&quot;&gt;
     High Contrast
   &lt;/label&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
@@ -47,8 +45,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;div&gt;
     &lt;input type=&quot;radio&quot; id=&quot;light&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
@@ -62,8 +59,7 @@
     &lt;input type=&quot;radio&quot; id=&quot;high-contrast&quot; name=&quot;theme&quot; value=&quot;high-contrast&quot;&gt;
     &lt;label for=&quot;high-contrast&quot;&gt;High Contrast&lt;/label&gt;
   &lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -75,8 +71,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;label&gt;
     &lt;input type=&quot;radio&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
@@ -90,8 +85,7 @@
     &lt;input type=&quot;radio&quot; name=&quot;theme&quot; value=&quot;high-contrast&quot;&gt;
     high contrast
   &lt;/label&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
@@ -103,8 +97,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;label&gt;
     &lt;input type=&quot;radio&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
@@ -118,8 +111,7 @@
     &lt;input type=&quot;radio&quot; name=&quot;theme&quot; value=&quot;high-contrast&quot;&gt;
     High Contrast
   &lt;/label&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
@@ -131,8 +123,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;div role=&quot;radiogroup&quot; aria-labelledby=&quot;theme-legend&quot;&gt;
     &lt;span id=&quot;theme-legend&quot; hidden&gt;Theme&lt;/span&gt;
@@ -149,8 +140,7 @@
       High Contrast
     &lt;/label&gt;
   &lt;/div&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
@@ -382,9 +372,7 @@
       background: var(--bg);
       color: var(--text);
       line-height: 1.5;
-    }
-
-</code></pre>
+    }</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group/minimax-minimax-m2/g2.html">Open HTML</a></td>
@@ -592,8 +580,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;form&gt;
+          <pre><code class="language-html">&lt;form&gt;
   &lt;fieldset&gt;
     &lt;legend&gt;Theme&lt;/legend&gt;
     &lt;input type=&quot;radio&quot; id=&quot;light&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
@@ -603,8 +590,7 @@
     &lt;input type=&quot;radio&quot; id=&quot;high-contrast&quot; name=&quot;theme&quot; value=&quot;high-contrast&quot;&gt;
     &lt;label for=&quot;high-contrast&quot;&gt;High Contrast&lt;/label&gt;
   &lt;/fieldset&gt;
-&lt;/form&gt;
-```</code></pre>
+&lt;/form&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group/qwen-qwen3-coder/g1.html">Open HTML</a></td>
@@ -616,8 +602,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;input type=&quot;radio&quot; id=&quot;light&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
   &lt;label for=&quot;light&quot;&gt;Light&lt;/label&gt;
@@ -627,8 +612,7 @@
   
   &lt;input type=&quot;radio&quot; id=&quot;high-contrast&quot; name=&quot;theme&quot; value=&quot;high-contrast&quot;&gt;
   &lt;label for=&quot;high-contrast&quot;&gt;High Contrast&lt;/label&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group/qwen-qwen3-coder/g2.html">Open HTML</a></td>
@@ -640,8 +624,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;input type=&quot;radio&quot; id=&quot;light&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
   &lt;label for=&quot;light&quot;&gt;Light&lt;/label&gt;
@@ -649,8 +632,7 @@
   &lt;label for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
   &lt;input type=&quot;radio&quot; id=&quot;high-contrast&quot; name=&quot;theme&quot; value=&quot;high-contrast&quot;&gt;
   &lt;label for=&quot;high-contrast&quot;&gt;High Contrast&lt;/label&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -662,8 +644,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;input type=&quot;radio&quot; id=&quot;theme-light&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
   &lt;label for=&quot;theme-light&quot;&gt;Light&lt;/label&gt;
@@ -673,8 +654,7 @@
   
   &lt;input type=&quot;radio&quot; id=&quot;theme-high-contrast&quot; name=&quot;theme&quot; value=&quot;high-contrast&quot;&gt;
   &lt;label for=&quot;theme-high-contrast&quot;&gt;High Contrast&lt;/label&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -686,8 +666,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;fieldset&gt;
+          <pre><code class="language-html">&lt;fieldset&gt;
   &lt;legend&gt;Theme&lt;/legend&gt;
   &lt;input type=&quot;radio&quot; id=&quot;theme-light&quot; name=&quot;theme&quot; value=&quot;light&quot;&gt;
   &lt;label for=&quot;theme-light&quot;&gt;Light&lt;/label&gt;
@@ -695,8 +674,7 @@
   &lt;label for=&quot;theme-dark&quot;&gt;Dark&lt;/label&gt;
   &lt;input type=&quot;radio&quot; id=&quot;theme-high-contrast&quot; name=&quot;theme&quot; value=&quot;high-contrast&quot;&gt;
   &lt;label for=&quot;theme-high-contrast&quot;&gt;High Contrast&lt;/label&gt;
-&lt;/fieldset&gt;
-```</code></pre>
+&lt;/fieldset&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/radio-group/qwen-qwen3-coder/g5.html">Open HTML</a></td>

@@ -31,9 +31,7 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; autocomplete=&quot;email&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; autocomplete=&quot;email&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-autocomplete-suggestion/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
@@ -415,10 +413,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Email address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; autocomplete=&quot;email&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email address&lt;/label&gt;
+&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; autocomplete=&quot;email&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-autocomplete-suggestion/qwen-qwen3-coder/g3.html">Open HTML</a></td>
@@ -430,10 +426,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Email address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; autocomplete=&quot;email&quot;&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email address&lt;/label&gt;
+&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; autocomplete=&quot;email&quot;&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-autocomplete-suggestion/qwen-qwen3-coder/g4.html">Open HTML</a></td>
@@ -445,10 +439,8 @@
       <td>
         <details>
           <summary>View code</summary>
-          <pre><code class="language-html">```html
-&lt;label for=&quot;email&quot;&gt;Email address&lt;/label&gt;
-&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; autocomplete=&quot;email&quot; required&gt;
-```</code></pre>
+          <pre><code class="language-html">&lt;label for=&quot;email&quot;&gt;Email address&lt;/label&gt;
+&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; autocomplete=&quot;email&quot; required&gt;</code></pre>
         </details>
       </td>
       <td><a href="https://momentine.github.io/llm-html/persona-outputs/email-field-with-autocomplete-suggestion/qwen-qwen3-coder/g5.html">Open HTML</a></td>
