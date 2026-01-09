@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fruit Checkbox Group</title>
+  <style>
+    .error {
+      color: #b00020;
+      margin-top: 6px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <form id="fruitForm" novalidate>
+    <fieldset>
+      <legend>What fruits do you like?</legend>
+
+      <label>
+        <input type="checkbox" name="fruits" value="bananas" />
+        bananas
+      </label>
+      <br />
+      <label>
+        <input type="checkbox" name="fruits" value="oranges" />
+        oranges
+      </label>
+      <br />
+      <label>
+        <input type="checkbox" name="fruits" value="apples" />
+        apples
+      </label>
+
+      <span id="fruitError" class="error" role="alert" aria-live="polite"></span>
+      <br />
+      <button type="submit">Submit</button>
+    </fieldset>
+  </form>
+
+  <script>
+    (function () {
+      const form = document.getElementById('fruitForm');
+      const errorEl = document.getElementById('fruitError');
+
+      function validateFruits() {
+        const checked = form.querySelectorAll('input[name="fruits"]:checked');
+        if (checked.length === 0) {
+          errorEl.textContent = 'You must choose one or more fruits';
+          return false;
+        }
+        errorEl.textContent = '';
+        return true;
+      }
+
+      form.addEventListener('submit', function (e) {
+        if (!validateFruits()) {
+          e.preventDefault();
+        }
+      });
+
+      form.querySelectorAll('input[name="fruits"]').forEach(function (cb) {
+        cb.addEventListener('change', function () {
+          if (cb.checked) {
+            errorEl.textContent = '';
+          }
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<form>
+  <fieldset>
+    <legend>Theme</legend>
+    <label>
+      <input type="radio" name="theme" value="light" required>
+      Light
+    </label>
+    <label>
+      <input type="radio" name="theme" value="dark" required>
+      Dark
+    </label>
+    <label>
+      <input type="radio" name="theme" value="high-contrast" required>
+      High contrast
+    </label>
+  </fieldset>
+
+  <div role="alert" aria-live="polite">
+    <input type="checkbox" name="confirm_theme" required aria-hidden="true" tabindex="-1" style="display:none">
+    <span class="error">You must choose a theme to proceed</span>
+  </div>
+
+  <button type="submit">Continue</button>
+</form>

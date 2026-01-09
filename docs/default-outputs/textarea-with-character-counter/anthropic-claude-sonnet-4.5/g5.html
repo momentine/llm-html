@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Textarea with Character Counter</title>
+</head>
+<body>
+    <div>
+        <label for="message">Message</label>
+        <textarea 
+            id="message" 
+            name="message" 
+            maxlength="200" 
+            rows="5" 
+            aria-describedby="char-count"
+            oninput="document.getElementById('current-count').textContent = this.value.length"
+        ></textarea>
+        <div id="char-count" aria-live="polite">
+            <span id="current-count">0</span> / 200 characters
+        </div>
+    </div>
+</body>
+</html>

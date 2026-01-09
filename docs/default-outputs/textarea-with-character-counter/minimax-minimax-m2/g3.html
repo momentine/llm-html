@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Message with Character Counter</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 2rem; }
+    .field { max-width: 600px; }
+    label { display: block; font-weight: 600; margin-bottom: .5rem; }
+    textarea { width: 100%; min-height: 120px; padding: .625rem .75rem; resize: vertical; }
+    .counter { margin-top: .375rem; font-size: .9rem; color: #555; }
+    .counter.over { color: #b00020; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="field">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" maxlength="200" rows="5" aria-describedby="messageCounter" placeholder="Type your message..."></textarea>
+    <div id="messageCounter" class="counter" aria-live="polite">0 / 200</div>
+  </div>
+
+  <script>
+    (function () {
+      const textarea = document.getElementById('message');
+      const counter = document.getElementById('messageCounter');
+      const max = textarea.maxLength || 200;
+
+      function update() {
+        const length = textarea.value.length;
+        counter.textContent = length + ' / ' + max;
+        counter.classList.toggle('over', length > max);
+      }
+
+      textarea.addEventListener('input', update);
+      update();
+    })();
+  </script>
+</body>
+</html>

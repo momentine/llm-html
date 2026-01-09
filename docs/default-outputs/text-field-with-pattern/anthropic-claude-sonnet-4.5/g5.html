@@ -1,0 +1,24 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Text Field</title>
+</head>
+<body>
+    <label for="code-input">Enter two letters followed by 3 numbers</label>
+    <input 
+        type="text" 
+        id="code-input" 
+        name="code-input"
+        pattern="[A-Za-z]{2}[0-9]{3}"
+        maxlength="5"
+        placeholder="AB123"
+        aria-describedby="code-help"
+        required
+    >
+    <small id="code-help">Format: Two letters followed by three numbers (e.g., AB123)</small>
+</body>
+</html>
+```

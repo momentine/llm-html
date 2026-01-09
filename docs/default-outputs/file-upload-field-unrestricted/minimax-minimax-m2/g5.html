@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accessible Unrestricted File Upload</title>
+</head>
+<body>
+  <main>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <div>
+        <label for="file">Upload a File</label>
+        <div id="file-help">No file type or size restrictions. Your browser may still show a file picker.</div>
+        <input
+          id="file"
+          name="file"
+          type="file"
+          aria-describedby="file-help"
+          aria-required="true"
+        />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>

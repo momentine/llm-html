@@ -1,0 +1,78 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Theme Selection</title>
+</head>
+<body>
+  <form id="themeForm" novalidate>
+    <fieldset>
+      <legend>Theme</legend>
+
+      <label>
+        <input type="radio" name="theme" value="light" />
+        Light
+      </label>
+
+      <label>
+        <input type="radio" name="theme" value="dark" />
+        Dark
+      </label>
+
+      <label>
+        <input type="radio" name="theme" value="high-contrast" />
+        High contrast
+      </label>
+
+      <p id="theme-error" role="alert" aria-live="polite" style="color: #b00020; margin-top: 8px; display: none;">
+        You must choose a theme to proceed
+      </p>
+    </fieldset>
+
+    <button type="submit">Continue</button>
+  </form>
+
+  <script>
+    (function () {
+      const form = document.getElementById('themeForm');
+      const errorEl = document.getElementById('theme-error');
+
+      function getSelectedTheme() {
+        const checked = form.querySelector('input[name="theme"]:checked');
+        return checked ? checked.value : null;
+      }
+
+      function showError() {
+        errorEl.style.display = 'block';
+        errorEl.textContent = 'You must choose a theme to proceed';
+      }
+
+      function hideError() {
+        errorEl.style.display = 'none';
+        errorEl.textContent = '';
+      }
+
+      form.addEventListener('change', (e) => {
+        if (e.target.name === 'theme') hideError();
+      });
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const theme = getSelectedTheme();
+
+        if (!theme) {
+          showError();
+          return;
+        }
+
+        hideError();
+        alert('Selected theme: ' + theme);
+        // Proceed with submission or next step here.
+      });
+    })();
+  </script>
+</body>
+</html>
+```

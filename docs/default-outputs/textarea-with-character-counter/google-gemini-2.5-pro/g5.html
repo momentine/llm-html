@@ -1,0 +1,15 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Accessible Textarea</title>
+</head>
+<body>
+  <div>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" maxlength="200" aria-describedby="char-count"></textarea>
+    <div id="char-count" aria-live="polite">0 / 200 characters</div>
+  </div>
+</body>
+</html>
+```

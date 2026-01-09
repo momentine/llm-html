@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Accessible Upload Photo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <h1>Upload Photo</h1>
+
+  <div id="upload-root">
+    <div
+      id="dropZone"
+      class="drop-zone"
+      role="button"
+      tabindex="0"
+      aria-controls="photo-upload"
+      aria-describedby="photo-help photo-error"
+      aria-label="Upload photo. Press Enter to choose a file or drag and drop an image here."
+    >
+      <span aria-hidden="true">📷</span>
+      <span>Drag & drop an image here, or press Enter to choose</span>
+    </div>
+
+    <input
+      id="photo-upload"
+      class="visually-hidden"
+      type="file"
+      accept="image/*"
+      aria-describedby="photo-help photo-error"
+      aria-invalid="false"
+    />
+
+    <p id="photo-help" class="help">
+      Supported formats: JPG, PNG, GIF, WebP, SVG, BMP. Max size: 5 MB.
+    </p>
+
+    <p id="photo-error"

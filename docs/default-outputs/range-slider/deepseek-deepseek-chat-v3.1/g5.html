@@ -1,0 +1,9 @@
+<input type="range" id="volume" name="volume" min="1" max="10" step="1" aria-label="Volume control" aria-valuemin="1" aria-valuemax="10" aria-valuenow="5">
+<label for="volume">Volume</label>
+<output for="volume" id="volume-output">5</output>
+
+<script>
+document.getElementById('volume').addEventListener('input', function() {
+  document.getElementById('volume-output').textContent = this.value;
+});
+</script>

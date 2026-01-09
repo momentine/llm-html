@@ -1,0 +1,29 @@
+<form action="#" method="post">
+  <div>
+    <label for="new-password">New password</label>
+    <div style="position:relative; display:flex; align-items:stretch;">
+      <input
+        id="new-password"
+        name="new-password"
+        type="password"
+        required
+        autocomplete="new-password"
+        aria-describedby="new-password-help"
+        aria-invalid="false"
+        style="flex:1; padding-right:2.5rem;"
+      />
+      <button
+        type="button"
+        aria-controls="new-password"
+        aria-pressed="false"
+        aria-label="Show password"
+        style="position:absolute; right:0; top:0; bottom:0; border:0; background:none; padding:0 .5rem; cursor:pointer;"
+      >
+        Show
+      </button>
+    </div>
+    <div id="new-password-help" style="font-size:.875rem; margin-top:.25rem;">
+      Password is required.
+    </div>
+  </div>
+</form>

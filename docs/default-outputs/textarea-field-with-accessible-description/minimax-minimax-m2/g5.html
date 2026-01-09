@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessible Message Field</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.5; margin: 2rem; }
+    .field { max-width: 40rem; }
+    label { font-weight: 600; display: block; margin-bottom: .25rem; }
+    textarea { width: 100%; box-sizing: border-box; }
+    .help { margin-top: .25rem; color: #444; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+  </style>
+</head>
+<body>
+  <form action="#" method="post" novalidate>
+    <div class="field">
+      <label for="message">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="6"
+        required
+        aria-describedby="message-note"
+        placeholder="Please describe your problem in as much detail as possible."
+      ></textarea>
+      <p id="message-note" class="help">Please describe your problem in as much detail as possible.</p>
+    </div>
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Accessible Credit Card Number Field</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <main>
+    <form id="payment-form" novalidate>
+      <div>
+        <label for="cc-number">Credit Card Number</label>
+        <input
+          id="cc-number"
+          name="cc-number"
+          type="text"
+          inputmode="numeric"
+          autocomplete="cc-number"
+          autocorrect="off"
+          spellcheck="false"
+          aria-describedby="cc-number-hint cc-number-error"
+          aria-invalid="false"
+          required
+        >
+        <div id="cc-number-hint" aria-hidden="true">Enter 13–19 digits. Spaces are allowed.</div>
+        <div id="cc-number-error" role="alert" style="

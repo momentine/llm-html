@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Validation</title>
+</head>
+<body>
+    <form>
+        <label for="orange-color">What color is an orange?</label>
+        <input type="text" id="orange-color" name="orange-color" aria-invalid="true" aria-describedby="error-message">
+        <span id="error-message" role="alert">That's not right. Try again.</span>
+    </form>
+</body>
+</html>

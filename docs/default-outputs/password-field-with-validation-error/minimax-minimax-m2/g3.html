@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>New password validation error</title>
+</head>
+<body>
+  <form action="#" method="post" novalidate>
+    <label for="new-password">New password</label>
+    <input
+      id="new-password"
+      name="new_password"
+      type="password"
+      required
+      minlength="8"
+      aria-invalid="true"
+      aria-describedby="password-error"
+      placeholder="Enter new password"
+    >
+    <p id="password-error" role="alert" aria-live="assertive">Too short. Must be at least 8 characters.</p>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

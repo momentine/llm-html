@@ -1,0 +1,20 @@
+```html
+<div>
+  <label for="document-upload">
+    Upload Document
+    <span aria-label="required">*</span>
+  </label>
+  <input 
+    type="file" 
+    id="document-upload" 
+    name="document-upload"
+    accept=".pdf,.doc,.docx,.txt"
+    aria-required="true"
+    aria-describedby="document-help document-error"
+  />
+  <div id="document-help">
+    Accepted formats: PDF, DOC, DOCX, TXT. Maximum file size: 10MB.
+  </div>
+  <div id="document-error" role="alert" aria-live="polite"></div>
+</div>
+```

@@ -1,0 +1,27 @@
+<form id="orangeForm" novalidate>
+  <label for="color">What color is an orange?</label>
+  <input type="text" id="color" name="color" required aria-describedby="colorError">
+  <button type="submit">Submit</button>
+  <div id="colorError" role="alert" aria-live="polite" hidden>That’s not right. Try again.</div>
+</form>
+
+<script>
+  const form = document.getElementById('orangeForm');
+  const input = document.getElementById('color');
+  const error = document.getElementById('colorError');
+
+  form.addEventListener('submit', function (e) {
+    const value = input.value.trim().toLowerCase();
+    if (value !== 'orange') {
+      e.preventDefault();
+      input.setCustomValidity('invalid');
+      error.hidden = false;
+      error.textContent = "That’s not right. Try again.";
+      input.reportValidity();
+    } else {
+      input.setCustomValidity('');
+      error.hidden = true;
+    }
+  });
+
+ 

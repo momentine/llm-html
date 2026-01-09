@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Terms and Conditions Checkbox</title>
+</head>
+<body>
+  <form id="terms-form">
+    <div>
+      <input type="checkbox" id="agree-terms" name="agree" required />
+      <label for="agree-terms">I agree to the Terms and Conditions</label>
+    </div>
+    <button type="submit">Continue</button>
+  </form>
+
+  <script>
+    const form = document.getElementById('terms-form');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      if (form.elements['agree'].checked) {
+        alert('Thank you for accepting the Terms and Conditions.');
+      } else {
+        alert('Please accept the Terms and Conditions to continue.');
+      }
+    });
+  </script>
+</body>
+</html>

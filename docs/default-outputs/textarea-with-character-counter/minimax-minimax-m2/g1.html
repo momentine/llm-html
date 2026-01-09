@@ -1,0 +1,23 @@
+<form id="contact-form" action="#" method="post">
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="4" maxlength="200" required aria-describedby="message-counter"></textarea>
+  <div id="message-counter" aria-live="polite">0/200 characters</div>
+
+  <button type="submit">Send</button>
+
+  <script>
+    (function () {
+      const textarea = document.getElementById('message');
+      const counter = document.getElementById('message-counter');
+      const max = textarea.maxLength || 200;
+
+      function updateCounter() {
+        const used = textarea.value.length;
+        counter.textContent = used + '/' + max + ' characters';
+      }
+
+      textarea.addEventListener('input', updateCounter);
+      updateCounter();
+    })();
+  </script>
+</form>

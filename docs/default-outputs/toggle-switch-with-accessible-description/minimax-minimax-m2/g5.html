@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accessible Notifications Switch</title>
+  <style>
+    :root {
+      --switch-track-w: 44px;
+      --switch-track-h: 24px;
+      --switch-thumb: 20px;
+      --accent: #2563eb;
+      --accent-pressed: #1d4ed8;
+      --track-off: #cbd5e1;
+      --track-on: #93c5fd;
+      --text: #0f172a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --accent: #60a5fa;
+        --accent-pressed: #3b82f6;
+        --track-off: #475569;
+        --track-on: #1e40af;
+        --text: #e5e7eb;
+      }
+    }
+
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      color: var(--text);
+      padding: 2rem;
+      background: Canvas;
+    }
+
+    .switch {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      user-select: none;
+    }
+
+    /* Visually hidden but accessible */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    /* The switch control */
+    .switch__control {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      width: var(--switch-track-w);
+      height: var(--switch-track-h);
+      border-radius: 9999px;
+      background: var(--track-off);
+      transition: background-color .2

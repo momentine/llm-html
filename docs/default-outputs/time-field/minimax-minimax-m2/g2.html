@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Meeting Time</title>
+</head>
+<body>
+  <form id="meeting-form" action="#" method="post" onsubmit="return false;">
+    <label for="meeting-time">Meeting Time</label>
+    <input
+      type="time"
+      id="meeting-time"
+      name="meetingTime"
+      required
+      step="900"
+      value="09:00"
+      aria-describedby="meeting-time-hint"
+    />
+    <small id="meeting-time-hint">15-minute increments between 08:00 and 18:00.</small>
+    <button type="submit">Save</button>
+    <output id="meeting-time-output" role="status" aria-live="polite"></output>
+  </form>
+
+  <script>
+    (function () {
+      const form = document.getElementById('meeting-form');
+      const input = document.getElementById('meeting-time');
+      const output = document.getElementById('meeting-time-output');
+
+      // Enforce working hours (08:00–18:00) and 15-minute increments
+      input.min = '08:00';
+      input.max = '18:00';
+      input.step = 900;
+
+      form.addEventListener('submit', () => {
+        if (!input.value) {
+          output.textContent = 'Please select a meeting time.';
+          return;
+        }
+        output.textContent = 'Selected time: ' + input.value;
+      });
+
+      input.addEventListener('change', () => {
+        if (input.validity.rangeUnderflow || input.validity.rangeOverflow) {
+          output.textContent = 'Time must be between 08:00 and 18:00.';
+        } else if (input.validity.stepMismatch) {
+          output.textContent = 'Please select a time on a 15-minute interval.';
+        } else

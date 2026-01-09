@@ -1,0 +1,35 @@
+<form id="uploadForm" action="#" method="post" enctype="multipart/form-data">
+  <div>
+    <label for="files">Upload Files</label>
+    <input
+      id="files"
+      name="files"
+      type="file"
+      multiple
+      accept=".pdf,.docx,.txt,.png,.jpg,.jpeg,.gif,.svg,image/svg+xml"
+      aria-describedby="fileHelp fileList"
+      required
+    />
+    <small id="fileHelp">Accepted types: PDF, DOCX, TXT, PNG, JPG, GIF, SVG</small>
+  </div>
+
+  <div aria-live="polite" aria-atomic="true">
+    <p id="fileList" role="list" aria-label="Selected files"></p>
+  </div>
+
+  <button type="submit">Submit</button>
+</form>
+
+<script>
+  (function () {
+    const input = document.getElementById('files');
+    const list = document.getElementById('fileList');
+
+    function humanFileSize(bytes) {
+      const thresh = 1024;
+      if (Math.abs(bytes) < thresh) return bytes + ' B';
+      const units = ['KB', 'MB', 'GB', 'TB'];
+      let u = -1;
+      do {
+        bytes /= thresh;
+        ++

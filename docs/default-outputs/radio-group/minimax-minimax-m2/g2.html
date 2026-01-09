@@ -1,0 +1,47 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Theme Selector</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #111827;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+      --focus: #2563eb;
+    }
+    [data-theme="dark"] {
+      --bg: #0b0f14;
+      --fg: #e5e7eb;
+      --accent: #60a5fa;
+      --border: #1f2937;
+      --focus: #93c5fd;
+    }
+    [data-theme="high-contrast"] {
+      --bg: #000000;
+      --fg: #ffffff;
+      --accent: #ffff00;
+      --border: #ffffff;
+      --focus: #00ffff;
+    }
+
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: var(--bg);
+      color: var(--fg);
+    }
+    .container {
+      max-width: 640px;
+      margin: 4rem auto;
+      padding: 1.5rem;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: color-mix(in oklab, var(--bg), var(--fg) 2%);
+    }
+    h1 { margin: 0 0 0.75rem; font-size: 1.25rem; }
+    .helper { margin: 0 0 1rem; color: color-mix(in oklab, var(--fg), var(--bg

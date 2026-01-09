@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessible Checkbox Group - What fruits do you like?</title>
+</head>
+<body>
+  <form id="fruit-form" action="#" method="post" novalidate>
+    <fieldset>
+      <legend>What fruits do you like?</legend>
+      <p id="fruit-hint">Select one or more fruits. At least one is required.</p>
+
+      <div class="checkbox-group">
+        <div class="checkbox-item">
+          <input type="checkbox" id="fruit-bananas" name="fruits" value="bananas" aria-describedby="fruit-hint" required />
+          <label for="fruit-bananas">Bananas</label>
+        </div>
+
+        <div class="checkbox-item">
+          <input type="checkbox" id="fruit-oranges" name="fruits" value="oranges" aria-describedby="fruit-hint" required />
+          <label for="fruit-oranges">Oranges</label>
+        </div>
+
+        <div class="checkbox-item">
+          <input type="checkbox" id="fruit-apples" name="fruits" value="apples" aria-describedby="fruit-hint" required />
+          <label for="fruit-apples">Apples</label>
+        </div>
+      </div>
+    </fieldset>
+
+    <button type="submit">Submit</button>
+    <p id="form-result" role="status" aria-live="polite"></p>
+  </form>
+
+  <script>
+    const form = document.getElementById('fruit-form');
+    const result = document.getElementById('form-result');
+
+    form.addEventListener

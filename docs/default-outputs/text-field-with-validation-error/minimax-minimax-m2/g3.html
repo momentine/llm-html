@@ -1,0 +1,56 @@
+<form id="colorForm" novalidate>
+  <label for="color">What color is an orange?</label>
+  <input
+    id="color"
+    name="color"
+    type="text"
+    inputmode="text"
+    autocomplete="off"
+    required
+    aria-describedby="colorError"
+    aria-invalid="true"
+  />
+  <div id="colorError" role="alert" aria-live="polite" style="color: #b00020; margin-top: 4px;">
+    That's not right. Try again.
+  </div>
+</form>
+
+<script>
+  (function () {
+    const form = document.getElementById('colorForm');
+    const input = document.getElementById('color');
+    const error = document.getElementById('colorError');
+
+    function isCorrect(value) {
+      return value.trim().toLowerCase() === 'orange';
+    }
+
+    function validate() {
+      if (input.value.trim() === '') {
+        input.setCustomValidity('');
+        error.textContent = '';
+        input.setAttribute('aria-invalid', 'false');
+        return;
+      }
+
+      if (!isCorrect(input.value)) {
+        input.setCustomValidity("That's not right. Try again.");
+        error.textContent = "That's not right. Try again.";
+        input.setAttribute('aria-invalid', 'true');
+      } else {
+        input.setCustomValidity('');
+        error.textContent = '';
+        input.setAttribute('aria-invalid', 'false');
+      }
+    }
+
+    input.addEventListener('input', validate);
+    form.addEventListener('submit', function (e) {
+      validate();
+      if (!form.checkValidity()) {
+        e.preventDefault();
+        form.reportValidity();
+      }
+    });
+  })();
+</script>

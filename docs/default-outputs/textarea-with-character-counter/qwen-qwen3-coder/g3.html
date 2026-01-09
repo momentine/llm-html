@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Message Form</title>
+</head>
+<body>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" maxlength="200" rows="4" cols="50"></textarea>
+    <div id="charCounter">0 / 200</div>
+
+    <script>
+        const textarea = document.getElementById('message');
+        const counter = document.getElementById('charCounter');
+        
+        textarea.addEventListener('input', function() {
+            const currentLength = textarea.value.length;
+            counter.textContent = currentLength + ' / 200';
+        });
+    </script>
+</body>
+</html>

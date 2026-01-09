@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Password Field with Validation</title>
+  <style>
+    .field { margin-bottom: 1rem; }
+    .error { color: #b00020; font-size: 0.9rem; margin-top: 0.25rem; }
+    .invalid { border-color: #b00020; }
+  </style>
+</head>
+<body>
+  <form id="passwordForm" novalidate>
+    <div class="field">
+      <label for="newPassword">New password</label>
+      <input
+        type="password"
+        id="newPassword"
+        name="newPassword"
+        minlength="8"
+        required
+        aria-describedby="passwordError"
+        aria-invalid="false"
+      />
+      <div id="passwordError" class="error" role="alert" hidden>Too short. Must be at least 8 characters.</div>
+    </div>
+
+    <button type="submit">Save</button>
+  </form>
+
+  <script>
+    (function () {
+      const input = document.getElementById('newPassword');
+      const errorEl = document.getElementById('passwordError');
+      const errorId = 'passwordError';
+
+      function showError() {
+        errorEl.hidden = false;
+        input.classList.add('invalid');
+        input.setAttribute('aria-invalid', 'true');
+      }
+
+      function hideError() {
+        errorEl.hidden = true;
+        input.classList.remove('invalid');
+        input.setAttribute('aria-invalid', 'false');
+      }
+
+      function validate() {
+        const value = input.value;
+        if (value.length === 0) {
+          hideError();
+          return true;
+        }
+        if (value.length < 8) {
+          showError();
+          return false;
+        }
+        hideError();
+        return true;
+      }
+
+      input.addEventListener('input', validate);
+      input.addEventListener('blur', validate);
+
+      document.getElementById('passwordForm').addEventListener('submit', function (e) {
+        if (!validate()) {
+          e.preventDefault();
+          input.focus();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

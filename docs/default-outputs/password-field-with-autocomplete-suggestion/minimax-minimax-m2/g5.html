@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accessible New Password Field</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; margin: 2rem; line-height: 1.5; }
+    .field { max-width: 28rem; }
+    label { display: block; font-weight: 600; margin-bottom: .375rem; }
+    .control { position: relative; }
+    input[type="password"], input[type="text"] {
+      width: 100%;
+      padding: .625rem 2.75rem .625rem .75rem;
+      border: 1px solid #8a8a8a;
+      border-radius: .375rem;
+      font-size: 1rem;
+      background: transparent;
+      color: inherit;
+    }
+    input:focus { outline: 2px solid #0a84ff; outline-offset: 2px; }
+    input[aria-invalid="true"] { border-color: #c01c28; }
+    .toggle {
+      position: absolute; right: .25rem; top: 50%; transform: translateY(-50%);
+      padding: .35rem .5rem; border: 1px solid #8a8a8a; border-radius: .375rem;
+      background: transparent; color: inherit; cursor: pointer; font-size: .875rem;
+    }
+    .

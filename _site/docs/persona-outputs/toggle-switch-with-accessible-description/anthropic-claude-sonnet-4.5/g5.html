@@ -1,0 +1,29 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications Toggle</title>
+</head>
+<body>
+    <div role="group" aria-labelledby="notifications-label">
+        <label id="notifications-label" for="notifications-toggle">
+            Notifications
+        </label>
+        <button 
+            type="button" 
+            role="switch" 
+            id="notifications-toggle" 
+            aria-checked="false"
+            aria-describedby="notifications-description"
+            onclick="this.setAttribute('aria-checked', this.getAttribute('aria-checked') === 'false' ? 'true' : 'false')">
+            <span aria-hidden="true">OFF</span>
+        </button>
+        <div id="notifications-description">
+            Turn alerts on or off.
+        </div>
+    </div>
+</body>
+</html>
+```

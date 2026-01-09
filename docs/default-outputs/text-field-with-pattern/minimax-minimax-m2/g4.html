@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Two Letters + Three Numbers Input</title>
+</head>
+<body>
+  <label for="code">Enter two letters followed by 3 numbers</label>
+  <input
+    id="code"
+    name="code"
+    type="text"
+    inputmode="text"
+    autocomplete="off"
+    autocapitalize="characters"
+    placeholder="AB123"
+    pattern="[A-Za-z]{2}[0-9]{3}"
+    title="Format: 2 letters followed by 3 numbers (e.g., AB123)"
+    required
+  />
+</body>
+</html>

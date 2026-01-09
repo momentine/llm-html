@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Search Field</title>
+</head>
+<body>
+    <form role="search" aria-label="Site search">
+        <label for="search-input">Search</label>
+        <input 
+            type="search" 
+            id="search-input" 
+            name="q" 
+            placeholder="Enter search terms"
+            aria-describedby="search-help"
+            autocomplete="off"
+        >
+        <button type="submit" aria-label="Submit search">
+            <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16">
+                <path d="M15.7,14.3L11,9.6c0.6-0.9,1-2,1-3.1c0-3.4-2.7-6.1-6.1-6.1S0,3.1,0,6.5s2.7,6.1,6.1,6.1c1.1,0,2.1-0.3,3.1-1l4.7,4.7c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3C16.1,15.3,16.1,14.7,15.7,14.3z M1.6,6.5c0-2.5,2-4.5,4.5-4.5s4.5,2,4.5,4.5s-2,4.5-4.5,4.5S1.6,9,1.6,6.5z"/>
+            </svg>
+        </button>
+        <div id="search-help" class="sr-only">Press Enter to submit search</div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Credit Card Field</title>
+</head>
+<body>
+  <form action="#" method="post" autocomplete="on">
+    <label for="cc-number">Credit Card Number</label>
+    <input
+      id="cc-number"
+      name="cc-number"
+      type="text"
+      inputmode="numeric"
+      autocomplete="cc-number"
+      placeholder="1234 5678 9012 3456"
+      pattern="[0-9\s]{13,23}"
+      maxlength="23"
+      aria-describedby="cc-number-hint"
+      required
+    />
+    <small id="cc-number-hint">Enter 13–19 digits, spaces allowed.</small>
+  </form>
+</body>
+</html>

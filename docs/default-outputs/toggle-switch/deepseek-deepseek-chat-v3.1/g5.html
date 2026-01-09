@@ -1,0 +1,66 @@
+<label for="notifications-toggle" role="switch" aria-checked="false" tabindex="0">
+  <span class="toggle-label">Notifications</span>
+  <div class="toggle-track">
+    <div class="toggle-thumb"></div>
+  </div>
+</label>
+
+<style>
+  label[role="switch"] {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .toggle-track {
+    position: relative;
+    width: 52px;
+    height: 28px;
+    background-color: #ccc;
+    border-radius: 14px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .toggle-thumb {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+  }
+  
+  label[role="switch"][aria-checked="true"] .toggle-track {
+    background-color: #007bff;
+  }
+  
+  label[role="switch"][aria-checked="true"] .toggle-thumb {
+    transform: translateX(24px);
+  }
+  
+  label[role="switch"]:focus .toggle-track {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+  }
+</style>
+
+<script>
+  document.querySelector('label[role="switch"]').addEventListener('click', function() {
+    const isChecked = this.getAttribute('aria-checked') === 'true';
+    this.setAttribute('aria-checked', !isChecked);
+  });
+  
+  document.querySelector('label[role="switch"]').addEventListener('keydown', function(e) {
+    if (e.key === ' ' || e.key === 'Enter') {
+      e.preventDefault();
+      const isChecked = this.getAttribute('aria-checked') === 'true';
+      this.setAttribute('aria-checked', !isChecked);
+    }
+  });
+</script>

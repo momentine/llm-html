@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accessible Message Field</title>
+</head>
+<body>
+  <main>
+    <form id="contactForm" novalidate>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="8" aria-describedby="messageHelp"></textarea>
+        <div id="messageHelp" style="margin-top:4px;color:#555;">Please include as much detail as possible.</div>
+        <div id="messageError" role="alert" aria-live="assertive" style="margin-top:6px;color:#b00020;"></div>
+      </div>
+      <button type="submit" style="margin-top:12px;">Send</button>
+    </form>
+  </main>
+
+  <script>
+    (function () {
+      const form = document.getElementById('contactForm');
+      const textarea = document.getElementById('message');
+      const errorBox = document.getElementById('messageError');
+      const help = document.getElementById('messageHelp');
+
+      const ERROR_TEXT = 'Your message should be at least 20 words long. Please describe your problem in as much detail as possible.';
+
+      function countWords(text) {
+        const trimmed = text.trim();
+        if (!trimmed) return 0;
+        return trimmed.split(/\s+/).filter(Boolean).length;
+      }
+
+      function showError() {
+        errorBox.textContent = ERROR_TEXT;
+        textarea.setAttribute('aria-invalid', 'true');
+        // Ensure assistive tech announces the error in addition to the help text
+        textarea

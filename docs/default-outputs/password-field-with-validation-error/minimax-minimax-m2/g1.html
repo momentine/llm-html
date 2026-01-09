@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Password Validation</title>
+</head>
+<body>
+  <form id="passwordForm" novalidate>
+    <label for="newPassword">New password</label>
+    <input
+      type="password"
+      id="newPassword"
+      name="newPassword"
+      required
+      aria-describedby="newPasswordError"
+      aria-invalid="false"
+    />
+    <p id="newPasswordError" hidden></p>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    (function () {
+      const form = document.getElementById('passwordForm');
+      const input = document.getElementById('newPassword');
+      const errorEl = document.getElementById('newPasswordError');
+      const MIN_LENGTH = 8;
+      const ERROR_MESSAGE = 'Too short. Must be at least 8 characters.';
+
+      function validate() {
+        const value = input.value;
+        const isValid = value.length >= MIN_LENGTH;
+
+        if (!isValid && value.length > 0) {
+          errorEl.textContent = ERROR_MESSAGE;
+          errorEl.hidden = false;
+          input.setAttribute('aria-invalid', 'true');
+          return false;
+        }
+
+        errorEl.hidden = true;
+        input.setAttribute('aria-invalid', 'false');
+        return true;
+      }
+
+      input.addEventListener('input', validate);
+      form.addEventListener('submit', function (e) {
+        if (!validate()) {
+          e.preventDefault();
+          input.focus();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accessible Meeting Time Field</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 2rem; line-height: 1.5; }
+    .field { max-width: 24rem; }
+    label { display: inline-block; font-weight: 600; margin-bottom: .25rem; }
+    input[type="time"] {
+      width: 10rem; padding: .5rem .625rem; font: inherit; border: 1px solid #888; border-radius: .375rem;
+    }
+    input[type="time"]:focus-visible { outline: 3px solid #0a84ff; outline-offset: 2px; }
+    .help, .error { margin-top: .25rem; font-size: .95rem; }
+    .help { color: #555; }
+    .error { color: #b00020; }
+    .actions { margin-top: 1rem; }
+    button { padding: .5rem .75rem; font: inherit; }
+    #status { margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <form id="meeting-form

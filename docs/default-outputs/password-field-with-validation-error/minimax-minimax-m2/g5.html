@@ -1,0 +1,59 @@
+<form action="#" method="post" novalidate>
+  <div>
+    <label for="new-password">New password</label>
+    <input
+      id="new-password"
+      name="new-password"
+      type="password"
+      inputmode="text"
+      autocomplete="new-password"
+      required
+      minlength="8"
+      aria-describedby="new-password-error"
+      aria-invalid="false"
+    />
+    <div id="new-password-error" role="alert" aria-live="polite"></div>
+  </div>
+
+  <button type="button" id="toggle-password" aria-controls="new-password" aria-pressed="false">Show password</button>
+
+  <button type="submit">Create password</button>
+
+  <script>
+    (function () {
+      const input = document.getElementById('new-password');
+      const error = document.getElementById('new-password-error');
+      const toggle = document.getElementById('toggle-password');
+
+      function showError(message) {
+        error.textContent = message;
+        input.setAttribute('aria-invalid', 'true');
+      }
+
+      function clearError() {
+        error.textContent = '';
+        input.setAttribute('aria-invalid', 'false');
+      }
+
+      function validate() {
+        const value = input.value;
+        if (value.length === 0) {
+          clearError();
+          return true;
+        }
+        if (value.length < 8) {
+          showError('Too short. Must be at least 8 characters.');
+          return false;
+        }
+        clearError();
+        return true;
+      }
+
+      input.addEventListener('input', validate);
+      input.addEventListener('blur', validate);
+
+      toggle.addEventListener('click', () => {
+        const isHidden = input.type === 'password';
+        input.type = isHidden ? 'text' : 'password';
+        toggle.setAttribute('aria-pressed', String(isHidden));
+        toggle.textContent = isHidden ? 'Hide password' : 'Show password';

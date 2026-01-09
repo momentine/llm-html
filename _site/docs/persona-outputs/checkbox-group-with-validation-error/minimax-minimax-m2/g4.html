@@ -1,0 +1,16 @@
+<form id="fruit-form" method="post" action="#">
+  <fieldset>
+    <legend>What fruits do you like?</legend>
+    <label><input type="checkbox" name="fruits" value="bananas"> Bananas</label><br>
+    <label><input type="checkbox" name="fruits" value="oranges"> Oranges</label><br>
+    <label><input type="checkbox" name="fruits" value="apples"> Apples</label><br>
+    <button type="submit">Submit</button>
+  </fieldset>
+</form>
+
+<script>
+  (function () {
+    const form = document.getElementById('fruit-form');
+    const checkboxes = form.querySelectorAll('input[name="fruits"]');
+
+    function

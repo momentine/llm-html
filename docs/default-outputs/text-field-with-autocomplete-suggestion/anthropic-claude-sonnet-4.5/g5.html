@@ -1,0 +1,21 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Text Field</title>
+</head>
+<body>
+    <label for="firstName">Your first name</label>
+    <input 
+        type="text" 
+        id="firstName" 
+        name="firstName" 
+        autocomplete="given-name"
+        placeholder="John Doe"
+        aria-describedby="firstNameHint">
+    <span id="firstNameHint" class="visually-hidden">Enter your first name</span>
+</body>
+</html>
+```

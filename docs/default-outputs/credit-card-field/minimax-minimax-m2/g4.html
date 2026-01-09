@@ -1,0 +1,53 @@
+<form id="payment-form" novalidate>
+  <div class="field">
+    <label for="cc-number">Credit Card Number</label>
+    <input
+      id="cc-number"
+      name="cc-number"
+      type="text"
+      inputmode="numeric"
+      autocomplete="cc-number"
+      placeholder="1234 5678 9012 3456"
+      aria-describedby="cc-number-hint"
+      required
+      maxlength="19"
+    />
+    <div id="cc-number-hint" class="hint">Enter the 16-digit number without spaces or dashes.</div>
+  </div>
+</form>
+
+<script>
+  (function () {
+    const el = document.getElementById('cc-number');
+
+    function digitsOnly(value) {
+      return value.replace(/\D/g, '');
+    }
+
+    function formatCC(value) {
+      const digits = digitsOnly(value).slice(0, 19); // supports up to 19 digits (PAN + spaces)
+      const groups = digits.match(/.{1,4}/g) || [];
+      return groups.join(' ');
+    }
+
+    el.addEventListener('input', (e) => {
+      const caret = e.target.selectionStart;
+      const old = e.target.value;
+      const formatted = formatCC(old);
+      e.target.value = formatted;
+
+      // Try to keep caret position near the end, accounting for added spaces
+      const diff = formatted.length - old.length;
+      e.target.setSelectionRange(caret + diff, caret + diff);
+    });
+
+    el.addEventListener('keypress', (e) => {
+      // Allow control keys (Backspace, Delete, Tab, Arrow keys, etc.)
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
+      const allowed = /[0-9]/;
+      if (!allowed.test(e.key)) e.preventDefault();
+    });
+
+    el.addEventListener('paste', (e) => {
+      const text = (e.clipboardData || window.clipboardData).getData('text');
+      const digits = digitsOnly

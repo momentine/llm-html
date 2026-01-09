@@ -1,0 +1,44 @@
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Message with Character Counter</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 2rem; }
+    .field { max-width: 600px; }
+    label { display: block; font-weight: 600; margin-bottom: 0.5rem; }
+    textarea { width: 100%; min-height: 120px; padding: 0.625rem; border: 1px solid #c7c7c7; border-radius: 6px; font: inherit; resize: vertical; }
+    textarea:focus { outline: 2px solid #4c9ffe; outline-offset: 2px; border-color: #4c9ffe; }
+    .counter { margin-top: 0.5rem; font-size: 0.9rem; color: #555; display: flex; justify-content: flex-end; }
+    .counter[data-overlimit="true"] { color: #b00020; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <form class="field" action="#" method="post" novalidate>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" maxlength="200" aria-describedby="messageCounter" placeholder="Type your message..."></textarea>
+    <div id="messageCounter" class="counter" aria-live="polite" aria-atomic="true">0 / 200</div>
+  </form>
+
+  <script>
+    (function () {
+      const textarea = document.getElementById('message');
+      const counter = document.getElementById('messageCounter');
+      const max = textarea.maxLength || 200;
+
+      function updateCounter() {
+        const used = textarea.value.length;
+        counter.textContent = used + ' / ' + max;
+        counter.dataset.overlimit = used > max ? 'true' : 'false';
+      }
+
+      function enforceLimit() {
+        if (textarea.value.length > max) {
+          textarea.value = textarea.value.slice(0, max);
+        }
+        updateCounter();
+      }
+
+      textarea.addEventListener

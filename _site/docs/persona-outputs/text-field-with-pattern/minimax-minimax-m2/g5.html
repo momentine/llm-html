@@ -1,0 +1,32 @@
+<form id="code-form" novalidate>
+  <div>
+    <label for="code">Code</label>
+    <input
+      id="code"
+      name="code"
+      type="text"
+      inputmode="text"
+      autocomplete="one-time-code"
+      placeholder="Enter two letters followed by 3 numbers"
+      aria-describedby="code-hint code-error"
+      aria-invalid="false"
+      maxlength="5"
+      pattern="[A-Za-z]{2}[0-9]{3}"
+      title="Enter exactly two letters followed by three numbers (e.g., AB123)."
+      required
+    />
+    <div id="code-hint">Format: 2 letters followed by 3 numbers (e.g., AB123).</div>
+    <div id="code-error" role="alert" aria-live="polite"></div>
+  </div>
+  <button type="submit">Submit</button>
+</form>
+
+<script>
+  (function () {
+    const form = document.getElementById('code-form');
+    const input = document.getElementById('code');
+    const error = document.getElementById('code-error');
+
+    function setError(msg) {
+      error.textContent = msg;
+      input.setAttribute('aria-invalid', msg ? '

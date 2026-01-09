@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accessible Theme Radio Group</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #111827;
+      --muted: #6b7280;
+      --border: #d1d5db;
+      --focus: #2563eb;
+      --control: #111827;
+      --control-bg: #f9fafb;
+      --control-border: #d1d5db;
+    }
+    [data-theme="light"] {
+      color-scheme: light;
+      --bg: #ffffff;
+      --fg: #111827;
+      --muted: #6b7280;
+      --border: #d1d5db;
+      --focus: #2563eb;
+      --control: #111827;
+      --control-bg: #ffffff;
+      --control-border: #d1d5db;
+    }
+    [data-theme="dark"] {
+      color-scheme: dark;
+      --bg: #0b0f14;
+      --fg: #e5e7eb;
+      --muted: #9ca3af;
+      --border: #374151;
+      --focus: #60a5fa;
+      --control: #e5e7eb;
+      --control-bg: #0b0f14;
+      --control-border: #374151;
+    }
+    [data-theme="high-contrast"] {
+      color-scheme: light

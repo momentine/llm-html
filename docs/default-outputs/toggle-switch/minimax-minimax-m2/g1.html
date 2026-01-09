@@ -1,0 +1,17 @@
+<label for="notifications" style="display:flex;align-items:center;gap:.5rem;cursor:pointer;user-select:none;">
+  <input id="notifications" type="checkbox" role="switch" aria-checked="false" style="position:absolute;opacity:0;width:1px;height:1px;overflow:hidden;">
+  <span style="position:relative;display:inline-block;width:44px;height:24px;background:#ccc;border-radius:9999px;transition:background .2s;">
+    <span style="content:'';position:absolute;top:2px;left:2px;width:20px;height:20px;background:#fff;border-radius:50%;transition:transform .2s;box-shadow:0 1px 2px rgba(0,0,0,.2);"></span>
+  </span>
+  <span style="font:14px/1.2 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#222;">Notifications</span>
+</label>
+<script>
+  (function(){
+    var input=document.getElementById('notifications');
+    var track=input.nextElementSibling;
+    var thumb=track&&track.firstElementChild;
+    function apply(){
+      var on=input.checked;
+      track.style.background=on?'#16a34a':'#ccc';
+      thumb.style.transform=on?'translateX(20px)':'translateX(0)';
+      input.setAttribute('aria-check

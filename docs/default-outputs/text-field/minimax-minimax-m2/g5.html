@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessible Text Field Example</title>
+</head>
+<body>
+  <form id="colorForm" action="#" method="post" novalidate>
+    <div>
+      <label for="orangeColor">What color is an orange?</label>
+      <input
+        id="orangeColor"
+        name="orangeColor"
+        type="text"
+        inputmode="text"
+        autocomplete="off"
+        autocapitalize="none"
+        spellcheck="false"
+        aria-describedby="orangeHelp orangeError"
+        pattern="^\s*[Oo][Rr][Aa][Nn][Gg][Ee]\s*$|^\s*[Oo][Rr][Aa][Nn][Gg][Ee]\s+[Cc][Oo][Ll][Oo][Rr]\s*$"
+        title="Please answer: orange or orange color"
+        required
+        list="orangeSuggestions"
+      />
+      <datalist id="orangeSuggestions">
+        <option value="orange"></option>
+        <option value="Orange"></option>
+        <option value="orange color"></option>
+        <option value="Orange Color"></option>
+      </datalist>
+      <div id="orangeHelp">Tip: Type “orange” or “orange color”.</div>
+      <div id="orangeError" role="alert" aria-live="polite"></div>
+    </div>
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+
+  <script>
+    (function () {
+      const form = document.getElementById('colorForm');
+      const input = document.getElementById('orangeColor');
+      const error = document

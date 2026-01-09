@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Volume Range Slider (1–10)</title>
+  <style>
+    :root {
+      --accent: #3b82f6;
+      --track: #e5e7eb;
+      --thumb: #ffffff;
+    }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: #f8fafc;
+      color: #0f172a;
+    }
+    .card {
+      max-width: 420px;
+      margin: 0 auto;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1.25rem 1.25rem 1.5rem;
+      box-shadow: 0 1px 2px rgba(0,0,0,.04);
+    }
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: .5rem;
+    }
+    .row {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+    }
+    output {
+      min-width: 2ch;
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      font-weight: 600;
+    }
+    input[type="range"] {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+      height: 6px;
+      border-radius: 999px;
+      background: linear-gradient(var(--accent), var(--accent)) var(--progress, 0%) / var(--progress, 0%) 100% no-repeat, var(--track);
+      outline: none;
+      transition: background-size .15s ease;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--thumb);
+      border: 2px solid var(--accent);
+      box-shadow: 0 1px 2px rgba(0,0,

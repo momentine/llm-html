@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Accessible Website URL Field</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <main>
+    <h1>Website URL</h1>
+
+    <form id="url-form" novalidate>
+      <div>
+        <label for="website-url">Website URL</label>
+        <div id="url-hint" class="hint">
+          Enter the full URL starting with http:// or https://. Example: https://www.example.com
+        </div>
+        <input
+          id="website-url"
+          name="websiteUrl"
+          type="url"
+          inputmode="url"
+          autocomplete="url"
+          placeholder="https://example.com"
+          spellcheck="false"
+          aria-describedby="url-hint url-error"
+          aria-required="true"
+          required
+        />
+        <div id="url-error" class="error" role="alert" aria-live="polite"></div>
+      </div>
+
+      <button type="submit">Save</button>
+      <p id="url-success" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <script>
+    (function () {
+      const form = document.getElementById('url-form');
+      const input = document.getElementById('website-url');
+      const errorEl = document.getElementById('url-error');
+      const successEl = document.getElementById('url-success');
+
+      const errors = {
+        valueMissing: 'Please enter your website URL.',
+        typeMismatch: 'Please enter a valid URL (for example, https://www.example.com).',
+        patternMismatch: 'Please enter a valid URL that starts with http:// or https://.'
+     

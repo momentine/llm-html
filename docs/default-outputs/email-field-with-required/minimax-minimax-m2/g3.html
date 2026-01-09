@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Required Email Field</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 2rem; }
+    label { display: block; font-weight: 600; margin-bottom: 0.25rem; }
+    input[type="email"] { width: 100%; max-width: 24rem; padding: 0.5rem; font-size: 1rem; }
+    .field { margin-bottom: 1rem; }
+    .hint { font-size: 0.9rem; color: #555; }
+    .msg { margin-top: 0.75rem; }
+    button { padding: 0.5rem 0.9rem; font-size: 1rem; }
+  </style>
+</head>
+<body>
+  <form id="emailForm" novalidate>
+    <div class="field">
+      <label for="desiredEmail">Desired email address</label>
+      <input
+        id="desiredEmail"
+        name="desiredEmail"
+        type="email"
+        required
+        autocomplete="email"
+        spellcheck="false"
+        inputmode="email"
+        aria-describedby="emailHint"
+        placeholder="you@example.com"
+      />
+      <div id="emailHint" class="hint">We'll use this to create your account.</div>
+    </div>
+    <button type="submit">Submit</button>
+    <p id="formMessage" class="msg" role="status" aria-live="polite"></p>
+  </form>
+
+  <script>
+    const form = document.getElementById('emailForm');
+    const emailInput = document.getElementById('desiredEmail');
+    const message = document.getElementById('form

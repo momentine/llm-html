@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hidden Label Search</title>
+  <style>
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <form role="search" action="/search" method="get">
+    <label class="sr-only" for="search">Search for</label>
+    <input
+      id="search"
+      name="q"
+      type="search"
+      placeholder="Search"
+      aria-label="Search for"
+      required
+    />
+    <button type="submit">Search</button>
+  </form>
+</body>
+</html>

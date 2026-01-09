@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fruit Checkbox Group</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; padding: 2rem; }
+    fieldset { border: 1px solid #ccc; padding: 1rem; max-width: 420px; }
+    legend { font-weight: 600; }
+    .options { display: grid; gap: .5rem; margin: .5rem 0 0; }
+    .error { color: #b00020; margin-top: .5rem; }
+    .hidden { display: none; }
+    .invalid { border-color: #b00020; }
+  </style>
+</head>
+<body>
+  <form id="fruit-form" novalidate>
+    <fieldset id="fruit-fieldset">
+      <legend>What fruits do you like?</legend>
+      <div class="options">
+        <label><input type="checkbox" name="fruits[]" value="bananas"> Bananas</label>
+        <label><input type="checkbox" name="fruits[]" value="oranges"> Oranges</label>
+        <label><input type="checkbox" name="fruits[]" value="apples"> Apples</label>
+      </div>
+      <p id="fruit-error" class="error hidden" role="alert" aria-live="polite">You must choose one or more fruits</p>
+    </fieldset>
+    <div style="margin-top:1rem;">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+
+  <script>
+    (function () {
+      const form = document.getElementById('fruit-form');
+      const fieldset = document.getElementById('fruit-fieldset');
+      const errorEl = document.getElementById('fruit-error');
+      const checkboxes = Array.from(document.querySelectorAll('input[name="fruits[]"]'));
+
+      function anyChecked() {
+        return checkboxes.some(cb => cb.checked);
+      }
+
+      function showError() {
+        errorEl.classList.remove('hidden');
+        fieldset.classList.add('invalid');

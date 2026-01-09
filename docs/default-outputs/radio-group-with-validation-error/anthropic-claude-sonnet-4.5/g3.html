@@ -1,0 +1,20 @@
+```html
+<fieldset>
+  <legend>Theme</legend>
+  <div role="radiogroup" aria-labelledby="theme-label" aria-invalid="true" aria-describedby="theme-error">
+    <div>
+      <input type="radio" id="light" name="theme" value="light">
+      <label for="light">light</label>
+    </div>
+    <div>
+      <input type="radio" id="dark" name="theme" value="dark">
+      <label for="dark">dark</label>
+    </div>
+    <div>
+      <input type="radio" id="high-contrast" name="theme" value="high-contrast">
+      <label for="high-contrast">high contrast</label>
+    </div>
+  </div>
+  <div id="theme-error" role="alert" aria-live="polite">You must choose a theme to proceed</div>
+</fieldset>
+```

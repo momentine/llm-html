@@ -1,0 +1,31 @@
+<form id="theme-form">
+  <fieldset>
+    <legend>Theme</legend>
+    <label><input type="radio" name="theme" value="light" required> Light</label>
+    <label><input type="radio" name="theme" value="dark"> Dark</label>
+    <label><input type="radio" name="theme" value="high-contrast"> High contrast</label>
+    <div class="error" id="theme-error" role="alert" aria-live="polite"></div>
+  </fieldset>
+  <button type="submit">Submit</button>
+</form>
+
+<script>
+  (function () {
+    const form = document.getElementById('theme-form');
+    const radios = Array.from(form.querySelectorAll('input[name="theme"]'));
+    const errorEl = document.getElementById('theme-error');
+    const customMessage = 'You must choose a theme to proceed';
+
+    function updateError() {
+      const checked = radios.some(r => r.checked);
+      if (checked) {
+        errorEl.textContent = '';
+        radios.forEach(r => r.setCustomValidity(''));
+      }
+    }
+
+    radios.forEach(r => r.addEventListener('change', updateError));
+
+    form.addEventListener('submit', function (e) {
+      const checked = radios.some(r => r.checked);
+     

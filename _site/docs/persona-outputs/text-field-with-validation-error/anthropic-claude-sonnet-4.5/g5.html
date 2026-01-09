@@ -1,0 +1,23 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Field with Validation Error</title>
+</head>
+<body>
+    <div>
+        <label for="color-question">What color is an orange?</label>
+        <input 
+            type="text" 
+            id="color-question" 
+            name="color-question"
+            aria-invalid="true"
+            aria-describedby="color-error"
+        >
+        <span id="color-error" role="alert">That's not right. Try again.</span>
+    </div>
+</body>
+</html>
+```

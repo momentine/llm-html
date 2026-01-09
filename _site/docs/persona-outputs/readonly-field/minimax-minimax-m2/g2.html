@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Read-only User ID Field</title>
+</head>
+<body>
+  <form action="/submit" method="post">
+    <label for="userId">User ID</label>
+    <input
+      id="userId"
+      name="userId"
+      type="text"
+      value="USR-123456"
+      readonly
+      aria-readonly="true"
+    />
+    <!-- Hidden field to ensure the read-only value is submitted with the form -->
+    <input type="hidden" name="userId" value="USR-123456" />
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

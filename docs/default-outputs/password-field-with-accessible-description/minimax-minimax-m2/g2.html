@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Password with Requirement Note</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <form action="#" method="post">
+    <label for="newPassword">New password</label>
+    <input
+      id="newPassword"
+      name="new_password"
+      type="password"
+      inputmode="text"
+      autocomplete="new-password"
+      required
+      pattern="(?=.*\d)(?=.*[!\"#$%&'()*+,\-./:;<=>?@[\\\]^_`{|}~]).*"
+      title="Must include 1 number and 1 symbol."
+      aria-describedby="pwNote"
+    >
+    <div id="pwNote">Must include 1 number and 1 symbol.</div>
+    <button type="submit">Create password</button>
+  </form>
+</body>
+</html>

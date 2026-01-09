@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Email Field</title>
+</head>
+<body>
+  <form action="/submit" method="post">
+    <label for="desired-email">Desired email address</label>
+    <input
+      type="email"
+      id="desired-email"
+      name="desired_email"
+      placeholder="yourname@ourdomain.tld"
+      autocomplete="email"
+      spellcheck="false"
+      required
+    />
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Credit Card Number Field</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <label for="cc-number">Credit Card Number</label>
+    <input
+      id="cc-number"
+      name="cc-number"
+      type="text"
+      inputmode="numeric"
+      autocomplete="cc-number"
+      placeholder="1234 5678 9012 3456"
+      aria-describedby="cc-number-hint"
+      required
+    />
+    <div id="cc-number-hint" aria-hidden="true">Enter the 13–19 digit number on the front of your card.</div>
+  </form>
+</body>
+</html>

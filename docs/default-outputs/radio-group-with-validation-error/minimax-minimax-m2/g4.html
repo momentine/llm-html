@@ -1,0 +1,51 @@
+<form id="theme-form" novalidate>
+  <fieldset>
+    <legend>Theme</legend>
+    <label>
+      <input type="radio" name="theme" value="light"> Light
+    </label>
+    <label>
+      <input type="radio" name="theme" value="dark"> Dark
+    </label>
+    <label>
+      <input type="radio" name="theme" value="high-contrast"> High contrast
+    </label>
+    <div id="theme-error" role="alert" aria-live="polite" style="color:#b00020; margin-top:8px; display:none;">
+      You must choose a theme to proceed
+    </div>
+  </fieldset>
+  <button type="submit">Continue</button>
+
+  <script>
+    (function () {
+      const form = document.getElementById('theme-form');
+      const errorEl = document.getElementById('theme-error');
+      const radios = form.querySelectorAll('input[name="theme"]');
+
+      function showError() {
+        errorEl.style.display = 'block';
+        radios.forEach(r => r.setAttribute('aria-invalid', 'true'));
+      }
+
+      function clearError() {
+        errorEl.style.display = 'none';
+        radios.forEach(r => r.removeAttribute('aria-invalid'));
+      }
+
+      radios.forEach(r => r.addEventListener('change', clearError));
+
+      form.addEventListener('submit', (e) => {
+        const selected = form.querySelector('input[name="theme"]:checked');
+        if (!selected) {
+          e.preventDefault();
+          showError();
+          const first = radios[0];
+          if (first) first.focus();
+        } else {
+          clearError();
+          // Example: proceed with selected value
+          // alert('Selected theme: ' + selected.value);
+        }
+      });
+    })();
+  </script>

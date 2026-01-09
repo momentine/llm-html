@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Desired email address</title>
+</head>
+<body>
+  <main>
+    <form action="#" method="post" novalidate>
+      <div>
+        <label for="desired-email">Desired email address</label>
+        <div id="desired-email-hint" class="hint">
+          Use a valid email format like name@example.com. You can change this later.
+        </div>
+        <input
+          id="desired-email"
+          name="desiredEmail"
+          type="email"
+          inputmode="email"
+          autocomplete="email"
+          spellcheck="false"
+          aria-describedby="desired-email-hint desired-email-error"
+          aria-invalid="false"
+          required
+        />
+        <div id="desired-email-error" class="error" role="alert" aria-live="polite"></div>
+      </div>
+
+      <button type="submit">Submit</button>
+
+      <div id="form-status" role="status" aria-live="polite"></div>
+    </form>
+  </main>
+</body>
+</html>

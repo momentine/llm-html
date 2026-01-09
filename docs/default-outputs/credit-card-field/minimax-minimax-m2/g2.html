@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Credit Card Number Field</title>
+</head>
+<body>
+  <form id="payment-form" novalidate>
+    <div>
+      <label for="cc-number">Credit Card Number</label>
+      <input
+        id="cc-number"
+        name="cc-number"
+        type="text"
+        inputmode="numeric"
+        autocomplete="cc-number"
+        placeholder="1234 5678 9012 3456"
+        aria-describedby="cc-number-help cc-number-error"
+        aria-invalid="false"
+        required
+      />
+      <div id="cc-number-help" style="font-size:0.9rem;color:#555;margin-top:0.25rem;">Digits only. We’ll format it for you.</div>
+      <div id="cc-brand" style="margin-top:0.25rem;font-weight:600;">Card: Unknown</div>
+      <div id="cc-number-error" role="alert" style="color:#b00020;margin-top:0.25rem;"></div>
+    </div>
+    <button type="submit" style="margin-top:1rem;">Validate</button>
+    <div id="cc-valid-msg" style="margin-top:0.5rem;color:#2e7d32;display:none;">Card number looks valid.

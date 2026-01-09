@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Phone number field</title>
+</head>
+<body>
+  <form action="#" method="post" novalidate>
+    <label for="phone">Phone number</label>
+    <input
+      id="phone"
+      name="phone"
+      type="tel"
+      inputmode="tel"
+      autocomplete="tel"
+      placeholder="+1 555 123 4567"
+      pattern="^\+?[0-9\s\-().]{7,20}$"
+      required
+      aria-describedby="phone-hint"
+    />
+    <small id="phone-hint">Use digits and optional +, spaces, dashes, parentheses, or periods.</small>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

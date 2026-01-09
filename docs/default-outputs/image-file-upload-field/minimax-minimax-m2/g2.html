@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Upload Photo</title>
+</head>
+<body>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <label for="photo">Upload Photo</label>
+    <input
+      id="photo"
+      name="photo"
+      type="file"
+      accept="image/*"
+      aria-describedby="photoHelp"
+      required
+    />
+    <small id="photoHelp">Select an image file (JPEG, PNG, GIF, WebP, etc.).</small>
+
+    <div id="preview" aria-live="polite"></div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    (function () {
+      const input = document.getElementById('photo');
+      const preview = document.getElementById('preview');
+
+      function clearPreview() {
+        preview.innerHTML = '';
+      }
+
+      function showPreview(file) {
+        clearPreview();
+        const img = document.createElement('img');
+        img.alt = 'Selected image preview';
+        img.style.maxWidth = '240px';
+        img.style.maxHeight = '240px';
+        img.src = URL.createObjectURL(file);
+        img.onload = () => URL.revokeObjectURL(img.src);
+        preview.appendChild(img);
+      }
+
+      input.addEventListener('change', () => {
+        const file = input.files && input.files[0];
+        if (!file) {
+          clearPreview();
+          return;
+        }
+        if (!file.type || !file.type.startsWith('image/')) {
+          alert('Please select a valid image file.');
+          input.value = '';
+          clearPreview();
+          return;
+        }
+        showPreview(file);
+      });
+    })();
+  </script>
+</body>
+</html>

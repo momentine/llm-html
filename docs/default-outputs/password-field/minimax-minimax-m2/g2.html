@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New Password Field</title>
+</head>
+<body>
+  <form action="/set-password" method="post">
+    <label for="new-password">New password</label>
+    <div>
+      <input
+        id="new-password"
+        name="new_password"
+        type="password"
+        placeholder="Enter new password"
+        autocomplete="new-password"
+        required
+        minlength="8"
+      />
+      <button type="button" aria-controls="new-password" aria-label="Show password">Show</button>
+    </div>
+  </form>
+
+  <script>
+    (function () {
+      const input = document.getElementById('new-password');
+      const btn = document.querySelector('button[aria-controls="new-password"]');
+
+      btn.addEventListener('click', function () {
+        const isPassword = input.type === 'password';
+        input.type = isPassword ? 'text' : 'password';
+        btn.textContent = isPassword ? 'Hide' : 'Show';
+        btn.setAttribute('aria-label', isPassword ? 'Hide password' : 'Show password');
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<form id="contactForm" action="#" method="post" novalidate>
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="8" placeholder="Describe your problem in as much detail as possible..." required aria-describedby="messageError messageCounter"></textarea>
+  <div id="messageCounter" aria-live="polite">0 words (minimum 20)</div>
+  <p id="messageError" class="error" role="alert" aria-live="assertive" hidden>Your message should be at least 20 words long. Please describe your problem in as much detail as possible.</p>
+
+  <button type="submit">Submit</button>
+
+  <script>
+    (function () {
+      const textarea = document.getElementById('message');
+      const errorEl = document.getElementById('messageError');
+      const counterEl = document.getElementById('messageCounter');
+      const MIN_WORDS = 20;
+
+      function countWords(text) {
+        const matches = text.trim().match(/\b[\p{L}\p{N}’'-]+\b/gu);
+        return matches ? matches.length : 0;
+      }
+
+      function updateState() {
+        const count = countWords(textarea.value);
+        counterEl.textContent = count + ' word' + (count === 1 ? '' : 's') + ' (minimum ' + MIN_WORDS + ')';
+
+        const isValid = count >= MIN_WORDS;
+        textarea.setAttribute('aria-invalid', String(!isValid));
+
+        if (!isValid) {
+          errorEl.hidden = false;
+          errorEl.textContent = 'Your message should be at least ' + MIN_WORDS + ' words long. Please describe your problem in as much detail as possible.';
+        } else {
+          errorEl.hidden = true;
+          errorEl.textContent = '';
+        }
+      }
+
+      textarea.addEventListener('input', updateState);
+      textarea.addEventListener('blur', updateState);
+
+      document.getElementById('contactForm').addEventListener('submit', function (e) {
+        updateState();
+        const isValid = countWords(textarea.value) >= MIN_WORDS;
+        if (!isValid) {
+          e.preventDefault();
+          textarea.focus();
+        }
+      });
+
+      updateState();
+    })();
+  </script>
+</form>

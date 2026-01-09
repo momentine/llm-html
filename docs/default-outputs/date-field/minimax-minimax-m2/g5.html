@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Accessible Birthdate Field</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <form id="birthdate-form" novalidate>
+    <fieldset>
+      <legend>Birthdate</legend>
+      <p id="bday-hint" class="hint">
+        Enter your date of birth. Use DD, MM, and YYYY. You must be at least 13 years old.
+      </p>
+
+      <div class="date-group" role="group" aria-describedby="bday-hint bday-error">
+        <div class="field">
+          <label for="bday-day">Day</label>
+          <input
+            id="bday-day"
+            name="bday-day"
+            type="text"
+            inputmode="numeric"
+            pattern="[0-9]{1,2}"
+            placeholder="DD"
+            aria-describedby="bday-hint"
+            autocomplete="bday-day"
+            required
+          />
+        </div>
+
+        <div class="field">
+          <label for="bday-month">Month</label>
+          <input
+            id="bday-month"
+            name="bday-month"
+            type="text"
+            inputmode="numeric"
+            pattern="[0-9]{1,2}"
+            placeholder="MM"
+            aria-describedby="bday-hint"
+            autocomplete="bday-month"
+            required
+          />
+        </div>
+
+        <div class="field">
+          <label for="bday-year">Year</label>
+          <input
+            id="bday-year"
+            name="bday-year"
+           

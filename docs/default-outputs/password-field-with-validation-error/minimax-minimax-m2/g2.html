@@ -1,0 +1,52 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Password Field with Error</title>
+</head>
+<body>
+  <form id="passwordForm">
+    <label for="newPassword">New password</label>
+    <input
+      type="password"
+      id="newPassword"
+      name="newPassword"
+      required
+      aria-describedby="passwordError"
+      aria-invalid="false"
+    />
+    <div id="passwordError" role="alert" style="color: #b00020; margin-top: 4px; display: none;">
+      Too short. Must be at least 8 characters.
+    </div>
+    <button type="submit" style="margin-top: 8px;">Submit</button>
+  </form>
+
+  <script>
+    (function () {
+      const input = document.getElementById('newPassword');
+      const errorEl = document.getElementById('passwordError');
+
+      function validate() {
+        const value = input.value;
+        const isValid = value.length >= 8;
+        errorEl.style.display = isValid ? 'none' : 'block';
+        input.setAttribute('aria-invalid', String(!isValid));
+        return isValid;
+      }
+
+      input.addEventListener('input', validate);
+      input.addEventListener('blur', validate);
+
+      document.getElementById('passwordForm').addEventListener('submit', function (e) {
+        if (!validate()) {
+          e.preventDefault();
+          input.focus();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
+```

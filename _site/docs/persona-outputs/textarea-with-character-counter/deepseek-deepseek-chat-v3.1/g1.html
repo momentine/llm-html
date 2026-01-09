@@ -1,0 +1,10 @@
+<textarea id="message" maxlength="200"></textarea>
+<span id="counter">0/200</span>
+<script>
+const textarea = document.getElementById('message');
+const counter = document.getElementById('counter');
+textarea.addEventListener('input', function() {
+  const length = textarea.value.length;
+  counter.textContent = `${length}/200`;
+});
+</script>

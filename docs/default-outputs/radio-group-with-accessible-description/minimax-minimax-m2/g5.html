@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessible Theme Radio Group</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Theme</legend>
+
+      <p id="theme-note" style="margin:0 0 .5rem 0; color:#555;">You can change this later.</p>
+
+      <div role="group" aria-describedby="theme-note">
+        <div>
+          <input type="radio" id="theme-light" name="theme" value="light" />
+          <label for="theme-light">Light</label>
+        </div>
+
+        <div>
+          <input type="radio" id="theme-dark" name="theme" value="dark" />
+          <label for="theme-dark">Dark</label>
+        </div>
+
+        <div>
+          <input type="radio" id="theme-hc" name="theme" value="high-contrast" />
+          <label for="theme-hc">High contrast</label>
+        </div>
+      </div>
+    </fieldset>
+
+    <div style="margin-top:1rem;">
+      <button type="submit">Save</button>
+    </div>
+  </form>
+</body>
+</html>

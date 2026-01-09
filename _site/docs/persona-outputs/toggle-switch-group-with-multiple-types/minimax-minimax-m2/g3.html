@@ -1,0 +1,57 @@
+<form>
+  <fieldset>
+    <legend>Notification Types</legend>
+
+    <label class="switch">
+      <input type="checkbox" name="notification_types" value="email" checked aria-label="Email">
+      <span class="slider" aria-hidden="true"></span>
+      <span class="label">Email</span>
+    </label>
+
+    <label class="switch">
+      <input type="checkbox" name="notification_types" value="sms" aria-label="SMS">
+      <span class="slider" aria-hidden="true"></span>
+      <span class="label">SMS</span>
+    </label>
+
+    <label class="switch">
+      <input type="checkbox" name="notification_types" value="push" aria-label="Push">
+      <span class="slider" aria-hidden="true"></span>
+      <span class="label">Push</span>
+    </label>
+  </fieldset>
+</form>
+
+<style>
+  fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  legend {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0.4rem 0;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .switch input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    clip-path: inset(50%);
+  }
+

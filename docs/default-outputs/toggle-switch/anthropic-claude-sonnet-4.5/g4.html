@@ -1,0 +1,57 @@
+```html
+<div>
+  <label for="notifications-toggle">Notifications</label>
+  <label>
+    <input type="checkbox" id="notifications-toggle" role="switch">
+    <span></span>
+  </label>
+</div>
+
+<style>
+label {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+label input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+label span {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.3s;
+  border-radius: 24px;
+}
+
+label span:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+
+label input:checked + span {
+  background-color: #2196F3;
+}
+
+label input:checked + span:before {
+  transform: translateX(26px);
+}
+</style>
+```

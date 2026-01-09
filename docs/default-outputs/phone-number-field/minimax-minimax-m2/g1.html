@@ -1,0 +1,16 @@
+<form>
+  <label for="phone">Phone number</label>
+  <input
+    type="tel"
+    id="phone"
+    name="phone"
+    placeholder="(555) 123-4567"
+    autocomplete="tel"
+    inputmode="tel"
+    pattern="^\+?[\d\s().-]{7,20}$"
+    maxlength="20"
+    aria-describedby="phone-hint"
+  />
+  <small id="phone-hint">Include country code if applicable, e.g., +1 (555) 123-4567</small>
+  <button type="submit">Submit</button>
+</form>

@@ -1,0 +1,25 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Question</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="color-input">What color is an orange?</label>
+            <input 
+                type="text" 
+                id="color-input" 
+                name="color-input" 
+                aria-invalid="true" 
+                aria-describedby="color-error"
+            >
+            <div id="color-error" role="alert">That's not right. Try again.</div>
+        </div>
+    </form>
+</body>
+</html>
+```

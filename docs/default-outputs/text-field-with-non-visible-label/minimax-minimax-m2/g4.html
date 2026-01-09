@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Hidden Label Example</title>
+</head>
+<body>
+  <form action="/search" method="get">
+    <label for="search-field" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">Search for</label>
+    <input id="search-field" name="q" type="text" placeholder="Search for..." />
+  </form>
+</body>
+</html>

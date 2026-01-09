@@ -1,0 +1,47 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Accessible Terms Checkbox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <form id="signupForm" novalidate>
+    <fieldset>
+      <legend>Create your account</legend>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required />
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="new-password" required minlength="8" />
+      </div>
+
+      <div class="field">
+        <div class="checkbox">
+          <input
+            type="checkbox"
+            id="agree"
+            name="agree"
+            required
+            aria-describedby="agreeHelp agreeError"
+          />
+          <label for="agree">
+            I agree to the
+            <a href="/terms" target="_blank" rel="noopener noreferrer">Terms and Conditions</a>
+            and
+            <a href="/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+            <span aria-hidden="true"> *</span>
+            <span class="sr-only"> (required)</span>
+          </label>
+        </div>
+
+        <p id="agreeHelp">
+          You must accept the Terms to create an account. The links open in a new tab.
+        </p>
+
+        <p id="agreeError" class="error" role="alert

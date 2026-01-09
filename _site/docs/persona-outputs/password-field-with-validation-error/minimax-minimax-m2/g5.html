@@ -1,0 +1,52 @@
+<form action="#" method="post" novalidate>
+  <div>
+    <label for="new-password">New password</label>
+    <div style="position:relative;display:flex;align-items:center;">
+      <input
+        id="new-password"
+        name="new-password"
+        type="password"
+        inputmode="text"
+        autocomplete="new-password"
+        required
+        minlength="8"
+        aria-describedby="new-password-error"
+        aria-invalid="false"
+      />
+      <button
+        type="button"
+        id="toggle-password"
+        aria-label="Show password"
+        aria-controls="new-password"
+        aria-expanded="false"
+        style="margin-left:8px;"
+      >
+        Show
+      </button>
+    </div>
+    <p id="new-password-error" role="alert" aria-live="polite" hidden>
+      Too short. Must be at least 8 characters.
+    </p>
+  </div>
+  <button type="submit">Create account</button>
+
+  <script>
+    (function () {
+      const input = document.getElementById('new-password');
+      const error = document.getElementById('new-password-error');
+      const toggle = document.getElementById('toggle-password');
+
+      function validate() {
+        const valid = input.value.length >= 8;
+        error.hidden = valid;
+        input.setAttribute('aria-invalid', String(!valid));
+        return valid;
+      }
+
+      input.addEventListener('input', validate);
+      input.addEventListener('blur', validate);
+
+      toggle.addEventListener('click', () => {
+        const isHidden = input.type === 'password';
+        input.type = isHidden ? 'text' : 'password';
+        toggle.textContent = isHidden ? 'Hide'

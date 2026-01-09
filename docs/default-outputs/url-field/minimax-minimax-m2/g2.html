@@ -1,0 +1,18 @@
+<form action="#" method="post">
+  <label for="website_url">Website URL</label>
+  <input
+    id="website_url"
+    name="website_url"
+    type="url"
+    inputmode="url"
+    placeholder="https://example.com"
+    spellcheck="false"
+    autocomplete="url"
+    required
+    pattern="https?://.+"
+    title="Enter a full URL starting with http:// or https://"
+    aria-describedby="url_help"
+  />
+  <small id="url_help">Include http:// or https:// (e.g., https://www.example.com)</small>
+  <button type="submit">Submit</button>
+</form>

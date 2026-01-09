@@ -1,0 +1,56 @@
+<form id="profile-form" novalidate>
+  <div class="field">
+    <label for="desired-email">Desired email address <span aria-hidden="true">*</span></label>
+    <p id="desired-email-help" class="help">Use a format like name@example.com.</p>
+    <input
+      id="desired-email"
+      name="desiredEmail"
+      type="email"
+      inputmode="email"
+      autocomplete="email"
+      required
+      aria-required="true"
+      aria-describedby="desired-email-help desired-email-error"
+      aria-invalid="false"
+    />
+    <p id="desired-email-error" class="error" role="alert" aria-live="assertive"></p>
+  </div>
+  <button type="submit">Save</button>
+
+  <script>
+    (function () {
+      const form = document.getElementById('profile-form');
+      const input = document.getElementById('desired-email');
+      const errorEl = document.getElementById('desired-email-error');
+
+      function setError(message) {
+        errorEl.textContent = message || '';
+        input.setAttribute('aria-invalid', message ? 'true' : 'false');
+      }
+
+      function validate() {
+        const value = input.value.trim();
+        if (!value) {
+          setError('Please enter the desired email address.');
+          return false;
+        }
+        // Use native validation for type/format; add a friendly message.
+        if (!input.checkValidity()) {
+          setError('Please enter a valid email address (e.g., name@example.com).');
+          return false;
+        }
+        setError('');
+        return true;
+      }
+
+      input.addEventListener('input', validate);
+      input.addEventListener('blur', validate);
+
+      form.addEventListener('submit', function (e) {
+        if (!validate()) {
+          e.preventDefault();
+          input.focus();
+        }
+      });
+    })();
+  </script

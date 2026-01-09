@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessible Text Field: What color is an orange?</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.5; margin: 2rem; }
+    label { display: block; font-weight: 600; margin-bottom: 0.5rem; }
+    input[type="text"] { padding: 0.6rem 0.75rem; font-size: 1rem; border: 1px solid #6b7280; border-radius: 0.375rem; width: 100%; max-width: 24rem; }
+    input[type="text"]:focus { outline: 3px solid #1d4ed8; outline-offset: 2px; }
+    .hint { color: #374151; margin-top: 0.25rem; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+    button { margin-top: 0.75rem; padding: 0.6rem 1rem; font-size: 1rem; border: 1px solid #1f2937; background: #111827; color: #fff; border-radius: 0.375rem; cursor: pointer; }
+    button:focus { outline: 3px solid #1d4ed8; outline-offset: 2px; }
+  </style>
+</head>
+<body>
+  <form action="#" method="post">
+    <label for="orange-color">What color is an orange?</label>
+    <input
+      id="orange-color"
+      name="orange_color"
+      type="text"
+      inputmode="text"
+      autocomplete="off"
+      autocapitalize="none"
+      spellcheck="false"
+      aria-describedby="orange-color-hint"
+      aria-label="What color is an orange?"
+      placeholder="e.g., orange"
+      required
+    />
+    <div id="orange-color-hint" class="hint">Enter the color name (for example: orange).</div>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

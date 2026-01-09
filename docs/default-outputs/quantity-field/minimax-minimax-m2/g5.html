@@ -1,0 +1,57 @@
+<form id="order-form" novalidate>
+  <div class="field">
+    <label for="quantity">Item Quantity</label>
+    <div class="stepper">
+      <button type="button" class="stepper__btn" data-action="decrement" aria-label="Decrease quantity" aria-controls="quantity">−</button>
+      <input
+        id="quantity"
+        name="quantity"
+        type="number"
+        inputmode="numeric"
+        pattern="[0-9]*"
+        min="1"
+        max="99"
+        step="1"
+        value="1"
+        required
+        aria-describedby="quantity-help quantity-error"
+        aria-invalid="false"
+        aria-label="Item quantity"
+      />
+      <button type="button" class="stepper__btn" data-action="increment" aria-label="Increase quantity" aria-controls="quantity">+</button>
+    </div>
+    <div id="quantity-help" class="help">Enter a number between 1 and 99.</div>
+    <div id="quantity-error" class="error" role="alert" aria-live="polite"></div>
+  </div>
+
+  <button type="submit">Add to cart</button>
+</form>
+
+<script>
+  (function () {
+    const form = document.getElementById('order-form');
+    const input = document.getElementById('quantity');
+    const errorEl = document.getElementById('quantity-error');
+
+    const min = parseInt(input.getAttribute('min') || '1', 10);
+    const max = parseInt(input.getAttribute('max') || '99', 10);
+
+    function showError(msg) {
+      errorEl.textContent = msg;
+      input.setAttribute('aria-invalid', 'true');
+    }
+
+    function clearError() {
+      errorEl.textContent = '';
+      input.setAttribute('aria-invalid', 'false');
+    }
+
+    function sanitizeValue(v) {
+      // Strip any non-digit characters for robustness
+      const digits = String(v).replace(/[^\d]/g, '');
+      if (!digits) return '';
+      const n = parseInt(digits, 10);
+      return Number.isFinite(n) ? String(n) : '';
+    }
+
+    function validate
