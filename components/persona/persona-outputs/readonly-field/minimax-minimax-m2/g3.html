@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Read-only User ID Field</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 2rem; }
+    .field { margin-bottom: 1rem; }
+    label { display: block; margin-bottom: 0.35rem; font-weight: 600; }
+    input[readonly] {
+      width: 320px;
+      padding: 0.5rem 0.6rem;
+      font-size: 1rem;
+      border: 1px solid #c8c8c8;
+      border-radius: 4px;
+      background: #f6f6f6;
+      color: #333;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <div class="field">
+      <label for="userId">User ID</label>
+      <input
+        id="userId"
+        name="userId"
+        type="text"
+        value="12345"
+        readonly
+        aria-readonly="true"
+        aria-describedby="userIdHelp"
+      />
+      <div id="userIdHelp" style="font-size: 0.9rem; color: #666; margin-top: 0.35rem;">
+        This field is read-only.
+      </div>
+    </div>
+  </form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<label for="credit-card-number">Credit Card Number</label>
+<input
+  type="text"
+  id="credit-card-number"
+  name="creditCardNumber"
+  inputmode="numeric"
+  autocomplete="cc-number"
+  placeholder="1234 5678 9012 3456"
+  pattern="[0-9 ]{12,23}"
+  maxlength="23"
+  aria-describedby="cc-number-hint"
+  required
+/>
+<small id="cc-number-hint">Enter the number without dashes or spaces; they will be ignored.</small>

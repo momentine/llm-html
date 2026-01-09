@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Accessible Birthdate Field</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <main>
+    <h1>Sign up</h1>
+
+    <form id="signup" novalidate>
+      <div>
+        <label for="birthdate">Birthdate</label>
+        <div id="birthdate-hint" class="hint">Enter your date of birth. Use the calendar picker or type YYYY-MM-DD. You must be at least 13 years old.</div>
+        <input
+          id="birthdate"
+          name="birthdate"
+          type="date"
+          required
+          aria-describedby="birthdate-hint birthdate-error"
+          aria-invalid="false"
+          autocomplete="bday"
+        />
+        <p id="birthdate-error" class="error" role="alert" aria-live="polite"></p>
+      </div>
+
+      <button type="submit">Continue</button>
+    </form>
+  </main>
+
+  <script>
+    (function () {
+      const MIN_AGE = 13;     // Change as needed (e.g., 18)
+      const MAX_AGE = 120;    // Change as needed
+
+      const form = document.getElementById('signup');
+      const input = document.getElementById('birthdate');
+      const errorEl = document.getElementById('birthdate-error');
+
+      // Compute min/max dates so the picker prevents unrealistic entries.
+      const today = new Date();
+      const maxDate = new Date(today.getFullYear(), today.getMonth(), today.getDate()); // local midnight

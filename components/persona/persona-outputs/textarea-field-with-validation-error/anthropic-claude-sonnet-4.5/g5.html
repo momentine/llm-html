@@ -1,0 +1,16 @@
+```html
+<div>
+  <label for="message">Message</label>
+  <textarea 
+    id="message" 
+    name="message" 
+    aria-invalid="true" 
+    aria-describedby="message-error"
+    rows="5"
+    required
+  ></textarea>
+  <div id="message-error" role="alert" aria-live="polite">
+    Your message should be at least 20 words long. Please describe your problem in as much detail as possible.
+  </div>
+</div>
+```

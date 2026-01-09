@@ -1,0 +1,13 @@
+<label for="code-input">Enter two letters followed by 3 numbers</label>
+<input 
+  type="text" 
+  id="code-input" 
+  name="code" 
+  pattern="[A-Za-z]{2}[0-9]{3}" 
+  maxlength="5"
+  required
+  aria-describedby="code-format"
+  aria-required="true"
+  placeholder="AB123"
+>
+<span id="code-format" class="helper-text">Format: Two letters followed by three numbers (e.g., AB123)</span>

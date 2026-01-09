@@ -1,0 +1,30 @@
+<div role="region" aria-labelledby="upload-heading">
+  <h2 id="upload-heading">Upload Document</h2>
+  
+  <form>
+    <div>
+      <label for="document-upload" id="document-upload-label">
+        Choose a document to upload
+        <span aria-label="required" class="required">*</span>
+      </label>
+      
+      <input 
+        type="file" 
+        id="document-upload" 
+        name="document-upload"
+        aria-labelledby="document-upload-label document-upload-description"
+        aria-required="true"
+        accept=".pdf,.doc,.docx,.txt"
+        required
+      />
+      
+      <div id="document-upload-description">
+        Accepted file types: PDF, DOC, DOCX, TXT. Maximum file size: 10MB.
+      </div>
+      
+      <div id="upload-status" role="status" aria-live="polite" aria-atomic="true"></div>
+    </div>
+    
+    <button type="submit">Submit Document</button>
+  </form>
+</div>

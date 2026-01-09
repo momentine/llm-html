@@ -1,0 +1,58 @@
+<form>
+  <fieldset>
+    <legend>Notification Types</legend>
+
+    <label class="toggle">
+      <input type="checkbox" name="notifications" value="email" checked>
+      <span class="switch" aria-hidden="true"></span>
+      <span class="label-text">Email</span>
+    </label>
+
+    <label class="toggle">
+      <input type="checkbox" name="notifications" value="sms">
+      <span class="switch" aria-hidden="true"></span>
+      <span class="label-text">SMS</span>
+    </label>
+
+    <label class="toggle">
+      <input type="checkbox" name="notifications" value="push" checked>
+      <span class="switch" aria-hidden="true"></span>
+      <span class="label-text">Push</span>
+    </label>
+  </fieldset>
+</form>
+
+<style>
+  fieldset { border: 0; margin: 0; padding: 0; }
+  legend { font-weight: 600; margin-bottom: .5rem; }
+  .toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    user-select: none;
+  }
+  .toggle input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .switch {
+    width: 42px;
+    height: 24px;
+    background: #c9ced6;
+    border-radius: 999px;
+    position: relative;
+    transition: background .2s ease;
+    flex-shrink: 0;
+  }
+  .switch::after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+   

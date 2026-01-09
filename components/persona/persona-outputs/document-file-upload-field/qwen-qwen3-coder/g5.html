@@ -1,0 +1,20 @@
+```html
+<div class="form-group">
+  <label for="document-upload" id="document-label">
+    Upload Document
+  </label>
+  <input 
+    type="file" 
+    id="document-upload" 
+    name="document-upload" 
+    aria-describedby="document-help document-error"
+    accept=".pdf,.doc,.docx,.txt,.rtf"
+  >
+  <div id="document-help" class="help-text">
+    Accepted file types: PDF, DOC, DOCX, TXT, RTF. Maximum file size: 10MB.
+  </div>
+  <div id="document-error" class="error-message" aria-live="polite" role="alert">
+    <!-- Error messages will be inserted here dynamically -->
+  </div>
+</div>
+```

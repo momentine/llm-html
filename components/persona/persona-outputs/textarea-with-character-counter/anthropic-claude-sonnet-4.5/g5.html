@@ -1,0 +1,27 @@
+<div>
+  <label for="message">Message</label>
+  <textarea 
+    id="message" 
+    name="message" 
+    maxlength="200" 
+    rows="5" 
+    aria-describedby="message-counter message-hint"
+    required
+  ></textarea>
+  <div id="message-hint">Please enter your message (maximum 200 characters)</div>
+  <div id="message-counter" aria-live="polite" aria-atomic="true">
+    <span id="character-count">0</span> / 200 characters
+  </div>
+</div>
+
+<script>
+  (function() {
+    const textarea = document.getElementById('message');
+    const characterCount = document.getElementById('character-count');
+    
+    textarea.addEventListener('input', function() {
+      const count = this.value.length;
+      characterCount.textContent = count;
+    });
+  })();
+</script>

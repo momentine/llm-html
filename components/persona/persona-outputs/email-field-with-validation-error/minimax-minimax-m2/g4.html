@@ -1,0 +1,42 @@
+<form id="emailForm" novalidate>
+  <label for="email">Email Address</label>
+  <input
+    id="email"
+    name="email"
+    type="email"
+    required
+    aria-describedby="emailError"
+    aria-invalid="false"
+  />
+  <p id="emailError" role="alert" aria-live="polite"></p>
+  <button type="submit">Submit</button>
+
+  <script>
+    (function () {
+      const emailInput = document.getElementById('email');
+      const emailError = document.getElementById('emailError');
+      const form = document.getElementById('emailForm');
+
+      function updateError() {
+        if (emailInput.validity.valid) {
+          emailError.textContent = '';
+          emailInput.setAttribute('aria-invalid', 'false');
+        } else {
+          emailError.textContent = 'Your email address is invalid.';
+          emailInput.setAttribute('aria-invalid', 'true');
+        }
+      }
+
+      emailInput.addEventListener('input', updateError);
+      emailInput.addEventListener('blur', updateError);
+
+      form.addEventListener('submit', function (e) {
+        updateError();
+        if (!emailInput.validity.valid) {
+          e.preventDefault();
+          emailInput.focus();
+        }
+      });
+    })();
+  </script>
+</form>
