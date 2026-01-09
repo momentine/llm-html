@@ -30,7 +30,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;orangeColor&quot; name=&quot;orangeColor&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -43,7 +43,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;orangeColor&quot; name=&quot;orangeColor&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -56,7 +56,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;orangeColor&quot; name=&quot;orangeColor&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -69,7 +69,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;orangeColor&quot; name=&quot;orangeColor&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -90,7 +90,7 @@ order: 41
 &gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -102,7 +102,7 @@ order: 41
           <pre><code class="language-html">&lt;input type=&quot;text&quot; name=&quot;color&quot; required placeholder=&quot;What color is an orange?&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -114,7 +114,7 @@ order: 41
           <pre><code class="language-html">&lt;input type=&quot;text&quot; required placeholder=&quot;What color is an orange?&quot; /&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -127,7 +127,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;color&quot; name=&quot;color&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -140,7 +140,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -152,7 +152,7 @@ order: 41
           <pre><code class="language-html">&lt;input type=&quot;text&quot; name=&quot;color&quot; id=&quot;color&quot; required aria-required=&quot;true&quot; aria-label=&quot;What color is an orange?&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>google/gemini-2.5-pro</strong></td>
@@ -165,7 +165,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;orange_color&quot; name=&quot;orange_color&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -178,7 +178,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;orange_color&quot; name=&quot;orange_color&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -191,7 +191,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -204,7 +204,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -217,7 +217,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>minimax/minimax-m2</strong></td>
@@ -243,7 +243,7 @@ order: 41
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/minimax-minimax-m2/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -269,7 +269,7 @@ order: 41
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/minimax-minimax-m2/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -292,7 +292,7 @@ order: 41
     &lt;small id=&quot;orange_color_help&quot;&gt;Please enter the color of</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/minimax-minimax-m2/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -318,7 +318,7 @@ order: 41
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/minimax-minimax-m2/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -348,7 +348,7 @@ order: 41
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/minimax-minimax-m2/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>openai/gpt-5.1-codex</strong></td>
@@ -360,7 +360,7 @@ order: 41
           <pre><code class="language-html">&lt;input type=&quot;text&quot; name=&quot;color_of_orange&quot; placeholder=&quot;What color is an orange?&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -375,7 +375,7 @@ order: 41
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -388,7 +388,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -401,7 +401,7 @@ order: 41
 &lt;input id=&quot;orange-color&quot; name=&quot;orange-color&quot; type=&quot;text&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -414,7 +414,7 @@ order: 41
 &lt;input id=&quot;color-question&quot; name=&quot;color-question&quot; type=&quot;text&quot; required aria-required=&quot;true&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>qwen/qwen3-coder</strong></td>
@@ -426,7 +426,7 @@ order: 41
           <pre><code class="language-html">&lt;input type=&quot;text&quot; name=&quot;orange_color&quot; placeholder=&quot;What color is an orange?&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -438,7 +438,7 @@ order: 41
           <pre><code class="language-html">&lt;input type=&quot;text&quot; required placeholder=&quot;What color is an orange?&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -451,7 +451,7 @@ order: 41
 &lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -464,7 +464,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -477,7 +477,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -490,7 +490,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;color&quot; name=&quot;color&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -503,7 +503,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;color&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -516,7 +516,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;orange-color&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -529,7 +529,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;orange-color&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -542,7 +542,7 @@ order: 41
 &lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-required/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-required/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>

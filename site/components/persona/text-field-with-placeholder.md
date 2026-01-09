@@ -30,7 +30,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;dinosaur&quot; name=&quot;dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -43,7 +43,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;dinosaur&quot; name=&quot;dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -56,7 +56,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;dinosaur&quot; name=&quot;dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -69,7 +69,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;dinosaur&quot; name=&quot;dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -83,7 +83,7 @@ order: 46
 &lt;span id=&quot;dinosaur-hint&quot; class=&quot;hint&quot;&gt;Rex&lt;/span&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -95,7 +95,7 @@ order: 46
           <pre><code class="language-html">&lt;input type=&quot;text&quot; placeholder=&quot;Rex&quot; title=&quot;Who is your favorite dinosaur?&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -107,7 +107,7 @@ order: 46
           <pre><code class="language-html">&lt;input type=&quot;text&quot; placeholder=&quot;Rex&quot; title=&quot;Who is your favorite dinosaur?&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -119,7 +119,7 @@ order: 46
           <pre><code class="language-html">&lt;input type=&quot;text&quot; placeholder=&quot;Rex&quot; aria-label=&quot;Who is your favorite dinosaur?&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -132,7 +132,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;dino-input&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -145,7 +145,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;dinosaur&quot; name=&quot;dinosaur&quot; placeholder=&quot;Rex&quot; aria-placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>google/gemini-2.5-pro</strong></td>
@@ -158,7 +158,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;favorite-dinosaur&quot; name=&quot;favorite-dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -181,7 +181,7 @@ order: 46
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -194,7 +194,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;favorite-dinosaur&quot; name=&quot;favorite-dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -207,7 +207,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;favorite-dinosaur&quot; name=&quot;favorite-dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -220,7 +220,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;favorite-dinosaur&quot; name=&quot;favorite-dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>minimax/minimax-m2</strong></td>
@@ -245,7 +245,7 @@ order: 46
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/minimax-minimax-m2/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -261,7 +261,7 @@ order: 46
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/minimax-minimax-m2/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -286,7 +286,7 @@ order: 46
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/minimax-minimax-m2/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -300,7 +300,7 @@ order: 46
 &lt;small id=&quot;dino-hint&quot;&gt;Rex&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/minimax-minimax-m2/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -321,7 +321,7 @@ order: 46
 /&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/minimax-minimax-m2/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>openai/gpt-5.1-codex</strong></td>
@@ -335,7 +335,7 @@ order: 46
 &lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -347,7 +347,7 @@ order: 46
           <pre><code class="language-html">&lt;label&gt;Who is your favorite dinosaur?&lt;input type=&quot;text&quot; placeholder=&quot;Rex&quot;&gt;&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -360,7 +360,7 @@ order: 46
 &lt;input id=&quot;favorite-dinosaur&quot; type=&quot;text&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -373,7 +373,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;favorite-dinosaur&quot; name=&quot;favorite-dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -387,7 +387,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;favorite-dino&quot; name=&quot;favorite-dino&quot; aria-describedby=&quot;favorite-dino-hint&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>qwen/qwen3-coder</strong></td>
@@ -399,7 +399,7 @@ order: 46
           <pre><code class="language-html">&lt;input type=&quot;text&quot; name=&quot;favorite_dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -411,7 +411,7 @@ order: 46
           <pre><code class="language-html">&lt;input type=&quot;text&quot; name=&quot;favorite_dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -424,7 +424,7 @@ order: 46
 &lt;label for=&quot;dinosaur&quot;&gt;Who is your favorite dinosaur?&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -437,7 +437,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;favorite-dinosaur&quot; name=&quot;favorite-dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -451,7 +451,7 @@ order: 46
 &lt;div id=&quot;dinosaur-hint&quot;&gt;Hint: Rex&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -464,7 +464,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;dino&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -477,7 +477,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -490,7 +490,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -503,7 +503,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -516,7 +516,7 @@ order: 46
 &lt;input type=&quot;text&quot; id=&quot;favorite-dinosaur&quot; placeholder=&quot;Rex&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/text-field-with-placeholder/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/text-field-with-placeholder/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>

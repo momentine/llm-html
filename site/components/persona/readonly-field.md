@@ -30,7 +30,7 @@ order: 33
 &lt;input type=&quot;text&quot; id=&quot;userId&quot; name=&quot;userId&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -45,7 +45,7 @@ order: 33
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -60,7 +60,7 @@ order: 33
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -73,7 +73,7 @@ order: 33
 &lt;input type=&quot;text&quot; id=&quot;userId&quot; name=&quot;userId&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -88,7 +88,7 @@ order: 33
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -101,7 +101,7 @@ order: 33
 &lt;input type=&quot;text&quot; id=&quot;user-id&quot; name=&quot;user-id&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -113,7 +113,7 @@ order: 33
           <pre><code class="language-html">&lt;input type=&quot;text&quot; value=&quot;User ID&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -126,7 +126,7 @@ order: 33
 &lt;input type=&quot;text&quot; id=&quot;userId&quot; name=&quot;userId&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -139,7 +139,7 @@ order: 33
 &lt;input type=&quot;text&quot; id=&quot;user-id&quot; value=&quot;USER12345&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -152,7 +152,7 @@ order: 33
 &lt;input type=&quot;text&quot; id=&quot;user-id&quot; name=&quot;user-id&quot; value=&quot;ABC123&quot; readonly aria-readonly=&quot;true&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>google/gemini-2.5-pro</strong></td>
@@ -175,7 +175,7 @@ order: 33
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -188,7 +188,7 @@ order: 33
 &lt;input type=&quot;text&quot; id=&quot;user-id&quot; name=&quot;user_id&quot; value=&quot;123</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -211,7 +211,7 @@ order: 33
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -224,7 +224,7 @@ order: 33
 &lt;input type=&quot;text&quot; id=&quot;userId&quot; name=&quot;userId&quot; value=&quot;123-456-7</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -240,7 +240,7 @@ order: 33
     &lt;meta name=&quot;viewport&quot; content=&quot;width=</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>minimax/minimax-m2</strong></td>
@@ -253,7 +253,7 @@ order: 33
 &lt;input type=&quot;text&quot; id=&quot;userId&quot; name=&quot;userId&quot; value=&quot;12345&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -288,7 +288,7 @@ order: 33
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -341,7 +341,7 @@ order: 33
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -354,7 +354,7 @@ order: 33
 &lt;input id=&quot;user-id&quot; type=&quot;text&quot; value=&quot;12345&quot; readonly aria-readonly=&quot;true&quot; /&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -377,7 +377,7 @@ order: 33
 &lt;div id=&quot;userId-hint&quot;&gt;Read-only. Cannot be edited.&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>openai/gpt-5.1-codex</strong></td>
@@ -390,7 +390,7 @@ order: 33
 &lt;input type=&quot;text&quot; value=&quot;12345&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -402,7 +402,7 @@ order: 33
           <pre><code class="language-html">&lt;input type=&quot;text&quot; value=&quot;User ID&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -415,7 +415,7 @@ order: 33
 &lt;input type=&quot;text&quot; id=&quot;user-id&quot; value=&quot;123456&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -428,7 +428,7 @@ order: 33
 &lt;input id=&quot;user-id&quot; type=&quot;text&quot; value=&quot;12345&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -444,7 +444,7 @@ order: 33
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>qwen/qwen3-coder</strong></td>
@@ -456,7 +456,7 @@ order: 33
           <pre><code class="language-html">&lt;input type=&quot;text&quot; id=&quot;user-id&quot; name=&quot;user-id&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -468,7 +468,7 @@ order: 33
           <pre><code class="language-html">&lt;input type=&quot;text&quot; name=&quot;user_id&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -483,7 +483,7 @@ order: 33
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -498,7 +498,7 @@ order: 33
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -510,7 +510,7 @@ order: 33
           <pre><code class="language-html">&lt;input type=&quot;text&quot; id=&quot;user-id&quot; name=&quot;user-id&quot; value=&quot;12345&quot; readonly aria-readonly=&quot;true&quot; aria-label=&quot;User ID&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -523,7 +523,7 @@ order: 33
 &lt;input type=&quot;text&quot; id=&quot;userid&quot; name=&quot;userid&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -535,7 +535,7 @@ order: 33
           <pre><code class="language-html">&lt;input type=&quot;text&quot; id=&quot;userid&quot; name=&quot;userid&quot; value=&quot;&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -548,7 +548,7 @@ order: 33
 &lt;input type=&quot;text&quot; id=&quot;userid&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -561,7 +561,7 @@ order: 33
 &lt;input type=&quot;text&quot; id=&quot;user-id&quot; name=&quot;user-id&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -574,7 +574,7 @@ order: 33
 &lt;input id=&quot;user-id&quot; type=&quot;text&quot; readonly&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/readonly-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/readonly-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>

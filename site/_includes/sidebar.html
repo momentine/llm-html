@@ -1,4 +1,0 @@
-{% assign items = site.pages | where: 'track', page.track | where: 'kind', 'component' | sort: 'order' %}
-{% for it in items %}
-  <a href="#{{ it.slug }}">{{ it.title }}</a>
-{% endfor %}

@@ -30,7 +30,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meetingTime&quot; name=&quot;meetingTime&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -43,7 +43,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meetingTime&quot; name=&quot;meetingTime&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -56,7 +56,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meetingTime&quot; name=&quot;meetingTime&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -69,7 +69,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meetingTime&quot; name=&quot;meetingTime&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -91,7 +91,7 @@ order: 54
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -103,7 +103,7 @@ order: 54
           <pre><code class="language-html">&lt;input type=&quot;time&quot; name=&quot;meeting-time&quot; id=&quot;meeting-time&quot; placeholder=&quot;Meeting Time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -115,7 +115,7 @@ order: 54
           <pre><code class="language-html">&lt;input type=&quot;time&quot; id=&quot;meetingTime&quot; name=&quot;meetingTime&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -127,7 +127,7 @@ order: 54
           <pre><code class="language-html">&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot; aria-label=&quot;Meeting Time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -140,7 +140,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -154,7 +154,7 @@ order: 54
 &lt;span id=&quot;meeting-time-help&quot; class=&quot;sr-only&quot;&gt;Use the 24-hour format, for example 13:30 for 1:30 PM&lt;/span&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>google/gemini-2.5-pro</strong></td>
@@ -167,7 +167,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -190,7 +190,7 @@ order: 54
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -213,7 +213,7 @@ order: 54
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -226,7 +226,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -252,7 +252,7 @@ order: 54
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>minimax/minimax-m2</strong></td>
@@ -286,7 +286,7 @@ order: 54
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -339,7 +339,7 @@ order: 54
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -352,7 +352,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -375,7 +375,7 @@ order: 54
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -402,7 +402,7 @@ order: 54
     .actions { margin-top:</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>openai/gpt-5.1-codex</strong></td>
@@ -415,7 +415,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -427,7 +427,7 @@ order: 54
           <pre><code class="language-html">&lt;label for=&quot;meeting-time&quot;&gt;Meeting Time&lt;/label&gt;&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -440,7 +440,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -453,7 +453,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -466,7 +466,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>qwen/qwen3-coder</strong></td>
@@ -478,7 +478,7 @@ order: 54
           <pre><code class="language-html">&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -490,7 +490,7 @@ order: 54
           <pre><code class="language-html">&lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -503,7 +503,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -516,7 +516,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -530,7 +530,7 @@ order: 54
 &lt;div id=&quot;time-format&quot;&gt;Use 24-hour format (e.g., 14:30) or 12-hour format with AM/PM&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -543,7 +543,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -556,7 +556,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meeting-time&quot; name=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -569,7 +569,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -582,7 +582,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -595,7 +595,7 @@ order: 54
 &lt;input type=&quot;time&quot; id=&quot;meeting-time&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/time-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/time-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>

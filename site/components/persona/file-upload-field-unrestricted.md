@@ -32,7 +32,7 @@ order: 19
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -44,7 +44,7 @@ order: 19
           <pre><code class="language-html">&lt;input type=&quot;file&quot; id=&quot;fileUpload&quot; name=&quot;fileUpload&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -59,7 +59,7 @@ order: 19
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -72,7 +72,7 @@ order: 19
 &lt;input type=&quot;file&quot; id=&quot;fileUpload&quot; name=&quot;fileUpload&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -97,7 +97,7 @@ order: 19
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -109,7 +109,7 @@ order: 19
           <pre><code class="language-html">&lt;input type=&quot;file&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -121,7 +121,7 @@ order: 19
           <pre><code class="language-html">&lt;input type=&quot;file&quot; id=&quot;fileUpload&quot; name=&quot;fileUpload&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -133,7 +133,7 @@ order: 19
           <pre><code class="language-html">&lt;input type=&quot;file&quot; id=&quot;fileUpload&quot; name=&quot;fileUpload&quot; accept=&quot;*/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -146,7 +146,7 @@ order: 19
 &lt;input type=&quot;file&quot; id=&quot;file-upload&quot; name=&quot;file-upload&quot; accept=&quot;*/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -158,7 +158,7 @@ order: 19
           <pre><code class="language-html">&lt;input type=&quot;file&quot; id=&quot;file&quot; name=&quot;file&quot; aria-label=&quot;Upload a File&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>google/gemini-2.5-pro</strong></td>
@@ -174,7 +174,7 @@ order: 19
     &lt;meta name=&quot;viewport&quot; content=&quot;width=device-</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -187,7 +187,7 @@ order: 19
 &lt;input type=&quot;file&quot; id=&quot;file-upload&quot; name=&quot;file-upload&quot; multiple&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -200,7 +200,7 @@ order: 19
 &lt;input type=&quot;file&quot; id=&quot;file-upload&quot; name=&quot;file-upload&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -223,7 +223,7 @@ order: 19
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -251,7 +251,7 @@ order: 19
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>minimax/minimax-m2</strong></td>
@@ -266,7 +266,7 @@ order: 19
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/minimax-minimax-m2/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -282,7 +282,7 @@ order: 19
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/minimax-minimax-m2/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -308,7 +308,7 @@ order: 19
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/minimax-minimax-m2/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -330,7 +330,7 @@ order: 19
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/minimax-minimax-m2/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -347,7 +347,7 @@ order: 19
   &lt;title&gt;Accessible Unrestricted File Upload</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/minimax-minimax-m2/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>openai/gpt-5.1-codex</strong></td>
@@ -361,7 +361,7 @@ order: 19
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -377,7 +377,7 @@ order: 19
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -392,7 +392,7 @@ order: 19
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -405,7 +405,7 @@ order: 19
 &lt;input id=&quot;file-upload&quot; type=&quot;file&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -421,7 +421,7 @@ order: 19
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>qwen/qwen3-coder</strong></td>
@@ -433,7 +433,7 @@ order: 19
           <pre><code class="language-html">&lt;input type=&quot;file&quot; name=&quot;file&quot; id=&quot;file&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -446,7 +446,7 @@ order: 19
 &lt;label for=&quot;file-upload&quot;&gt;Upload a File&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -459,7 +459,7 @@ order: 19
 &lt;label for=&quot;file&quot;&gt;Upload a File&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -472,7 +472,7 @@ order: 19
 &lt;input type=&quot;file&quot; id=&quot;fileUpload&quot; name=&quot;fileUpload&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -485,7 +485,7 @@ order: 19
 &lt;input type=&quot;file&quot; id=&quot;file-upload&quot; name=&quot;file-upload&quot; accept=&quot;*/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -498,7 +498,7 @@ order: 19
 &lt;input type=&quot;file&quot; id=&quot;file&quot; name=&quot;file&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -514,7 +514,7 @@ order: 19
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -527,7 +527,7 @@ order: 19
 &lt;input type=&quot;file&quot; id=&quot;uploadFile&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -540,7 +540,7 @@ order: 19
 &lt;input type=&quot;file&quot; id=&quot;file-upload&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -553,7 +553,7 @@ order: 19
 &lt;input type=&quot;file&quot; id=&quot;file-upload&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/file-upload-field-unrestricted/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/file-upload-field-unrestricted/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>

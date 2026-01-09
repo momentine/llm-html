@@ -32,7 +32,7 @@ order: 7
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -56,7 +56,7 @@ order: 7
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -69,7 +69,7 @@ order: 7
 &lt;input type=&quot;text&quot; id=&quot;creditCard&quot; name=&quot;creditCard&quot; inputmode=&quot;numeric&quot; pattern=&quot;[0-9\s]{13,19}&quot; maxlength=&quot;19&quot; autocomplete=&quot;cc-number&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -82,7 +82,7 @@ order: 7
 &lt;input type=&quot;text&quot; id=&quot;creditCard&quot; name=&quot;creditCard&quot; maxlength=&quot;19&quot; placeholder=&quot;1234 5678 9012 3456&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -111,7 +111,7 @@ order: 7
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -123,7 +123,7 @@ order: 7
           <pre><code class="language-html">&lt;input type=&quot;text&quot; placeholder=&quot;Credit Card Number&quot; pattern=&quot;[0-9\s]{13,19}&quot; autocomplete=&quot;cc-number&quot; maxlength=&quot;19&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -135,7 +135,7 @@ order: 7
           <pre><code class="language-html">&lt;input type=&quot;text&quot; placeholder=&quot;Credit Card Number&quot; maxlength=&quot;19&quot; pattern=&quot;[0-9\s]{13,19}&quot; title=&quot;Enter your credit card number&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -148,7 +148,7 @@ order: 7
 &lt;input type=&quot;text&quot; id=&quot;credit-card-number&quot; name=&quot;credit-card-number&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -161,7 +161,7 @@ order: 7
 &lt;input type=&quot;text&quot; id=&quot;credit-card-number&quot; name=&quot;credit-card-number&quot; placeholder=&quot;1234 5678 9012 3456&quot; inputmode=&quot;numeric&quot; pattern=&quot;[0-9\s]{13,19}&quot; autocomplete=&quot;cc-number&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -175,7 +175,7 @@ order: 7
 &lt;span id=&quot;cc-help&quot; class=&quot;sr-only&quot;&gt;Enter your credit card number without spaces or dashes.&lt;/span&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>google/gemini-2.5-pro</strong></td>
@@ -191,7 +191,7 @@ order: 7
     &lt;meta name=&quot;viewport&quot; content</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -204,7 +204,7 @@ order: 7
 &lt;input type=&quot;text&quot; id=&quot;cc-number&quot; name=&quot;credit-card-number&quot; autocomplete=&quot;cc-number&quot; inputmode=&quot;numeric&quot; pattern=&quot;[0-9\s]{13,19}&quot; maxlength=&quot;19&quot; placeholder=&quot;xxxx xxxx xxxx xxxx&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -217,7 +217,7 @@ order: 7
 &lt;input type=&quot;tel&quot; id=&quot;cc-number&quot; name=&quot;credit-card-number&quot; autocomplete=&quot;cc-number&quot; inputmode=&quot;numeric&quot; pattern=&quot;[0-9\s]{13,19}&quot; placeholder=&quot;xxxx xxxx xxxx xxxx&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -233,7 +233,7 @@ order: 7
     &lt;meta name=&quot;viewport&quot; content</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -259,7 +259,7 @@ order: 7
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>minimax/minimax-m2</strong></td>
@@ -284,7 +284,7 @@ order: 7
 &lt;small id=&quot;cc-number-hint&quot;&gt;Enter the number without dashes or spaces; they will be ignored.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -309,7 +309,7 @@ order: 7
 &lt;small id=&quot;cc-number-hint&quot;&gt;Enter the number as it appears on the card, digits only.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -344,7 +344,7 @@ order: 7
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -392,7 +392,7 @@ order: 7
         aria-describedby=&quot;cc-number-hint&quot;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -433,7 +433,7 @@ order: 7
       amex</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>openai/gpt-5.1-codex</strong></td>
@@ -446,7 +446,7 @@ order: 7
 &lt;input type=&quot;text&quot; id=&quot;credit-card-number&quot; name=&quot;credit-card-number&quot; autocomplete=&quot;cc-number&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -461,7 +461,7 @@ order: 7
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -473,7 +473,7 @@ order: 7
           <pre><code class="language-html">&lt;label&gt;Credit Card Number&lt;input type=&quot;text&quot; name=&quot;credit-card-number&quot;&gt;&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -486,7 +486,7 @@ order: 7
 &lt;input id=&quot;ccNumber&quot; name=&quot;credit-card-number&quot; type=&quot;text&quot; inputmode=&quot;numeric&quot; autocomplete=&quot;cc-number&quot; /&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -502,7 +502,7 @@ order: 7
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>qwen/qwen3-coder</strong></td>
@@ -514,7 +514,7 @@ order: 7
           <pre><code class="language-html">&lt;input type=&quot;text&quot; id=&quot;credit-card-number&quot; name=&quot;credit-card-number&quot; placeholder=&quot;Credit Card Number&quot; maxlength=&quot;19&quot; autocomplete=&quot;cc-number&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -526,7 +526,7 @@ order: 7
           <pre><code class="language-html">&lt;input type=&quot;text&quot; id=&quot;credit-card-number&quot; name=&quot;credit-card-number&quot; placeholder=&quot;Credit Card Number&quot; maxlength=&quot;19&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -538,7 +538,7 @@ order: 7
           <pre><code class="language-html">&lt;input type=&quot;text&quot; id=&quot;credit-card-number&quot; name=&quot;credit-card-number&quot; placeholder=&quot;Credit Card Number&quot; maxlength=&quot;19&quot; autocomplete=&quot;cc-number&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -551,7 +551,7 @@ order: 7
 &lt;label for=&quot;credit-card-number&quot;&gt;Credit Card Number&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -578,7 +578,7 @@ order: 7
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -591,7 +591,7 @@ order: 7
 &lt;input type=&quot;text&quot; id=&quot;credit-card-number&quot; name=&quot;credit-card-number&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -606,7 +606,7 @@ order: 7
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -619,7 +619,7 @@ order: 7
 &lt;input type=&quot;text&quot; id=&quot;credit-card&quot; name=&quot;credit-card&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -632,7 +632,7 @@ order: 7
 &lt;input type=&quot;text&quot; id=&quot;cc-number&quot; name=&quot;credit-card-number&quot; maxlength=&quot;19&quot; placeholder=&quot;1234 5678 9012 3456&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -646,7 +646,7 @@ order: 7
 &lt;div id=&quot;cc-help&quot; class=&quot;sr-only&quot;&gt;Enter your 13 to 19 digit credit card number, spaces are allowed.&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/credit-card-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/credit-card-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>

@@ -31,7 +31,7 @@ order: 23
 &lt;small&gt;Must include 1 number and 1 symbol.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -45,7 +45,7 @@ order: 23
 &lt;small&gt;Must include 1 number and 1 symbol.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -59,7 +59,7 @@ order: 23
 &lt;div id=&quot;password-note&quot;&gt;Must include 1 number and 1 symbol.&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -73,7 +73,7 @@ order: 23
 &lt;small&gt;Must include 1 number and 1 symbol.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -95,7 +95,7 @@ order: 23
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -108,7 +108,7 @@ order: 23
 &lt;small&gt;Must include 1 number and 1 symbol.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -121,7 +121,7 @@ order: 23
 &lt;span id=&quot;password-note&quot;&gt;Must include 1 number and 1 symbol.&lt;/span&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -137,7 +137,7 @@ order: 23
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -151,7 +151,7 @@ order: 23
 &lt;p id=&quot;password-note&quot;&gt;Must include 1 number and 1 symbol.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -165,7 +165,7 @@ order: 23
 &lt;div id=&quot;password-requirements&quot;&gt;Must include 1 number and 1 symbol.&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>google/gemini-2.5-pro</strong></td>
@@ -178,7 +178,7 @@ order: 23
 &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-describedby=&quot;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -194,7 +194,7 @@ order: 23
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -210,7 +210,7 @@ order: 23
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -226,7 +226,7 @@ order: 23
     &lt;meta name=&quot;viewport&quot; content=&quot;width=</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -242,7 +242,7 @@ order: 23
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>minimax/minimax-m2</strong></td>
@@ -268,7 +268,7 @@ order: 23
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/minimax-minimax-m2/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -292,7 +292,7 @@ order: 23
 &lt;div id=&quot;passwordNote&quot;&gt;Must include 1 number and 1 symbol.&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/minimax-minimax-m2/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -306,7 +306,7 @@ order: 23
 &lt;small id=&quot;password-note&quot;&gt;Must include 1 number and 1 symbol.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/minimax-minimax-m2/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -329,7 +329,7 @@ order: 23
 &lt;small id=&quot;password-note&quot;&gt;Must include 1 number and 1 symbol.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/minimax-minimax-m2/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -352,7 +352,7 @@ order: 23
 &lt;p id=&quot;newPasswordHelp&quot;&gt;Must include 1 number and 1 symbol.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/minimax-minimax-m2/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>openai/gpt-5.1-codex</strong></td>
@@ -366,7 +366,7 @@ order: 23
 &lt;p&gt;Must include 1 number and 1 symbol.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -382,7 +382,7 @@ order: 23
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -396,7 +396,7 @@ order: 23
 &lt;p id=&quot;password-note&quot;&gt;Must include 1 number and 1 symbol.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -410,7 +410,7 @@ order: 23
 &lt;p&gt;Must include 1 number and 1 symbol.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -424,7 +424,7 @@ order: 23
 &lt;p id=&quot;password-note&quot;&gt;Must include 1 number and 1 symbol.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>qwen/qwen3-coder</strong></td>
@@ -437,7 +437,7 @@ order: 23
 &lt;small&gt;Must include 1 number and 1 symbol.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -450,7 +450,7 @@ order: 23
 &lt;small&gt;Must include 1 number and 1 symbol.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -466,7 +466,7 @@ order: 23
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -480,7 +480,7 @@ order: 23
 &lt;small&gt;Must include 1 number and 1 symbol.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -494,7 +494,7 @@ order: 23
 &lt;div id=&quot;password-requirements&quot;&gt;Must include 1 number and 1 symbol.&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -508,7 +508,7 @@ order: 23
 &lt;small&gt;Must include 1 number and 1 symbol.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -522,7 +522,7 @@ order: 23
 &lt;p class=&quot;note&quot;&gt;Must include 1 number and 1 symbol.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -536,7 +536,7 @@ order: 23
 &lt;small id=&quot;password-note&quot;&gt;Must include 1 number and 1 symbol.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -550,7 +550,7 @@ order: 23
 &lt;small&gt;Must include 1 number and 1 symbol.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -564,7 +564,7 @@ order: 23
 &lt;p id=&quot;password-note&quot;&gt;Must include 1 number and 1 symbol.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/password-field-with-accessible-description/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/password-field-with-accessible-description/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>

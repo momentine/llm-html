@@ -42,7 +42,7 @@ function updateCounter() {
 &lt;/script&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -69,7 +69,7 @@ function updateCounter() {
 &lt;/script&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -85,7 +85,7 @@ function updateCounter() {
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -99,7 +99,7 @@ function updateCounter() {
 &lt;div&gt;&lt;span id=&quot;charCount&quot;&gt;0&lt;/span&gt;/200 characters&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -137,7 +137,7 @@ function updateCounter() {
 &lt;/script&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -158,7 +158,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;/script&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -171,7 +171,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;div&gt;Characters: &lt;span id=&quot;counter&quot;&gt;0/200&lt;/span&gt;&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -185,7 +185,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;div id=&quot;counter&quot;&gt;0/200&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -199,7 +199,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;div id=&quot;counter&quot;&gt;0/200&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -222,7 +222,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;/script&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>google/gemini-2.5-pro</strong></td>
@@ -236,7 +236,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
   &lt;textarea id=&quot;message-field&quot; name=&quot;message&quot; maxlength=&quot;200&quot; rows=&quot;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -250,7 +250,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -264,7 +264,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;div id=&quot;char-count&quot; role=&quot;status&quot; aria-live=&quot;polite&quot;&gt;0 / 200&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -278,7 +278,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;div id=&quot;char-</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -294,7 +294,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
     &lt;meta name=&quot;viewport&quot; content=&quot;width=</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>minimax/minimax-m2</strong></td>
@@ -328,7 +328,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;/script&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/minimax-minimax-m2/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -370,7 +370,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/minimax-minimax-m2/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -435,7 +435,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
       aria-describedby=&quot;messageCounter&quot;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/minimax-minimax-m2/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -485,7 +485,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/minimax-minimax-m2/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -514,7 +514,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border:</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/minimax-minimax-m2/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>openai/gpt-5.1-codex</strong></td>
@@ -526,7 +526,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
           <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -538,7 +538,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
           <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -550,7 +550,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
           <pre><code class="language-html"></code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -564,7 +564,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;div&gt;0 / 200 characters&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -580,7 +580,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>qwen/qwen3-coder</strong></td>
@@ -598,7 +598,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -614,7 +614,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -632,7 +632,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -648,7 +648,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -673,7 +673,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -687,7 +687,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;span id=&quot;counter&quot;&gt;200 characters remaining&lt;/span&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -703,7 +703,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -717,7 +717,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;span id=&quot;counter&quot;&gt;0/200&lt;/span&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -731,7 +731,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;p&gt;Character count: &lt;span id=&quot;counter&quot;&gt;0&lt;/span&gt;/200&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -745,7 +745,7 @@ textarea.addEventListener(&#x27;input&#x27;, function() {
 &lt;div id=&quot;counter&quot; aria-live=&quot;polite&quot;&gt;0 / 200&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/textarea-with-character-counter/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/textarea-with-character-counter/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>

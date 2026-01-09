@@ -32,7 +32,7 @@ order: 20
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -44,7 +44,7 @@ order: 20
           <pre><code class="language-html">&lt;input type=&quot;file&quot; id=&quot;photoUpload&quot; name=&quot;photoUpload&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -59,7 +59,7 @@ order: 20
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -72,7 +72,7 @@ order: 20
 &lt;input type=&quot;file&quot; id=&quot;photoUpload&quot; name=&quot;photoUpload&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -100,7 +100,7 @@ order: 20
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -112,7 +112,7 @@ order: 20
           <pre><code class="language-html">&lt;input type=&quot;file&quot; accept=&quot;image/*&quot; name=&quot;photo&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -124,7 +124,7 @@ order: 20
           <pre><code class="language-html">&lt;input type=&quot;file&quot; accept=&quot;image/*&quot; id=&quot;photoUpload&quot; name=&quot;photo&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -137,7 +137,7 @@ order: 20
 &lt;label for=&quot;photo&quot;&gt;Upload Photo&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -150,7 +150,7 @@ order: 20
 &lt;input type=&quot;file&quot; id=&quot;photo-upload&quot; name=&quot;photo&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -163,7 +163,7 @@ order: 20
 &lt;label for=&quot;photo-upload&quot;&gt;Upload Photo&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>google/gemini-2.5-pro</strong></td>
@@ -188,7 +188,7 @@ order: 20
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -211,7 +211,7 @@ order: 20
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -234,7 +234,7 @@ order: 20
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -247,7 +247,7 @@ order: 20
 &lt;input type=&quot;file&quot; id=&quot;photo-upload&quot; name=&quot;photo&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -261,7 +261,7 @@ order: 20
   &lt;input type=&quot;file&quot; id=&quot;photo-upload&quot; name=&quot;photo-upload&quot; accept</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>minimax/minimax-m2</strong></td>
@@ -287,7 +287,7 @@ order: 20
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -313,7 +313,7 @@ order: 20
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -339,7 +339,7 @@ order: 20
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -352,7 +352,7 @@ order: 20
 &lt;input id=&quot;photo&quot; name=&quot;photo&quot; type=&quot;file&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -367,7 +367,7 @@ order: 20
     &lt;input</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>openai/gpt-5.1-codex</strong></td>
@@ -382,7 +382,7 @@ order: 20
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -397,7 +397,7 @@ order: 20
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -410,7 +410,7 @@ order: 20
 &lt;input type=&quot;file&quot; id=&quot;photoUpload&quot; name=&quot;photoUpload&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -423,7 +423,7 @@ order: 20
 &lt;input type=&quot;file&quot; id=&quot;upload-photo&quot; name=&quot;upload-photo&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -439,7 +439,7 @@ order: 20
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>qwen/qwen3-coder</strong></td>
@@ -451,7 +451,7 @@ order: 20
           <pre><code class="language-html">&lt;input type=&quot;file&quot; name=&quot;upload_photo&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -464,7 +464,7 @@ order: 20
 &lt;label for=&quot;upload-photo&quot;&gt;Upload Photo&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -477,7 +477,7 @@ order: 20
 &lt;input type=&quot;file&quot; id=&quot;photo-upload&quot; name=&quot;photo-upload&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -490,7 +490,7 @@ order: 20
 &lt;input type=&quot;file&quot; id=&quot;upload-photo&quot; name=&quot;upload-photo&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -504,7 +504,7 @@ order: 20
 &lt;div id=&quot;photo-upload-help&quot;&gt;Select an image file to upload (JPG, PNG, GIF)&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -517,7 +517,7 @@ order: 20
 &lt;input type=&quot;file&quot; id=&quot;upload-photo&quot; name=&quot;photo&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -530,7 +530,7 @@ order: 20
 &lt;input type=&quot;file&quot; id=&quot;photo-upload&quot; name=&quot;photo&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -543,7 +543,7 @@ order: 20
 &lt;input type=&quot;file&quot; id=&quot;photo&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -556,7 +556,7 @@ order: 20
 &lt;input type=&quot;file&quot; id=&quot;photo-upload&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -569,7 +569,7 @@ order: 20
 &lt;input type=&quot;file&quot; id=&quot;upload-photo&quot; accept=&quot;image/*&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/image-file-upload-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/image-file-upload-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>
