@@ -22,7 +22,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot; placeholder=&quot;Phone number&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -35,7 +35,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot; placeholder=&quot;Phone number&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -48,7 +48,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -61,7 +61,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -83,7 +83,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -95,7 +95,7 @@
           <pre><code class="language-html">&lt;input type=&quot;tel&quot; name=&quot;phone&quot; placeholder=&quot;Phone number&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -107,7 +107,7 @@
           <pre><code class="language-html">&lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot; placeholder=&quot;Phone number&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -120,7 +120,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -133,7 +133,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot; pattern=&quot;[0-9]{3}-[0-9]{3}-[0-9]{4}&quot; placeholder=&quot;123-456-7890&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -145,7 +145,7 @@
           <pre><code class="language-html">&lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot; aria-label=&quot;Phone number&quot; placeholder=&quot;Phone number&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>google/gemini-2.5-pro</strong></td>
@@ -158,7 +158,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -181,7 +181,7 @@
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -194,7 +194,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -217,7 +217,7 @@
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -233,7 +233,7 @@
   &lt;meta name=&quot;viewport&quot; content=&quot;width=</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>minimax/minimax-m2</strong></td>
@@ -246,7 +246,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot; placeholder=&quot;(555) 123-4567&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -269,7 +269,7 @@
 /&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -292,7 +292,7 @@
 &lt;small id=&quot;phone-hint&quot;&gt;Use numbers, spaces, dashes, parentheses, and an optional leading +.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -316,7 +316,7 @@
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -361,7 +361,7 @@
       const form = document</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>openai/gpt-5.1-codex</strong></td>
@@ -374,7 +374,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone-number&quot; name=&quot;phone-number&quot; /&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -387,7 +387,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -400,7 +400,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -413,7 +413,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -429,7 +429,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>qwen/qwen3-coder</strong></td>
@@ -441,7 +441,7 @@
           <pre><code class="language-html">&lt;input type=&quot;tel&quot; name=&quot;phone&quot; placeholder=&quot;Phone number&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -453,7 +453,7 @@
           <pre><code class="language-html">&lt;input type=&quot;tel&quot; name=&quot;phone&quot; placeholder=&quot;Phone number&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -465,7 +465,7 @@
           <pre><code class="language-html">&lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot; placeholder=&quot;Phone number&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -478,7 +478,7 @@
 &lt;label for=&quot;phone&quot;&gt;Phone number&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -492,7 +492,7 @@
 &lt;div id=&quot;phone-format&quot;&gt;Format: (123) 456-7890&lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -505,7 +505,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -518,7 +518,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -531,7 +531,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -544,7 +544,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -557,7 +557,7 @@
 &lt;input type=&quot;tel&quot; id=&quot;phone&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/phone-number-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/phone-number-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>

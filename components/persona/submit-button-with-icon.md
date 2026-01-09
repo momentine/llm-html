@@ -27,7 +27,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -44,7 +44,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -61,7 +61,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -78,7 +78,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -96,7 +96,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -114,7 +114,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -131,7 +131,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -150,7 +150,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -168,7 +168,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -185,7 +185,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>google/gemini-2.5-pro</strong></td>
@@ -198,7 +198,7 @@
   &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;16&quot; height=&quot;1</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -211,7 +211,7 @@
   &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;16&quot; height=&quot;1</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -224,7 +224,7 @@
   &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -236,7 +236,7 @@
           <pre><code class="language-html">&lt;button type=&quot;submit&quot; style=&quot;display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding:</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -254,7 +254,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>minimax/minimax-m2</strong></td>
@@ -272,7 +272,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/minimax-minimax-m2/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -289,7 +289,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/minimax-minimax-m2/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -307,7 +307,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/minimax-minimax-m2/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -346,7 +346,7 @@
 &lt;/style&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/minimax-minimax-m2/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -364,7 +364,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/minimax-minimax-m2/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>openai/gpt-5.1-codex</strong></td>
@@ -380,7 +380,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -392,7 +392,7 @@
           <pre><code class="language-html">&lt;button type=&quot;submit&quot;&gt;🚀 Submit&lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -404,7 +404,7 @@
           <pre><code class="language-html">&lt;button type=&quot;submit&quot;&gt;✅ Submit&lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -416,7 +416,7 @@
           <pre><code class="language-html">&lt;label for=&quot;submit-btn&quot;&gt;Submit&lt;/label&gt;&lt;button id=&quot;submit-btn&quot; type=&quot;submit&quot;&gt;📨 Submit&lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -433,7 +433,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>qwen/qwen3-coder</strong></td>
@@ -450,7 +450,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -467,7 +467,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -484,7 +484,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -502,7 +502,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -519,7 +519,7 @@
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -536,7 +536,7 @@ Submit
 &lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -548,7 +548,7 @@ Submit
           <pre><code class="language-html">&lt;button type=&quot;submit&quot;&gt;&amp;#10140; Submit&lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -560,7 +560,7 @@ Submit
           <pre><code class="language-html">&lt;button type=&quot;submit&quot;&gt;✅ Submit&lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -572,7 +572,7 @@ Submit
           <pre><code class="language-html">&lt;button type=&quot;submit&quot;&gt;✓ Submit&lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -584,7 +584,7 @@ Submit
           <pre><code class="language-html">&lt;button type=&quot;submit&quot; aria-label=&quot;Submit form&quot;&gt;&amp;#10003; Submit&lt;/button&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/submit-button-with-icon/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/submit-button-with-icon/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>

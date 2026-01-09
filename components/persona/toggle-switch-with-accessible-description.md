@@ -41,7 +41,7 @@
 &lt;/style&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -73,7 +73,7 @@
 &lt;/style&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -91,7 +91,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -112,7 +112,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -150,7 +150,7 @@
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -167,7 +167,7 @@
 &lt;p class=&quot;note&quot;&gt;Turn alerts on or off.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -253,7 +253,7 @@
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -269,7 +269,7 @@
 &lt;small&gt;Turn alerts on or off.&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -285,7 +285,7 @@
 &lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -302,7 +302,7 @@
 &lt;p class=&quot;toggle-note&quot;&gt;Turn alerts on or off.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>google/gemini-2.5-pro</strong></td>
@@ -318,7 +318,7 @@
     &lt;meta name=&quot;viewport&quot; content</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -334,7 +334,7 @@
   &lt;input type=&quot;checkbox&quot; id=&quot;notifications-toggle&quot; role</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -348,7 +348,7 @@
   &lt;input type=&quot;checkbox&quot;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -364,7 +364,7 @@
     &lt;meta name=&quot;viewport&quot; content=&quot;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -380,7 +380,7 @@
     &lt;meta name=&quot;viewport&quot; content=&quot;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>minimax/minimax-m2</strong></td>
@@ -438,7 +438,7 @@
     box-shadow: inset 0 0</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/minimax-minimax-m2/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -493,7 +493,7 @@
       clip</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/minimax-minimax-m2/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -558,7 +558,7 @@
       appearance: none</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/minimax-minimax-m2/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -657,7 +657,7 @@
       background:</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/minimax-minimax-m2/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -678,7 +678,7 @@
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/minimax-minimax-m2/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>openai/gpt-5.1-codex</strong></td>
@@ -699,7 +699,7 @@
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -715,7 +715,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -733,7 +733,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -749,7 +749,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -768,7 +768,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>qwen/qwen3-coder</strong></td>
@@ -784,7 +784,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -800,7 +800,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -818,7 +818,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -837,7 +837,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -865,7 +865,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -881,7 +881,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -895,7 +895,7 @@
 &lt;p&gt;Turn alerts on or off.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -911,7 +911,7 @@
 &lt;p&gt;Turn alerts on or off.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -925,7 +925,7 @@
 &lt;p&gt;Turn alerts on or off.&lt;/p&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -939,7 +939,7 @@
 &lt;span id=&quot;toggle-note&quot;&gt;Turn alerts on or off.&lt;/span&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/toggle-switch-with-accessible-description/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>

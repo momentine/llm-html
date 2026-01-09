@@ -22,7 +22,7 @@
 &lt;input type=&quot;url&quot; id=&quot;website&quot; name=&quot;website&quot; placeholder=&quot;https://example.com&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -34,7 +34,7 @@
           <pre><code class="language-html">&lt;input type=&quot;url&quot; name=&quot;website&quot; id=&quot;website&quot; placeholder=&quot;Website URL&quot; aria-label=&quot;Website URL&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -47,7 +47,7 @@
 &lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website-url&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -60,7 +60,7 @@
 &lt;input type=&quot;url&quot; id=&quot;websiteUrl&quot; name=&quot;websiteUrl&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -80,7 +80,7 @@
 &gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -92,7 +92,7 @@
           <pre><code class="language-html">&lt;input type=&quot;url&quot; name=&quot;website_url&quot; placeholder=&quot;Website URL&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -104,7 +104,7 @@
           <pre><code class="language-html">&lt;input type=&quot;url&quot; name=&quot;website-url&quot; placeholder=&quot;Website URL&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -116,7 +116,7 @@
           <pre><code class="language-html">&lt;input type=&quot;url&quot; placeholder=&quot;Website URL&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -129,7 +129,7 @@
 &lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website-url&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -141,7 +141,7 @@
           <pre><code class="language-html">&lt;input type=&quot;url&quot; name=&quot;website-url&quot; id=&quot;website-url&quot; aria-label=&quot;Website URL&quot; placeholder=&quot;https://example.com&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>google/gemini-2.5-pro</strong></td>
@@ -154,7 +154,7 @@
 &lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website_url&quot; placeholder=&quot;https://www.example.com&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -169,7 +169,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -182,7 +182,7 @@
 &lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website-url&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -195,7 +195,7 @@
 &lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website-url&quot; placeholder=&quot;https://example.com&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -209,7 +209,7 @@
 &lt;p id=&quot;url</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>minimax/minimax-m2</strong></td>
@@ -222,7 +222,7 @@
 &lt;input type=&quot;url&quot; id=&quot;website&quot; name=&quot;website&quot; placeholder=&quot;https://example.com&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -249,7 +249,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -263,7 +263,7 @@
 &lt;small id=&quot;website-url-hint&quot;&gt;Enter a full URL starting with http:// or https://&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -301,7 +301,7 @@
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -369,7 +369,7 @@
         setError(&#x27;Enter a valid URL that starts with http</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>openai/gpt-5.1-codex</strong></td>
@@ -382,7 +382,7 @@
 &lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website-url&quot; placeholder=&quot;https://example.com&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -397,7 +397,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -410,7 +410,7 @@
 &lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website-url&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -423,7 +423,7 @@
 &lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website-url&quot; placeholder=&quot;https://example.com&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -438,7 +438,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>qwen/qwen3-coder</strong></td>
@@ -450,7 +450,7 @@
           <pre><code class="language-html">&lt;input type=&quot;url&quot; name=&quot;website_url&quot; placeholder=&quot;Website URL&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -462,7 +462,7 @@
           <pre><code class="language-html">&lt;input type=&quot;url&quot; name=&quot;website_url&quot; placeholder=&quot;https://example.com&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -474,7 +474,7 @@
           <pre><code class="language-html">&lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website-url&quot; placeholder=&quot;https://example.com&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -487,7 +487,7 @@
 &lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website-url&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -499,7 +499,7 @@
           <pre><code class="language-html">&lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website-url&quot; aria-label=&quot;Website URL&quot; placeholder=&quot;https://example.com&quot; required&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -512,7 +512,7 @@
 &lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website-url&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -525,7 +525,7 @@
 &lt;input type=&quot;url&quot; id=&quot;url&quot; name=&quot;url&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -538,7 +538,7 @@
 &lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website-url&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -551,7 +551,7 @@
 &lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website-url&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -564,7 +564,7 @@
 &lt;input type=&quot;url&quot; id=&quot;website-url&quot; name=&quot;website-url&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/url-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/url-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>

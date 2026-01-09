@@ -24,7 +24,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -39,7 +39,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -54,7 +54,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -67,7 +67,7 @@
 &lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document-upload&quot; accept=&quot;.pdf,.doc,.docx,.txt&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -108,7 +108,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
@@ -120,7 +120,7 @@
           <pre><code class="language-html">&lt;input type=&quot;file&quot; name=&quot;document&quot; accept=&quot;.doc,.docx,.pdf,.txt&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -132,7 +132,7 @@
           <pre><code class="language-html">&lt;input type=&quot;file&quot; accept=&quot;.doc,.docx,.pdf,.txt&quot; id=&quot;documentUpload&quot; name=&quot;documentUpload&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -145,7 +145,7 @@
 &lt;label for=&quot;document&quot;&gt;Upload Document&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -158,7 +158,7 @@
 &lt;input type=&quot;file&quot; id=&quot;file-upload&quot; name=&quot;file-upload&quot; accept=&quot;.doc,.docx,.pdf,.txt&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -172,7 +172,7 @@
 &lt;small id=&quot;upload-help&quot;&gt;Accepted file types: PDF, DOC, DOCX, TXT&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>google/gemini-2.5-pro</strong></td>
@@ -188,7 +188,7 @@
     &lt;meta name=&quot;viewport&quot; content=&quot;width</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -205,7 +205,7 @@
     &lt;title&gt;Document Upload&lt;/title&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -228,7 +228,7 @@
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -251,7 +251,7 @@
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -269,7 +269,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>minimax/minimax-m2</strong></td>
@@ -285,7 +285,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/minimax-minimax-m2/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -319,7 +319,7 @@
 &lt;/html&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/minimax-minimax-m2/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -334,7 +334,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/minimax-minimax-m2/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -348,7 +348,7 @@
 &lt;small id=&quot;document-upload-help&quot;&gt;Accepted types: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, TXT, RTF, ODT, ODS, ODP&lt;/small&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/minimax-minimax-m2/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -397,7 +397,7 @@
         aria-describedby=&quot;document-help document-filename&quot;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>openai/gpt-5.1-codex</strong></td>
@@ -410,7 +410,7 @@
 &lt;input type=&quot;file&quot; id=&quot;upload-document&quot; name=&quot;upload_document&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -426,7 +426,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -439,7 +439,7 @@
 &lt;input type=&quot;file&quot; id=&quot;upload-document&quot; name=&quot;document&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -452,7 +452,7 @@
 &lt;input type=&quot;file&quot; id=&quot;upload-document&quot; name=&quot;upload-document&quot; accept=&quot;.pdf,.doc,.docx,.txt&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -469,7 +469,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>qwen/qwen3-coder</strong></td>
@@ -482,7 +482,7 @@
 &lt;label for=&quot;document&quot;&gt;Upload Document&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -495,7 +495,7 @@
 &lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -508,7 +508,7 @@
 &lt;label for=&quot;document-upload&quot;&gt;Upload Document&lt;/label&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -521,7 +521,7 @@
 &lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document-upload&quot; accept=&quot;.pdf,.doc,.docx,.txt,.rtf&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -550,7 +550,7 @@
 &lt;/div&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
     </tr>
     <tr>
       <td><strong>x-ai/grok-code-fast-1</strong></td>
@@ -563,7 +563,7 @@
 &lt;input type=&quot;file&quot; id=&quot;document&quot; name=&quot;document&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -578,7 +578,7 @@
 &lt;/form&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -591,7 +591,7 @@
 &lt;input type=&quot;file&quot; id=&quot;upload&quot; name=&quot;document&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -604,7 +604,7 @@
 &lt;input type=&quot;file&quot; id=&quot;document-upload&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
     </tr>
     <tr>
       <td></td>
@@ -617,7 +617,7 @@
 &lt;input type=&quot;file&quot; id=&quot;document-upload&quot; name=&quot;document&quot;&gt;</code></pre>
         </details>
       </td>
-      <td><a href="docs/persona-outputs/document-file-upload-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+      <td><a href="https://momentine.github.io/llm-html/persona-outputs/document-file-upload-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>
