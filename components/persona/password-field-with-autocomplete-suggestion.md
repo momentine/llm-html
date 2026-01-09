@@ -12,6 +12,207 @@
   </thead>
   <tbody>
     <tr>
+      <td><strong>anthropic/claude-sonnet-4.5</strong></td>
+      <td>G1</td>
+      <td>Insert a password field for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;password&quot; name=&quot;new-password&quot; id=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Password field: new-password with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;password&quot; name=&quot;new-password&quot; id=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A password field labeled “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New Password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a password field and label for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New Password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible password field for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New Password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot; aria-required=&quot;true&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
+      <td>G1</td>
+      <td>Insert a password field for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Password field: new-password with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A password field labeled “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a password field and label for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New Password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible password field for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New Password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>google/gemini-2.5-pro</strong></td>
+      <td>G1</td>
+      <td>Insert a password field for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Password field: new-password with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A password field labeled “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Password Field&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;label for=&quot;new-password&quot;&gt;new-password&lt;/label&gt;
+    &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a password field and label for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New Password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible password field for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
       <td><strong>minimax/minimax-m2</strong></td>
       <td>G1</td>
       <td>Insert a password field for “new-password” with autocomplete=new-password</td>
@@ -148,6 +349,200 @@
         </details>
       </td>
       <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/minimax-minimax-m2/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-5.1-codex</strong></td>
+      <td>G1</td>
+      <td>Insert a password field for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New Password&lt;/label&gt;
+&lt;input id=&quot;new-password&quot; type=&quot;password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Password field: new-password with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;form&gt;
+  &lt;label for=&quot;new-password-field&quot;&gt;New Password&lt;/label&gt;
+  &lt;input type=&quot;password&quot; id=&quot;new-password-field&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;
+&lt;/form&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A password field labeled “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;new-password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a password field and label for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New Password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible password field for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;form&gt;
+  &lt;label for=&quot;new-password&quot;&gt;New Password&lt;/label&gt;
+  &lt;input id=&quot;new-password&quot; name=&quot;new-password&quot; type=&quot;password&quot; autocomplete=&quot;new-password&quot; aria-describedby=&quot;password-help&quot; required&gt;
+  &lt;span id=&quot;password-help&quot;&gt;Use at least 12 characters with a mix of letters, numbers, and symbols.&lt;/span&gt;
+  &lt;button type=&quot;submit&quot;&gt;Save Password&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>qwen/qwen3-coder</strong></td>
+      <td>G1</td>
+      <td>Insert a password field for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Password field: new-password with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A password field labeled “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a password field and label for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New Password:&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible password field for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot; aria-label=&quot;New password&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>x-ai/grok-code-fast-1</strong></td>
+      <td>G1</td>
+      <td>Insert a password field for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Password field: new-password with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A password field labeled “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;new-password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a password field and label for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New Password&lt;/label&gt;&lt;input id=&quot;new-password&quot; type=&quot;password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible password field for “new-password” with autocomplete=new-password</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New Password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; autocomplete=&quot;new-password&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-autocomplete-suggestion/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>

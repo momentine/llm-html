@@ -12,6 +12,226 @@
   </thead>
   <tbody>
     <tr>
+      <td><strong>anthropic/claude-sonnet-4.5</strong></td>
+      <td>G1</td>
+      <td>Insert a textarea field for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot; rows=&quot;5&quot; cols=&quot;30&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Textarea field: Message</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;textarea name=&quot;message&quot; id=&quot;message&quot; placeholder=&quot;Message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A textarea field labeled “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a textarea field and label for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible textarea field for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+  &lt;textarea 
+    id=&quot;message&quot; 
+    name=&quot;message&quot; 
+    rows=&quot;5&quot; 
+    aria-required=&quot;true&quot;
+    aria-describedby=&quot;message-description&quot;
+  &gt;&lt;/textarea&gt;
+  &lt;span id=&quot;message-description&quot; class=&quot;sr-only&quot;&gt;Enter your message here&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
+      <td>G1</td>
+      <td>Insert a textarea field for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;textarea name=&quot;message&quot; placeholder=&quot;Message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Textarea field: Message</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;textarea name=&quot;message&quot; rows=&quot;4&quot; cols=&quot;50&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A textarea field labeled “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a textarea field and label for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible textarea field for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;textarea aria-label=&quot;Message&quot; placeholder=&quot;Message&quot; required&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>google/gemini-2.5-pro</strong></td>
+      <td>G1</td>
+      <td>Insert a textarea field for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot; rows=&quot;4&quot; cols=&quot;50&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Textarea field: Message</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Textarea Field&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+    &lt;textarea id=&quot;message&quot; name=&quot;message&quot; rows=&quot;4&quot; cols=&quot;50&quot;&gt;&lt;/textarea&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A textarea field labeled “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a textarea field and label for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible textarea field for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Accessible Textarea&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;label for=&quot;user-message&quot;&gt;Message&lt;/label&gt;
+    &lt;textarea id=&quot;user-message&quot; name=&quot;user-message&quot; rows=&quot;8&quot; cols=&quot;50&quot; required aria-required=&quot;true&quot;&gt;&lt;/textarea&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
       <td><strong>minimax/minimax-m2</strong></td>
       <td>G1</td>
       <td>Insert a textarea field for “Message”</td>
@@ -177,6 +397,196 @@
         </details>
       </td>
       <td><a href="docs/persona-outputs/textarea-field/minimax-minimax-m2/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-5.1-codex</strong></td>
+      <td>G1</td>
+      <td>Insert a textarea field for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;textarea name=&quot;message&quot; id=&quot;message&quot; placeholder=&quot;Message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Textarea field: Message</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A textarea field labeled “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a textarea field and label for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible textarea field for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot; rows=&quot;5&quot; cols=&quot;33&quot; aria-label=&quot;Message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>qwen/qwen3-coder</strong></td>
+      <td>G1</td>
+      <td>Insert a textarea field for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;textarea name=&quot;message&quot; placeholder=&quot;Enter your message here&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Textarea field: Message</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;textarea name=&quot;message&quot; placeholder=&quot;Enter your message here&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A textarea field labeled “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;textarea id=&quot;message&quot; name=&quot;message&quot; rows=&quot;4&quot; cols=&quot;50&quot; placeholder=&quot;Enter your message here...&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a textarea field and label for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible textarea field for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;textarea id=&quot;message&quot; name=&quot;message&quot; rows=&quot;4&quot; cols=&quot;50&quot; aria-label=&quot;Message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>x-ai/grok-code-fast-1</strong></td>
+      <td>G1</td>
+      <td>Insert a textarea field for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message:&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Textarea field: Message</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A textarea field labeled “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a textarea field and label for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible textarea field for “Message”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;message&quot;&gt;Message&lt;/label&gt;
+&lt;textarea id=&quot;message&quot; name=&quot;message&quot; placeholder=&quot;Enter your message here&quot;&gt;&lt;/textarea&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/textarea-field/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>

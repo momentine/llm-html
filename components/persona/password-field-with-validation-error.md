@@ -12,6 +12,250 @@
   </thead>
   <tbody>
     <tr>
+      <td><strong>anthropic/claude-sonnet-4.5</strong></td>
+      <td>G1</td>
+      <td>Insert a password field for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+  &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;new-password-error&quot;&gt;
+  &lt;span id=&quot;new-password-error&quot; role=&quot;alert&quot;&gt;Too short. Must be at least 8 characters.&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Password field: New password with error message “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+  &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;password-error&quot;&gt;
+  &lt;span id=&quot;password-error&quot; role=&quot;alert&quot;&gt;Too short. Must be at least 8 characters.&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A password field labeled “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+  &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;password-error&quot;&gt;
+  &lt;span id=&quot;password-error&quot; role=&quot;alert&quot;&gt;Too short. Must be at least 8 characters.&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a password field and label for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-describedby=&quot;new-password-error&quot; aria-invalid=&quot;true&quot;&gt;
+&lt;span id=&quot;new-password-error&quot; role=&quot;alert&quot;&gt;Too short. Must be at least 8 characters.&lt;/span&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible password field for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+  &lt;input 
+    type=&quot;password&quot; 
+    id=&quot;new-password&quot; 
+    name=&quot;new-password&quot; 
+    aria-invalid=&quot;true&quot; 
+    aria-describedby=&quot;new-password-error&quot;
+    required
+  &gt;
+  &lt;div id=&quot;new-password-error&quot; role=&quot;alert&quot; aria-live=&quot;polite&quot;&gt;
+    Too short. Must be at least 8 characters.
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
+      <td>G1</td>
+      <td>Insert a password field for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;password&quot; placeholder=&quot;New password&quot; required minlength=&quot;8&quot;&gt;
+&lt;span style=&quot;color: red; display: block;&quot;&gt;Too short. Must be at least 8 characters.&lt;/span&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Password field: New password with error message “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Password Field&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;form&gt;
+        &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+        &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; required minlength=&quot;8&quot;&gt;
+        &lt;div style=&quot;color: red; font-size: 0.875rem; margin-top: 0.25rem;&quot;&gt;Too short. Must be at least 8 characters.&lt;/div&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A password field labeled “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-describedby=&quot;password-error&quot;&gt;
+&lt;p id=&quot;password-error&quot; style=&quot;color: red;&quot;&gt;Too short. Must be at least 8 characters.&lt;/p&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a password field and label for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-describedby=&quot;password-error&quot;&gt;
+&lt;div id=&quot;password-error&quot; role=&quot;alert&quot;&gt;Too short. Must be at least 8 characters.&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible password field for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-describedby=&quot;password-error&quot; aria-invalid=&quot;true&quot;&gt;
+&lt;p id=&quot;password-error&quot; role=&quot;alert&quot;&gt;Too short. Must be at least 8 characters.&lt;/p&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>google/gemini-2.5-pro</strong></td>
+      <td>G1</td>
+      <td>Insert a password field for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+  &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new_password&quot; minlength=&quot;8&quot; required aria-describedby=&quot;password-error&quot; aria-invalid=&quot;true&quot;&gt;
+  &lt;p id=&quot;password-error&quot; role=&quot;alert&quot;&gt;Too short. Must be at least 8 characters.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Password field: New password with error message “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+  &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new_password&quot; aria-describedby=&quot;password-error&quot; aria-invalid=&quot;true&quot; required minlength=&quot;8&quot;&gt;
+  &lt;p id=&quot;password-error&quot; role=&quot;alert&quot;&gt;Too short. Must be at least 8 characters.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A password field labeled “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+  &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-describedby=&quot;password-error&quot; aria-invalid=&quot;true&quot; required minlength=&quot;8&quot; autocomplete=&quot;new-password&quot;&gt;
+  &lt;p id=&quot;password-error&quot;&gt;Too short. Must be at least 8 characters.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a password field and label for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new_password&quot; minlength=&quot;8&quot; required aria-invalid=&quot;true&quot; aria-describedby=&quot;password-error&quot;&gt;
+&lt;p id=&quot;password-error&quot; role=&quot;alert&quot;&gt;Too short. Must be at least 8 characters.&lt;/p&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible password field for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+  &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
       <td><strong>minimax/minimax-m2</strong></td>
       <td>G1</td>
       <td>Insert a password field for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
@@ -296,6 +540,230 @@
         </details>
       </td>
       <td><a href="docs/persona-outputs/password-field-with-validation-error/minimax-minimax-m2/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-5.1-codex</strong></td>
+      <td>G1</td>
+      <td>Insert a password field for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-describedby=&quot;new-password-error&quot;&gt;
+&lt;p id=&quot;new-password-error&quot;&gt;Too short. Must be at least 8 characters.&lt;/p&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Password field: New password with error message “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;form&gt;
+&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-describedby=&quot;password-error&quot; aria-invalid=&quot;true&quot;&gt;
+&lt;p id=&quot;password-error&quot;&gt;Too short. Must be at least 8 characters.&lt;/p&gt;
+&lt;/form&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A password field labeled “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;password-error&quot;&gt;
+&lt;p id=&quot;password-error&quot;&gt;Too short. Must be at least 8 characters.&lt;/p&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a password field and label for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot;&gt;
+&lt;div&gt;Too short. Must be at least 8 characters.&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible password field for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;form&gt;
+&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-describedby=&quot;password-error&quot; aria-invalid=&quot;true&quot;&gt;
+&lt;p id=&quot;password-error&quot; role=&quot;alert&quot;&gt;Too short. Must be at least 8 characters.&lt;/p&gt;
+&lt;/form&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>qwen/qwen3-coder</strong></td>
+      <td>G1</td>
+      <td>Insert a password field for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+  &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; required&gt;
+  &lt;div class=&quot;error&quot;&gt;Too short. Must be at least 8 characters.&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Password field: New password with error message “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+  &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; required&gt;
+  &lt;div class=&quot;error-message&quot;&gt;Too short. Must be at least 8 characters.&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A password field labeled “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+  &lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; required&gt;
+  &lt;div class=&quot;error&quot;&gt;Too short. Must be at least 8 characters.&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a password field and label for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; required&gt;
+&lt;div class=&quot;error&quot;&gt;Too short. Must be at least 8 characters.&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible password field for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; name=&quot;new-password&quot; aria-describedby=&quot;password-error&quot; aria-invalid=&quot;true&quot; minlength=&quot;8&quot; required&gt;
+&lt;div id=&quot;password-error&quot; role=&quot;alert&quot;&gt;Too short. Must be at least 8 characters.&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>x-ai/grok-code-fast-1</strong></td>
+      <td>G1</td>
+      <td>Insert a password field for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+  &lt;input type=&quot;password&quot; id=&quot;new-password&quot; required minlength=&quot;8&quot;&gt;
+  &lt;span id=&quot;error-message&quot; style=&quot;color: red;&quot;&gt;Too short. Must be at least 8 characters.&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Password field: New password with error message “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;newpassword&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;newpassword&quot; name=&quot;newpassword&quot;&gt;
+&lt;p&gt;Too short. Must be at least 8 characters.&lt;/p&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A password field labeled “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot;&gt;
+&lt;span class=&quot;error&quot;&gt;Too short. Must be at least 8 characters.&lt;/span&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a password field and label for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;div&gt;
+  &lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+  &lt;input type=&quot;password&quot; id=&quot;new-password&quot;&gt;
+  &lt;span&gt;Too short. Must be at least 8 characters.&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible password field for “New password” with a validation error “Too short. Must be at least 8 characters.”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;new-password&quot;&gt;New password&lt;/label&gt;
+&lt;input type=&quot;password&quot; id=&quot;new-password&quot; aria-invalid=&quot;true&quot; aria-describedby=&quot;error-message&quot;&gt;
+&lt;div id=&quot;error-message&quot; role=&quot;alert&quot;&gt;Too short. Must be at least 8 characters.&lt;/div&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/password-field-with-validation-error/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
     </tr>
   </tbody>
 </table>
