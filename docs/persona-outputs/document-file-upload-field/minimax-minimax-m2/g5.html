@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accessible Document Upload</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 2rem; line-height: 1.5; }
+    .field { margin-block: 1rem; max-width: 40rem; }
+    label { font-weight: 600; display: inline-block; margin-bottom: .375rem; }
+    .help { font-size: .9375rem; color: #555; margin-top: .375rem; }
+    @media (prefers-color-scheme: dark) {
+      .help { color: #c9c9c9; }
+    }
+    .file-row { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+    input[type="file"] { font: inherit; }
+    .file-name { min-height: 1.25rem; }
+    button.clear-btn {
+      border: 1px solid currentColor;
+      background: transparent;
+      padding: .375rem .625rem;
+      border-radius: .375rem;
+      cursor: pointer;
+    }
+    button.clear-btn:disabled { opacity: .6; cursor: not-allowed; }
+  </style>
+</head>
+<body>
+  <form action="#" method="post" enctype="multipart/form-data">
+    <div class="field">
+      <label for="document-upload">Upload Document</label>
+      <input
+        id="document-upload"
+        name="document"
+        type="file"
+        accept=".pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.txt,.rtf,.odt,.ods,.odp,.csv"
+        aria-describedby="document-help document-filename"

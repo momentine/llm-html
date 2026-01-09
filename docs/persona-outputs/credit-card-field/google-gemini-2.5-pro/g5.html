@@ -1,0 +1,17 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Credit Card Field</title>
+</head>
+<body>
+    <div>
+        <label for="cc-number">Credit Card Number</label>
+        <input type="text" id="cc-number" name="credit-card-number" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" required aria-required="true" aria-describedby="cc-number-desc">
+        <span id="cc-number-desc">Enter the 13 to 19 digit number on your card. Do not include dashes.</span>
+    </div>
+</body>
+</html>
+```
