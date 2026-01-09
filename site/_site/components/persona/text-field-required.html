@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>text-field-required · LLM HTML Component Benchmark</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;background:#fff;color:#111;}
+    header{border-bottom:1px solid #eee;padding:14px 18px;position:sticky;top:0;background:#fff;z-index:5;}
+    header a{color:#111;text-decoration:none;font-weight:700;}
+    .wrap{max-width:1200px;margin:0 auto;padding:18px;}
+    .tabs a{display:inline-block;margin-right:12px;padding:6px 10px;border-radius:10px;text-decoration:none;color:#111;border:1px solid #eee;}
+    .tabs a.active{border-color:#111;}
+    .grid{display:grid;grid-template-columns:320px 1fr;gap:20px;}
+    .panel{border:1px solid #eee;border-radius:14px;padding:14px;}
+    .sidebar a{display:block;padding:8px 10px;border-radius:10px;text-decoration:none;color:#111;}
+    .sidebar a:hover{background:#f7f7f7;}
+    .muted{color:#666;font-size:14px;}
+    details{border:1px solid #eee;border-radius:12px;padding:10px 12px;margin:12px 0;}
+    details > summary{cursor:pointer;font-weight:700;}
+    table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px;}
+    th,td{border:1px solid #e6e6e6;padding:8px;vertical-align:top;}
+    th{background:#fafafa;text-align:left;}
+    pre{overflow:auto;background:#0b0b0b;color:#f4f4f4;padding:12px;border-radius:12px;}
+    code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a href="/">LLM HTML Component Benchmark</a>
+      <div class="tabs" style="margin-top:10px;">
+        <a href="/minimal" class="">Minimal</a>
+        <a href="/best-case" class="">Best Practice</a>
+        <a href="/persona" class="active">With Persona</a>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <details>
+  <summary><strong>Text Field (Required)</strong></summary>
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Variant</th>
+      <th>Prompt</th>
+      <th>Output</th>
+      <th>File Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>anthropic/claude-sonnet-4.5</strong></td>
+      <td>G1</td>
+      <td>Insert a required text field for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orangeColor&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orangeColor&quot; name=&quot;orangeColor&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/anthropic-claude-sonnet-4.5/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Text field (required): What color is an orange?</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orangeColor&quot;&gt;What color is an orange? &lt;span style=&quot;color: red;&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orangeColor&quot; name=&quot;orangeColor&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/anthropic-claude-sonnet-4.5/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A required text field labeled “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orangeColor&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orangeColor&quot; name=&quot;orangeColor&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/anthropic-claude-sonnet-4.5/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a required text field and label for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orangeColor&quot;&gt;What color is an orange? *&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orangeColor&quot; name=&quot;orangeColor&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/anthropic-claude-sonnet-4.5/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible text field (required) for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;
+  What color is an orange? &lt;span aria-label=&quot;required&quot;&gt;*&lt;/span&gt;
+&lt;/label&gt;
+&lt;input 
+  type=&quot;text&quot; 
+  id=&quot;orange-color&quot; 
+  name=&quot;orange-color&quot; 
+  required 
+  aria-required=&quot;true&quot;
+&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/anthropic-claude-sonnet-4.5/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>deepseek/deepseek-chat-v3.1</strong></td>
+      <td>G1</td>
+      <td>Insert a required text field for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;text&quot; name=&quot;color&quot; required placeholder=&quot;What color is an orange?&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/deepseek-deepseek-chat-v3.1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Text field (required): What color is an orange?</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;text&quot; required placeholder=&quot;What color is an orange?&quot; /&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/deepseek-deepseek-chat-v3.1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A required text field labeled “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;color&quot; name=&quot;color&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/deepseek-deepseek-chat-v3.1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a required text field and label for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/deepseek-deepseek-chat-v3.1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible text field (required) for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;text&quot; name=&quot;color&quot; id=&quot;color&quot; required aria-required=&quot;true&quot; aria-label=&quot;What color is an orange?&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/deepseek-deepseek-chat-v3.1/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>google/gemini-2.5-pro</strong></td>
+      <td>G1</td>
+      <td>Insert a required text field for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orange_color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange_color&quot; name=&quot;orange_color&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/google-gemini-2.5-pro/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Text field (required): What color is an orange?</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orange_color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange_color&quot; name=&quot;orange_color&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/google-gemini-2.5-pro/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A required text field labeled “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/google-gemini-2.5-pro/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a required text field and label for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/google-gemini-2.5-pro/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible text field (required) for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/google-gemini-2.5-pro/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>minimax/minimax-m2</strong></td>
+      <td>G1</td>
+      <td>Insert a required text field for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+  &lt;title&gt;Orange Color Question&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form&gt;
+    &lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+    &lt;input id=&quot;orange-color&quot; name=&quot;orange_color&quot; type=&quot;text&quot; required /&gt;
+    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/minimax-minimax-m2/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Text field (required): What color is an orange?</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Color Question&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form action=&quot;#&quot; method=&quot;get&quot;&gt;
+    &lt;label for=&quot;color&quot;&gt;What color is an orange?&lt;/label&gt;
+    &lt;input id=&quot;color&quot; name=&quot;color&quot; type=&quot;text&quot; required autocomplete=&quot;off&quot;&gt;
+    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/minimax-minimax-m2/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A required text field labeled “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Orange Color Question&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form action=&quot;#&quot; method=&quot;post&quot;&gt;
+    &lt;label for=&quot;orange_color&quot;&gt;What color is an orange?&lt;/label&gt;
+    &lt;input type=&quot;text&quot; id=&quot;orange_color&quot; name=&quot;orange_color&quot; required aria-describedby=&quot;orange_color_help&quot;&gt;
+    &lt;small id=&quot;orange_color_help&quot;&gt;Please enter the color of</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/minimax-minimax-m2/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a required text field and label for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+  &lt;title&gt;Orange Color Question&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form&gt;
+    &lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+    &lt;input id=&quot;orange-color&quot; name=&quot;orangeColor&quot; type=&quot;text&quot; required /&gt;
+    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/minimax-minimax-m2/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible text field (required) for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;form action=&quot;#&quot; method=&quot;post&quot;&gt;
+  &lt;div&gt;
+    &lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+    &lt;input
+      id=&quot;orange-color&quot;
+      name=&quot;orange_color&quot;
+      type=&quot;text&quot;
+      required
+      aria-required=&quot;true&quot;
+      aria-describedby=&quot;orange-help orange-error&quot;
+      autocomplete=&quot;off&quot;
+      placeholder=&quot;e.g., orange&quot;
+      pattern=&quot;^\s*[Oo][Rr][Aa][Nn][Gg][Ee]\s*$&quot;
+    /&gt;
+    &lt;div id=&quot;orange-help&quot;&gt;Enter the color of an orange (e.g., orange).&lt;/div&gt;
+    &lt;div id=&quot;orange-error&quot; role=&quot;alert&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/minimax-minimax-m2/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>openai/gpt-5.1-codex</strong></td>
+      <td>G1</td>
+      <td>Insert a required text field for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;text&quot; name=&quot;color_of_orange&quot; placeholder=&quot;What color is an orange?&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/openai-gpt-5.1-codex/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Text field (required): What color is an orange?</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;form&gt;
+&lt;label&gt;What color is an orange?
+&lt;input type=&quot;text&quot; required&gt;&lt;/label&gt;
+&lt;/form&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/openai-gpt-5.1-codex/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A required text field labeled “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/openai-gpt-5.1-codex/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a required text field and label for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input id=&quot;orange-color&quot; name=&quot;orange-color&quot; type=&quot;text&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/openai-gpt-5.1-codex/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible text field (required) for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;color-question&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input id=&quot;color-question&quot; name=&quot;color-question&quot; type=&quot;text&quot; required aria-required=&quot;true&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/openai-gpt-5.1-codex/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>qwen/qwen3-coder</strong></td>
+      <td>G1</td>
+      <td>Insert a required text field for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;text&quot; name=&quot;orange_color&quot; placeholder=&quot;What color is an orange?&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/qwen-qwen3-coder/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Text field (required): What color is an orange?</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;text&quot; required placeholder=&quot;What color is an orange?&quot;&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/qwen-qwen3-coder/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A required text field labeled “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;input type=&quot;text&quot; name=&quot;orange-color&quot; required&gt;
+&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/qwen-qwen3-coder/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a required text field and label for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/qwen-qwen3-coder/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible text field (required) for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/qwen-qwen3-coder/g5.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td><strong>x-ai/grok-code-fast-1</strong></td>
+      <td>G1</td>
+      <td>Insert a required text field for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;color&quot; name=&quot;color&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/x-ai-grok-code-fast-1/g1.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G2</td>
+      <td>Text field (required): What color is an orange?</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;color&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/x-ai-grok-code-fast-1/g2.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G3</td>
+      <td>A required text field labeled “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/x-ai-grok-code-fast-1/g3.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G4</td>
+      <td>Build a required text field and label for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/x-ai-grok-code-fast-1/g4.html">Open HTML</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>G5</td>
+      <td>Accessible text field (required) for “What color is an orange?”</td>
+      <td>
+        <details>
+          <summary>View code</summary>
+          <pre><code class="language-html">&lt;label for=&quot;orange-color&quot;&gt;What color is an orange?&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;orange-color&quot; name=&quot;orange-color&quot; required&gt;</code></pre>
+        </details>
+      </td>
+      <td><a href="docs/persona-outputs/text-field-required/x-ai-grok-code-fast-1/g5.html">Open HTML</a></td>
+    </tr>
+  </tbody>
+</table>
+
+</details>
+
+
+  </main>
+</body>
+</html>

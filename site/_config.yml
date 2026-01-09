@@ -1,0 +1,10 @@
+title: LLM HTML Component Benchmark
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
