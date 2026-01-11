@@ -1,0 +1,48 @@
+<form id="passwordForm" novalidate>
+  <label for="newPassword">New password</label>
+  <input
+    type="password"
+    id="newPassword"
+    name="newPassword"
+    minlength="8"
+    required
+    aria-describedby="passwordError"
+    aria-invalid="false"
+  />
+  <p id="passwordError" role="alert" style="color:#b00020; display:none;">Too short. Must be at least 8 characters.</p>
+  <button type="submit">Submit</button>
+
+  <script>
+    (function () {
+      const input = document.getElementById('newPassword');
+      const error = document.getElementById('passwordError');
+
+      function updateError() {
+        const v = input.validity;
+        if (v.tooShort) {
+          input.setCustomValidity('Too short. Must be at least 8 characters.');
+          error.style.display = 'block';
+          input.setAttribute('aria-invalid', 'true');
+        } else {
+          input.setCustomValidity('');
+          error.style.display = 'none';
+          input.setAttribute('aria-invalid', 'false');
+        }
+      }
+
+      input.addEventListener('input', updateError);
+      input.addEventListener('blur', updateError);
+
+      document.getElementById('passwordForm').addEventListener('submit', function (e) {
+        updateError();
+        if (!input.checkValidity()) {
+          e.preventDefault();
+          input.reportValidity();
+        } else {
+          e.preventDefault();
+          alert('Password is valid.');
+        }
+      });
+    })();
+  </script>
+</form>

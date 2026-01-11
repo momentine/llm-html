@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Website URL Field</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 2rem; }
+    .field { margin-bottom: 1rem; max-width: 42rem; }
+    label { display: block; font-weight: 600; margin-bottom: .375rem; }
+    input[type="url"] {
+      width: 100%; padding: .625rem .75rem; border: 1px solid #c9c9c9;
+      border-radius: .375rem; font-size: 1rem; line-height: 1.25;
+    }
+    input[type="url"]:focus { outline: 2px solid #4c9ffe; outline-offset: 2px; border-color: #4c9ffe; }
+    .hint { font-size: .875rem; color: #666; margin-top: .375rem; }
+    .error { font-size: .875rem; color: #b00020; margin-top: .375rem; min-height: 1.25em; }
+    button { padding: .6rem 1rem; border: 1px solid #888; border-radius: .375rem; background: #f4f4f4; cursor: pointer; }
+    button:hover { background: #ececec; }
+  </style>
+</head>
+<body>
+  <form id="urlForm" action="#" method="post" novalidate>
+    <div class="field">
+      <label for="website-url">Website URL</label>
+      <input
+        id="website-url"
+        name="website_url"
+        type="url"
+        inputmode="url"
+        placeholder="https://example.com"
+        autocomplete="url"
+        required
+        aria-describedby="url-hint url-error"
+        spellcheck="false"
+        pattern="https?://.+"
+        title="Enter a full URL that starts with http:// or https://"
+      />
+      <div id="url-hint" class="hint">Include http:// or https:// (e.g., https://www.example.com)</div

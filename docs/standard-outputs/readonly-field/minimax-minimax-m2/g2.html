@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Read-only User ID Field</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <form action="/submit" method="post">
+    <label for="userId">User ID</label>
+    <input
+      id="userId"
+      name="userId"
+      type="text"
+      value="USR-00123"
+      readonly
+      aria-readonly="true"
+      tabindex="0"
+      style="padding:.4rem .6rem; border:1px solid #bbb; border-radius:4px;"
+    >
+    <!-- Hidden field ensures the value is submitted even if the visible field is disabled -->
+    <input type="hidden" name="userId" value="USR-00123">
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

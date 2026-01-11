@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Notifications Toggle</title>
+  <style>
+    :root {
+      --switch-width: 44px;
+      --switch-height: 24px;
+      --switch-padding: 3px;
+      --knob-size: 18px;
+      --track-off: #c8c8c8;
+      --track-on: #2d7dff;
+      --knob: #ffffff;
+      --focus: #5b9dff;
+      --text: #1f2937;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 24px;
+      color: var(--text);
+      background: #f7fafc;
+    }
+
+    .field {
+      display: grid;
+      gap: 8px;
+      max-width: 360px;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    }
+
+    .label-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .label-row label {
+      font-weight: 600;
+    }
+
+    /* Visually hidden but accessible checkbox */
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0

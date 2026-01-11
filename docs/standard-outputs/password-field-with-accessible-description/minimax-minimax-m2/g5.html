@@ -1,0 +1,36 @@
+<form id="newPasswordForm" novalidate>
+  <div>
+    <label for="newPassword">New password</label>
+    <p id="passwordHint">Must include 1 number and 1 symbol.</p>
+    <div style="position:relative;display:flex;align-items:center;gap:.5rem">
+      <input
+        id="newPassword"
+        name="newPassword"
+        type="password"
+        inputmode="text"
+        autocomplete="new-password"
+        aria-describedby="passwordHint passwordError"
+        aria-invalid="false"
+        required
+      />
+      <button type="button" id="togglePassword" aria-pressed="false" aria-controls="newPassword" style="white-space:nowrap">
+        Show
+      </button>
+    </div>
+    <p id="passwordError" role="alert" aria-live="polite" style="color:#b00020;margin:.25rem 0 0;min-height:1.25rem"></p>
+    <button type="submit" id="submitBtn" disabled>Set password</button>
+  </div>
+</form>
+
+<script>
+  (function () {
+    const form = document.getElementById('newPasswordForm');
+    const input = document.getElementById('newPassword');
+    const errorEl = document.getElementById('passwordError');
+    const toggleBtn = document.getElementById('togglePassword');
+    const submitBtn = document.getElementById('submitBtn');
+
+    function validate(value) {
+      const hasNumber = /[0-9]/.test(value);
+      const hasSymbol = /[^A-Za-z0-9]/.test(value);
+      const valid = hasNumber && hasSymbol;

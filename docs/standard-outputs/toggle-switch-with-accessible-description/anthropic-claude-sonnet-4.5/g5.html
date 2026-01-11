@@ -1,0 +1,21 @@
+<div role="region" aria-labelledby="toggle-label">
+  <div style="display: flex; align-items: center; justify-content: space-between; max-width: 400px; padding: 16px; border: 1px solid #ccc; border-radius: 8px;">
+    <div>
+      <label id="toggle-label" for="notifications-toggle" style="display: block; font-weight: bold; margin-bottom: 4px;">
+        Notifications
+      </label>
+      <p id="toggle-description" style="margin: 0; font-size: 14px; color: #666;">
+        Turn alerts on or off.
+      </p>
+    </div>
+    <button
+      id="notifications-toggle"
+      role="switch"
+      aria-checked="false"
+      aria-describedby="toggle-description"
+      style="position: relative; width: 50px; height: 26px; background-color: #ccc; border: none; border-radius: 13px; cursor: pointer; transition: background-color 0.3s;"
+      onclick="this.setAttribute('aria-checked', this.getAttribute('aria-checked') === 'false' ? 'true' : 'false'); this.style.backgroundColor = this.getAttribute('aria-checked') === 'true' ? '#4CAF50' : '#ccc'; this.querySelector('span').style.transform = this.getAttribute('aria-checked') === 'true' ? 'translateX(24px)' : 'translateX(0)';">
+      <span style="position: absolute; top: 3px; left: 3px; width: 20px; height: 20px; background-color: white; border-radius: 50%; transition: transform 0.3s;"></span>
+    </button>
+  </div>
+</div>

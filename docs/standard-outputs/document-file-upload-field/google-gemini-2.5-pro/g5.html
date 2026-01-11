@@ -1,0 +1,18 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Accessible File Upload</title>
+</head>
+<body>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <div>
+            <label for="doc-upload">Upload Document</label>
+            <input type="file" id="doc-upload" name="document" aria-describedby="file-constraints">
+            <p id="file-constraints">Accepted file types: PDF, DOCX, TXT. Max size: 5MB.</p>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+```

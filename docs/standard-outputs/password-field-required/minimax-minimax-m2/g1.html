@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New Password</title>
+</head>
+<body>
+  <form action="/update-password" method="post">
+    <label for="new-password">New password</label>
+    <input
+      id="new-password"
+      name="new_password"
+      type="password"
+      required
+      autocomplete="new-password"
+      placeholder="Enter new password"
+    />
+    <button type="submit">Set password</button>
+  </form>
+</body>
+</html>

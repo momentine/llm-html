@@ -1,0 +1,8 @@
+<textarea id="message" name="message" maxlength="200" rows="4" cols="50" placeholder="Message"></textarea>
+<div id="charCount">0 / 200</div>
+<script>
+document.getElementById('message').addEventListener('input', function() {
+    var length = this.value.length;
+    document.getElementById('charCount').textContent = length + ' / 200';
+});
+</script>

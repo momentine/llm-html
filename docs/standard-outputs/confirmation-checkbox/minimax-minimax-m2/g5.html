@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessible Terms Checkbox</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.5; margin: 2rem; }
+    .field { margin: 1rem 0; }
+    .error { color: #b00020; margin-top: .5rem; }
+    .visually-hidden { position: absolute !important; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); white-space: nowrap; }
+  </style>
+</head>
+<body>
+  <form id="signup" action="#" method="post" novalidate>
+    <div class="field">
+      <input type="checkbox" id="agree" name="agree" required aria-describedby="agree-help agree-error" aria-invalid="false">
+      <label for="agree">I agree to the <a href="/terms" target="_blank" rel="noopener noreferrer">Terms and Conditions</a></label>
+      <div id="agree-help" class="visually-hidden">You must agree before creating an account.</div>
+      <div id="agree-error" class="error" role

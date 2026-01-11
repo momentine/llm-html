@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Accessible Number Field — Item Quantity</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <main>
+    <form id="order-form" action="#" method="post" novalidate>
+      <fieldset>
+        <legend>Item Quantity</legend>
+
+        <label for="quantity">Item Quantity</label>
+        <div>
+          <input
+            id="quantity"
+            name="quantity"
+            type="number"
+            inputmode="numeric"
+            pattern="[0-9]*"
+            required
+            aria-required="true"
+            min="1"
+            max="99"
+            step="1"
+            value="1"

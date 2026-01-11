@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessible Text Field: What color is an orange?</title>
+</head>
+<body>
+  <main>
+    <h1>What color is an orange?</h1>
+
+    <form id="orangeForm" action="#" novalidate>
+      <div>
+        <label for="orangeAnswer">Your answer</label>
+        <input
+          id="orangeAnswer"
+          name="answer"
+          type="text"
+          inputmode="text"
+          autocomplete="off"
+          autocapitalize="none"
+          spellcheck="false"
+          aria-describedby="orangeHelp orangeError"
+          aria-invalid="false"
+          required
+        />
+        <div id="orangeHelp">Tip: The answer is a single color word.</div>
+        <div id="orangeError" role="alert" aria-live="polite" style="color:#b00020;"></div>
+      </div>
+
+      <button type="submit">Submit</button>
+
+      <div id="orangeSuccess" role="status" aria-live="polite" style="margin

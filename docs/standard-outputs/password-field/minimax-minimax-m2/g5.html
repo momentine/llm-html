@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessible New Password Field</title>
+  <style>
+    :root {
+      --border: #d0d7de;
+      --text: #0f172a;
+      --muted: #475569;
+      --error: #b00020;
+      --focus: #1a73e8;
+      --bg: #ffffff;
+    }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 2rem;
+      line-height: 1.5;
+    }
+    .field { margin-bottom: 1rem; max-width: 28rem; }
+    label { display: inline-block; font-weight: 600; margin-bottom: 0.5rem; }
+    .input-row {
+      position: relative;
+      display: flex;
+      align-items: stretch;
+    }
+    input[type="password"],
+    input[type="text"] {
+      flex: 1 1 auto;
+      padding: 0.625rem 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 0.375rem;
+      font-size: 1rem;
+      line-height: 1.25rem;
+    }
+    input:focus {
+      outline: 3px solid transparent;
+      box-shadow: 0 0 0 3px color-mix(in oklab, var(--focus) 30%, transparent);
+      border-color: var(--focus);
+    }

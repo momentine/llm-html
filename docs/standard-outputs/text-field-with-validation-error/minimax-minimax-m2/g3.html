@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Color Validation</title>
+  <style>
+    .field { margin-bottom: 0.5rem; }
+    label { display: block; margin-bottom: 0.25rem; font-weight: 600; }
+    input[type="text"] { padding: 0.5rem; width: 16rem; }
+    .error { color: #b00020; margin-top: 0.25rem; }
+  </style>
+</head>
+<body>
+  <form id="colorForm" novalidate>
+    <div class="field">
+      <label for="color">What color is an orange?</label>
+      <input id="color" name="color" type="text" required aria-describedby="colorError" />
+      <div id="colorError" class="error" role="alert" aria-live="assertive"></div>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    (function () {
+      const form = document.getElementById('colorForm');
+      const input = document.getElementById('color');
+      const errorEl = document.getElementById('colorError');
+
+      function showError(message) {
+        errorEl.textContent = message;
+        input.setAttribute('aria-invalid', 'true');
+      }
+
+      function clearError() {
+        errorEl.textContent = '';
+        input.removeAttribute('aria-invalid');
+      }
+
+      input.addEventListener('input', clearError);
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const value =

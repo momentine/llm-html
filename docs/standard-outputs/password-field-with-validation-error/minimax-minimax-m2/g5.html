@@ -1,0 +1,44 @@
+<form id="passwordForm" novalidate>
+  <div>
+    <label for="new-password">New password</label>
+    <input
+      id="new-password"
+      name="new-password"
+      type="password"
+      inputmode="text"
+      autocomplete="new-password"
+      aria-describedby="password-error"
+      required
+    />
+    <p id="password-error" role="alert" aria-live="assertive" aria-atomic="true">
+      Too short. Must be at least 8 characters.
+    </p>
+  </div>
+  <button type="submit">Create password</button>
+
+  <script>
+    (function () {
+      const input = document.getElementById('new-password');
+      const error = document.getElementById('password-error');
+
+      function validate() {
+        const value = input.value;
+        const isValid = value.length >= 8;
+        input.setAttribute('aria-invalid', String(!isValid));
+        error.style.display = isValid ? 'none' : 'block';
+        return isValid;
+      }
+
+      input.addEventListener('input', validate);
+      document.getElementById('passwordForm').addEventListener('submit', function (e) {
+        if (!validate()) {
+          e.preventDefault();
+          input.focus();
+        }
+      });
+
+      // Initialize state
+      validate();
+    })();
+  </script>
+</form>

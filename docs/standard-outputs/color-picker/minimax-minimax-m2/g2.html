@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pick a color</title>
+</head>
+<body>
+  <label for="colorPicker">Pick a color</label>
+  <input id="colorPicker" type="color" value="#1e90ff" />
+  <span id="colorValue" aria-live="polite">#1e90ff</span>
+
+  <script>
+    (function () {
+      const picker = document.getElementById('colorPicker');
+      const valueEl = document.getElementById('colorValue');
+
+      function update() {
+        valueEl.textContent = picker.value;
+      }
+
+      picker.addEventListener('input', update);
+      update();
+    })();
+  </script>
+</body>
+</html>

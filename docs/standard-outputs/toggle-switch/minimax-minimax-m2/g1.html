@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Notifications Toggle</title>
+<body>
+  <label for="notifications" class="switch" style="display:inline-flex;align-items:center;gap:.6rem;cursor:pointer;font:16px system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;">
+    <input id="notifications" type="checkbox" checked aria-label="Notifications" style="position:absolute;opacity:0;width:0;height:0;">
+    <span class="slider" style="position:relative;display:inline-block;width:48px;height:28px;background:#d0d7de;border-radius:999px;transition:background .2s ease;box-shadow:inset 0 0 0 1px rgba(0,0,0,.06);">
+      <span class="knob" style="position:absolute;top:3px;left:3px;width:22px;height:22px;background:#fff;border-radius:50%;box-shadow:0 1px 2px rgba(0,0,0,.25);transition:transform .2s ease;"></span>
+    </span>
+    <span class="label-text" style="user-select:none;">Notifications</span>
+  </label>
+  <script>
+   

@@ -1,0 +1,24 @@
+<form id="urlForm" action="#" method="post" novalidate>
+  <div class="field">
+    <label for="websiteUrl">Website URL</label>
+    <p id="urlHelp" class="help">Enter the full URL, including http:// or https://. Example: https://www.example.com</p>
+
+    <input
+      id="websiteUrl"
+      name="websiteUrl"
+      type="url"
+      inputmode="url"
+      placeholder="https://www.example.com"
+      required
+      aria-describedby="urlHelp urlError"
+      aria-invalid="false"
+      pattern="https?://.+"
+      autocomplete="url"
+    />
+
+    <p id="urlError" class="error" role="alert" aria-live="polite"></p>
+    <p id="status" class="status" aria-live="polite" aria-atomic="true"></p>
+  </div>
+
+  <button type="submit">Save</button>
+</form>

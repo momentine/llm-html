@@ -1,0 +1,19 @@
+<form action="/subscribe" method="post">
+  <div>
+    <label for="desired-email">Desired email address <span aria-hidden="true">*</span></label>
+    <input
+      id="desired-email"
+      name="desired-email"
+      type="email"
+      inputmode="email"
+      autocomplete="email"
+      placeholder="name@example.com"
+      required
+      aria-describedby="desired-email-hint desired-email-error"
+      aria-invalid="false"
+    />
+    <div id="desired-email-hint" class="hint">Enter a valid email address (e.g., name@example.com).</div>
+    <div id="desired-email-error" class="error" role="alert" hidden></div>
+  </div>
+  <button type="submit">Submit</button>
+</form>

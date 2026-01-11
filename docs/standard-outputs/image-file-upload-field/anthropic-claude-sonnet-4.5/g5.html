@@ -1,0 +1,20 @@
+```html
+<div>
+  <label for="photo-upload">
+    Upload Photo
+    <span aria-label="required">*</span>
+  </label>
+  <input 
+    type="file" 
+    id="photo-upload" 
+    name="photo-upload"
+    accept="image/*"
+    aria-required="true"
+    aria-describedby="photo-upload-description photo-upload-error"
+  />
+  <div id="photo-upload-description">
+    Accepted formats: JPG, PNG, GIF. Maximum file size: 5MB.
+  </div>
+  <div id="photo-upload-error" role="alert" aria-live="polite"></div>
+</div>
+```

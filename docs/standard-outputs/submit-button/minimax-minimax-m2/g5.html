@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessible Submit Button</title>
+</head>
+<body>
+  <form action="/submit" method="post">
+    <div>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required aria-describedby="email-help" />
+      <div id="email-help">We'll never share your email.</div>
+    </div>
+
+    <button type="submit" aria-label="Submit form">Submit</button>
+  </form>
+</body>
+</html>

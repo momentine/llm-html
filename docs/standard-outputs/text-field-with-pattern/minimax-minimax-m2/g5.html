@@ -1,0 +1,17 @@
+<form action="#" method="post">
+  <label for="code">Enter two letters followed by 3 numbers</label>
+  <input
+    id="code"
+    name="code"
+    type="text"
+    inputmode="latin"
+    autocomplete="one-time-code"
+    placeholder="AB123"
+    maxlength="5"
+    pattern="[A-Za-z]{2}[0-9]{3}"
+    aria-describedby="code-help"
+    aria-label="Two letters followed by three numbers"
+    required
+  />
+  <div id="code-help" role="note">Format: 2 letters then 3 digits (e.g., AB123). Use uppercase or lowercase letters.</div>
+</form>

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Upload Photo</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; padding: 24px; }
+    .upload { display: inline-flex; align-items: center; gap: 12px; }
+    .upload input[type="file"] { display: none; }
+    .upload .button {
+      display: inline-flex; align-items: center; justify-content: center;
+      padding: 10px 14px; border-radius: 8px; border: 1px solid #c7c7c7;
+      background: #f7f7f7; cursor: pointer; user-select: none;
+      font-weight: 600; color: #222;
+    }
+    .upload .button:hover { background: #efefef; }
+    .upload .hint { font-size: 0.9rem; color: #555; }
+  </style>
+</head>
+<body>
+  <form action="#" method="post" enctype="multipart/form-data">
+    <label class="upload" for="photo">
+      <span class="button" role="button" aria-controls="photo">Upload Photo</span>
+      <input id="photo" name="photo" type="file" accept="image/*" aria-label="Upload Photo" />
+      <span class="hint" id="photo-hint">No file chosen</span>
+    </label>
+  </form>
+
+  <script>
+    const input = document.getElementById('photo');
+    const hint = document.getElementById('photo-hint');
+    input.addEventListener('change', () => {
+      hint.textContent = input.files && input.files.length ? input.files[0].name : 'No file chosen';
+    });
+  </script>
+</body

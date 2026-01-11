@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessible Color Question</title>
+  <style>
+    .error { color: #b00020; margin-top: 0.25rem; }
+    .success { color: #0a7f2e; margin-top: 0.25rem; }
+    .visually-hidden {
+      position: absolute !important;
+      height: 1px; width: 1px;
+      overflow: hidden; clip: rect(1px, 1px, 1px, 1px);
+      white-space: nowrap; border: 0; padding: 0; margin: -1px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <form id="color-form" action="#" method="post" novalidate>
+      <div>
+        <label for="orange-color">What color is an orange?</label>
+        <input
+          id="orange-color"
+          name="color"
+          type="text"
+          inputmode="text"
+          autocomplete="off"
+          required
+          aria-describedby="color-help color-error"
+          aria-invalid="false"
+        />
+        <div id="color-help" class="visually-hidden">Type your answer, then press the button to submit.</div>
+        <p id="color-error" class="error" role="alert" aria-live="assertive" hidden></p>
+      </div>
+
+      <button type="submit">Submit</button>
+
+      <p id="form-success" class="success" role="status"

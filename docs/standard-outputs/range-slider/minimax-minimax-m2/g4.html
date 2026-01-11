@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Volume Range Slider</title>
+</head>
+<body>
+  <label for="volume">Volume</label>
+  <input id="volume" type="range" min="1" max="10" step="1" value="5" aria-label="Volume" />
+  <output id="volume-value" for="volume">5</output>
+
+  <script>
+    const volume = document.getElementById('volume');
+    const volumeValue = document.getElementById('volume-value');
+    volume.addEventListener('input', () => {
+      volumeValue.textContent = volume.value;
+      volume.setAttribute('aria-valuenow', volume.value);
+    });
+    // Initialize ARIA value
+    volume.setAttribute('aria-valuenow', volume.value);
+  </script>
+</body>
+</html>

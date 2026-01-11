@@ -1,0 +1,19 @@
+```html
+<div>
+  <label for="meeting-time">
+    Meeting Time
+    <span aria-label="required">*</span>
+  </label>
+  <input 
+    type="time" 
+    id="meeting-time" 
+    name="meeting-time"
+    required
+    aria-required="true"
+    aria-describedby="meeting-time-description"
+  >
+  <div id="meeting-time-description" class="description">
+    Please select a time for the meeting in 24-hour format
+  </div>
+</div>
+```

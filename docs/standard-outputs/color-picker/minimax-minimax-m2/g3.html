@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Pick a color</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <label for="colorPicker">Pick a color</label>
+  <input type="color" id="colorPicker" name="colorPicker" value="#0ea5e9" aria-label="Pick a color" />
+  <div id="colorPreview" role="status" aria-live="polite" style="margin-top:8px;width:120px;height:40px;border:1px solid #ccc;border-radius:4px;"></div>
+
+  <script>
+    (function () {
+      const picker = document.getElementById('colorPicker');
+      const preview = document.getElementById('colorPreview');
+
+      function updatePreview() {
+        preview.style.backgroundColor = picker.value;
+        preview.textContent = picker.value.toUpperCase();
+        preview.setAttribute('aria-label', 'Selected color ' + picker.value.toUpperCase());
+      }
+
+      picker.addEventListener('input', updatePreview);
+      updatePreview();
+    })();
+  </script>
+</body>
+</html>

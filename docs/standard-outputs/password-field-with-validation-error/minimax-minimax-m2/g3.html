@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Password Field with Validation Error</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <div>
+      <label for="new-password">New password</label>
+      <input
+        id="new-password"
+        name="new-password"
+        type="password"
+        required
+        minlength="8"
+        aria-describedby="new-password-error"
+        aria-invalid="true"
+        value="123"
+      />
+      <p id="new-password-error" role="alert" aria-live="assertive">
+        Too short. Must be at least 8 characters.
+      </p>
+    </div>
+  </form>
+</body>
+</html>

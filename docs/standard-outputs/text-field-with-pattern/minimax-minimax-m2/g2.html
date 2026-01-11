@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Two Letters + Three Numbers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <form id="codeForm" action="#" method="post" novalidate>
+    <label for="code">Enter two letters followed by 3 numbers</label>
+    <input
+      id="code"
+      name="code"
+      type="text"
+      inputmode="latin"
+      autocomplete="off"
+      autocapitalize="characters"
+      spellcheck="false"
+      placeholder="AB123"
+      maxlength="5"
+      pattern="[A-Za-z]{2}[0-9]{3}"
+      aria-describedby="hint error"
+      required
+    >
+    <div id="hint" style="font-size:0.9em;color:#555;margin-top:0.25rem;">Format: 2 letters + 3 digits (e.g., AB123)</div>
+    <div id="error" role="alert" style="font-size:0.9em;color:#b00020;margin-top:0.25rem;display:none;">Please enter exactly 2 letters followed by 3 digits.</div>
+
+    <button type="submit" style="margin-top:0.75rem;">Submit</button>
+  </form>
+
+  <script>
+    (function () {
+      const input = document.getElementById('code');
+      const form = document.getElementById('codeForm');
+      const errorEl = document.getElementById('error');
+
+      function isLetter(ch) {
+        return /^[A-Za-z]$/.test(ch);
+      }
+      function isDigit(ch) {
+        return /^[0-9]$/.test(ch);
+      }
+
+      input.addEventListener('keydown', function (e) {
+        const pos = this.selectionStart;
+        const val = this.value;
+        const key = e.key;
+
+        if (key === 'Tab' || key === 'Enter' || key === 'Escape' || key === 'ArrowLeft' || key === 'ArrowRight' || key === 'ArrowUp

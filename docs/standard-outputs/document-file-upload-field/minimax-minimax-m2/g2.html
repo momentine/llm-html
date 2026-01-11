@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Upload Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <main>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <div>
+        <label for="document">Upload Document</label>
+        <input
+          id="document"
+          name="document"
+          type="file"
+          accept=".pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.txt,.rtf,.odt,.csv,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-powerpoint,application/vnd.openxmlformats-officedocument.presentationml.presentation,text/plain,application/rtf,application/vnd.oasis.opendocument.text"
+          required
+          aria-describedby="document-help document-filename"
+        />
+        <div id="document-help">Accepted formats: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, TXT, RTF, ODT, CSV. Max size: 10 MB.</div>
+        <div id="document-filename" aria-live="polite">No file selected</div>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>

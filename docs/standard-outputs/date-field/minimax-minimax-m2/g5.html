@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessible Birthdate Field</title>
+</head>
+<body>
+  <main>
+    <form id="birthdate-form" novalidate>
+      <fieldset>
+        <legend>Birthdate</legend>
+
+        <div id="birthdate-help">
+          Enter your date of birth. Format: YYYY-MM-DD.
+        </div>
+
+        <label for="birthdate">Birthdate</label>
+        <input
+          id="birthdate"
+          name="birthdate"
+          type="date"
+          autocomplete="bday"
+          inputmode="numeric"
+          aria-describedby="birthdate-help birthdate-error"
+          required
+        />
+
+        <p id="birthdate-error" role="alert" aria-live="polite"></p>
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <script>
+    (function () {
+      const form = document.getElementById('birthdate-form');
+      const input = document.getElementById('birth

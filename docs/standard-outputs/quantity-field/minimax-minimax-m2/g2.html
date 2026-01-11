@@ -1,0 +1,17 @@
+<form>
+  <label for="item_quantity">Item Quantity</label>
+  <input
+    type="number"
+    id="item_quantity"
+    name="item_quantity"
+    min="1"
+    max="999"
+    step="1"
+    required
+    inputmode="numeric"
+    pattern="[0-9]*"
+    placeholder="e.g., 3"
+    aria-describedby="quantity-help"
+  />
+  <small id="quantity-help">Enter a whole number between 1 and 999.</small>
+  <button type="submit">Add to Cart</button>

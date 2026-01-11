@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Message with Character Counter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="5" maxlength="200" placeholder="Enter your message..." aria-describedby="messageCounter"></textarea>
+  <div id="messageCounter" aria-live="polite">200 characters remaining</div>
+
+  <script>
+    (function () {
+      const textarea = document.getElementById('message');
+      const counter = document.getElementById('messageCounter');
+      const max = textarea.maxLength || 200;
+
+      function updateCounter() {
+        const remaining = max - textarea.value.length;
+        counter.textContent = remaining + ' characters remaining';
+      }
+
+      textarea.addEventListener('input', updateCounter);
+      updateCounter();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meeting Time Field</title>
+</head>
+<body>
+  <form>
+    <label for="meeting-time">Meeting Time</label>
+    <input
+      id="meeting-time"
+      name="meetingTime"
+      type="time"
+      step="60"
+      required
+      aria-describedby="meeting-time-help"
+    />
+    <small id="meeting-time-help">Format: HH:MM (24-hour)</small>
+  </form>
+</body>
+</html>

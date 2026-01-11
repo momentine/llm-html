@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Birthdate Field</title>
+</head>
+<body>
+  <label for="birthdate">Birthdate</label>
+  <input
+    id="birthdate"
+    name="birthdate"
+    type="date"
+    required
+    autocomplete="bday"
+    min="1900-01-01"
+  />
+
+  <script>
+    (function () {
+      var input = document.getElementById('birthdate');
+      if (!input) return;
+
+      // Set max to today (local date) to prevent future dates
+      var now = new Date();
+      var yyyy = now.getFullYear();
+      var mm = String(now.getMonth() + 1).padStart(2, '0');
+      var dd = String(now.getDate()).padStart(2, '0');
+      input.max = yyyy + '-' + mm + '-' + dd;
+
+      // Optional: clamp value if user has an invalid pre-filled value
+      if (input.value && input.value > input.max) {
+        input.value = '';
+      }
+    })();
+  </script>
+</body>
+</html>

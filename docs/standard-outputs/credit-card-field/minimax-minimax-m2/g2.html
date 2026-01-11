@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Credit Card Number Field</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <form id="payment-form" novalidate>
+    <div class="field">
+      <label for="cc-number">Credit Card Number</label>
+      <input
+        id="cc-number"
+        name="cc-number"
+        type="text"
+        inputmode="numeric"
+        autocomplete="cc-number"
+        placeholder="1234 5678 9012 3456"
+        aria-describedby="cc-number-help cc-number-error"
+        aria-invalid="false"
+        maxlength="23"
+        required
+      />
+      <div id="cc-number-help" class="help">Enter the number without spaces or dashes.</div>
+      <div id="cc-number-error" class="error" role="alert" aria-live="polite"></div>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    (function () {
+      const input = document.getElementById('cc-number');
+      const errorEl = document.getElementById('cc-number-error');
+      const form

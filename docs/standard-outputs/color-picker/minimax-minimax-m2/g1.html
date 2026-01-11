@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pick a color</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; padding: 2rem; }
+    .field { display: flex; align-items: center; gap: .75rem; max-width: 28rem; }
+    label { font-weight: 600; }
+    input[type="color"] { width: 3rem; height: 3rem; padding: 0; border: none; background: none; }
+    .preview { width: 2rem; height: 2rem; border-radius: .25rem; border: 1px solid color-mix(in oklab, CanvasText 25%, transparent); }
+    .code { font-variant-numeric: tabular-nums; opacity: .8; }
+  </style>
+</head>
+<body>
+  <div class="field">
+    <label for="colorPicker">Pick a color</label>
+    <input id="colorPicker" type="color" value="#0ea5e9" aria-describedby="colorValue" />
+    <span id="colorValue" class="code">#0ea5e9</span>
+    <span id="colorPreview" class="preview" aria-hidden="true"></span>
+  </div>
+
+  <script>
+    (function () {
+      const picker = document.getElementById('colorPicker');
+      const valueEl = document.getElementById('colorValue');
+      const preview = document.getElementById('colorPreview');
+
+      function update() {
+        const hex = picker.value.toUpperCase();
+        valueEl.textContent = hex;
+        preview.style.backgroundColor = hex;
+      }
+
+      picker.addEventListener('input', update);
+      update(); // initialize
+    })();
+  </script>
+</body>
+</html>

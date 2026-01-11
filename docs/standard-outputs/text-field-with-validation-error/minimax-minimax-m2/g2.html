@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Color Question</title>
+</head>
+<body>
+  <form action="#" method="post" novalidate>
+    <label for="color">What color is an orange?</label><br />
+    <input
+      id="color"
+      name="color"
+      type="text"
+      required
+      pattern="\s*(orange|an orange)\s*"
+      title="That’s not right. Try again."
+      aria-describedby="error"
+    />
+    <div id="error" role="alert" aria-live="assertive">That’s not right. Try again.</div>
+    <br /><br />
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

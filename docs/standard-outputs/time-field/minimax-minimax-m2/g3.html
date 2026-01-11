@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Meeting Time</title>
+</head>
+<body>
+  <form id="meeting-form">
+    <label for="meeting-time">Meeting Time</label>
+    <input
+      type="time"
+      id="meeting-time"
+      name="meeting_time"
+      step="60"
+      required
+    />
+    <output id="meeting-output" for="meeting-time"></output>
+  </form>
+
+  <script>
+    (function () {
+      const input = document.getElementById('meeting-time');
+      const output = document.getElementById('meeting-output');
+
+      function update() {
+        output.textContent = input.value ? `Selected time: ${input.value}` : '';
+      }
+
+      input.addEventListener('input', update);
+      update(); // initialize
+    })();
+  </script>
+</body>
+</html>

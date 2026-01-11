@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accessible Theme Radio Group</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #111111;
+      --border: #d0d7de;
+      --focus: #0a7cff;
+    }
+    [data-theme="dark"] {
+      --bg: #0b0d10;
+      --fg: #e6e6e6;
+      --border: #2a2f36;
+      --focus: #4ca3ff;
+    }
+    [data-theme="high-contrast"] {
+      --bg: #000000;
+      --fg: #ffffff;
+      --border: #ffffff;
+      --focus: #ffff00;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.5;
+    }
+
+    main {
+      max-width: 42rem;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    fieldset {
+      border: 2px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem;
+    }
+
+    legend {
+      font-weight: 700;
+      padding: 0 .25rem;
+    }
+
+    .options {
+      display: grid;
+      gap: .5rem .75rem;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      margin

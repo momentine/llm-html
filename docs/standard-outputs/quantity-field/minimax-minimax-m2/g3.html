@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Item Quantity</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 2rem; }
+    .field { max-width: 320px; }
+    label { display: block; font-weight: 600; margin-bottom: .25rem; }
+    input[type="number"] { width: 100%; padding: .5rem; font-size: 1rem; }
+    .help { color: #555; font-size: .9rem; margin-top: .25rem; }
+    .error { color: #b00020; font-size: .9rem; margin-top: .25rem; min-height: 1.25em; }
+    button { margin-top: 1rem; padding: .6rem 1rem; font-size: 1rem; }
+    .success { color: #0a7f2e; margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <form id="order-form" novalidate>
+    <div class="field">
+      <label for="item-quantity">Item Quantity</label>
+      <input
+        id="item-quantity"
+        name="item_quantity"
+        type="number"
+        inputmode="numeric"
+        min="1"
+        max="999"
+        step="1"
+        required
+        aria-describedby="quantity-help quantity-error"
+        autocomplete="quantity"
+      />
+      <div id="quantity-help" class="help">Enter a whole number between 1 and 999.</div>
+      <div id="quantity-error" class="error" role="alert" aria-live="polite"></div>
+    </div>
+
+    <button type="submit">Add to Cart</button>
+    <p id="form-success" class="

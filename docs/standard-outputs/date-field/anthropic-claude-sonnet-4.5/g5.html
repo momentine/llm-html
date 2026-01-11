@@ -1,0 +1,21 @@
+```html
+<div>
+  <label for="birthdate">
+    Birthdate
+    <span aria-label="required">*</span>
+  </label>
+  <input 
+    type="date" 
+    id="birthdate" 
+    name="birthdate" 
+    required 
+    aria-required="true"
+    aria-describedby="birthdate-hint birthdate-error"
+    max="2024-12-19"
+  >
+  <div id="birthdate-hint">
+    Enter your date of birth in the format MM/DD/YYYY
+  </div>
+  <div id="birthdate-error" role="alert" aria-live="polite"></div>
+</div>
+```

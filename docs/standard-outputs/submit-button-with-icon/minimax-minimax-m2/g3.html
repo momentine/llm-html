@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Submit Button with Icon</title>
+  <style>
+    .submit-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.625rem 1rem;
+      border: 1px solid #1f6feb;
+      border-radius: 0.5rem;
+      background: #2f81f7;
+      color: #fff;
+      font: 600 0.95rem system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      cursor: pointer;
+      transition: background-color 120ms ease, transform 60ms ease;
+    }
+    .submit-btn:hover { background: #1f6feb; }
+    .submit-btn:active { transform: translateY(1px); }
+    .submit-btn:focus-visible {
+      outline: 3px solid #a8d1ff;
+      outline-offset: 2px;
+    }
+    .submit-btn svg {
+      width: 1.1em;
+      height: 1.1em;
+      flex: 0 0 auto;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  </style>
+</head>
+<body>
+  <form action="#" method="post">
+    <button type="submit" class="submit-btn" aria-label="Submit">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <title>Submit</title>
+        <path d="M4 12l6 6L20 6" />
+      </svg>
+      <span>Submit</span>
+    </button>

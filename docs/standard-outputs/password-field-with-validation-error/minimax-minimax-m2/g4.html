@@ -1,0 +1,19 @@
+<label for="newPassword">New password</label>
+<input id="newPassword" name="newPassword" type="password" required aria-describedby="newPasswordError newPasswordHelp" />
+<small id="newPasswordError" role="alert" aria-live="polite" style="color:#b00020;">Too short. Must be at least 8 characters.</small>
+<script>
+  (function () {
+    const input = document.getElementById('newPassword');
+    const error = document.getElementById('newPasswordError');
+
+    function validate() {
+      const isValid = input.value.length >= 8;
+      input.setCustomValidity(isValid ? '' : 'Too short. Must be at least 8 characters.');
+      input.setAttribute('aria-invalid', String(!isValid));
+      error.style.visibility = isValid ? 'hidden' : 'visible';
+    }
+
+    input.addEventListener('input', validate);
+    validate();
+  })();
+</script>

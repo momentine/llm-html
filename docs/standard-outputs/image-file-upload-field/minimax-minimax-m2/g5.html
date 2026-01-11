@@ -1,0 +1,19 @@
+<form action="/upload-photo" method="post" enctype="multipart/form-data">
+  <div>
+    <label for="photo">Upload Photo</label>
+    <input
+      type="file"
+      id="photo"
+      name="photo"
+      accept="image/*"
+      aria-describedby="photo-help photo-error"
+      aria-invalid="false"
+      required
+    />
+    <div id="photo-help">
+      Accepted: JPG, PNG, GIF, WebP, SVG. Max 5 MB.
+    </div>
+    <div id="photo-error" role="alert" aria-live="polite"></div>
+  </div>
+  <button type="submit">Submit Photo</button>
+</form>

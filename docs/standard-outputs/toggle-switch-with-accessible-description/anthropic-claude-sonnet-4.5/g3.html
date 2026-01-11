@@ -1,0 +1,10 @@
+<div>
+  <label style="display: flex; align-items: center; justify-content: space-between; max-width: 400px; padding: 16px; border: 1px solid #e0e0e0; border-radius: 8px; font-family: Arial, sans-serif;">
+    <div>
+      <div style="font-weight: 600; font-size: 16px; margin-bottom: 4px;">Notifications</div>
+      <div style="font-size: 14px; color: #666;">Turn alerts on or off.</div>
+    </div>
+    <input type="checkbox" style="appearance: none; width: 50px; height: 26px; background-color: #ccc; border-radius: 13px; position: relative; cursor: pointer; transition: background-color 0.3s; outline: none;" onchange="this.style.backgroundColor = this.checked ? '#4CAF50' : '#ccc'; this.nextElementSibling.style.transform = this.checked ? 'translateX(24px)' : 'translateX(0)';">
+    <span style="position: absolute; width: 22px; height: 22px; background-color: white; border-radius: 50%; top: 2px; left: 2px; transition: transform 0.3s; pointer-events: none; box-shadow: 0 2px 4px rgba(0,0,0,0.2);"></span>
+  </label>
+</div>

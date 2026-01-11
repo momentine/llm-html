@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pick a color</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; padding: 2rem; }
+    .row { display: flex; align-items: center; gap: .75rem; }
+    label { font-weight: 600; }
+    output { min-width: 7ch; display: inline-block; text-align: center; padding: .25rem .5rem; border-radius: .375rem; background: #f3f4f6; }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <label for="colorPicker">Pick a color</label>
+    <input id="colorPicker" name="color" type="color" value="#1e90ff" aria-label="Pick a color" />
+    <output id="colorValue" for="colorPicker">#1e90ff</output>
+  </div>
+
+  <script>
+    const picker = document.getElementById('colorPicker');
+    const out = document.getElementById('colorValue');
+    const update = () => { out.value = picker.value; out.textContent = picker.value; };
+    picker.addEventListener('input', update);
+    update();
+  </script>
+</body>
+</html>

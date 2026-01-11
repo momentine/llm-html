@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessible Message Textarea</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Message <span aria-hidden="true">*</span></legend>
+      <label for="message">Your message</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="6"
+        required
+        aria-required="true"
+        aria-describedby="message-hint message-count"
+        maxlength="1000"
+      ></textarea>
+      <div id="message-hint">Enter the message you want to send (required).</div>
+      <div id="message-count" aria-live="polite">0/1000 characters</div>
+    </fieldset>
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>

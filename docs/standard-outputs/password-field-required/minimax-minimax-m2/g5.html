@@ -1,0 +1,58 @@
+<form action="#" method="post">
+  <div class="field">
+    <label for="new-password">New password</label>
+    <div class="password-wrapper">
+      <input
+        id="new-password"
+        name="new-password"
+        type="password"
+        required
+        autocomplete="new-password"
+        aria-describedby="password-hint password-error"
+        aria-invalid="false"
+        inputmode="text"
+      />
+      <button
+        type="button"
+        class="toggle"
+        aria-controls="new-password"
+        aria-pressed="false"
+        aria-label="Show password"
+      >
+        Show
+      </button>
+    </div>
+    <div id="password-hint" class="hint">
+      Use at least 8 characters, including a number and a letter.
+    </div>
+    <div id="password-error" class="error" role="alert" aria-live="polite"></div>
+  </div>
+
+  <button type="submit">Create password</button>
+
+  <script>
+    (function () {
+      const input = document.getElementById('new-password');
+      const errorEl = document.getElementById('password-error');
+      const toggleBtn = document.querySelector('.toggle');
+
+      function validate() {
+        const value = input.value;
+        let msg = '';
+        if (!value) {
+          msg = 'Please enter a new password.';
+        } else if (value.length < 8) {
+          msg = 'Use at least 8 characters.';
+        } else if (!/[A-Za-z]/.test(value) || !/[0-9]/.test(value)) {
+          msg = 'Include at least one letter and one number.';
+        }
+
+        input.setAttribute('aria-invalid', msg ? 'true' : 'false');
+        errorEl.textContent = msg;
+        return !msg;
+      }
+
+      input.addEventListener('input', validate);
+      input.addEventListener('blur', validate);
+
+      toggleBtn.addEventListener('click', function ()

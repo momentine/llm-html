@@ -1,0 +1,57 @@
+<fieldset role="group" aria-label="Notification Types">
+  <legend class="sr-only">Notification Types</legend>
+  <div class="toggle-group" data-toggle-group>
+    <button type="button"
+            class="toggle"
+            role="switch"
+            aria-checked="true"
+            data-value="email"
+            aria-label="Email notifications">Email</button>
+
+    <button type="button"
+            class="toggle"
+            role="switch"
+            aria-checked="false"
+            data-value="sms"
+            aria-label="SMS notifications">SMS</button>
+
+    <button type="button"
+            class="toggle"
+            role="switch"
+            aria-checked="false"
+            data-value="push"
+            aria-label="Push notifications">Push</button>
+  </div>
+</fieldset>
+
+<style>
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .toggle-group {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .toggle {
+    --w: 46px;
+    --h: 26px;
+    --p: 3px;
+    position: relative;
+    width: var(--w);
+    height: var(--h);
+    border-radius: var(--h);
+    border: 1px solid #c8cdd3;
+    background: #e6e9ed;
+    color: #111827;
+    font: 600 13px/1 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Not

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accessible Theme Radio Group</title>
+  <style>
+    .error {
+      color: #b00020;
+      margin-top: 0.5rem;
+    }
+    .invalid {
+      border-color: #b00020;
+      padding: 0.25rem;
+    }
+    .visually-hidden {
+      position: absolute !important;
+      height: 1px; width: 1px;
+      overflow: hidden;
+      clip: rect(1px, 1px, 1px, 1px);
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <h1>Choose your theme</h1>
+
+  <form id="theme-form" novalidate>
+    <fieldset id="theme-fieldset" aria-describedby="theme-instructions theme-error">
+      <legend>Theme</legend>
+
+      <p id="theme-instructions" class="visually-hidden">Select one option to continue.</p>
+
+      <div>
+        <input type="radio" id="theme-light" name="theme" value="light" />
+        <label for="theme-light">Light</label>
+      </div>
+
+      <div>
+        <input type="radio" id="theme-dark" name="theme" value="dark" />
+        <label for="theme-dark">Dark

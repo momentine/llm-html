@@ -1,0 +1,21 @@
+```html
+<div>
+  <label for="document-upload" style="display: block; margin-bottom: 8px; font-weight: 600; font-size: 16px;">
+    Upload Document
+  </label>
+  <input 
+    type="file" 
+    id="document-upload" 
+    name="document-upload"
+    accept=".pdf,.doc,.docx,.txt"
+    aria-describedby="document-upload-description document-upload-error"
+    aria-required="true"
+    style="display: block; padding: 8px; font-size: 16px; border: 2px solid #333; border-radius: 4px; background-color: #fff; cursor: pointer; width: 100%; max-width: 400px;"
+  >
+  <div id="document-upload-description" style="margin-top: 8px; font-size: 14px; color: #555;">
+    Accepted file types: PDF, DOC, DOCX, TXT. Maximum file size: 10MB.
+  </div>
+  <div id="document-upload-error" role="alert" aria-live="polite" style="margin-top: 8px; font-size: 14px; color: #d32f2f; display: none;">
+  </div>
+</div>
+```

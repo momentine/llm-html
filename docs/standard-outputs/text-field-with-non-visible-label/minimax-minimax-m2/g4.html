@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Search Field with Hidden Label</title>
+  <style>
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      margin: 2rem;
+    }
+    .search-field {
+      max-width: 480px;
+    }
+    .search-field input[type="search"] {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0.6rem 0.75rem;
+      border: 1px solid #c7c7c7;
+      border-radius: 6px;
+      font-size: 1rem;
+      line-height: 1.2;
+    }
+    .search-field input[type="search"]:focus {
+      outline: 2px solid #4c9ffe;
+      outline-offset: 2px;
+      border-color: #4c9ffe;
+    }
+  </style>
+</head>
+<body>
+  <form class="search-field" action="/search" method="get" role="search">
+    <label class="sr-only" for="search-input">Search for</label>
+    <input
+      id="search-input"
+      name="q"
+      type="search"
+      placeholder="Search for..."
+      autocomplete="off"
+      spellcheck="false"
+      aria-label="Search for"
+    />
+  </form>
+</body>
+</html>

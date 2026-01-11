@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Message with Character Counter</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" maxlength="200" required></textarea>
+    <div>
+      <small id="charCount">200 characters remaining</small>
+    </div>
+    <button type="submit">Send</button>
+  </form>
+
+  <script>
+    (function () {
+      const textarea = document.getElementById('message');
+      const counter = document.getElementById('charCount');
+      const max = textarea.maxLength > 0 ? textarea.maxLength : 200;
+
+      function updateCounter() {
+        const remaining = max - textarea.value.length;
+        counter.textContent = remaining + ' characters remaining';
+      }
+
+      textarea.addEventListener('input', updateCounter);
+      updateCounter();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Terms Agreement</title>
+</head>
+<body>
+  <form id="signup-form" action="#" method="post">
+    <div>
+      <input type="checkbox" id="agree" name="agree" required />
+      <label for="agree">
+        I agree to the <a href="/terms" target="_blank" rel="noopener noreferrer">Terms and Conditions</a>
+      </label>
+    </div>
+    <button type="submit" id="submit-btn" disabled>Create Account</button>
+  </form>
+
+  <script>
+    (function () {
+      const checkbox = document.getElementById('agree');
+      const submitBtn = document.getElementById('submit-btn');
+
+      function updateState() {
+        submitBtn.disabled = !checkbox.checked;
+      }
+
+      checkbox.addEventListener('change', updateState);
+      updateState(); // initialize on load
+    })();
+  </script>
+</body>
+</html>

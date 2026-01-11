@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Notifications Toggle</title>
+  <style>
+    :root {
+      --switch-width: 44px;
+      --switch-height: 24px;
+      --switch-padding: 3px;
+      --knob-size: calc(var(--switch-height) - var(--switch-padding) * 2);
+      --color-bg: #e5e7eb;
+      --color-bg-checked: #2563eb;
+      --color-knob: #ffffff;
+      --color-text: #111827;
+      --focus-ring: 2px solid #2563eb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --color-bg: #374151;
+        --color-bg-checked: #3b82f6;
+        --color-knob: #ffffff;
+        --color-text: #f9fafb;
+        --focus-ring: 2px solid #93c5fd;
+      }
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--color-text);
+      margin: 0;
+      padding: 24px;
+      display: grid;
+      place-items: start center;
+      background: Canvas;
+    }
+
+    .row {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .switch {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      width:

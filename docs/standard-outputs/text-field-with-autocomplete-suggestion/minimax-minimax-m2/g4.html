@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>First Name with Autocomplete</title>
+</head>
+<body>
+  <label for="firstName">Your first name</label>
+  <input
+    type="text"
+    id="firstName"
+    name="firstName"
+    placeholder="John Doe"
+    autocomplete="given-name"
+    list="firstNameSuggestions"
+  />
+  <datalist id="firstNameSuggestions">
+    <option value="John Doe"></option>
+  </datalist>
+</body>
+</html>

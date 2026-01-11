@@ -1,0 +1,34 @@
+<form action="/submit" method="post">
+  <fieldset>
+    <legend class="sr-only">Agreement</legend>
+
+    <div>
+      <input
+        type="checkbox"
+        id="agree"
+        name="agree"
+        required
+        aria-describedby="terms-link"
+      />
+      <label for="agree" id="agree-label">
+        I agree to the
+        <a id="terms-link" href="/terms" target="_blank" rel="noopener noreferrer">
+          Terms and Conditions
+        </a>
+      </label>
+    </div>
+
+    <button type="submit">Continue</button>
+  </fieldset>
+</form>
+
+<style>
+  /* Optional: visually hidden utility for the sr-only class */
+  .sr-only {
+    position: absolute;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0 0 0 0);
+    white-space: nowrap; border: 0;
+  }
+</style>

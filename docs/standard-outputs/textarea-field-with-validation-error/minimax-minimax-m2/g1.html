@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Form with Message Validation</title>
+</head>
+<body>
+  <form id="contact-form" novalidate>
+    <div>
+      <label for="message">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="6"
+        required
+        aria-describedby="message-error"
+        aria-invalid="false"
+      ></textarea>
+      <div id="message-error" role="alert" aria-live="polite" style="color: #b00020; margin-top: 4px;"></div>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    (function () {
+      const form = document.getElementById('contact-form');
+      const messageEl = document.getElementById('message');
+      const errorEl = document.getElementById('message-error');
+      const MIN_WORDS = 20;
+
+      function countWords(text) {
+        const matches = text.trim().match(/[A-Za-z0-9\u00C0-\u017F]+(?:['’\-][A-Za-z0-9\u00C0-\u017F]+)*/g);
+        return matches ? matches.length : 0;
+      }
+
+      function validateMessage() {
+        const value = messageEl.value;
+        const count = countWords(value);
+
+        if (count < MIN_WORDS) {
+          errorEl.textContent = 'Your message should be at least 20 words long. Please describe your problem in as much detail as possible.';
+          messageEl.setAttribute('aria-invalid', 'true');
+          return false;
+        } else {
+          errorEl.textContent = '';
+          messageEl.setAttribute('aria-invalid', 'false');
+          return true;
+        }
+      }
+
+      messageEl.addEventListener('input', validateMessage);
+      messageEl.addEventListener('blur', validateMessage);
+
+      form.addEventListener('submit', function (e) {
+        if (!validateMessage()) {
+          e.preventDefault();
+          messageEl.focus();
+       

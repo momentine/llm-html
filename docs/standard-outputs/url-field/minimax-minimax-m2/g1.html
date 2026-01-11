@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Website URL Field</title>
+</head>
+<body>
+  <form id="urlForm" action="/submit" method="post" novalidate>
+    <label for="websiteUrl">Website URL</label>
+    <input
+      type="url"
+      id="websiteUrl"
+      name="website_url"
+      placeholder="https://example.com"
+      inputmode="url"
+      autocomplete="url"
+      required
+      pattern="https?://.+"
+      title="Please enter a valid URL starting with http:// or https://"
+    />
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    (function () {
+      const form = document.getElementById('urlForm');
+      const urlInput = document.getElementById('websiteUrl');
+
+      // Optional: normalize by ensuring a protocol is present
+      function normalizeUrl(value) {
+        const v = value.trim();
+        if (!v) return '';
+        if (/^https?:\/\//i.test(v)) return v;
+        return 'https://' + v;
+      }
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // Let the browser validate first
+        if (!form.checkValidity()) {
+          form.reportValidity();
+          return;
+        }
+
+        const normalized = normalizeUrl(urlInput.value);
+        if (!normalized) return;
+
+        // Demo: show the value instead of submitting
+        alert('Website URL: ' + normalized);
+
+        // To actually submit, replace the alert above with a real submission:
+        // form.submit();
+        // Or

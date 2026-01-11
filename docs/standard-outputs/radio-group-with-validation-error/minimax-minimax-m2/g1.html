@@ -1,0 +1,39 @@
+<form id="themeForm" novalidate>
+  <fieldset>
+    <legend>Theme</legend>
+    <label>
+      <input type="radio" name="theme" value="light" /> Light
+    </label>
+    <label>
+      <input type="radio" name="theme" value="dark" /> Dark
+    </label>
+    <label>
+      <input type="radio" name="theme" value="high-contrast" /> High contrast
+    </label>
+  </fieldset>
+
+  <p id="themeError" class="error" aria-live="polite" hidden>
+    You must choose a theme to proceed
+  </p>
+
+  <button type="submit">Continue</button>
+</form>
+
+<script>
+  (function () {
+    const form = document.getElementById('themeForm');
+    const errorEl = document.getElementById('themeError');
+
+    form.addEventListener('submit', function (e) {
+      const selected = form.querySelector('input[name="theme"]:checked');
+      if (!selected) {
+        e.preventDefault();
+        errorEl.hidden = false;
+        return;
+      }
+      errorEl.hidden = true;
+      // Example: handle successful selection
+      // alert('Selected theme: ' + selected.value);
+    });
+  })();
+</script>

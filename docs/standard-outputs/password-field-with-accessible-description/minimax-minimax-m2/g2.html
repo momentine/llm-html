@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Password Field</title>
+</head>
+<body>
+  <form>
+    <label for="new-password">New password</label>
+    <input
+      id="new-password"
+      name="new-password"
+      type="password"
+      inputmode="text"
+      autocomplete="new-password"
+      required
+      aria-describedby="password-note"
+      pattern="(?=.*\d)(?=.*[^A-Za-z09]).{8,}"
+      title="Must include 1 number and 1 symbol."
+    />
+    <div id="password-note">Must include 1 number and 1 symbol.</div>
+  </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Message Textarea</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 2rem; }
+    label { display: block; font-weight: 600; margin-bottom: 0.5rem; }
+    textarea { width: 100%; max-width: 40rem; padding: 0.625rem; border: 1px solid #c7c7c7; border-radius: 6px; font: inherit; resize: vertical; }
+    textarea:focus { outline: 2px solid #4c9ffe; outline-offset: 2px; border-color: #4c9ffe; }
+  </style>
+</head>
+<body>
+  <form action="#" method="post">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="6" required placeholder="Type your message here..."></textarea>
+    <div style="margin-top:1rem;">
+      <button type="submit">Send</button>
+    </div>
+  </form>
+</body>
+</html>

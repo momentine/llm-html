@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accessible Search Field (Hidden Label)</title>
+  <style>
+    /* Visually hidden but accessible to screen readers */
+    .sr-only {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      padding: 0 !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      clip: rect(0 0 0 0) !important;
+      white-space: nowrap !important;
+      border: 0 !important;
+    }
+  </style>
+</head>
+<body>
+  <form role="search" action="/search" method="get">
+    <label class="sr-only" for="search-field">Search for</label>
+    <input
+      id="search-field"
+      name="q"
+      type="search"
+      placeholder="Search"
+      autocomplete="off"
+      required
+    />
+    <button type="submit">Search</button>
+  </form>
+</body>
+</html>

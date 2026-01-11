@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Fruit Checkbox Group Validation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <form id="fruit-form" method="post" action="#">
+    <fieldset>
+      <legend>What fruits do you like?</legend>
+      <label>
+        <input type="checkbox" name="fruits[]" value="bananas" required> bananas
+      </label>
+      <label>
+        <input type="checkbox" name="fruits[]" value="oranges" required> oranges
+      </label>
+      <label>
+        <input type="checkbox" name="fruits[]" value="apples" required> apples
+      </label>
+    </fieldset>
+    <p id="fruit-error" role="alert" aria-live="assertive" style="color:#b00020; display:none; margin-top:8px;">
+      You must choose one or more fruits
+    </p>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    (function () {
+      const form = document.getElementById('fruit-form');
+      const errorEl = document.getElementById('fruit-error');
+      const checkboxes = form.querySelectorAll('input[name="fruits[]"]');
+
+      function validateGroup() {
+        const anyChecked = Array.prototype.some.call(checkboxes, function (cb) {
+          return cb.checked;
+        });
+        if (!anyChecked) {
+          errorEl.style.display = 'block';
+          return false;
+        }
+        errorEl.style.display = 'none';
+        return true;
+      }
+
+      form.addEventListener('submit', function (e) {
+        if (!validateGroup()) {
+          e.preventDefault();
+          form.reportValidity(); // show native tooltips for other fields if any
+        }
+      });
+
+      checkboxes.forEach(function (cb) {
+        cb.addEventListener('change', function () {
+          if (cb.checked) {
+            errorEl.style.display = 'none';
+          }
+        });
+      });
+    })();
+  

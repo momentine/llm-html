@@ -1,0 +1,21 @@
+<form action="#" method="post">
+  <div>
+    <label for="orange-color">What color is an orange? (required)</label>
+    <input
+      id="orange-color"
+      name="orangeColor"
+      type="text"
+      required
+      aria-required="true"
+      aria-describedby="orange-hint orange-error"
+      inputmode="text"
+      autocomplete="off"
+      spellcheck="false"
+      placeholder="e.g., orange"
+      title="Answer should be the color name of an orange."
+    />
+    <div id="orange-hint">Enter the color name (e.g., orange).</div>
+    <div id="orange-error" role="alert" aria-live="polite"></div>
+  </div>
+  <button type="submit">Submit</button>
+</form>

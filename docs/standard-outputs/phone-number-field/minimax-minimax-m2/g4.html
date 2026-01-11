@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Phone Number Field</title>
+</head>
+<body>
+  <form>
+    <label for="phone">Phone number</label>
+    <input
+      type="tel"
+      id="phone"
+      name="phone"
+      placeholder="+1 555 123 4567"
+      autocomplete="tel"
+      inputmode="tel"
+      pattern="^[0-9+()\-.\s]{7,20}$"
+      required
+    />
+  </form>
+</body>
+</html>

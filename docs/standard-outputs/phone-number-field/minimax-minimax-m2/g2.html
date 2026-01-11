@@ -1,0 +1,49 @@
+<form id="contact-form" novalidate>
+  <label for="phone">Phone number</label>
+  <input
+    id="phone"
+    name="phone"
+    type="tel"
+    inputmode="tel"
+    autocomplete="tel"
+    placeholder="+1 555-123-4567"
+    pattern="^\+?[0-9\s().-]{7,20}$"
+    maxlength="25"
+    required
+    aria-describedby="phone-help phone-error"
+    aria-invalid="false"
+  />
+  <small id="phone-help">Enter a valid phone number (digits, spaces, parentheses, dashes, periods, and optional leading +).</small>
+  <div id="phone-error" role="alert" aria-live="polite" style="color:#b00020; margin-top:4px;"></div>
+</form>
+
+<script>
+  (function () {
+    const phoneInput = document.getElementById('phone');
+    const errorEl = document.getElementById('phone-error');
+
+    function validatePhone() {
+      const value = phoneInput.value.trim();
+      const re = /^\+?[0-9\s().-]{7,20}$/;
+
+      if (!value) {
+        errorEl.textContent = '';
+        phoneInput.setAttribute('aria-invalid', 'false');
+        return true;
+      }
+
+      if (!re.test(value)) {
+        errorEl.textContent = 'Please enter a valid phone number.';
+        phoneInput.setAttribute('aria-invalid', 'true');
+        return false;
+      }
+
+      errorEl.textContent = '';
+      phoneInput.setAttribute('aria-invalid', 'false');
+      return true;
+    }
+
+    phoneInput.addEventListener('input', validatePhone);
+    phoneInput.addEventListener('blur', validatePhone);
+  })();
+</script>

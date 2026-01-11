@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Required Message Textarea</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 2rem; }
+    label { display: block; font-weight: 600; margin-bottom: 0.5rem; }
+    textarea { width: 100%; max-width: 600px; min-height: 120px; padding: 0.625rem; font-size: 1rem; line-height: 1.4; border: 1px solid #c7c7c7; border-radius: 6px; }
+    textarea:focus { outline: 2px solid #4c9ffe; outline-offset: 2px; border-color: #4c9ffe; }
+  </style>
+</head>
+<body>
+  <form action="/submit" method="post">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Enter your message" required aria-required="true"></textarea>
+  </form>
+</body>
+</html>

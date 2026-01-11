@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>First Name Field with Suggestion</title>
+</head>
+<body>
+  <form action="#" method="get">
+    <label for="firstName">Your first name</label><br />
+    <input
+      type="text"
+      id="firstName"
+      name="first_name"
+      list="firstNameSuggestions"
+      autocomplete="given-name"
+    />
+    <datalist id="firstNameSuggestions">
+      <option value="John Doe"></option>
+    </datalist>
+  </form>
+</body>
+</html>

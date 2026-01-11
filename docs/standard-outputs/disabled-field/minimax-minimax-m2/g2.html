@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Disabled Promo Code Field</title>
+</head>
+<body>
+  <form action="/apply-promo" method="post" novalidate>
+    <label for="promoCode">Promo Code</label>
+    <input
+      id="promoCode"
+      name="promoCode"
+      type="text"
+      value="SUMMER25"
+      placeholder="Promo Code"
+      disabled
+      aria-disabled="true"
+      aria-describedby="promoHelp"
+      autocomplete="off"
+      inputmode="text"
+    />
+    <small id="promoHelp">Promo codes can be applied during checkout.</small>
+  </form>
+</body>
+</html>

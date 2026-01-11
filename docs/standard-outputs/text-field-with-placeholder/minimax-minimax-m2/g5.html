@@ -1,0 +1,27 @@
+<form action="#" method="post">
+  <fieldset>
+    <legend>Who is your favorite dinosaur?</legend>
+    <div>
+      <label for="favorite-dinosaur" class="visually-hidden">Your answer</label>
+      <input
+        id="favorite-dinosaur"
+        name="favorite_dinosaur"
+        type="text"
+        aria-describedby="dinosaur-hint"
+        autocomplete="off"
+      />
+      <small id="dinosaur-hint">Hint: Rex</small>
+    </div>
+  </fieldset>
+</form>
+
+<style>
+  .visually-hidden {
+    position: absolute !important;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap; border: 0;
+  }
+</style>

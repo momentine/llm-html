@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Item Quantity Field</title>
+</head>
+<body>
+  <form id="quantity-form">
+    <label for="item-quantity">Item Quantity</label>
+    <input
+      id="item-quantity"
+      name="quantity"
+      type="number"
+      inputmode="numeric"
+      min="1"
+      step="1"
+      required
+      aria-describedby="quantity-hint"
+    />
+    <div id="quantity-hint" aria-live="polite">Enter a whole number (minimum 1).</div>
+    <output id="quantity-output" aria-live="polite"></output>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    (function () {
+      const input = document.getElementById('item-quantity');
+      const output = document.getElementById('quantity-output');
+      const form = document.getElementById('quantity-form');
+
+      function update() {
+        const val = input.valueAsNumber;
+        if (Number.isNaN(val)) {
+          output.textContent = 'No value';
+        } else {
+          output.textContent = 'Value: ' + val;
+        }
+      }
+
+      input.addEventListener('input', update);
+      update();
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (!input.checkValidity()) {
+          input.reportValidity();
+          return;
+        }
+        const qty = input.valueAsNumber;
+        alert('Submitted quantity: ' + qty);
+      });
+    })();
+  </script>
+</body>
+</html>

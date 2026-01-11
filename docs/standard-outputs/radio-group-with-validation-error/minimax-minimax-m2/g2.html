@@ -1,0 +1,57 @@
+<form id="themeForm" novalidate>
+  <fieldset>
+    <legend>Theme</legend>
+    <label>
+      <input type="radio" name="theme" value="light"> Light
+    </label>
+    <label>
+      <input type="radio" name="theme" value="dark"> Dark
+    </label>
+    <label>
+      <input type="radio" name="theme" value="high-contrast"> High contrast
+    </label>
+  </fieldset>
+
+  <div id="themeError" role="alert" aria-live="assertive" style="color: #b00020; margin-top: 8px; display: none;">
+    You must choose a theme to proceed
+  </div>
+
+  <button type="submit" style="margin-top: 12px;">Continue</button>
+</form>
+
+<script>
+  (function () {
+    const form = document.getElementById('themeForm');
+    const errorEl = document.getElementById('themeError');
+    const radios = form.querySelectorAll('input[name="theme"]');
+
+    function showError() {
+      errorEl.style.display = 'block';
+      errorEl.textContent = 'You must choose a theme to proceed';
+    }
+
+    function hideError() {
+      errorEl.style.display = 'none';
+      errorEl.textContent = '';
+    }
+
+    radios.forEach(function (r) {
+      r.addEventListener('change', hideError);
+      r.addEventListener('invalid', function (e) {
+        e.preventDefault();
+        showError();
+      });
+    });
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      const selected = form.querySelector('input[name="theme"]:checked');
+      if (!selected) {
+        showError();
+        return;
+      }
+      hideError();
+      alert('Selected theme: ' + selected.value);
+    });
+  })();
+</script>

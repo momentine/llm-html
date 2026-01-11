@@ -1,0 +1,45 @@
+<fieldset>
+  <legend>Notification Types</legend>
+  <div>
+    <input type="checkbox" id="email" name="notifications" aria-describedby="email-desc">
+    <label for="email">Email</label>
+    <span id="email-desc" class="sr-only">Toggle email notifications</span>
+  </div>
+  <div>
+    <input type="checkbox" id="sms" name="notifications" aria-describedby="sms-desc">
+    <label for="sms">SMS</label>
+    <span id="sms-desc" class="sr-only">Toggle SMS notifications</span>
+  </div>
+  <div>
+    <input type="checkbox" id="push" name="notifications" aria-describedby="push-desc">
+    <label for="push">Push</label>
+    <span id="push-desc" class="sr-only">Toggle push notifications</span>
+  </div>
+</fieldset>
+
+<style>
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+</style>
+
+<script>
+document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+  checkbox.addEventListener('change', function() {
+    const label = this.nextElementSibling;
+    if (this.checked) {
+      label.setAttribute('aria-pressed', 'true');
+    } else {
+      label.setAttribute('aria-pressed', 'false');
+    }
+  });
+});
+</script>

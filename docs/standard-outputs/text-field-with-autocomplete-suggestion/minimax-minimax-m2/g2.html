@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>First Name with Autocomplete Suggestion</title>
+</head>
+<body>
+  <form action="/submit" method="post">
+    <label for="firstName">Your first name</label>
+    <input
+      id="firstName"
+      name="firstName"
+      type="text"
+      autocomplete="given-name"
+      list="first-name-suggestions"
+      placeholder="Start typing..."
+    />
+    <datalist id="first-name-suggestions">
+      <option value="John Doe"></option>
+    </datalist>
+  </form>
+</body>
+</html>

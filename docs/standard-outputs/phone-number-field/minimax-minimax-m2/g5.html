@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessible Phone Number Field</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      margin: 0;
+      padding: 2rem;
+      line-height: 1.5;
+    }
+    .field {
+      margin-block: 1rem;
+      max-width: 32rem;
+    }
+    label {
+      display: inline-block;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    .input-group {
+      display: flex;
+      gap: 0.5rem;
+      align-items: stretch;
+    }
+    select, input[type="tel"] {
+      font: inherit;
+      padding: 0.625rem 0.75rem;
+      border: 1px solid #8885;
+      border-radius: 0.5rem;
+      min-width: 0;
+    }
+    select {
+      background-color: Field;
+      color: CanvasText;
+    }
+    input[type="tel"] {
+      flex: 1 1 auto;
+      background-color: Field;
+      color: CanvasText;
+    }
+    input[type="tel"][aria-invalid="true"] {

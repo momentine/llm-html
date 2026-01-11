@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Volume Range Slider (1–10)</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; padding: 2rem; }
+    .field { max-width: 420px; }
+    label { display: block; font-weight: 600; margin-bottom: 0.5rem; }
+    .row { display: flex; align-items: center; gap: 0.75rem; }
+    output { min-width: 2ch; text-align: right; font-variant-numeric: tabular-nums; }
+    input[type="range"] { width: 100%; }
+    datalist { display: flex; justify-content: space-between; width: 100%; }
+    datalist option { position: relative; top: 1.25rem; font-size: 0.85rem; color: #555; }
+  </style>
+</head>
+<body>
+  <form class="field" onsubmit="return false;">
+    <label for="volume">Volume</label>
+    <div class="row">
+      <input
+        id="volume"
+        name="volume"
+        type="range"
+        min="1"
+        max="10"
+        step="1"
+        value="5"
+        list="volume-ticks"
+        aria-label="Volume"
+      />
+      <output id="volumeValue" for="volume" aria-live="polite">5</output>
+    </div>
+    <datalist id="volume-ticks">
+      <option value="1" label="1"></option>
+      <option value="2" label="2"></option>
+      <option value="3" label="3"></option>
+      <option value="4" label="4"></option>
+      <option value="5"

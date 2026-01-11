@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Message</title>
+</head>
+<body>
+  <label for="message">Message</label>
+  <textarea
+    id="message"
+    name="message"
+    rows="6"
+    placeholder="Type your message..."
+    maxlength="1000"
+    spellcheck="true"
+    aria-describedby="message-hint"
+    required
+  ></textarea>
+  <div id="message-hint" aria-live="polite">Max 1000 characters.</div>
+</body>
+</html>

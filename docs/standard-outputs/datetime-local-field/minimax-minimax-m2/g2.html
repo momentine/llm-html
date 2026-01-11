@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Event Time</title>
+</head>
+<body>
+  <form id="event-form">
+    <label for="event-time">Event Time</label>
+    <input
+      type="datetime-local"
+      id="event-time"
+      name="eventTime"
+      required
+      inputmode="numeric"
+    />
+    <button type="submit">Save</button>
+  </form>
+
+  <pre id="output" aria-live="polite"></pre>
+
+  <script>
+    (function () {
+      const input = document.getElementById('event-time');
+      const output = document.getElementById('output');
+      const form = document.getElementById('event-form');
+
+      // Default to current local time (rounded to minutes)
+      if (!input.value) {
+        const now = new Date();
+        now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
+        input.value = now.toISOString().slice(0, 16);
+      }
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (!input.value) {
+          input.reportValidity();
+          return;
+        }
+        const selected = new Date(input.value);
+        output.textContent = 'Selected: ' + selected.toLocaleString();
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Checkbox Group: What fruits do you like?</title>
+</head>
+<body>
+  <form id="fruit-form" action="#" method="get">
+    <fieldset>
+      <legend>What fruits do you like?</legend>
+
+      <label>
+        <input type="checkbox" name="fruits" value="bananas" />
+        Bananas
+      </label>
+
+      <label>
+        <input type="checkbox" name="fruits" value="oranges" />
+        Oranges
+      </label>
+
+      <label>
+        <input type="checkbox" name="fruits" value="apples" />
+        Apples
+      </label>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </fieldset>
+
+    <p id="selected-output" aria-live="polite"></p>
+  </form>
+
+  <script>
+    (function () {
+      const form = document.getElementById('fruit-form');
+      const output = document.getElementById('selected-output');
+
+      function updateSelected() {
+        const checked = Array.from(form.querySelectorAll('input[name="fruits"]:checked'));
+        const values = checked.map(cb => cb.value);
+        output.textContent = values.length
+          ? 'Selected: ' + values.join(', ')
+          : 'No fruits selected yet.';
+      }
+
+      form.addEventListener('change', updateSelected);
+      updateSelected();
+    })();
+  </script>
+</body>
+</html>

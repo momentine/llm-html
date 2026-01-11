@@ -1,0 +1,35 @@
+<form id="notification-settings" aria-labelledby="notification-types-legend">
+  <fieldset>
+    <legend id="notification-types-legend">Notification Types</legend>
+
+    <div class="switch-group">
+      <input class="visually-hidden" type="checkbox" id="notify-email" name="notifications" value="email" checked aria-labelledby="notify-email-label">
+      <label class="switch" for="notify-email" id="notify-email-label">
+        <span class="switch__text">Email</span>
+      </label>
+    </div>
+
+    <div class="switch-group">
+      <input class="visually-hidden" type="checkbox" id="notify-sms" name="notifications" value="sms" aria-labelledby="notify-sms-label">
+      <label class="switch" for="notify-sms" id="notify-sms-label">
+        <span class="switch__text">SMS</span>
+      </label>
+    </div>
+
+    <div class="switch-group">
+      <input class="visually-hidden" type="checkbox" id="notify-push" name="notifications" value="push" checked aria-labelledby="notify-push-label">
+      <label class="switch" for="notify-push" id="notify-push-label">
+        <span class="switch__text">Push</span>
+      </label>
+    </div>
+  </fieldset>
+</form>
+
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #111827;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+    --track-off: #d1d5db;
+    --track

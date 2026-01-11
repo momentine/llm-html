@@ -1,0 +1,42 @@
+<form id="event-form" action="#" method="post">
+  <fieldset>
+    <legend>Event Time</legend>
+
+    <label for="eventTime">Choose date and time</label>
+    <p id="eventTimeHelp" class="help">Use the picker or type the date and time (24-hour format). Times must be in the future.</p>
+
+    <input
+      id="eventTime"
+      name="eventTime"
+      type="datetime-local"
+      required
+      aria-describedby="eventTimeHelp eventTimeError"
+      autocomplete="off"
+    />
+
+    <p id="eventTimeError" class="error" role="alert" aria-live="polite" hidden>
+      Please enter a valid future date and time.
+    </p>
+
+    <div class="actions">
+      <button type="button" id="setNow">Set to now</button>
+    </div>
+  </fieldset>
+</form>
+
+<script>
+  (function () {
+    const input = document.getElementById('eventTime');
+    const error = document.getElementById('eventTimeError');
+    const setNowBtn = document.getElementById('setNow');
+
+    function pad(n) {
+      return String(n).padStart(2, '0');
+    }
+
+    function toLocalDatetimeValue(d) {
+      // Returns YYYY-MM-DDTHH:MM in local time
+      return (
+        d.getFullYear() +
+        '-' +
+        pad(d.getMonth() + 1) +

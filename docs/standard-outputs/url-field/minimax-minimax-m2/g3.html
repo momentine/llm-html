@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Website URL Field</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 2rem; }
+    label { display: block; font-weight: 600; margin-bottom: .5rem; }
+    input[type="url"] { width: 100%; max-width: 32rem; padding: .6rem .7rem; font-size: 1rem; }
+    .row { margin-bottom: 1rem; }
+  </style>
+</head>
+<body>
+  <form id="urlForm" action="javascript:void(0)" novalidate>
+    <div class="row">
+      <label for="website">Website URL</label>
+      <input
+        id="website"
+        name="website"
+        type="url"
+        placeholder="https://example.com"
+        autocomplete="url"
+        spellcheck="false"
+        inputmode="url"
+        required
+        aria-describedby="websiteHelp"
+      />
+      <div id="websiteHelp" style="color:#555; font-size:.9rem;">Enter a full URL starting with http:// or https://</div>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

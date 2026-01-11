@@ -1,0 +1,72 @@
+<form id="emailForm" novalidate>
+  <label for="email">Email Address</label>
+  <input
+    type="email"
+    id="email"
+    name="email"
+    required
+    aria-describedby="email-error"
+    aria-invalid="false"
+  />
+  <div id="email-error" role="alert" aria-live="polite" style="color: #b00020; display: none;">
+    Your email address is invalid.
+  </div>
+  <button type="submit">Submit</button>
+
+  <script>
+    (function () {
+      const emailInput = document.getElementById('email');
+      const errorEl = document.getElementById('email-error');
+
+      function showEmailError() {
+        errorEl.style.display = 'block';
+        emailInput.setAttribute('aria-invalid', 'true');
+      }
+
+      function hideEmailError() {
+        errorEl.style.display = 'none';
+        emailInput.setAttribute('aria-invalid', 'false');
+      }
+
+      emailInput.addEventListener('input', function () {
+        // Clear any custom validity while typing to let the browser re-validate
+        emailInput.setCustomValidity('');
+        if (emailInput.checkValidity()) {
+          hideEmailError();
+        }
+      });
+
+      emailInput.addEventListener('blur', function () {
+        // On blur, show the required message if empty, else our custom invalid message
+        if (emailInput.validity.valueMissing) {
+          emailInput.setCustomValidity('Please enter your email address.');
+        } else {
+          emailInput.setCustomValidity('Your email address is invalid.');
+        }
+        emailInput.reportValidity();
+        if (!emailInput.checkValidity()) {
+          showEmailError();
+        } else {
+          hideEmailError();
+        }
+      });
+
+      emailInput.addEventListener('invalid', function () {
+        // Ensure our exact message is shown for invalid emails
+        if (!emailInput.validity.valueMissing) {
+          emailInput.setCustomValidity('Your email address is invalid.');
+        }
+        showEmailError();
+      });
+
+      document.getElementById('emailForm').addEventListener('submit', function (e) {
+        // Final check on submit
+        if (!emailInput.checkValidity()) {
+          e.preventDefault();
+          showEmailError();
+          emailInput.reportValidity();
+        }
+      });
+    })();
+  </script>
+</form>

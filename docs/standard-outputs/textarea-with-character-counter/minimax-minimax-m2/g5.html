@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Accessible Message Field with Character Counter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <form action="#" method="post">
+    <div>
+      <label for="message">Message</label>
+      <p id="message-hint" class="hint">Enter your message (up to 200 characters).</p>
+      <textarea id="message" name="message" rows="5" cols="40" maxlength="200" aria-describedby="message-hint message-counter" aria-invalid="false" required></textarea>
+      <div id="message-counter" role="status" aria-live="polite" aria-atomic="true">0/200 characters</div>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    (function () {
+      const textarea = document.getElementById('message');
+      const counter = document.getElementById('message-counter');
+      const max = textarea.getAttribute('maxlength') ? parseInt(textarea.getAttribute('maxlength'), 10) : 200;
+
+      function update() {
+        const used = textarea.value.length;
+        counter.textContent = used + '/' + max + ' characters';
+        textarea.setAttribute('aria-invalid', used > max ? 'true' : 'false');
+      }
+
+      textarea.addEventListener('input', update);
+      update();
+    })();
+  </script>
+</body>
+</html>

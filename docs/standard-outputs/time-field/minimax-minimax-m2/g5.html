@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Accessible Meeting Time Field</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <form id="meeting-form" novalidate>
+    <div>
+      <label for="meeting-time">Meeting Time</label>
+      <div id="meeting-time-help">Use 24-hour format. Example: 09:30.</div>
+      <input
+        id="meeting-time"
+        name="meetingTime"
+        type="time"
+        required
+        step="300"
+        inputmode="numeric"
+        aria-describedby="meeting-time-help meeting-time-error"
+        aria-errormessage="meeting-time-error"
+        placeholder="HH:MM"
+        list="common-times"
+        autocomplete="off"
+      >
+      <datalist id="common-times">
+        <option value="09:00"></option>
+        <option value="09:30"></option>
+        <option value="10:00"></option>
+        <option value="10:30"></option>
+        <option value="11:00"></option>
+        <option value="11:30"></option>
+        <option value="12:00"></option>
+        <option value="12:30"></option>
+        <option value="13:00"></option>
+        <option value="13:30"></option>
+        <option value="14:00"></option>
+        <option value="14:30"></option>
+        <option value="15:00"></option>
+        <option value="15:30"></option>
+        <option value="16:00"></option>
+        <option value="16:30"></option>
+        <option value="17:00"></option>
+      </datalist>
+      

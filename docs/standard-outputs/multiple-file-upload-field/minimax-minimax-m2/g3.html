@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Upload Files</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <form id="uploadForm">
+    <div>
+      <label for="files">Upload Files</label>
+      <input
+        id="files"
+        name="files"
+        type="file"
+        multiple
+        accept=".pdf,.docx,.txt,.png,.jpg,.jpeg,.gif,.svg"
+      />
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+
+  <ul id="fileList" aria-live="polite"></ul>
+
+  <script>
+    const input = document.getElementById('files');
+    const

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Code Input</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <form action="#" method="post">
+    <label for="code">Enter two letters followed by 3 numbers</label>
+    <input
+      id="code"
+      name="code"
+      type="text"
+      placeholder="AB123"
+      inputmode="text"
+      autocapitalize="characters"
+      autocomplete="off"
+      spellcheck="false"
+      maxlength="5"
+      required
+      pattern="[A-Za-z]{2}[0-9]{3}"
+      title="Two letters followed by three numbers (e.g., AB123)"
+      aria-describedby="code-hint"
+    >
+    <small id="code-hint">Format: 2 letters + 3 numbers (e.g., AB123)</small>
+  </form>
+</body>
+</html>

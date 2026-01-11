@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>New Password Field</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <form action="#" method="post">
+    <label for="new-password">New password</label>
+    <input
+      id="new-password"
+      name="new-password"
+      type="password"
+      autocomplete="new-password"
+      required
+    >
+    <button type="button" aria-controls="new-password" aria-label="Show password">Show</button>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    (function () {
+      const input = document.getElementById('new-password');
+      const toggle = document.querySelector('button[aria-controls="new-password"]');
+
+      if (toggle && input) {
+        toggle.addEventListener('click', function () {
+          const isHidden = input.type === 'password';
+          input.type = isHidden ? 'text' : 'password';
+          this.textContent
